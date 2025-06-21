@@ -1,0 +1,66 @@
+=== 块 147 ===
+
+6, the balanced conditions are classified by F-transversals.
+Example 6.6.9. Aposetintroducingacompletecountablesectiontoapinned
+Borel equivalence relation G on a Polish space Y. Let X =Yω and let B ⊂X
+
+154 CHAPTER 6. SIMPLICIAL COMPLEX FORCINGS
+betheBorelsetofallelementsx∈X whoserangeconsistsofpairwiseG-related
+points. Let F be the Borel equivalence relation on X connecting points x ,x
+0 1
+if either they are equal or else they are both in B and their ranges are subsets
+of the same G-class. Let E = F ∩F. It is not difficult to check that E ⊂ F
+2
+are Borel equivalence relations on X and F is pinned. Consider the associated
+E,F-transversal poset. The generic set is a countable complete section of the
+relationE. InviewofthefactthatvirtualF -classesareclassifiedbynonempty
+2
+subsets of Y, Theorem 6.6.6 says that the balanced conditions are classified by
+arbitrary sets A⊂Y which have nonempty intersection with every G-class.
+Numerous examples of uniformization posets arise in the context of countable
+Borel equivalence relations. If E is a countable Borel equivalence relation on
+a Polish space Y and P is a poset adding a choice of a structure of some type
+oneachE-classwithcountableapproximations, thenP canberepresentedasa
+transversal poset in the sense of Definition 6.6.5. The following example spells
+out the details.
+Example 6.6.10. Let G be a countable Borel equivalence relation on a Polish
+space Y with all equivalence classes infinite. Let P be the poset of all count-
+able functions on the G-quotient space assigning to each equivalence class a
+Z-ordering on it; the poset P serves to introduce a (discontinuous) Z-action on
+Y such that G is its orbit equivalence relation. It is not difficult to cast P as a
+transversalposetinthesenseofDefinition6.6.5. LetX =(Y2)ω andletB ⊂X
+be the Borel set of all elements x ∈ X which enumerate a linear ordering of a
+whole single G-class of ordertype Z. Let F be the equivalence relations on X
+connecting points x ,x ∈ X if either they are equal or else they both belong
+0 1
+to B and enumerate a linear ordering of the same G-class. Let E =F ∩F. It
+2
+is not difficult to check that both E,F are pinned Borel equivalence relations.
+Consider the associated E,F-transversal poset. The generic set selects one Z-
+typeorderingforeachG-class. Theorem6.6.6saysthatthebalancedconditions
+are classified by all functions f assigning each G-class a linear ordering of its
+elements isomorphic to Z.
+Example 6.6.11. Let X = ((2ω)ω)2 and consider the Borel set B ⊂ X con-
+sisting of all pairs (cid:104)y ,y (cid:105) ∈ X such that rng(x )∩rng(x ) = 0. Let F be
+0 1 0 1
+the equivalence relation connecting points (cid:104)y ,y (cid:105) and (cid:104)z ,z (cid:105) if they are either
+0 1 0 1
+equal or both in B and y F z . Let E be the equivalence relation F ×F
+0 2 0 2 2
+intersected with F. The resulting E,F-transversal poset is designed to add a
+functionassigningtoeachnonemptycountablesetasinglenonemptycountable
+set disjoint from it. However, the equivalence relation F is not pinned and so
+Theorem6.6.6doesnotapplytoshowthattheuniformizationposetisbalanced.
+Indeed, in ZF one can prove that existence of a maximal K -set implies the
+E,F
+existenceofanω -sequenceofpairwisedistinctE-classes. Toseethis,letA⊂X
+1
+besuchamaximalset,supposec ⊂2ω isanarbitrarynonemptycountableset,
+0
+andbytransfiniterecursiononα∈ω definec astheuniquenonemptycount-
+1 α
+(cid:83)
+able set such that for some enumerations y of c and y of c it is the
+0 β∈α β 1 α
+case that (cid:104)y ,y ∈ B. It is clear that the sets c for α ∈ ω are nonempty and
+0 1 α 1

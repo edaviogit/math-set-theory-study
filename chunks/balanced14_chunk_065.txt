@@ -1,0 +1,76 @@
+=== 块 65 ===
+
+if u = (cid:104)α,β(cid:105) and p(α) is lexicographically greater than q(β) then m ∈
+i i
+a where g(α,β)=n and g(β,α)=m;
+m,n
+(cid:83) (cid:83)
+• all numbers m are greater than max( rng(p)∪ rng(q)).
+i
+
+64 CHAPTER 2. THE VIRTUAL REALM
+In the end, let r be the function defined by dom(r)=dom(p)∪dom(q), for all
+α ∈ dom(p) let r(α) = p(α)∪{m : α appears in u }, and for all β ∈ dom(q)
+i i
+let r(β) = q(β)∪{m : β appears in u }. It is not difficult to check that r is a
+i i
+common lower bound of the conditions p,q as desired.
+Claim 2.5.42. For every α∈κ the set D ={p∈P: α∈dom(r)} is dense in
+α
+P.
+Proof. Let α ∈ κ be an ordinal and p ∈ P be a condition; we must produce
+a condition q ≤ p such that α ∈ dom(q). It will be the case that q(α) ∩
+(cid:83)
+max( rng(p))+1=0; this way, q(α) will be lexicographically smaller than all
+q(β) for β ∈ dom(p). List dom(p) as β for i ∈ j, and find pairwise distinct
+i
+numbers m for i∈j so that
+i
+• m ∈a where g(α,β)=m and g(α,β)=n;
+i m,n
+(cid:83)
+• each m is greater than max( rng(p)).
+i
+Then, let q be the function defined by dom(q)=dom(p)∪{α} and q(β )=
+i
+p(β )∪{m } and q(α) = {m : i ∈ j}. It is immediate that the condition q
+i i i
+works.
+Now it is easy to see that if G ⊂ P is a generic filter, the function π: κ →
+(cid:83)
+P(ω) defined by π(α) = {p(α): p ∈ G} induces a homomorphism of ¬T to
+¬R as desired.
+Example 2.5.43. Let X be a Polish space and let R be a combinatorially
+universal Borel equivalence relation on X2 with countably many classes. Let G
+be the hypergraph on X consisting of all unions b ∪b where b ,b are infinite
+0 1 0 1
+sets such that b ×b is a subset of a single R-class.
+0 1
+1. if Chang’s conjecture holds, then κ(E )≤ℵ ;
+G 2
+2. if Martin’s Axiom for ℵ holds then Chang’s conjecture is equivalent to
+2
+κ(E )≤ℵ .
+G 2
+Proof. The argument is based on and motivated by two results of Todorcevic
+[92]. Namely, if Chang’s conjecture holds, then for every partition of ω2 into
+2
+countably many pieces, one piece of the partition contains a product of infinite
+sets. In addition, if Martin’s Axiom for ℵ holds and Chang’s conjecture fails,
+2
+then there is a partition of ω2 into countably many pieces such that no piece of
+2
+the partition contains a product of infinite sets.
+Now, for (1) use the first result of Todorcevic to argue that under Chang’s
+conjecturethereisnoG-anticliqueofsizeℵ , sobyProposition2.5.27, κ(E )≤
+2 G
+ℵ . For (2), suppose that Martin’s Axiom holds and Chang’s conjecture fails.
+2
+By the second result of Todorcevic, find an equivalence relation T on ω2 with
+2
+countablymanyclasseswithoutanymonochromaticinfiniterectangles. Usethe
+universality of the equivalence relation R to find an injection π: ω →X which
+2
+is a homomorphism of ¬T to ¬R. Observe that rng(π) is a G-anticlique of size
+ℵ . By Proposition 2.5.27, κ(E )>ℵ .
+2 G 2

@@ -1,0 +1,56 @@
+=== 块 59 ===
+
+em. Thefollowingexamples,all
+Borel reducible to F , are connected with combinatorics of small uncountable
+2
+cardinals via the pinned cardinal, even though the connection is not at first
+sight obvious.
+
+58 CHAPTER 2. THE VIRTUAL REALM
+Definition 2.5.26. A hypergraph on a set X is a subset of X≤ω. If G is a
+hypergraph on X, a G-anticlique is a set A ⊂ X such that A≤ω ∩G = 0. If
+G is an analytic hypergraph on a Polish space X, write E for the equivalence
+G
+relation on Xω connecting y,z if the sets rng(y),rng(z) either both fail to be
+G-anticliques or they are equal.
+It is clear that the equivalence relations of the form E are all analytic and
+G
+almostBorelreducibletoF . InthecommoncasewhenG isBorelandcontains
+2
+only finite edges, the equivalence relation is in fact Borel. The following propo-
+sition provides a simple combinatorial characterization of the pinned cardinal
+of equivalence relations of this form.
+Proposition 2.5.27. Let G be an analytic hypergraph on a Polish space X.
+Then κ(E ) is equal to the larger of ℵ and the minimal cardinal κ such that
+G 1
+there is no G-anticlique of size κ.
+Proof. WriteE =E andwriteκfortheminimumcardinalityinwhichthereis
+G
+noG-anticlique. Toexcludetrivialcases, assumethatκisuncountable. Forthe
+≤-inequalityintheproposition,letQbeaposetandσ beanE-pinnedQ-name.
+ByExample2.3.5,theremustbeasetA⊂X suchthatQ(cid:13)rng(σ)=Aˇ. IfAis
+not an anticlique then the E-pin (cid:104)Q,σ(cid:105) is trivial as it is forced to belong to the
+single E-class consisting of enumerations of sets which are not anticliques. If A
+isananticlique, thentheE-pin(cid:104)Q,σ(cid:105)isequivalenttoapinontheColl(ω,|A|)-
+poset which has size less than κ.
+For the ≥-inequality, suppose that A ⊂ X is an anticlique. A simple well-
+foundednessargumentshowsthatAremainsananticliqueinanygenericexten-
+sion. Thus, the Coll(ω,A)-name τ for a generic enumeration of A is E-pinned
+A
+an the E-pin (cid:104)Coll(ω,A),τ (cid:105) can be equivalent only to E-pins on posets which
+A
+make the cardinality of A countable.
+The values of cardinals defined in this way are subject to forcing manipulations
+and transfinite combinatorics. The interesting examples are always connected
+withauniversalityfeatureofthehypergraphinquestion. Ourfirsttwoexamples
+use Borel hypergraphs of finite arity.
+Definition 2.5.28. LetX beaPolishspace. ABorelrelationR⊂[X]<ℵ0×X
+is combinatorially universal if it has countable vertical sections and for every
+cardinal κ and every relation T ⊂ κ<ℵ0 ×κ with countable vertical sections,
+there is a c.c.c. poset P adding an injective function π: κ → X which is a
+homomorphism of T to R.
+It is not clear whether combinatorial universality of this sort is actually a prop-
+ertyabsoluteamongtransitivemodelsofZFC,butalluniversalexamplesfound
+in this section are absolutely universal.
+Theorem2.5.29. LetX beaPolishspace. Thereisacombinatoriallyuniversal
+Borel relation on [X]<ℵ0 ×X with countable vertical sections.

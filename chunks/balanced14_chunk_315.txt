@@ -1,0 +1,63 @@
+=== 块 315 ===
+
+balancearenotdifficulttoseparate. Onepartic-
+ularly elegant way of doing so is to seek monochromatic solutions to equations
+inPolishgroups. Westateoneprominentcase,leavingtheotherstothepatient
+reader.
+
+332 CHAPTER 13. THE ARITY DIVIDE
+Theorem 13.2.4. Let (cid:104)Γ,·(cid:105) be an uncountable Polish group such that the map
+γ (cid:55)→γ·γ is a self-homeomorphism of Γ. In cofinally 3,2-balanced extensions of
+the symmetric Solovay model, for every coloring c: Γ→ω there is a solution to
+the equation xy = zz consisting of monochromatic, pairwise distinct points in
+Γ.
+Proof. Let κ be an inaccessible cardinal. Let P be a Suslin poset which is
+cofinally3,2-balancedbelowκ. LetW bethesymmetricSolovaymodelderived
+from κ and work in W. Let τ be a P-name and p ∈ P be a condition forcing
+τ to be a map from Γ to ω. We must find a solution to the equation xx = yz
+consisting of pairwise distinct points and a condition stronger than p which
+forces the point of the solution to have all the same color.
+The name τ and the condition p must both be definable with parameters in
+thegroundmodelandanotherparametersz ∈2ω. LetV[K]beanintermediate
+model obtained by a poset of cardinality smaller than κ such that z ∈ V[K]
+and P is 3,2-balanced in V[K]. Work in the model V[K]. Let p¯ ≤ p be a
+3,2-balancedvirtualcondition. LetP betheCohenposetonthegroupΓwith
+Γ
+its name for the generic point γ˙ in Γ. There must be a cardinal λ < κ, a
+gen
+number n ∈ ω, a P ×Coll(ω,λ)-name σ and a condition O ∈ P such that
+Γ Γ
+O (cid:13)Coll(ω,λ)(cid:13)Coll(ω,<κ)(cid:13)σ (cid:13) τ(γ˙ )=nˇ.
+P gen
+Let γ ∈O be an arbitrary point, and let δ ∈Γ be a point so close (but not
+equal) to the unit that both γδ and δ−1γ belong to the open set O ⊂ Γ. Note
+that the points γδ, δ−1γ, and γ are pairwise distinct and solve the equation
+xy = zz. (If γδ = δ−1γ then the square of this point would give the same
+result as γγ, contradicting the assumption that the squaring function is a self-
+homeomorphism, in particular a bijective self-map, of Γ.) Let O ,O ,O ⊂ O
+0 1 2
+be pairwise disjoint open sets separating these three points, and let X¯ = {x¯ ∈
+O × O × O : x¯(0)x¯(1) = x¯(2)x¯(2)}. This is a relatively closed subset of
+0 1 2
+O × O × O . Moreover, each coordinate of a point in X¯ is a continuous
+0 1 2
+function of the other two (in the case of the third coordinate this again uses
+the assumption that the squaring function is a self-homeomorphism of Γ) and
+therefore the projection maps from X¯ into any pair of coordinates are open
+maps from X¯ to Γ2.
+Consider the Cohen poset P X¯. Let x¯ ∈ X¯ be a triple of points which is
+P X¯-genericoverthemodelV[K]. UseProposition3.1.1toseethatthesepoints
+are pairwise mutually P -generic below the condition O. Let H ⊂ Coll(ω,λ)
+Γ i
+fori∈3befiltersmutuallygenericoverthemodelV[X][x¯], andletp =σ /H .
+i i i
+Since the extensions V[K][x¯(i)][H ] for i∈3 are pairwise mutually generic, the
+i
+balance assumption on the virtual condition p¯shows that the conditions p for
+i
+i ∈ 3 have a common lower bound, say r ∈ P. By the forcing theorem applied
+in the respective models V[K][x¯(i)][H ] for i ∈ 3, we see that r forces all three
+i
+points in the triple x¯ to have the same color n. At the same time, the triple
+solves the equation xy =zz as required.
+Finally, we move to the much better organized world of 3,2-centered forcings.

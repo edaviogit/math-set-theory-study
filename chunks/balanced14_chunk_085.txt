@@ -1,0 +1,80 @@
+=== 块 85 ===
+
+×P forces V[x˙ ]∩V[γ˙ ·x˙ ]=V.
+Γ Y gen gen gen
+Proof. For the implication (1)→(2), suppose that the action is generically tur-
+bulent. Let O ⊂X be a nonempty open set. Find a point δ ∈Γ and open sets
+
+3.2. EXAMPLES 85
+U ⊂ΓandO ,O ⊂Y suchthat1∈U,U =U−1,and(δ·U×O ×O )∩X ⊂O.
+0 1 0 1
+Findapointy ∈O suchthattheU,O -orbitofyissomewheredense;letA⊂Y
+0 0
+be a nonempty open set such that the U,O -orbit of y is dense in A. We claim
+0
+that A⊂Y is an open set witnessing the independence of functions f and f .
+0 1
+To see this, let B ,B ⊂ A be nonempty open sets. Concatenating U,O -
+0 1 0
+walksfromy toB andB ,wecanfindaU,O -walk(cid:104)y : i≤k,γ : i<k(cid:105)which
+0 1 0 i i
+starts in B and ends in B . Consider the sequence (cid:104)x : i ≤ 2k(cid:105) of points in
+0 1 i
+the open set O ⊂ X given by x = (cid:104)δ,y ,δ·y (cid:105) and x = (cid:104)δγ ,y ,δy (cid:105) if
+2i i i 2i+1 i i i+1
+i<k. It is immediate that this is an walk of points in the set O in the sense of
+Definition 3.1.2, confirming the independence of functions f ,f .
+0 1
+For the implication (2)→(1), suppose that the functions f ,f are indepen-
+0 1
+dent. LetU ⊂Γbeanopenneighborhoodof1andO ⊂Y beanonemptyopen
+0
+set. Choose an open neighborhood U ⊂ Γ of the unit such that U−1·U ⊂ U
+0 0 0
+andletO ={(cid:104)γ,y ,y (cid:105)∈X: γ ∈U andy ,y ∈O }. Supposethat(cid:104)x : i≤k(cid:105)
+0 1 0 0 1 0 i
+isawalkofpointsinthesetOinthesenseofDefinition3.1.2andx =(cid:104)δ ,z ,z(cid:48)(cid:105);
+i i i i
+then the sequence (cid:104)z : i ≤ k,γ : i < k(cid:105) is an U,O -walk in the sense of Defini-
+i i 0
+tion 3.2.1, where γ =1 if z =z and γ =δ−1δ if z (cid:54)=z (in which case
+i i i+1 i i+1 i i i+1
+z(cid:48) =z(cid:48) ).
+i i+1
+Now, if A ⊂ O is an open set witnessing the independence of f ,f for O
+0 0 1
+and B ⊂ A is a nonempty open set, then the set {y ∈ A: there is a walk of
+pointsinO fromy toB}isopendenseinA,andbythepreviousparagraphitis
+a subset of the set {y ∈A: there is an U,O -walk from y to B}. Thus, the set
+0
+C ={y ∈Y : eithery ∈/ AortheU,O -orbitofyisdenseinA}iscomeager.
+U,O0 0
+(cid:84)
+The set of turbulent points then contains the intersection {C : U ⊂Γ is a
+U,O0
+basic open neighborhood of 1 and O ⊂Y is a basic open set} and is comeager.
+0
+The equivalence (2)↔(3) follows from Theorem 3.1.4 and the fact that the
+functionf iscontinuousandopen,sothefirsttwocoordinatesoftheP -generic
+2 X
+point are generic for P ×P by Proposition 3.1.1.
+Γ Y
+A somewhat similar characterization theorem can be proved for analytic
+ideals on ω.
+Definition 3.2.3. [13]AsetI ⊂P(ω)isω-hitting ifforeverycountablecollec-
+tionofinfinitesubsetsofω thereisasetb∈I whichhasnonemptyintersection
+with each set in the collection.
+Atypicalanalyticω-hittingidealisI ,wherepisapartitionofω intofinitesets
+p
+and I is the collection of all sets a ⊂ ω such that for some number n ∈ ω, for
+p
+every set b∈p, |a∩b|≤n. In fact, [43] shows that every Borel ω-hitting ideal
+containsoneoftheidealsI asasubsetinasuitablesense. ω-hittingidealsgive
+p
+rise to pairs of independent functions in the proof of the following theorem:
+Theorem 3.2.4. Let I be an analytic ideal on ω. The following are equivalent:
+1. I is ω-hitting;
+2. in some forcing extension, there are points y ,y ∈ 2ω separately Cohen-
+0 1
+generic over V such that y = y and V[y ]∩V[y ]=V.
+0 I 1 0 1

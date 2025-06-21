@@ -1,0 +1,61 @@
+=== 块 327 ===
+
+consistent relative to an inaccessible cardinal that
+ZF+DC holds, there is an infinite maximal almost disjoint family of subsets
+of ω, and there is no uncountable sequence of pairwise distinct reals.
+
+14.2. UNBOUNDED LINEAR SUBORDERS 345
+14.2 Unbounded linear suborders
+Another general obstruction for reaching ZF independence results in balanced
+extensionsisencapsulatedinthefollowingtheorem,statedusingConvention1.7.16.
+Theorem 14.2.1. Let (cid:69) be an F -preorder on a Polish space X with no max-
+σ
+imal element such that every countable linearly ordered set has an upper bound.
+In cofinally balanced σ-closed extensions of the symmetric Solovay model, (cid:69)
+contains no unbounded linearly ordered sets.
+AtypicalpreordersatisfyingtheassumptionsistheTuringreducibilitypreorder
+or the modulo finite domination ordering on ωω.
+Proof. Westart witha simple claimwhichtakes place inthe contextof ZFC. If
+R is a poset and η is an R-name for an element of X, say that η is unbounded
+if R forces that for every ground model element x∈X, η(cid:69)x fails.
+Claim 14.2.2. Suppose that R ,R are posets and η ,η are respective un-
+0 1 0 1
+bounded names for elements of X. Then R ×R (cid:13)τ ,τ are (cid:69)-incomparable.
+0 1 0 1
+Proof. Let (cid:69) = (cid:83) F where for every n ∈ ω, F is closed. If the conclusion
+n n n
+failed, there would have to be a pair (cid:104)r ,r (cid:105)∈R ×R forcing say η (cid:69)η and
+0 1 0 1 0 1
+thenstrengtheningthepairifnecessarytherewouldhavetobeanumbern∈ω
+such that (cid:104)η ,η (cid:105) ∈ F is forced. Let M be a countable elementary submodel
+0 1 n
+of a large structure containing R ,r ,η , let g ⊂R be a filter generic over the
+1 1 1 1
+model M such that r ∈ g, and let x = η /g. Since η is an unbounded name,
+1 1 0
+R (cid:13) η (cid:69)xˇ fails, and so there must be a condition r(cid:48) ≤ r and basic open
+0 0 0 0
+sets O ,O ⊂ X such that (O ×O )∩F = 0, x ∈ O , and r(cid:48) (cid:13) τ ∈ O .
+0 1 0 1 n 1 0 0 0
+By the forcing theorem, there must be a condition r(cid:48) ∈ g below r such that
+1 1
+r(cid:48) (cid:13)τ ∈O . Then the pair (cid:104)r(cid:48),r(cid:48)(cid:105)≤(cid:104)r ,r (cid:105) forces (cid:104)η ,η (cid:105)∈O ×O and so
+1 1 1 0 1 0 1 0 1 0 1
+(cid:104)η ,η (cid:105)∈/ F , in contradiction with the initial assumptions.
+0 1 n
+Now, let κ be an inaccessible cardinal and P be a σ-closed Suslin forcing
+which is balanced cofinally below κ. Let W be the symmetric Solovay model
+derived from κ. Suppose towards a contradiction that the conclusion of the
+theorem fails in the P-extension of W. Then, in the model W there must be
+a condition p ∈ P and a P-name τ such that p (cid:13) τ ⊂ X is an (cid:69)-unbounded
+linearly ordered set. The condition p as well as the name τ must be definable
+from some parameter z ∈ 2ω and some parameters in the ground model. Let
+V[K] be a generic extension of the ground model by a poset of size < κ such
+that p,z ∈V[K] and P is balanced in V[K].
+Work in the model V[K]. Let p¯≤ p be a balanced condition in the poset
+P. Since Coll(ω,< κ) (cid:13) p (cid:13) τ is an unbounded set in ≤, for every element
+x ∈ X ∩V the set τ is forced to contain an element which is not (cid:69)x. Since
+Coll(ω,< κ) (cid:13) p (cid:13) X ∩V[K] is a countable set and DC holds, τ is forced to
+containacountablesubsetsuchthatnoelementofX∩V[K]isanupperbound
+of it. By the initial assumptions on the preorder (cid:69), this countable set is forced
+to have an upper bound in τ, which is then an element of τ which is not (cid:69)x

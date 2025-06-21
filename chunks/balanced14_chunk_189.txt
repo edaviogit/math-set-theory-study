@@ -1,0 +1,77 @@
+=== 块 189 ===
+
+whicharenotrepresentedin
+β
+(cid:83) M˙ , and τ is the function τ together with the function sending
+γ∈β γ β+1 β
+each virtual E-class in M as above to the E -class of the corresponding
+β 0
+Cohen real.
+
+198 CHAPTER 8. OTHER FORCINGS
+We will show that if r ≤p¯is a condition with heart (cid:104)M,h(cid:105) of depth α, then
+in some forcing extension there is a filter H ⊂ R generic over V such that
+α
+writing (cid:104)N,k(cid:105) for the heart of τ /H, then (cid:104)M,h(cid:105)=(cid:104)N,k(cid:105). This will prove the
+α
+first item since the theory of (cid:104)M,h(cid:105) (with parameter h and other parameters in
+the ground model) is then exactly the collection of those statements which R
+α
+forces to be true in the heart of τ . The second item of the claim ???
+α
+The following claim just restates the information from the previous claim in a
+form that will be useful later.
+Claim 8.9.5. Let r ≤ p¯ be a condition in P in some generic extension with
+heart (cid:104)M,h(cid:105). Then
+1. every E-class in dom(f ) is either a realization of a virtual E-class in
+r
+dom(h) or it is not a realization of any virtual E-class in M;
+2. every finite tuple c of pairwise E -unrelated elements of a \ (cid:83) rng(h)) is
+0 r
+product Cohen-generic over M.
+Proof. The first item is an immediate consequence of the definition of the
+heart. For the second item, we use the fact that r ≤ p¯. Let n = |c|. Every
+closed nowhere dense subset s⊂(2ω)n in the model M belongs to some model
+V[d] where d is a finite tuple of pairwise E -unrelated elements of (cid:83) rng(h)\
+0
+(cid:83)
+rng(f ))byClaim8.9.4(2). Bythechoiceofthevirtualconditionp¯,thetuple
+p
+c∪disproductCohen-genericoverV,andbytheproductforcingtheoremc∈/ s.
+We have just shown that c does not belong to any closed nowhere dense subset
+of (2ω)n in the model M; that is, c is product Cohen-generic over M.
+Finally, we are ready to conclude the proof of Theorem 8.9.2. Let Q ,Q be
+0 1
+posets in V, with names σ ,σ for conditions in P stronger than p¯. We must
+0 1
+find, insomegenericextension, filtersG ⊂Q andG ⊂Q separatelygeneric
+0 0 1 1
+over the ground model such that the conditions σ ,σ are compatible in P. By
+0 1
+Claim8.9.3,wemayassumethatQ (cid:13)σ hasheartofdepthαˇ andQ (cid:13)σ has
+0 0 0 1 1
+heartofdepthαˇ . Fordefiniteness,assumethatα ≤α . Movetosomeforcing
+1 0 1
+extension (such as the Q -extension) where there is a condition r ≤ p¯ with a
+1
+heart of depth α . Let M be the models arising in the transfinite analysis of
+1 β
+r, and let N =M ,h =f |N and N =M ,h =f |N . Thus, (cid:104)N ,h (cid:105) is
+0 α0 0 r 0 1 α1 1 r 1 1 1
+a heart of the condition r; note that (cid:104)N ,h (cid:105) is also a heart of a condition ≤p¯,
+0 0
+namely the condition obtained from r by restricting the function f to the set
+r
+of E-classes which are realizations of the virtual classes in dom(h ).
+0
+NotethatinthemodelN , thereexistsaposetS andanameη forafilter
+0 0 0
+onQ genericoverV suchthatS forcestheheartofσ /η tobe(cid:104)N ,h (cid:105). This
+0 0 0 0 0 0
+occurs because this statement is true in the heart of σ and the theory of the
+0
+hearts depends only on the height by Claim 8.9.4(1). Similarly, in the model
+N there exists a poset S and a name η for a filter on Q generic over V such
+1 1 1 1
+that S forces the heart of σ /η to be (cid:104)N ,h (cid:105). Let H ⊂S and H ⊂S be
+1 1 1 1 1 0 0 1 1

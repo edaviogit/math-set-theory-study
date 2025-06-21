@@ -1,0 +1,95 @@
+=== 块 234 ===
+
+esetsa ⊂p anda ∈p suchthata ∪a ∈/ K;
+0 0 1 1 0 1
+choose a ,a to be inclusion-minimal. Then they are connected in the graph Γ;
+0 1
+assume for definiteness that a is in the (cid:126)Γ-outflow of a .
+1 0
+
+246 CHAPTER 10. UNIFORMIZATION
+Sincethe(cid:126)Γ-outflowofa iscountable,Mostowskiabsolutenessshowsthatit
+0
+isasubsetofV[H ];inparticular,a ∈V[H ]. Bytheproductforcingtheorem,
+0 1 0
+a ∈V must hold. Let A ={q ∈P: there is a set c⊂q such that a belongs
+1 0 1
+to the (cid:126)Γ-outflow of c}, and A = {q ∈ P: a ⊂ C}. The sets A and A are
+1 1 0 1
+analytic subsets of P coded in V, ΣA and ΣA are incompatible in P, and
+0 1
+p ≤ΣA , p ≤ΣA holds.
+0 0 1 1
+Example 10.5.2. Let K be a modular Borel simplicial complex on a Polish
+space X. Then the poset P =P is ℵ -tethered.
+K 0
+Proof. LetY beaPolishspaceandf: K→[Y]ℵ0 beaBorelfunctionwitnessing
+themodularityofK. SupposethatV[H ],V[H ]aremutuallygenericextensions
+0 1
+of V and p ∈ V[H ], p ∈ V[H ] are incompatible conditions. There must be
+0 0 1 1
+finite sets a ⊂ p and a ∈ p such that a ∪a ∈/ K. Write b = a ∩a and
+0 0 1 1 0 1 0 1
+observe that f(a )∩f(a )(cid:54)=f(b) by the modularity of the function f.
+0 1
+Let O ,O ⊂ X be basic open sets separating the finite disjoint sets a \b,
+0 1 0
+a \b. Use the mutual genericity to argue that b ∈ V and f(a )∩f(a ) ⊂ V.
+1 0 1
+Find a point x ∈ f(a )∩f(a ) which is not in f(b), and let A = {q ∈ P:
+0 1 0
+there is a set c ⊂ q such that b ⊂ c, c\b ⊂ O , and x ∈ f(c)}, and similarly
+0
+A ={q ∈P: thereisasetc⊂qsuchthatb⊂c,c\b⊂O ,andx∈f(c)}. The
+1 1
+setsA ,A areanalyticsubsetsofP codedinV,ΣA andΣA areincompatible
+0 1 0 1
+in P by the modularity of the function f, and p ≤ΣA , p ≤ΣA holds.
+0 0 1 1
+Example 10.5.3. Let K be a G -matroid on a Polish space X as in Defini-
+δ
+tion 6.5.1. Then the poset P =P is ℵ -tethered.
+K 0
+Proof. Suppose that V[H ],V[H ] are mutually generic extensions of V and
+0 1
+p ∈ V[H ], p ∈ V[H ] are incompatible conditions. Expanding the models
+0 0 1 1
+V[H ],V[H ] and strengthening the conditions p ,p if necessary, we may as-
+0 1 0 1
+sume that for every point x ∈ X ∩V, either x ∈ p or p ∪{x} is not a K-set,
+0 0
+and similarly for p .
+1
+Let q = p ∩V and q = p ∩V. There are several cases. If q (cid:54)= q ,
+0 0 1 1 0 1
+with say a point x ∈ q¯ \q , then let A = {q ∈ P: x ∈ q} and A = {q ∈
+0 1 0 1
+P: ∃a∈[q]<ℵ0 a∪{x}∈/ K}. It is clear that both sets A
+0
+,A
+1
+⊂P are analytic
+and their suprema ΣA and ΣA are incompatible in P, and p ≤ Σp(cid:48) and
+0 1 0 0
+p ≤ Σp(cid:48). Suppose then that q = q , denote the common value p¯ and use
+1 1 0 1
+the product forcing theorem to show that p¯ ∈ V holds. Suppose first that p¯
+is not a maximal K-set. Then there must be x ∈ X \ p¯ such that p¯∪ {x}
+is a K-set and inclusion-minimal finite sets a ⊂ p and a ⊂ p such that
+0 0 1 1
+a ∪{x} ∈/ K and a ∪{x} ∈/ K. By the assumption on x, a (cid:54)⊂ V and a (cid:54)⊂ V
+0 1 0 1
+must hold. Let b = a ∩a and let O ,O ⊂ X be basic open sets separating
+0 1 0 1
+thenonemptysetsa \banda \b;notethatb∈V holdsbytheproductforcing
+0 1
+theorem. Let A ={q ∈P: b⊂q and there is a finite set c⊂q∩O such that
+0 0
+b∪c∪{x} ∈/ K} and A = {q ∈ P: b ⊂ q and there is a finite set c ⊂ q∩O
+1 0
+such that b∪c∪{x} ∈/ K}. Clearly, A ,A ⊂ P are analytic sets coded in the
+0 1
+ground model, ΣA and ΣA are incompatible in P by the exchange property
+0 1
+of the matroid K, and p ≤ΣA and p ≤ΣA .
+0 0 1 1

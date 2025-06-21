@@ -1,0 +1,69 @@
+=== 块 145 ===
+
+ey F y asdesired.
+0 1
+Similarly, if (cid:104)x ,y (cid:105) ∈ p and y ∈ p , we need to show that y F y fails.
+0 0 0 2 1 0 2
+Suppose towards a contradiction that y F y holds. By a mutual genericity
+0 2
+
+152 CHAPTER 6. SIMPLICIAL COMPLEX FORCINGS
+argument, the points y ,y are representations of the same virtual F-class d
+0 2
+in the ground model. Now, if d ∈ rng(g) then p cannot be a K-set, and if
+1
+d ∈/ rng(g) then p cannot be a K-set. There are no other options, and this
+0
+contradiction completes the proof of (1).
+For (2), let g: X∗∗ → Y∗∗ be the collection of all pairs (cid:104)c,d(cid:105) ∈ X∗∗×Y∗∗
+so that R×Q (cid:13) (cid:104)x,y(cid:105) ∈ τ for some realizations x,y of the virtual classes c,d.
+It will be enough to show that g is a total injection from X∗∗ to Y∗∗ and the
+pair (cid:104)Q,τ(cid:105) is equivalent to (cid:104)R,τ (cid:105).
+g
+To see that dom(g)=X∗∗ and g is an injection, let c∈X∗∗ be an arbitrary
+virtual E-class. Use the balance of the pair (cid:104)Q,τ(cid:105) to show that there must be
+a unique virtual F-class d ∈ Y∗∗ such that R×Q (cid:13) (cid:104)x,y(cid:105) ∈ A˙ for some
+gen
+realizations x,y of the virtual classes c,d. Use the balance of the pair (cid:104)Q,τ(cid:105)
+again to show that for every virtual F-class d ∈ Y∗∗, there either must be a
+virtual E-class c ∈ X∗∗ such that R×Q (cid:13) (cid:104)x,y(cid:105) ∈ A˙ for some realizations
+gen
+x,y of the virtual classes c,d, or it must be the case that R×Q (cid:13) y ∈ τ for
+some realization y of the virtual class d.
+Toseethat(cid:104)R,τ (cid:105)isequivalentto(cid:104)Q,τ(cid:105), strengthenτ ifnecessarysoitisa
+g
+name for an actual element of P and notice that in the R×Q extension, τ ∈τ
+g
+holds. The equivalence then follows from Proposition 5.2.4.
+Finally, (3) is obvious.
+Corollary 6.6.4. Let E,F be Borel equivalence relations on respective Polish
+spaces X,Y with uncountably many classes. The E,F-collapse poset is balanced
+if and only if λ(E)≤λ(F).
+Thecollapseposetsexemplifyanimportantphenomenon: aσ-closedSuslinforc-
+ing whose balanced status cannot be decided in ZFC. There are Borel equiva-
+lence relations E, F for which the status of the inequality λ(E)≤λ(F) cannot
+be decided in ZFC (as can be seen for example from the combination of Corol-
+laries 2.5.18 and 2.5.15) and for them the balanced status of the corresponding
+collapse forcing is undecidable as well.
+Definition 6.6.5. Let E ⊂F be Borel equivalence relations on a Polish space
+X. Let K = K be the simplicial complex of all finite sets a ⊂ X such that
+E,F
+for x ,x ∈X, x E x is equivalent to x F x . Wewill referto the associated
+0 1 0 1 0 1
+poset P as the E,F-transversal poset.
+K
+ItisimmediatethatthesimplicialcomplexK isaBorelE-quotientcomplex.
+E,F
+The terminology comes from the examples below; the posets of this type are
+used to uniformize various relations in products of quotient spaces. The first
+order of business is to classify the balanced conditions. Call a total function
+f from the F-quotient space to the virtual E-quotient space a virtual selection
+function ifforeveryF-classcthefunctionalvaluef(c)isavirtualE-classwhich
+is (forced to be) a subset of c. For a virtual selection function f let τ be the
+f
+Coll(ω,(cid:105) )-nameforthesetofallconditionspintheuniformizationposetsuch
+ω1
+that for each class c represented in the ground model, p contains some point
+x∈X which is a realization of the virtual E-class f(c). It is not difficult to see
+that the pair (cid:104)Coll(ω,(cid:105) ),τ (cid:105) is a P-pin.
+ω1 f

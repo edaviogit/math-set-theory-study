@@ -1,0 +1,55 @@
+=== 块 205 ===
+
+must be equal simultaneously to [y ] and
+0 1 0 E 0 F
+[y ] . This is a contradiction, as τ is forced to be a function.
+1 F
+Other preservation properties are proved in Section 12.3, respectively in Sec-
+
+214 CHAPTER 9. PRESERVING CARDINALITIES
+tion 12.2 based on the observation (Example 12.2.8) that placid forcings are
+included in the much wider class of Bernstein balanced forcings.
+It is now time to provide a long but not exhaustive list of examples with
+their associated corollaries.
+Example9.3.4. SupposethatKisaBorelsimplicialcomplexonaPolishspace
+X ofBorelcoloringnumberℵ . ThentheposetP isplacid,andeverybalanced
+1 K
+virtual condition is placid. To see this, revisit Theorem 6.3.3 and observe that
+itsproofusestheproductforcingtheoremonlytoascertainthatifV[H ],V[H ]
+0 1
+are mutually generic extensions of the ground model, then V[H ]∩V[H ]=V.
+0 1
+Example 9.3.5. SupposethatK isamodularBorelcomplexonaPolishspace
+X. Every balanced virtual condition in the poset P is placid. To see this,
+K
+revisit the proof of Theorem 6.4.3 and note that V[H ]∩V[H ] = V was the
+0 1
+only feature used of the mutually generic extensions V[H ],V[H ].
+0 1
+Corollary 9.3.6. Let X be a Borel vector space over a countable field Φ.
+1. Let P be the poset of countable subsets of X linearly independent over
+Φ, ordered by reverse inclusion–Example 6.4.9. In the P-extension of the
+symmetric Solovay model, the turbulent divide is preserved;
+2. it is consistent relatively to an inaccessible cardinal that ZF+DC holds, X
+has a basis, and yet the turbulent divide is preserved.
+Corollary 9.3.7. Let Γ be a Borel graph on a Polish space X.
+1. Let P be the poset of acyclic countable subsets of Γ, ordered by reverse
+inclusion–Example 6.4.10. In the P-extension of the symmetric Solovay
+model, the turbulent divide is preserved;
+2. it is consistent relatively to an inaccessible cardinal that ZF+DC holds,
+Γ contains a maximal acyclic subgraph, and yet the turbulent divide is
+preserved.
+Example 9.3.8. Suppose that E,F are Borel virtually placid equivalence re-
+lations on the respective Polish spaces X,Y. Suppose that λ(E)≤λ(F). Then
+the E,F-collapse poset of Definition 6.6.2 is placid, and every balanced condi-
+tion is placid.
+Example9.3.9. SupposethatE ⊂F areBorelequivalencerelationonaPolish
+spacesX,withF placid. TheE,F-transversalposetofDefinition6.6.5isplacid,
+and every balanced condition is placid.
+Proof. TheproofofTheorem6.6.6usesonlyoneconsequenceofmutualgeneric-
+ity: the two mutually generic extensions V[H ],V[H ] do not share any F-class
+0 1
+whichisnotrepresentedinthegroundmodel. Inthecaseofaplacidequivalence
+relation E, this is implied by the assumption that V[H ]∩V[H ] = V by the
+0 1
+definition of placidity.

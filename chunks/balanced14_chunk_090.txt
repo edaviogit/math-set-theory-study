@@ -1,0 +1,58 @@
+=== 块 90 ===
+
+r set B ⊂ X which is
+mapped into a single F-class.
+Proof. Let γ ∈Γ,x∈X be a mutually generic pair of points for the posets P
+Γ
+and P . Theorem 3.2.2 implies the instrumental equality: V[x]∩V[γ·x]=V.
+X
+
+90 CHAPTER 3. TURBULENCE
+Since x E γ ·x holds, it must be the case that h(x) F h(γ ·x) must hold. By
+thevirtualplacidityoftheequivalencerelationF,itmustbethecasethath(x)
+is a realization of a ground model virtual F-class. However, the poset P is
+X
+countable, so all virtual classes realized in its extension are already represented
+in the ground model by Theorem 2.6.2. Thus, there must be a point y ∈Y ∩V
+suchthath(x)F y. Sincethegenericpointx∈X avoidsallgroundmodelcoded
+meager sets, it must be the case that the set B =h−1([y] )⊂X is nonmeager.
+E
+Sincethisisananalyticsetwhichisinvariantunderthecontinuousgroupaction
+all of whose orbits are dense, it follows that the set B is comeager.
+3.4 Examples and operations
+The extent of the classes of placid and virtually placid equivalence relations is
+best explored using the following closure theorems.
+Theorem 3.4.1. The class of placid equivalence relations is closed under the
+following operations:
+1. Borel almost reduction;
+2. countable product;
+3. countable increasing union;
+4. countable factor;
+The class of virtually placid equivalence relations is closed under the same op-
+erations and the Friedman–Stanley jump.
+Proof. In view of Proposition 3.3.4, it is enough to show the closure of virtual
+placidity under these operations, since the class of pinned equivalence relations
+is closed under (1–4) by the work of Chapter 2. For virtual placidity, we will
+prove (1) and the closure under the Friedman–Stanley jump.
+For(1),supposethatE,F areanalyticequivalencerelationsonPolishspaces
+X,Y and h: X → Y is a Borel function which is a reduction of E to Y every-
+where except for a set Z ⊂X consisting of countably many E-classes. Suppose
+that F is virtually placid and work towards the conclusion that E is virtually
+placid. Let V[H ], V[H ] be generic extensions such that V[H ]∩V[H ] = V
+0 1 0 1
+and let x ∈V[H ] and x ∈V[H ] be E-related points in X; we need to show
+0 0 1 1
+that they are realizations of some virtual E-class in V. If x ∈ Z then this
+0
+certainly occurs as V contains a countable set of points whose E-classes cover
+Z, and this feature of the countable set persists to V[H ] by a Shoenfield abso-
+0
+lutenessargument. Ifx ∈/ Z thenx ∈/ Z;lookatthepointsh(x )∈V[H ]and
+0 1 0 0
+h(x )∈V[H ]. These are F-related points; since F is placid they realize some
+1 1
+virtual F-class represented by some F-pin (cid:104)Q,σ(cid:105). By a Shoenfield absoluteness
+argument, Q(cid:13)∃x∈X\Z h(x)E σ; letτ beaQ-nameforsuchapointx∈X.
+It is not difficult to see that (cid:104)Q,τ(cid:105) is an E-pin and x ,x realize the virtual
+0 1
+class of (cid:104)Q,σ(cid:105).

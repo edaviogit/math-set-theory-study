@@ -1,0 +1,76 @@
+=== 块 341 ===
+
+onsistentrelativetoaninaccessiblecardinalthatZF+DCholds,there
+is a nonprincipal ultrafilter on ω, and yet there is no ultrafilter disjoint
+from the summable ideal.
+
+360 CHAPTER 14. OTHER COMBINATORICS
+
+Bibliography
+[1] FrancisAdamsandJindˇrichZapletal.Cardinalinvariantsofclosedgraphs.
+Israel Journal of Mathematics, 227:861–888, 2018.
+[2] Martin Aigner. Combinatorial theory. Grundlehren der mathematischen
+Wissenschaften 234. Springer Verlag, New York, 1979.
+[3] Reinhold Baer. Abelian groups that are direct summands of every con-
+taining abelian group. Bulletin of the American Mathematical Society,
+46:800–807, 1940.
+[4] Bohuslav Balcar, Thomas Jech, and Jindˇrich Zapletal. Semi-Cohen
+boolean algebras. Annals of Pure and Applied Logic, 87:187–208, 1997.
+[5] John Baldwin and Paul B. Larson. Iterated elementary embeddings and
+the model theory of infinitary logic. Annals of Pure and Applied Logic,
+167:309–334, 2016.
+[6] John T. Baldwin, Sy D. Friedman, Martin Koerwien, and Michael C.
+Laskowski. ThreeredherringsaroundVaught’sconjecture. Trans. Amer.
+Math. Soc., 368:3673–3694, 2016.
+[7] Tomek Bartoszynski and Haim Judah. Set Theory. On the structure of
+the real line. A K Peters, Wellesley, MA, 1995.
+[8] James Baumgartner and Adam Taylor. Partition theorems and ultrafil-
+ters. Transactions of the American Mathematical Society, 241:283–309,
+1978.
+[9] A. Bella, Alan Dow, Klaas-Pieter Hart, Michael Hruˇs´ak, Jan van Mill,
+and P. Ursino. Embeddings of P(ω)/fin and extension of automorphisms.
+Fundamenta Mathematicae, 174:271–284, 2002.
+[10] Andreas Blass. Ultrafilters related to Hindmans finite-unions theorem
+anditsextensions. InStephenSimpson, editor, Logic and Combinatorics,
+Contemporary Mathematics 65, pages 89–124. American Mathematical
+Society, Providence, 1987.
+[11] Andres Blass, Natasha Dobrinen, and Dilip Raghavan. The next best
+thing to a P-point. Journal of Symbolic Logic, 80:866–900, 2015.
+361
+
+362 BIBLIOGRAPHY
+[12] J¨orgBrendle,FabianaCastiblanco,RalfSchindler,LiuzhenWu,andLiang
+Yu. A model with everything except a well-ordering of the reals. 2018.
+arXiv:1809.10420.
+[13] J¨org Brendle and Michael Hruˇs´ak. Countable Fr´echet groups: An inde-
+pendence result. Journal of Symbolic Logic, 74:1061–1068, 2009.
+[14] B. Bukh. Measurable sets with excluded distances. Geometric and Func-
+tional Analysis, 18:668–697, 2008.
+[15] Lev Bukovsy´. Iterated ultrapower and Prikry’s forcing. Comment. Math.
+Univ. Carolinae, 18:77–85, 1977.
+[16] Andres Caicedo, John Clemens, Clinton Conley, and Benjamin Miller.
+Definability of small puncture sets. Fundamenta Mathematicae, 215:39–
+51, 2011.
+[17] Jack Ceder. Finite subsets and countable decompositions of Euclidean
+spaces. Rev. Roumaine Math. Pures Appl., 14:1247–1251, 1969.
+[18] DavidChodounsky´ andOsvaldoGuzm´an. TherearenoP-pointsinSilver
+extensions. InstituteofMathematics,CzechAcademyofSciencespreprint
+17-2017, 2017.
+[19] Clinton Conley and Benjamin Miller. A bound on measurable chromatic
+numbers of locally finite Borel graphs. Mathematical Research Letters,
+23:1633–1644, 2016.
+[20] Patrick Dehornoy. Iterated ultrapowers and Prikry forcing. Ann. Math.
+Logic, 15:109–160, 1978.
+[21] Carlos DiPrisco and Stevo Todorcevic. Perfect set properties in L(R)[U].
+Advances in Mathematics, 139:240–259, 1998.
+[22] NatashaDobrinenandDanielHathaway.ForcingandtheHalpern–L¨auchli
+theorem. Journal of Symbolic Logic, 2019. to appear.
+[23] Natasha Dobrinen, Jose G. Mijares, and Timothy Trujillo. Topological
+Ramsey spaces from Fraiss´e classes, Ramsey-classification theorems, and
+initialstructuresintheTukeytypesofp-points. ArchiveforMathematical
+Logic, 56:733–782, 2017.
+[24] Alan Dow. Set theory in topology. In Recent progress in general topology.
+North Holland, New York, 1992.
+[25] Paul Erd˝os and Andr´as Hajnal. On chromatic number of graphs and set
+systems. Acta Math. Acad. Sci. Hung., 17:61–99, 1966.
+[26] Ilijas Farah. Semiselective coideals. Mathematika, 45(1):79–103, 1998.

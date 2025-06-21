@@ -1,0 +1,75 @@
+=== 块 244 ===
+
+d G be a hypergraph on a. The
+fractional chromatic number of G is the maximum of all numbers Σ f(v)
+v∈a
+where f: a → [0,1] ranges over all functions such that Σ f(v) ≤ 1 for all
+v∈b
+G-anticliques b⊂a.
+
+11.1. CENTRAL OBJECTS AND NOTIONS 257
+A word about the terminology is in order. In fractional graph theory [78], the
+fractional chromatic number is typically defined for graphs only. In the graph
+context, the definition above corresponds to the fractional clique number of G,
+which is equal to the standard fractional chromatic number of G by a linear
+programming duality argument [78, Section 3.1]. In order to maintain coherent
+terminology, we neglect this important but for our ends irrelevant point. A
+trivial restatement of the fractional chromatic number will be used below: it is
+thelargestrealnumberr suchthatthereisaprobabilitymeasureonainwhich
+every G-anticlique has mass ≤1/r.
+Note that the fractional chromatic number is no greater than the chromatic
+number. Justasinthecaseofthechromaticnumber,ifG ,G arehypergraphs
+0 1
+on a ,a respectively and h: a → a is a homomorphism of G to G then
+0 1 0 1 0 1
+the fractional chromatic number of G is not smaller than the fractional chro-
+1
+matic number of G . The following examples further elucidate the relationship
+0
+between the chromatic number and its fractional counterpart.
+Example 11.1.15. For every n ∈ ω let G be the graph on [n]2 connecting
+n
+pairs a,b if the smaller element of a is equal to the larger element of b or vice
+versa. Then the chromatic numbers of G tend to infinity with n, but the
+n
+fractional chromatic numbers remain bounded by 4.
+For the former statement, note that if n is such that n → (3)2 then the
+m
+chromatic number of G is greater than m: if [n]2 = (cid:83) B , then by the
+n i∈m i
+Ramsey property of n there is i ∈ m and a triple c ⊂ n such that [c]2 ⊂ B ;
+i
+however, [c]2 clearly contains a G-edge.
+For the latter statement, suppose that µ is a probability measure on [n]2,
+and let λ be the normalized counting measure on P(n). Let B = {(cid:104)a,x(cid:105) ∈
+[n]2×P(n): x contains the smaller number in a but not the larger number in
+a}. The vertical sections of B have λ-mass 1/4, so by the Fubini theorem there
+must be a horizontal section Bx whose µ-mass is ≥ 1/4. It is not difficult to
+check that Bx is a G-anticlique.
+Example 11.1.16. Let ε > 0 be a fixed real number. For each n ∈ ω, let
+G be the graph on 2n which connects x,y if the set {m ∈ n: x(m) = y(m)}
+n
+has size at most εn. The fractional chromatic numbers of G tend to infinity
+n
+with n. To see this, consider the normalized counting measure µ on 2n, the
+n
+normalizedHammingmetricd on2n,andtheconcentrationofmeasureresults
+n
+for the Hamming cubes [73, Theorem 4.3.19]: for every δ >0 there is a number
+k ∈ ω such that for every n ≥ k and every set b ⊂ 2n of µ -mass greater than
+n
+δ, the ε-neighborhood of b in 2n in the sense of the metric d has mass greater
+n
+than 1/2. For each such number n ∈ ω, every set b ⊂ 2n of µ -mass greater
+n
+than δ contains a G -edge. To produce the edge, consider the automorphism
+n
+π : 2n →2n defined by π (x)(m)=1−x(m). The set π(cid:48)(cid:48)b has µ-mass greater
+n n
+than δ again. The ε/2-neighborhoods of the sets b and π(cid:48)(cid:48)b in the sense of
+the metric d have both µ mass greater than 1/2 and therefore intersect. It
+n n
+follows that there must be points x ∈ b and y ∈ π(cid:48)(cid:48)b with d (x,y) ≤ ε , and
+n n
+then x,π−1y are G -connected elements of the set b.
+n

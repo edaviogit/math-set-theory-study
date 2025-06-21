@@ -1,0 +1,57 @@
+=== 块 128 ===
+
+t be the case
+k k
+that (a ∪b)∩[x ] ∈/ K. Thus, considering the proper subset a(cid:48) =a ∩[x ] ,
+k 0 F k k 0 F
+we get b∪a(cid:48) ∈/ K, contradicting the assumption that (cid:104)b,a (cid:105)∈Γ.
+k k
+
+6.2. LOCALLY COUNTABLE COMPLEXES 135
+To conclude this section, we mention two operations on simplicial complexes.
+Both of them may seem trivial from the simplicial complex view, but they
+generate quite unpredictable operations on the associated posets P . Several
+K
+classes of complexes introduced below are nearly trivially closed under these
+operations.
+Definition 6.1.5. Let K be a Borel simplicial complex on a Polish space X,
+and let B ⊂X be a Borel set. The restriction K(cid:22)B is just the set K∩[B]<ℵ0.
+Definition 6.1.6. Let X be a Polish space and for each n ∈ ω, let K be a
+n
+(cid:86)
+BorelcomplexonaBorelsetB ⊂X. TheproductK= K isthesimplicial
+n n n
+complex of all finite sets a⊂X such that ∀n a∩B ∈K .
+n n
+One way to use the latter operation appears is when the Borel sets B for
+n
+n ∈ ω are pairwise disjoint. In this case, the poset P corresponds to the
+K
+countable support product of the posets P for n ∈ ω. However, if the Borel
+Kn
+setsB overlap,theforcingeffectsofthisoperationbecomemuchmoredifficult
+n
+to analyze.
+6.2 Locally countable complexes
+In this section, we discuss the simples class of simplicial complexes to handle.
+Definition 6.2.1. Let K be a Borel simplicial complex on a Polish space X.
+We say that K is locally countable if the graph Γ is locally countable.
+K
+It follows from a routine application of the Lusin–Novikov theorem that if a
+BorelsimplicialcomplexKonaPolishspaceX islocallycountable,thenE isa
+K
+countableBorelequivalencerelation. Inparticular,aBorelsimplicialcomplexK
+islocallycountableifandonlyifthereisacountableBorelequivalencerelationE
+onX suchthatforeveryfiniteseta⊂X,a∈Kifandonlyifa∩c∈Kforevery
+E-class c. The classification of balanced pairs in the case of locally countable
+simplicialcomplexesisparticularlysimple: theycorrespondtomaximalK-sets.
+This is the content of the following theorem:
+Theorem 6.2.2. Let K be a locally countable Borel simplicial complex on a
+Polish space X.
+1. For every maximal K-set A ⊂ X, the pair (cid:104)Coll(ω,X),Aˇ(cid:105) is balanced in
+the poset P =P ;
+K
+2. for every balanced pair (cid:104)Q,τ(cid:105), there is a maximal K-set A⊂X such that
+the balanced pairs (cid:104)Q,τ(cid:105) and (cid:104)Coll(ω,X),Aˇ(cid:105) are equivalent;
+3. distinct maximal K-sets yield inequivalent balanced pairs.
+In particular, the poset P is balanced.

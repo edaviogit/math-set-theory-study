@@ -1,0 +1,74 @@
+=== 块 78 ===
+
+del j (H ). Let S be the theory of
+ω θ
+the indiscernibles in this structure. Let Y be the space of all linear orderings
+on ω, and let Z be the space of all binary relations on ω. By Propositions 2.8.2
+
+2.8. DICHOTOMIES 77
+and 2.8.3, there are Borel functions M: Y →Z, G: Y ×M →P(ω), P: Y →ω
+and τ: Y → ω such that whenever y ∈ Y is a linear ordering then M(y) is a
+modelofT whichisaSkolemhullofindiscerniblesofordertypey satisfyingthe
+theoryS,P(y)isitsversionoftheposetP,andτ(y)isitsversionofthenameτ,
+and G(y)⊂P(y) is a filter generic over the model M(y). Note that all models
+M(y)areω-models,socomputethePolishspaceX correctly. Letk: Y →X be
+the function defined by k(y)=τ(y)/G(y), which is Borel by Proposition 2.8.4.
+It will be enough to show that k is a Borel reduction of E to E on the set of
+ω1
+y ∈Y which are well-orders.
+Suppose first that y ,y ∈ Y are well-orders of the same length. Then
+0 1
+the models M(y ),M(y ) are wellfounded and isomorphic. Write N for their
+0 1
+common transitive isomorph and Q,σ for its version of the poset P and the
+name τ. Thus, N |= σ is an E-pinned Q-name. The filters G(y ),G(y ) ⊂ Q
+0 1
+areseparatelygenericoverN. LetG⊂Qbeafiltergenericoverbothcountable
+models N[G(y )] and N[G(y )]. By the product forcing theorem, the filters
+0 1
+G(y )×G and G(y )×G are both Q×Q-generic over N. As N |=σ is an E-
+0 1
+pinnedname,itfollowsthatN[G(y ),G]|=σ/G(y )E σ/GandN[G(y ),G]|=
+0 0 1
+σ/G(y )E σ/G. BytheMostowskiabsolutenessbetweenthesetwomodelsand
+1
+V, and the transitivity of the relation E, σ/G(y )=k(y )E k((y )=σ/G(y )
+0 0 1 1
+follows.
+Suppose now that y ,y ∈Y are well-orders of different lengths; say that y
+0 1 0
+is shorter than y . Let N be the transitive isomorph of M(y ), let κ ,P ,σ
+1 0 0 0 0 0
+be the versions of κ, P, and τ in the model N , and let G ⊂ P be the filter
+0 0 0
+genericoverN indicatedbyG(y ). Similarnotationprevailsforsubscript1. Let
+0 0
+i: N →N betheelementaryembeddingobtainedbysendingtheindiscernibles
+0 1
+of N to an initial segment of the indiscernibles of N . Note that the critical
+0 1
+pointofiisexactlyκ ,soP ∈N asP =P (cid:22)κ . Also,N |=|P |<κ . Find
+0 0 1 0 1 0 1 0 1
+afilterG⊂P genericoverboththecountablemodelsN [G ]andN [G ]. Since
+0 0 0 1 1
+N |= σ is E-pinned, the Mostowski absoluteness between V and N [G,G ]
+0 0 0 0
+implies that σ /G E σ /G holds. Since N |= σ is not E¯-equivalent to any
+0 0 0 1 1
+name on a poset of size <κ , in particular to σ , it follows from the Mostowski
+1 0
+absoluteness between V and N [G,G ] that σ /GE σ /G fails. In conclusion,
+1 1 0 1 1
+k(y )=σ /G E σ /G =k(y ) fails as required.
+0 0 0 1 1 1
+The status of a Borel equivalence relation as pinned/unpinned may be absolute
+between models of ZFC by Corollary 2.7.3. However, if one dares to look at
+choiceless models, a much more colorful picture comes to sight. The simplest
+description of the pinned status occurs in the Solovay model, where it actually
+obeys a former conjecture of Kechris [48, Question 17.6.1].
+Theorem 2.8.11. The following holds in the Solovay model derived from a
+measurable cardinal. Let E be an analytic equivalence relation on a Polish space
+X. The following are equivalent:
+1. E is unpinned;
+2. F ≤E or E ≤ E.
+2 ω1 a

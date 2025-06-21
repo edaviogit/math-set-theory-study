@@ -1,0 +1,46 @@
+=== 块 114 ===
+
+f them in the intersection model. Yet, there is a virtual F -class related to
+2
+these enumerations in the intersection model, and even in the ground model V.
+
+116 CHAPTER 4. NESTED SEQUENCES OF MODELS
+
+Part II
+Balanced extensions of the
+Solovay model
+117
+
+Chapter 5
+Balanced Suslin forcing
+5.1 Virtual conditions
+We look at the class of Suslin posets from an angle quite distinct from the
+standard treatment in [7]; in particular, the center of attention is on σ-closed
+Suslin forcings as opposed to c.c.c. or proper forcings adding reals. Recall:
+Definition 5.1.1. A preorder (cid:104)P,≤(cid:105) is Suslin if there is a Polish space X such
+that
+1. P is an analytic subset of X;
+2. the ordering ≤ is an analytic subset of X2;
+3. the incompatibility relation is an analytic subset of X2.
+It is important to understand that Suslin forcings may fail to be separative.
+Recall that conditions p ,p are called inseparable if for every condition q ≤p ,
+0 1 0
+q,p have a lower bound, and vice versa, for every condition q ≤p , q,p have
+1 1 0
+a lower bound. The inseparability relation E is an equivalence; the partial
+P
+order P is separative if this equivalence relation is the identity. A simple yet
+informative example of a nonseparative Suslin forcing is in order. Consider the
+poset of countable partial functions from 2ω to 2 ordered by reverse extension.
+As stated, it is not a Suslin forcing, since it is not an analytic subset of a
+Polish space. One has to make an innocuous adjustment: P is in fact the set
+of all functions from ω to 2ω ×2 whose range is a function, and order P by
+setting q ≤p if rng(p)⊆rng(q). This adjustment sacrifices the separability for
+Suslinness. Note that the equivalence relation E is unpinned in this case.
+P
+Throughout the rest of the book, we will make use of virtual conditions
+in Suslin posets. Similar to virtual equivalence classes, these are conditions
+whichmaynotexistinthepresentmodelofsettheoryandappearonlyinsome
+generic extension, and yet we have a sensible calculus for dealing with them in
+the ground model. We want the space of virtual conditions not to depend on a
+119

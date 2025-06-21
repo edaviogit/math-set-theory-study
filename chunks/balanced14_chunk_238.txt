@@ -1,0 +1,71 @@
+=== 块 238 ===
+
+48) and p ≤Σp(cid:48) as desired.
+0 1 0 0 1 1
+Now suppose that the sets (F ) ,(F ) are equal for all n ∈ ω. Write F
+n 0 n 1 n
+for their common value. The product forcing theorem shows that F ∈ V and
+n
+
+250 CHAPTER 10. UNIFORMIZATION
+even (cid:104)F : n ∈ ω(cid:105) ∈ V. It is not difficult to check that it is an A-sequence of
+n
+ultrafilters. Theorem7.3.4thenshowsthatityieldsavirtualbalancedcondition
+p¯, and p ,p ≤ p¯. Since p ,p ≤ p¯, the balance of p¯ shows that p ,p are
+0 1 0 1 0 1
+compatible conditions, contradicting the initial choice of p ,p .
+0 1
+Example 10.5.11. Let (cid:104)Γ,·(cid:105) be a countable semigroup. The poset P = P(Γ)
+of Section 7.4 is ℵ -tethered.
+0
+Proof. We adopt the terminology of Section 7.4. Let V[H ],V[H ] be mutually
+0 1
+generic extensions of V, containing the respective conditions p ,p ∈ P which
+0 1
+areincompatibleinP. ByProposition7.4.3,extendingthemodelsandstrength-
+ening the conditions if necessary, we may assume that both p ,p sort out the
+0 1
+setP(ω)∩V. Letq ={a⊂Γ: a∈V andp acceptsa}andq ={a⊂Γ: a∈V
+0 0 1
+and p accepts a}.
+1
+Suppose first that q (cid:54)= q , and for definiteness assume that there is a set
+0 1
+a∈q \a . Let p(cid:48) ={q ∈P: q accepts a} and p(cid:48) ={q ∈P: q declines a}. It is
+0 1 0 1
+clear that p(cid:48),p(cid:48) ⊂ P are analytic sets coded in V, Σp(cid:48),Σp(cid:48) are incompatible,
+0 1 0 1
+and p ≤Σp(cid:48), p ≤Σp(cid:48).
+0 0 1 1
+Suppose now that q = q and work towards a contradiction. Denote the
+0 1
+commonvaluebyp¯andusetheproductforcingtheoremtoseethatp¯∈V. Since
+theconditionsp ,p sortoutP(Γ)∩V,p¯isanultrafilter. InV,Proposition7.4.5
+0 1
+thenshowsthatp¯isanidempotentultrafilter,andbyTheorem7.4.7,ityieldsa
+balancedconditionintheposetP. Sincep ,p ≤p¯,thebalanceofp¯showsthat
+0 1
+p ,p are compatible conditions, contradicting the initial choice of p ,p .
+0 1 0 1
+Finally, we include two examples of balanced posets which are not tethered.
+Example 10.5.12. Let E be a non-smooth Borel pinned equivalence relation
+on a Polish space X. The collapse poset P of |E| to 2ω of Definition 6.6.2 is
+not tethered. Countable-to-one uniformization fails in the resulting extension
+of the symmetric Solovay model.
+Proof. We prove the last sentence. The poset P is balanced by the pinned
+assumption on E and Corollary 6.6.4. In the P-extension of the symmetric
+Solovay model, |E| ≤ |2ω| holds by the definition of the poset P. In addition,
+|E | ≤ |E| holds by the Glimm–Effros dichotomy as E is assumed to be non-
+0
+smooth. In sum, |E | ≤ |2ω| holds, as witnessed by some function g: 2ω → 2ω.
+0
+In addition, Corollary 11.6.3 shows that in the P-extension of the symmetric
+Solovay model, E has no transversal, and therefore the function g has no left
+0
+inverse. This feature of g stands witness to the failure of the countable-to-one
+uniformization.
+Example10.5.13. LetX beanuncountablePolishspace. TheKurepaposetP
+of Definition 8.4.2 is not tethered. In the P-extension of the symmetric Solovay
+model, countable-to-one uniformization fails.
+Proof. For simplicity of notation, assume that X =2ω. Let W[F] be the sym-
+metric Solovay model derived from an inaccessible cardinal κ, with the generic

@@ -1,0 +1,87 @@
+=== 块 112 ===
+
+se of Definition 4.2.1)
+proceeds by induction on n ∈ ω. If (cid:104)v : n ∈ ω(cid:105) is coherent, w ∈ M , and φ is
+n 0 0
+some formula with parameters in M , one can select the ≺-least w ∈M
+ω n+1 n+1
+
+4.3. CHOICE-COHERENT SEQUENCES OF MODELS 113
+such that M |= φ(v ,w ,w ) if it exists; then, the sequence (cid:104)w : n ∈ ω(cid:105) is
+n n n n+1 n
+coherent. The routine details of these constructions will be suppressed below.
+Find a coherent sequence (cid:104)P ,τ : n ∈ ω(cid:105) of pairwise equivalent E-pins on
+n n
+posets in V starting with (cid:104)P ,τ (cid:105); i.e. for every number n ∈ ω it is the case
+λ 0 0
+that P ×P (cid:13)σ E σ . Find a coherent sequence (cid:104)γ˙ : n∈ω(cid:105) such that
+n n+1 n n+1 n
+for each n∈ω, γ˙ is a P ×P -name for an element of the group Γ such that
+n n n+1
+τ =γ˙ ·τ . Let D ⊂Γ be a fixed countable dense set in the model M , and
+n n n+1 ω
+letδ ∈D andε>0besuchthattheopend-ballB(δ ,ε)⊂Γisasubsetofthe
+0 0
+opensetO. Findacoherentsequence(cid:104)p ,δ : n∈ω(cid:105)suchthatp ≤p,p ∈P ,
+n n 0 n n
+δ ∈ D, and in the poset P ×P , (cid:104)p ,p (cid:105) (cid:13) d(δ ·γ˙ ,δ ) < ε·2−n−3.
+n n n+1 n n+1 n n n+1
+Let O =B(δ ,ε/2). The point of these definitions is the following claim:
+n n
+Claim 4.3.7. Let n > 0. The condition (cid:104)p : i ≤ n(cid:105) forces in the product
+i
+(cid:81)
+P the following:
+i≤n i
+1. O ⊂B(δ ,ε)·γ˙ γ˙ ...γ˙ ;
+n 0 0 1 n−1
+2. B(δ ,ε/4)·γ˙ γ˙ ...γ˙ ⊂O .
+0 0 1 n−1 n
+Proof. Use the right invariance of the metric d to argue by induction on i ∈ n
+that d(δ ,δ γ˙ γ˙ ...γ˙ ) is forced to be smaller than ε·Σ 2−j−3. In conclu-
+i+1 0 0 1 i j≤i
+sion, d(δ ,δ γ˙ γ˙ ...γ˙ )isforcedtobesmallerthanε/4. Thetwoitemsthen
+n 0 0 1 n−1
+follow immediately by the right invariance of the metric d again.
+Now, for every number n∈ω, in the model M form the set c ={β ∈κ:
+n n
+in the poset P × P , (cid:104)O ,p (cid:105) (cid:13) Coll(ω,λ) (cid:13) φ(βˇ,γ˙ · τ )}. Finally, let
+Γ n n n gen n
+c = limsup c = {β ∈ κ: ∃∞n β ∈ c }. It is immediate that the sequence
+n n n
+(cid:104)c : n ∈ ω(cid:105) is coherent and therefore the set c belongs to the model M . Let
+n ω
+O(cid:48) =B(δ ,ε/4) and p(cid:48) =p . The following two claims stated in the model M
+0 0 0
+complete the proof of the theorem.
+Claim 4.3.8. In the poset P , p(cid:48) (cid:13)a˙ ⊂cˇ.
+0
+Proof. Let p(cid:48)(cid:48) ≤ p(cid:48) be a condition and β ∈ κ an ordinal such that p(cid:48)(cid:48) (cid:13) βˇ∈ a˙.
+It will be enough to show that for all n>0, β ∈c . To this end, fix a number
+n
+n > 0 and let (cid:104)H : i ≤ n(cid:105) be a tuple of filters on the respective posets P
+i i
+mutually generic over the model M such that p ∈ H and moreover p(cid:48)(cid:48) ∈ H .
+0 i i 0
+Write x =τ /H and γ =γ˙ /H ,H ; so x =γ γ ...γ x .
+i i i i i i i+1 0 0 1 n−1 n
+Let γ ∈ O be a point P -generic over the model M [H : i ≤ n]. Let
+n Γ 0 i
+γ(cid:48) =γγ−1 γ−1 ...γ−1. By the invariance of the meager ideal on Γ under right
+n−1 n−2 0
+translations, γ(cid:48) ∈Γ is a point Cohen generic over the model M [H : i≤n]. By
+0 i
+Claim 4.3.7(1), γ(cid:48) ∈B(δ ,ε)⊂O; moreover, γ·x =γ(cid:48)·x .
+0 n 0
+Let K ⊂ Coll(ω,λ) be a filter generic over the model M [H : i ≤ n][γ].
+0 i
+The model M [H : i ≤ n][γ][K] is a Coll(ω,λ)-extension of both M [γ(cid:48),H ]
+0 i 0 0
+and M [γ,H ] by the choice of λ and Fact 1.7.12. By the forcing theorem
+n n
+in the model M and the initial assumptions on the name a˙ and the formula
+0
+φ, M [H : i ≤ n][γ][K] |= φ(β,γ(cid:48) ·x ). By the forcing theorem in the model
+0 i 0
+M , the filter on P × P given by γ,H must contain a condition forcing
+n Γ n n

@@ -1,0 +1,49 @@
+=== 块 136 ===
+
+. To this end, find an inclusion-minimal set e⊂a∪b
+such that e∈/ K, and let c=e∩a and d=e\a. The minimal choice of e shows
+that {c,d} ∈ Γ . Since c ⊂ a and d ⊂ b, it is clear that {c,d} ∈ f(a)∩f(b).
+K
+
+6.4. MODULAR COMPLEXES 143
+Since e (cid:54)⊂ a and e (cid:54)⊂ b, it follows that neither c nor d is a subset of a∩b, so
+{c,d}∈/ f(a∩b) as required.
+Many simplicial complexes that we consider, and in particular modular simpli-
+cialcomplexes,areinfactmatroids. Forcompleteness,weincludethedefinition
+of matroids and several basic facts.
+Definition 6.4.6. [2, ChaptersVIandVII]AsimplicialcomplexK onasetX
+is a matroid if for any sets a,b ∈ K, if |b| > |a| then there is a point x ∈ b\a
+such that a∪{x}∈K.
+It is immediate that for a Borel simplicial complex K on a Polish space X,
+the statement that K is a matroid is coanalytic and therefore absolute among
+transitive models of set theory. Matroid theory introduces several useful basic
+notions that apply to every matroid. For a set a ⊂ X let rk(a) be the largest
+cardinality of a set b⊂a such that b∈K, if such exists; otherwise rk(a)=∞.
+For a set a ⊂ X let a¯ = {x ∈ X: rk(a) = rk(a∪{x})}. This is a closure
+operation satisfying the properties from the following fact, which may serve as
+an alternative definition of a matroid [2, 6.9].
+Fact 6.4.7. Let K be a matroid on a set X and let a,b⊂X be finite sets. Then
+1. a⊂a¯;
+2. (idempotence) b⊆a¯ implies ¯b⊆a¯;
+3. (exchange principle) if x∈a∪{y}\a¯ then y ∈a∪{x}.
+The set X with the closure operation satisfying the above properties is a pre-
+geometry. For a finite set a ⊂ X, a ∈ K just in case for any set b ⊂ a and any
+point x ∈ a\b, x ∈/ ¯b holds–K is the complex of free sets of the pre-geometry.
+The closed sets (the sets a⊂X such that a¯=a) form a lattice under inclusion;
+the pre-geometry is modular if the lattice of its closed sets is modular. This
+can be equivalently characterized by x ∈ a∪b iff there are points x ∈ a¯ and
+a
+x ∈ ¯b such that x ∈ {x ,x }. The pre-geometry is locally countable if the
+b a b
+closure of any finite set is countable. The following example justifies our choice
+of terminology.
+Example 6.4.8. Let K be a Borel matroid on a Polish space X whose pre-
+geometry is locally countable and modular. Then K is a modular simplicial
+complex and the closure operation is a modular function on K. Every maximal
+K-set is strongly maximal.
+Proof. Let f: K → [X]ℵ0 be the closure operation; it is immediate from its
+definition that it is a Borel function. To verify the modularity of f, suppose
+that a,b∈K are finite sets. Suppose first that f(a)∩f(b)(cid:54)=f(a∩b) and work
+to show that a∪b is free. Let x ∈ X be a point in f(a)∩f(b) which is not in
+f(a∩b). Let a(cid:48) ⊂a be inclusion minimal superset of a∩b such that x∈f(a(cid:48)).
+Note that a(cid:48) (cid:54)⊂ a∩b, choose a point y ∈ a(cid:48)\(a∩b), and let a(cid:48)(cid:48) = a(cid:48)\{y}. By

@@ -1,0 +1,82 @@
+=== 块 166 ===
+
+ase, where (after
+re-indexingifnecessary)x ∈aandx ∈d ,x ∈d . Insuchacase,x ∈e (x)
+2 0 0 1 1 0 0
+andx ∈d (x)holdsandbytheinitialchoiceofthefunctionq,q(x )isdistinct
+1 1 2
+from both q(x ) and q(x ).
+0 1
+
+8.1. CHROMATIC NUMBERS 175
+To see that q ≤ p , let e be a d -coset distinct from d ; we must show that
+0 0 0
+the set
+q(cid:48)(cid:48)(cid:83)
+φ·e belongs to J. By the product forcing theorem, e∩d is in
+φ∈Φ 1
+factaV-cosetdistinctfromV,andsoq(cid:48)(cid:48)(cid:83)
+φ·e∩d
+=p(cid:48)(cid:48)(cid:83)
+φ·e∩d ∈J
+φ∈Φ 1 1 φ∈Φ 1
+since p ≤c. Thus, the set
+q(cid:48)(cid:48)(cid:83)
+φ·e is covered by the union of the J-small
+1 φ∈Φ
+sets
+q(cid:48)(cid:48)(cid:83)
+φ·e∩d and b and therefore belongs to J. The case q ≤ p is
+φ∈Φ 1 1
+symmetric.
+For(2),supposethat(cid:104)Q,τ(cid:105)isabalancedpair. Strengtheningτ ifnecessary,
+we may assume that Q(cid:13)(X ∩V)⊂dom(τ). By a balance argument, for each
+point x ∈ X ∩V there is a number c(x) ∈ ω such that Q (cid:13) τ(xˇ) = c(x). It is
+immediatelyclearthatthemapcisaΓ-coloring. Wewillshowthatthebalanced
+pairs(cid:104)Q,τ(cid:105)and(cid:104)Coll(ω,X),cˇ(cid:105)areequivalent. Tothisend,itisenoughtoargue
+that Q (cid:13) τ ≤ cˇ. Suppose towards a contradiction that some condition q ∈ Q
+forces the opposite. Let G ,G ⊂ Q be mutually generic filters meeting the
+0 1
+condition q, and write p = τ/G and p = τ/G . To reach the contradiction
+0 0 1 1
+withthebalanceofthepair(cid:104)Q,τ(cid:105),arguethatp ,p areconditionsincompatible
+0 1
+in P. To see this, use the forcing theorem and the assumption that p (cid:54)≤ c to
+0
+find a V-coset e ⊂ dom(p ) distinct from V such that
+p(cid:48)(cid:48)(cid:83)
+φ·e ∈/ J. Now,
+0 0 φ∈Φ
+the set e is a subset of a single dom(p )-coset distinct from dom(p ) by the
+1 1
+product forcing theorem. Therefore, it prevents finding a common lower bound
+of p ,p .
+0 1
+(3) is clear. For the last sentence, we prove a claim which will come handy
+later.
+Claim 8.1.14. Let p ∈ P be a condition and a ⊂ ω be an infinite set. Then
+there is a Γ-coloring c: X →ω such that p⊂c and all points not in dom(p) get
+a c-color from the set a.
+Proof. Use Proposition 8.1.10 to find a coloring d: [X]2 → ω. Fix a collection
+(cid:83)
+{a : n∈ω} of pairwise disjoint infinite sets such that a ∈a. Consider the
+n n n
+graph ∆ on X \dom(p) connecting points x,y if there is a point z ∈ dom(p)
+such that the set {x,y,z} is linearly dependent. Note that ∆ is a locally count-
+able graph, and so its path-connectedness equivalence relation E has all classes
+countable. Therefore, one can find a function c: X → ω such that p ⊂ c, for
+all x ∈ X \dom(p) c(x) ∈ a holds, and c restricted to any E-class is an
+d(x)
+injection. To check that c is a Γ-coloring, assume that {x ,x ,x } ∈ Γ is a
+0 1 2
+tripleofpairwisedistinctpoints. Ifallthreeofthembelongtodom(p)thenthe
+the triple is not monochromatic as p is a Γ-coloring. If two of them belong to
+dom(p) then so does the third one by the closure properties of dom(p) and we
+are in the previous case. If exactly one of the points belongs to dom(p) then
+the other two are E-related and assigned a different color by c. Finally, if none
+of the points are in dom(p) then the triple is not monochromatic since d is a
+Γ-coloring.
+Now,letp∈P beacondition. Chooseaninfiniteseta∈J andfindaΓ-coloring
+c: X → ω such that p ⊂ c and all points not in dom(p) get a c-color from the
+set a. Clearly, Coll(ω,X) (cid:13) cˇ≤ pˇ and so c is the desired balanced condition
+stronger than p.

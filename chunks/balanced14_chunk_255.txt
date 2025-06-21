@@ -1,0 +1,75 @@
+=== 块 255 ===
+
+tainsak(n)-tuplewithacommonlowerboundin
+n+1,h(n+1)
+P . Let n=max(dom(h)) and k =k(n). It is easy to see that every k-tuple
+n+1
+of elements of B contains an r-tuple with a lower bound in the poset Q.
+h
+
+268 CHAPTER 11. LOCALLY COUNTABLE STRUCTURES
+The existence of finitely additive measures on complete Boolean algebras is a
+usefultoolinforcingtheory,see[47]. TheSuslinversionofitneedstoreflectthe
+fact that finitely additive measures on uncountable sets are typically not Suslin
+in any sense. We use the following poor man’s version of a finitely additive
+measure:
+Definition 11.3.14. Let P be a very Suslin c.c.c. poset. We say that P is
+Suslin measured if there are analytic sets A ⊂P and positive rationals ε >0
+n n
+(cid:83)
+such that P = A and for every n∈ω and every finite sequence (cid:104)p : i∈j(cid:105)
+n n i
+of elements of A with possible repetitions there is a set b ⊂ j of size at least
+n
+ε j such that the set {p : i∈b} has a lower bound in P.
+n i
+NotethatthedefinitorypropertiesofthecoverP = (cid:83) A areΠ1 andtherefore
+n n 2
+persist to all forcing extensions. Note also that every Suslin measured poset is
+Suslin Ramsey-centered as witnessed by the same analytic sets.
+Theorem11.3.15. LetP beaverySuslinc.c.c.poset. IfP isSuslinmeasured,
+then so are all of its finite support iterations of countable length.
+Proof. As in the previous subsections, we proceed with claims dealing with the
+successor and limit stage of the iteration.
+Claim 11.3.16. Suppose that P,Q are very Suslin, c.c.c. posets which are
+Suslin measured. Then P ∗Q˙ is Suslin measured.
+Proof. Let A ,α for n∈ω and B ,β for n∈ω witness the Suslin measured
+n n n n
+property of P,Q respectively. Let C ⊂ P ∗Q˙ be the upward closure of the
+nm
+set of all pairs (cid:104)p,q(cid:105) such that p ∈ A and p (cid:13) q˙ ∈ B˙ . Let γ = α β .
+n m nm n m
+We claim that the sets C and the numbers γ witness the Suslin measured
+nm nm
+property of the iteration.
+It is clear from Proposition 11.2.9 that the sets C are analytic; they
+nm
+also clearly exhaust all of P ∗Q˙. Now, fix numbers n,m ∈ ω. Suppose that
+(cid:104)(cid:104)p ,q˙ (cid:105): i ∈ j(cid:105) is a sequence of conditions in the set C ; strengthening the
+i i nm
+conditions we may assume that p ∈A and p (cid:13)q˙ ∈B˙ holds for every i∈j.
+i n i i m
+By the properties of the set A , there is a set b⊂j such that |b|>α j and the
+n n
+conditions p for i ∈ b have a lower bound p. By the properties of the set B
+i m
+applied in the generic extension, it is possible to strengthen p and identify a set
+c ⊂ b such that |c| > β |b| in such a way that p forces the set {q˙ : i ∈ c} to
+m i
+have a lower bound in Q˙. Then the conditions (cid:104)p ,q˙ (cid:105) for i∈c have a common
+i i
+lower bound in P ∗Q˙. As the set c ⊂ j has size > α β |j|, this verifies the
+n m
+desired properties of the set C .
+nm
+Claim 11.3.17. Let (cid:104)P : n∈ω,π ,ξ : m≤n∈ω(cid:105) be a very Suslin system
+n nm mn
+consisting of Suslin measured forcings. Then the limit is Suslin measured.
+Proof. Let P be the limit of the system as described in Definition 11.2.12. For
+ω
+each n ∈ ω, let A ,ε for m ∈ ω be analytic subsets of P and positive
+nm nm n
+rational numbers witnessing the measured property of P . For each n,m ∈ ω
+n
+let B ⊂P be the set {(cid:104)p,n(cid:105)∈P : p∈A }. It is immediate that the sets
+nm ω ω nm

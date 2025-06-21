@@ -1,0 +1,53 @@
+=== 块 8 ===
+
+rove various
+dichotomies.
+Theorem 1.2.4. (Theorem2.8.9) Suppose that there is a measurable cardinal.
+Let E be an analytic equivalence relation on a Polish space X. Exactly one of
+the following occurs:
+
+4 CHAPTER 1. INTRODUCTION
+1. κ(E),λ(E)<∞;
+2. E is almost Borel reducible to E.
+ω1
+Theorem 1.2.5. (Corollary 2.8.13) In the symmetric Solovay model: let E be
+a Borel equivalence relation on a Polish space X. Exactly one of the following
+occurs:
+1. E is pinned;
+2. F is Borel reducible to E.
+2
+In Chapter 3, we deal with a more sophisticated geometric concern. Let E
+be an analytic equivalence relation on a Polish space X. Is it possible to find
+two generic extensions V[H ] and V[H ] of V such that V[H ]∩V[H ] = V
+0 1 0 1
+in which there is an E-class represented in both extensions V[H ] and V[H ],
+0 1
+but not in V? Note that we do not ask the extensions to be mutually generic.
+In an initial approach, we develop a fruitful method for constructing separately
+Cohen-generic extensions V[H ] and V[H ] such that V[H ]∩V[H ] = V. We
+0 1 0 1
+define(Definition3.1.3)apracticalandeasilycheckednotionofindependenceof
+continuousopenmapsbetweenPolishspacesusinganotionofawalkreminiscent
+of Hjorth’s method of turbulence [48, Section 13.1] and prove:
+Theorem 1.2.6. (Theorem 3.1.4) Let X be a Polish space and f : X → Y
+0 0
+and f : X → Y be continuous open maps to Polish spaces. The following are
+1 1
+equivalent:
+1. the maps f ,f are independent;
+0 1
+2. the Cohen forcing P of nonempty open subsets of X forces V[f (x˙ )]∩
+X 0 gen
+V[f (x˙ )]=V.
+1 gen
+As one of the corollaries, we obtain a characterization of Hjorth’s turbulence in
+geometricterms. Thischaracterizationismuchmorepracticalthantheoriginal
+statement for anyone familiar with the forcing relation.
+Theorem 1.2.7. (Theorem 3.2.2) Let Γ be a Polish group acting on a Polish
+space X with all orbits meager and dense. The following are equivalent:
+1. the action is generically turbulent;
+2. V[x]∩V[γ·x]=V wheneverγ ∈Γandx∈X aremutuallygenericpoints.
+TosupportabroadextensionofergodicityresultsduetoHjorthandKechris[52,
+Theorem12.5], wedeveloptheclassesofplacidandvirtuallyplacidequivalence
+relations (the latter including all equivalence relations classifiable by countable
+structures) and prove:

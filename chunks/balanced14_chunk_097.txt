@@ -1,0 +1,55 @@
+=== 块 97 ===
+
+0 1 0 1
+B×B (cid:13)¬(τ ) E (τ ) , since E is absolute between generic extensions of
+0 left 0 right
+V and generic extensions of M by Borel absoluteness. In conclusion, E is not
+virtually placid in V.
+
+3.6. A VARIATION FOR MEASURE 97
+Corollary 3.5.7. Let E be a Borel equivalence relation on a Polish space X.
+The statement “E is placid” is absolute among transitive models of set theory
+containing the code for E.
+Proof. The placidity of E is a conjunction of virtual placidity and the pinned
+propertyofEbyProposition3.3.4. TheconjunctsareabsolutebyTheorem3.5.6
+and 2.7.1, and so is the conjunction.
+3.6 A variation for measure
+Thepurposeofthissectionistointroduceaparallelforturbulenceformeasure,
+with attendant ergodicity results for measure. Curiously enough, the measure
+theoretic parallel for turbulence is intimately connected to the concentration of
+measure phenomenon. The following definition is close to the whirly actions of
+[33]:
+Definition 3.6.1. Let X be a Polish space with a Borel probability measure µ
+and a metric d. Let Γ be a Polish group acting on X in a measure preserving
+and distance preserving fashion. We say that the action has concentration of
+measure if for every open neighborhood U ⊂ Γ containing the unit and every
+ε > 0 there is δ > 0 such that for every d-ball B ⊂ X of radius < δ and every
+Borel set C ⊂B of relative µ-mass >ε, the set (U ·C)∩B has relative µ-mass
+>1/2.
+Toformulatethemainresultsofthissection,letP betheCohenforcingon
+Γ
+Γ and P be the random forcing with µ, i.e. the forcing with µ-positive Borel
+µ
+subset of X, ordered by inclusion. The poset P adds a generic point γ˙ ∈Γ
+Γ gen
+while the poset P adds a random point x˙ ∈X.
+µ gen
+Theorem 3.6.2. Suppose that Γ is a Polish group acting on a Polish space X
+with a Borel probability measure µ and an ultrametric d in a measure preserving
+and distance preserving fashion. Suppose that the action has concentration of
+measure. Then P ×P (cid:13)V[x˙ ]∩V[γ˙ ·x˙ ]=V.
+Γ µ gen gen gen
+The proof of Theorem 3.6.2 hinges on a new walk concept and a proposition.
+Definition 3.6.3. Let U ⊂Γ be an open neighborhood of the unit and δ >0.
+A U,δ-walk is a sequence (cid:104)x : i ≤ j(cid:105) of points in X such that for every i ∈ j,
+i
+either d(x ,x )<δ or there is γ ∈U such that γ·x =x .
+i i+1 i i+1
+Definition 3.6.4. Let U ⊂Γbeanopenneighborhoodoftheunitand D ⊂X
+be a closed set. We say that the set D is U-connected if for any two points
+x ,x ∈ D and any δ > 0 there is a U,δ-walk from x to x using only points
+0 1 0 1
+from D.
+The main import of the concentration of measure assumption is that for any
+open neighborhood U of the unit, closed U-connected µ-positive sets can be
+found under every stone.

@@ -1,0 +1,62 @@
+=== 块 45 ===
+
+ns translate to the virtual
+realm without change as well.
+Theorem 2.3.8. Let {E : n∈ω} be an increasing sequence of analytic equiv-
+n
+(cid:83)
+alence relations on a Polish space X, and let E = E .
+n n
+
+44 CHAPTER 2. THE VIRTUAL REALM
+1. Whenever (cid:104)Q,σ(cid:105) is an E -pinned name for some n ∈ ω then it is also
+n
+E-pinned;
+2. whenever (cid:104)P,τ(cid:105) is an E-pinned name, there exists a number n ∈ ω and
+an E -pinned name (cid:104)Q,σ(cid:105) such that (cid:104)P,τ(cid:105)E¯ (cid:104)Q,σ(cid:105).
+n
+Proof. (1) is immediate as E ⊂E. For (2), by the forcing theorem there must
+n
+beconditionsp ,p ∈P andanumbernsuchthat(cid:104)p ,p (cid:105)(cid:13) τ E τ .
+0 1 0 1 P×P left n right
+The transitivity of the relation E then shows that τ on the poset P (cid:22)p is an
+n 0
+E -pinned name. The initial assumptions show that (cid:104)P,τ(cid:105) E¯ (cid:104)P (cid:22) p ,τ(cid:105). as
+n 0
+desired.
+Example 2.3.9. The Louveau jump survives into the virtual realm without
+change. The Louveau jump of an analytic equivalence relation E on a Polish
+space X is the equivalence relation E+L on Y = Xω connecting y ,y ∈ Y
+0 1
+if for all but finitely many n ∈ ω, y (n) E y (n). The Louveau jump can
+0 1
+be written as a countable increasing union of countable products of E, which
+by Theorems 2.3.7 and 2.3.8 yields a complete analysis of its virtual classes in
+terms of virtual E-classes. In particular, if E is pinned then its Louveau jump
+is pinned.
+The virtual realm also correctly reflects the situation in which the equivalence
+classes of one relation consist of countably many equivalence classes of another
+one.
+Definition2.3.10. LetE,F beanalyticequivalencerelationsonaPolishspace
+X. We say that F is countable over E if E ⊂ F and every F-class consists of
+countably many E-classes.
+Theorem 2.3.11. Let E,F be analytic equivalence relations on a Polish space
+X, with F countable over E.
+1. If (cid:104)Q,σ(cid:105) is an E-pinned name then it is F-pinned as well;
+2. if (cid:104)P,τ(cid:105) is an F-pinned name then there is an E-pinned name (cid:104)Q,σ(cid:105) such
+that (cid:104)P,τ(cid:105)F¯ (cid:104)Q,σ(cid:105).
+Proof. (1) is immediate. For (2), it will be enough to show that there is a
+condition p ∈ P such that τ is an E-pinned name on P (cid:22) p, for then (cid:104)P,τ(cid:105) F¯
+(cid:104)P (cid:22)p,τ(cid:105) as desired.
+Suppose towards a contradiction that there is no condition p∈P such that
+τ is E-pinned on the poset P (cid:22) p. It follows by the forcing theorem that
+P ×P (cid:13)¬τ E τ holds. Let M be a countable elementary submodel of a
+left right
+large structure containing P,τ and the codes for E,F. Use Proposition 1.7.8 to
+find an uncountable collection {g : i∈I} of filters on M∩P pairwise mutually
+i
+generic over the model M. By the Mostowski absoluteness between the models
+M[g ,g ] and V for i (cid:54)= j ∈ I, the elements τ/g ∈ X for i ∈ I are pairwise
+i j i
+F-related, but pairwise E-unrelated, contradicting the initial assumptions on
+the relations E,F.

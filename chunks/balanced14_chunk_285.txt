@@ -1,0 +1,56 @@
+=== 块 285 ===
+
+ng
+2
+perfectness a rather complicated projective property of the poset P. In all
+particular posets considered in this book, the status of perfectness is absolute
+throughout all forcing extensions.
+299
+
+300 CHAPTER 12. THE SILVER DIVIDE
+Proposition 12.1.3. Every Suslin forcing which is perfect in all forcing exten-
+sions and balanced is perfectly balanced and every balanced virtual condition is
+perfectly balanced.
+Proof. Let p¯ be a balanced virtual condition. Let Q be a partial order, σ a
+Q-name for a condition in P stronger than p¯. Let V[G] be a generic extension
+such that P(Q)∩V is countable in V[G]. Let H be a perfect set of filters on Q
+which consists of filters in finite tuples mutually generic over V.
+Claim 12.1.4. For every finite set a ⊂ H, the set {σ/H: H ∈ a} ⊂ P has a
+common lower bound.
+Proof. Let(cid:104)H : j ∈i(cid:105)enumeratethesetawithoutrepetitions. Byinductionon
+j
+j ∈i,constructadescendingsequence(cid:104)r : j ∈i(cid:105)ofconditionsinP suchthatfor
+j
+each j ∈i r ∈V[K][H : k ∈j] and r ≤σ/H . This is easy to do using the
+j k j+1 j
+balance of the condition p¯at every stage of the induction, noting that σ/H ,r
+j j
+are both strengthenings of p¯in mutually generic extensions of the model V[K].
+In the end, the condition r is a lower bound of the set {σ/H: H ∈a}.
+i
+Now, let h: 2ω → H be a continuous injection and let f: 2ω → P be the
+continuous function defined by f(y) = σ/h(y). Apply the perfectness of the
+poset P to find a perfect set C such that for each y ∈C, r ≤f(y) holds in the
+separative quotient. The condition r witnesses the perfect balance of p¯in this
+instance.
+We prove two notable dichotomy type preservation properties of perfectly bal-
+anced posets.
+Definition 12.1.5. The full Silver dichotomy is the following statement: If E
+isaBorelequivalencerelationonaPolishspaceX andA⊂X isanE-invariant
+set,theneitherAcontainsonlycountablymanyE-classesorAcontainsaperfect
+set consisting of pairwise E-unrelated elements.
+As a consequence, the full Silver dichotomy implies that among all sets whose
+cardinalityissmallerthanaBorelquotientspace,2ω isthesetwiththesmallest
+uncountablecardinality. TheterminologyreferstotheclassicalSilverdichotomy
+[48, Theorem 5.7.1], a theorem of ZF+DC which says in particular that the
+dichotomy holds for analytic sets A ⊂ X. The Solovay model satisfies the full
+Silver dichotomy. The following result is stated using Convention 1.7.16.
+Theorem 12.1.6. In the cofinally perfectly balanced extensions of the symmet-
+ric Solovay model, the full Silver dichotomy holds.
+Proof. Let κ be an inaccessible cardinal. Let P be a perfect Suslin forcing such
+that V |= P is balanced in every forcing extension. Let W be a symmetric
+κ
+Solovay model derived from κ and work in the model W. Let p ∈ P be a
+condition and τ be a P-name such that p (cid:13) τ ⊂ X is an E-invariant set
+containing uncountably many E-classes. The condition p as well as the name τ
+have to be definable from parameters in V as well as some parameter z ∈ 2ω.

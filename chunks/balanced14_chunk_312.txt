@@ -1,0 +1,84 @@
+=== 块 312 ===
+
+K] and
+P is n+1,n-balanced in V[K]. Work in the model V[K].
+Let p¯≤p be a n+1,n-balanced condition. Consider the poset P adding a
+Γ
+generic element γ˙ of the group Γ. The following is a key claim:
+gen
+
+13.2. PRESERVATION THEOREMS 329
+Claim13.2.2. P forcesthattherearedisjointbasicopensetsO ,O ⊂∆such
+Γ 0 1
+thatColl(ω,<κ)(cid:13)∃p ≤p¯p (cid:13) τ(γ˙ )∈O and∃p ≤p¯p (cid:13)τ(γ˙ )∈O .
+0 0 P gen 0 1 1 gen 1
+Proof. Suppose towards a contradiction that q ∈P forces the opposite. Then,
+Γ
+q forces that in the Coll(ω,< κ)-extension there is a unique point δ ∈ ∆ such
+that there is a condition p(cid:48) ≤ p¯in the poset P forcing τ(γ˙ ) = δ. Since the
+gen
+pointδ isinthesymmetricSolovaymodeldefinablefromτ,p¯, andγ˙ , itmust
+gen
+belong to the P -extension, and there is a P -name δ˙ for it. Note that then,
+Γ Γ
+q (cid:13)Coll(ω,<κ)(cid:13)p¯(cid:13) δ˙ =τ(γ˙ ).
+P gen
+Now,passtothesymmetricSolovaymodelW andconsiderthesetB ={γ ∈
+Γ: γ is P -generic over V[K] and γ ∈q} and the function f: B →∆ assigning
+Γ
+to each point γ ∈B the point δ˙/γ. The function f is continuous on B, and the
+choice of the name δ˙ implies that p¯(cid:13)fˇ⊂τ holds. The set B ⊂Γ is dense G
+δ
+in q. A standard result in the theory of Polish groups [55, Theorems 9.9 and
+9.10] now says that a homomorphism from Γ to ∆ which is continuous on a set
+comeager in a nonempty open set is in fact continuous on the whole group Γ.
+This contradicts the initial choice of the name τ.
+Let X = {x ∈ Γn+1: (cid:81) x(i) = x(n)}; this is a closed subset of Γn+1,
+i∈n
+equipped with the topology inherited from Γn+1. If a ⊂ n+1 is a set of size
+n, it is clear that the remaining coordinate of a point x ∈ X is a continuous
+function of the coordinates x(i) for i ∈ a, and therefore the projection from X
+to Γa is a continuous and open surjection. Let x ∈ X be a point P generic
+X
+over V[K]. Use Proposition 3.1.1 to see that whenever a ⊂ n+1 are distinct
+numbers then x(cid:22)a∈Γ is a sequence (P )n-generic over V[K].
+Γ
+Fix i ∈ n. Working in the model V[K][x(i)] find a poset R of size < κ
+i
+and a name σ for a condition in the poset P stronger than p¯ and a name δ˙
+i i
+for an element of the group ∆ such that V[K][x(i)] |= R (cid:13) Coll(ω,< κ) (cid:13)
+i
+σ (cid:13) τ(x(i)) = δ˙ . In the model V[K][x(n)], find the disjoint basic open sets
+i P i
+(cid:81)
+O ,O ⊂ ∆ as in Claim 13.2.2. Passing to a condition in the product R
+0 1 i∈n i
+andswitchingO ,O ifnecessary,wemayassumethatV[K][x(cid:22)n]|= (cid:81) R (cid:13)
+0 1 i∈n i
+(cid:81)
+x(i)∈/ O . UsethechoiceofthesetO tofind,inthemodelV[K][x(n)],a
+i∈n 0 0
+poset R of size <κ, R -names σ for an element of P stronger than p¯and δ˙
+n n n n
+for an element of O ⊂∆ such that R (cid:13)Coll(ω,<κ)(cid:13)σ (cid:13) τ(xˇ(n))=δ˙ .
+0 n n P n
+LetH ⊂R fori∈n+1befiltersmutuallygenericoverthemodelV[K][x].
+i i
+For each i ∈ n+1 write p = σ /H ∈ P and δ = δ˙ /H . Note that whenever
+i i i i i i
+a⊂n is a set of size n, the models V[K][x ][H ] for i∈a are mutually generic
+i i
+extensionsofthemodelV[K]. Bythebalanceassumptiononthevirtualcondi-
+tionp¯,theconditionsp ∈P fori∈n+1havealowerbound,callitq ∈P. Let
+i
+W be a symmetric Solovay extension of the model V[K][x][H : i ∈ n+1] and
+i
+work in W. The condition q forces that τ(x(i))=δ for all i∈n+1. Observe
+i
+(cid:81) (cid:81) (cid:81)
+that = x(n) and δ (cid:54)= δ since δ ∈/ O while δ ∈ O . This
+i∈n i∈n i n i∈n i 0 n 0
+contradicts the assumption that τ is forced to be a homomorphism from Γ to
+∆.
+Theorem 13.2.1 has a counterpart for certain quotient groups. Suppose that I

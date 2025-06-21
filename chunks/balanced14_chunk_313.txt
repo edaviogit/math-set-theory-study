@@ -1,0 +1,64 @@
+=== 块 313 ===
+
+O while δ ∈ O . This
+i∈n i∈n i n i∈n i 0 n 0
+contradicts the assumption that τ is forced to be a homomorphism from Γ to
+∆.
+Theorem 13.2.1 has a counterpart for certain quotient groups. Suppose that I
+
+330 CHAPTER 13. THE ARITY DIVIDE
+is a Borel ideal on ω. The quotient space P(ω)/I will be viewed as a group
+with the (quotient of the) symmetric difference operation. A homomorphism
+h: P(ω)/I →P(ω)/J is Borel if the set {(cid:104)x,y(cid:105)∈P(ω)×P(ω): h([x] )=[y] }
+I J
+is Borel.
+Theorem 13.2.3. Let I,J be Borel ideals on ω containing all singletons and
+suppose that the modulo J equality is a pinned equivalence relation. Let n ∈ ω
+be a number. In cofinally n+1,n-balanced extensions of the symmetric Solovay
+model, all homomorphisms of P(ω)/I to P(ω)/J are Borel.
+The assumptions are satisfied in particular for the F -ideals J (as then the
+σ
+moduloJ equalityisanF -equivalencerelationandassuchpinned[48,Theorem
+σ
+17.1.3 (iii)]) and for the analytic P-ideals J (as they are Borel and Polishable
+by [85]. The modulo J equality is an orbit equivalence relation of the action of
+the Polish abelian group J by the symmetric difference, and orbit equivalence
+relations of abelian Polish groups are pinned by [48, Theorem 17.1.3 (ii)]).
+Proof. Write E for the modulo I equality and F for modulo J equality, both
+Borel equivalence relations on X = P(ω). Suppose that κ is an inaccessible
+cardinal. SupposethatP isaSuslinforcingwhichisisn+1,n-balancedcofinally
+below κ. Let W be a symmetric Solovay model derived from κ and work in
+W. Suppose towards a contradiction that the conclusion of the theorem fails.
+Thus, there is a condition p ∈ P and a P-name τ such that p forces τ is a
+homomorphism. Both p and τ must be definable in W from parameters in the
+groundmodelandsomepointz ∈2ω. LetV[K]beagenericextensionofV bya
+posetofcardinalitysmallerthanκsuchthatz ∈V[K]andP isn+1,n-balanced
+in V[K].
+Work in the model V[K]. Let p¯ ≤ p be a n + 1,n-balanced condition.
+Consider the Cohen poset Q on X adding a generic set x˙ ⊂ ω. There are
+gen
+two cases.
+Case 1. Q (cid:13) ∀y ⊂ ω Coll(ω,< κ) (cid:13) ∃r ≤ p¯ r (cid:13) τ([x˙ ] ) (cid:54)= [y] holds.
+P gen E F
+This case in fact leads to a contradiction. Write ∆ for the symmetric difference
+operation on X and utilize its associativity to apply it also to finite tuples of
+subsets of ω. Let X¯ ={x¯∈Xn+1: ∆ x(i)=x(n)}; this is a closed subset of
+i∈n
+Xn+1, equipped with the topology inherited from Xn+1. If a⊂n+1 is a set of
+sizen,itisclearthattheremainingcoordinateofapointx∈X isacontinuous
+function of the coordinates x(i) for i ∈ a, and therefore the projection from X
+to Γa is a continuous and open surjection. Let x¯ ∈ X¯ be a point P X¯ generic
+over V[K]. Use Proposition 3.1.1 to see that whenever a ⊂ n+1 are distinct
+numbers then x¯(cid:22)a∈Γ is a sequence Qn-generic over V[K].
+Fix i ∈ n. Working in the model V[K][x(i)] find a poset R of cardinality
+i
+smaller than κ and an R -name σ for a condition in the poset P stronger than
+i i
+p¯and an R -name η for a such that V[K][x(i)] |= R (cid:13) Coll(ω,< κ) (cid:13) σ (cid:13)
+i i i i P
+τ([x(i)] ) = [η ] . Let H ⊂ R for i ∈ n be filters mutually generic over the
+E i F i i
+model V[K][x¯]. Write p =σ /H and y =η /H for i∈n, and look at the set
+i i i i i i
+y =∆ y ⊂ω. There are two hopeless subcases.
+i∈n i

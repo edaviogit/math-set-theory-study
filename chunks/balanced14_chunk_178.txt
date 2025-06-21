@@ -1,0 +1,64 @@
+=== 块 178 ===
+
+morphisms χ : N → K and
+0 0
+χ : N →K such that χ ◦π =χ ◦π , and rng(χ )∩rng(χ )=(χ ◦π)(cid:48)(cid:48)M.
+1 1 0 0 1 1 0 1 0
+Definition 8.6.3. Let F be a Fraiss´e class in a finite relational language.
+
+8.6. SATURATED MODELS ON QUOTIENT SPACES 187
+1. An F-structure is a structure M in the same language as F such that for
+every finite set a⊂dom(M), M (cid:22)a∈F;
+2. Let E be a Borel equivalence relation on a Polish space X. The E,F-
+Fraiss´e poset P consists of conditions p where p is an F-structure whose
+domain is a countable subset of the quotient space X/E. The ordering is
+defined by q ≤p if dom(p)⊂dom(q) and p=q (cid:22)dom(p).
+It is obvious that the poset P introduces a F-structure on the space X/E,
+denoted by M˙ . It is not difficult, but at the same time also not particularly
+gen
+natural, to describe the poset P(F,E) as a quotient simplicial complex poset:
+the vertices of the simplicial complex K will be finite F-structures on the E-
+quotient space, and a finite set a of vertices belongs to K if all structures in a
+areinducedsubstructuresofasinglefiniteF-structureontheE-quotientspace.
+It is obvious that the posets P(F,E) and P are naturally co-dense; however,
+K
+we will never use the simplicial complex presentation of P(F,E). To describe
+thebalancedconditionsintheposetP(F,E),supposethatM isanF-structure
+on the virtual E-quotient space X∗∗. Let τ be a Coll(ω,(cid:105) )(cid:105) name for the
+M ω1
+condition π(cid:48)(cid:48)M where π is the map from the virtual space (X∗∗)V to the E-
+quotient space of the extension which maps each virtual class to its realization.
+Theorem 2.5.6 provides the necessary assurance that the map π is well-defined
+and its range is a countable set.
+Theorem 8.6.4. Let F be a Fraiss´e class in a finite relational language which
+satisfies strong amalgamation. Let E be a Borel equivalence relation on a Polish
+space X. Then in the E,F-Fraiss´e poset P,
+1. for every F-structure M on X∗∗, the pair (cid:104)Coll(ω,(cid:105) ),τ (cid:105) is balanced;
+ω1 M
+2. for every balanced pair (cid:104)Q,τ(cid:105) there is a F-structure M on X∗∗ such that
+the pairs (cid:104)Coll(ω,(cid:105) ),τ (cid:105) and (cid:104)Q,τ(cid:105) are equivalent;
+ω1 M
+3. distinct F-structures on X∗∗ yield inequivalent balanced conditions.
+In particular, P is balanced.
+Proof. For(1),supposethatM isaF-structureonX∗∗. LetR ,R bearbitrary
+0 1
+posetsandσ ,σ arerespectiveR ×Coll(ω,(cid:105) )-andR ×Coll(ω,(cid:105) )-names
+0 1 0 ω1 1 ω1
+for elements of P such that in the respective posets σ ≤ τ and σ ≤ τ is
+0 M 1
+forced. Let H ,H be mutually generic filters on the respective posets and let
+0 1
+p = τ /H , p = σ /H and p = σ /H ; we need to show that p ,p are
+M 0 0 0 0 1 1 1 0 1
+compatible in the poset P.
+For this, first note that by the mutual genericity, dom(p ) ∩ dom(p ) =
+0 1
+dom(p). Bytheassumptiononthenamesσ ,σ itisthecasethatp (cid:22)dom(p)=
+0 1 0
+p (cid:22) dom(p) = p. Write c = dom(p )∪dom(p ). By the strong amalgamation
+1 0 1
+property of the Fraiss´e class F, for each finite set a ⊂ c there is a structure
+N ∈F suchthatdom(N )=aandwritinga =a∩dom(p )anda ∩dom(p ),
+a a 0 0 1 1
+N (cid:22) a = p (cid:22) a and N (cid:22) a = p (cid:22) a both hold. Let U be an ultrafilter on
+a 0 0 0 1 1 1 1

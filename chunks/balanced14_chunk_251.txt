@@ -1,0 +1,77 @@
+=== 块 251 ===
+
+using the following claims:
+Claim 11.2.13. Let P,Q be very Suslin c.c.c. posets. Then
+1. P ∗Q˙ is a very Suslin c.c.c. poset;
+2. the iteration maps are analytic and form a projection from P ∗Q˙ to P.
+
+264 CHAPTER 11. LOCALLY COUNTABLE STRUCTURES
+Proof. This is a routine complexity calculation. The underlying set P ∗Q˙ is
+analytic by Proposition 11.2.9, since p (cid:13) q˙ ∈ Q˙ is an analytic statement. The
+ordering on P ∗Q˙ is analytic for the same reason. To check the analyticity
+of the incompatibility relation, observe that conditions (cid:104)p ,q˙ (cid:105) and (cid:104)p ,q˙ (cid:105) are
+0 0 1 1
+incompatible just in case there is a (countable) maximal antichain A⊂P such
+thatforeveryp∈A, eitherpisincompatiblewithp , oritisincompatiblewith
+0
+p , or it is below both p ,p , and in the latter case, p(cid:13)q˙ ,q˙ are incompatible
+1 0 1 0 1
+in the poset Q˙. This is an analytic statement by Proposition 11.2.9 and the
+assumption that the incompatibility relation on Q is analytic.
+The poset P ∗Q˙ is c.c.c. because Q˙ remains c.c.c. in the P-extension by
+Fact 11.2.2 and so P ∗ Q˙ is an iteration of two c.c.c. forcings. Finally, we
+have to check that for a countable set B = {(cid:104)p ,q˙ (cid:105): n ∈ ω} ⊂ P ∗Q˙, the
+n n
+statement that B is predense is analytic. To see this, let Z be the Polish
+spaceresultingfromaddinganisolatedpoint0toY,andconsiderthefollowing
+formula φ: there exists a name τ for an element of Zω and maximal antichains
+A ⊂P forn∈ω suchthatforeachn,A consistsofelementswhichareeither
+n n
+incompatiblewithp orstrongerthanp ,iftheyarestrongerthanp thenthey
+n n n
+force τ(n)=q˙ , if they are incompatible with p then they force τ(n)=0, and
+n n
+1 forces rng(τ)∩Y is predense in Q˙. Parsing the formula φ, we see that it
+P
+is analytic by Proposition 11.2.9, and that it says that 1 (cid:13) {q˙ : p belongs
+P n n
+to the generic filter} is predense in Q˙, which is exactly equivalent to the set B
+being predense in P ∗Q˙.
+Checkingthepropertiesoftheprojectionfunctionsisroutineandlefttothe
+reader.
+Claim 11.2.14. Suppose that (cid:104)P : n ∈ ω,π ,ξ : m ≤ n ∈ ω(cid:105) is a very
+n nm mn
+Suslin system. The limit P is a very Suslin c.c.c. forcing. The limit maps π
+ω ωm
+and ξ form analytic projections and commute with the projection maps of the
+mω
+very Suslin system.
+Proof. This is a straightforward complexity computation. Let X be the ambi-
+n
+entPolishspaceofeachposetP ; theambientspaceoftheposetP isthenthe
+n ω
+(cid:83)
+disjoint union X in product with ω. The ordering of P is analytic by the
+n n ω
+definition. The incompatibility relation is analytic as well: suppose that (cid:104)q,n(cid:105)
+and (cid:104)p,m(cid:105) are conditions in P , say with n ≥ m. These two conditions are
+ω
+incompatible just in case π (q) is incompatible with p in P by the definitory
+nm m
+properties of projections.
+The poset P is c.c.c. since it is a direct limit of c.c.c. forcings. To check
+ω
+the very Suslin property of the poset P , note that a countable set A ⊂ P is
+ω ω
+predense if and only if for every number n ∈ ω, there is a maximal antichain
+B ⊂ P of conditions such that for each p ∈ B , either there is a condition
+n ω n
+(cid:104)q,m(cid:105) ∈ A such that m ≤ n and π (p) ≤ q in P , or there is a condition
+nm m
+(cid:104)q,m(cid:105) ∈ A such that m ≥ n and p ≤ π (q) in P . This is an analytic
+mn n
+statement as all the posets P are very Suslin.
+n
+Checking the projection properties of the functions π and ξ is routine
+ωm mω
+and left to the reader.

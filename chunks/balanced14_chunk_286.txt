@@ -1,0 +1,52 @@
+=== 块 286 ===
+
+uch that p (cid:13) τ ⊂ X is an E-invariant set
+containing uncountably many E-classes. The condition p as well as the name τ
+have to be definable from parameters in V as well as some parameter z ∈ 2ω.
+
+12.1. PERFECTLY BALANCED FORCING 301
+Use the assumptions to find an intermediate model V[K] obtained as a generic
+extension of V by a poset of cardinality smaller than κ such that z ∈V[K] and
+P is perfectly balanced in V[K].
+WorkinthemodelV[K]. Findaperfectlybalancedvirtualconditionp¯≤p.
+Note that the equivalence relation E is Borel and therefore it has fewer than
+(cid:105)V[K] manyvirtualclasses. Thecardinality(cid:105)V[K] iscountableinthemodelW,
+ω1 ω1
+while the set τ is forced to contain uncountably many E-classes. It follows that
+in the model V[K] there has to be a poset R of cardinality smaller than κ, an
+R-nameσ foraconditioninP strongerthanp¯andanR-nameη foranelement
+of X which is forced not to be a realization of any virtual E-class in the model
+V[K], and R(cid:13)Coll(ω,<κ)(cid:13)σ (cid:13) η ∈τ.
+P
+Move to some generic extension V[K][G] obtained by a poset of cardinality
+smallerthanκsuchthatP(R)∩V[K]iscountableinV[K][G]. WorkinV[K][G].
+Use Proposition 1.7.10 to find a perfect set H of filters on R which are in finite
+tuples mutually generic over V[K]. Note that by the mutual genericity and
+the initial choice of the name η, the points η/H for H ∈ H are pairwise E-
+unrelated. By the perfect balance of the virtual condition p¯, there is a perfect
+set C ⊂ H such that the set {σ/H: H ∈ C} has a lower bound, say q ∈ P in
+the separative quotient of P. By the forcing theorem applied in every model
+V[K][H] for H ∈ C it is the case that in the model W, the condition q forces
+the perfect set {η/H: H ∈ C} consisting of pairwise E-unrelated elements to
+be a subset of τ. The proof is complete.
+The second preservation theorem of this section deals with a strong form of the
+well-known Open Coloring Axiom, OCA [91].
+Definition 12.1.7. OCA+isthefollowingstatement. WheneverX isaPolish
+space, A ⊂ X is a set, and Γ is a graph on A which is open in the topology
+on A×A inherited from X ×X, then either A is a union of countably many
+Γ-anticliques, or A contains a perfect Γ-clique.
+The following result is stated using Convention 1.7.16.
+Theorem 12.1.8. In every cofinally perfectly balanced extension of the sym-
+metric Solovay model, OCA+ holds.
+Proof. Let X be a Polish space and let P be a perfect Suslin forcing. Let κ be
+an inaccessible cardinal such that in V , in every forcing extension the poset P
+κ
+isbalanced. LetW beasymmetricSolovaymodelderivedfromκ. Inthemodel
+W, let Γ ⊂ X2 be a symmetric open set, let p ∈ P be a condition, and let τ
+be a P-name for a subset of X such that p(cid:13)τ cannot be covered by countably
+manyΓ-anticliques. WemustfindaperfectsetB ⊂X suchthatanytwopoints
+of B are Γ-related, and a condition q ≤p in P which forces Bˇ ⊂τ.
+To this end, choose a parameter z ∈ 2ω such that p,τ,Γ are definable from
+z. Find an intermediate generic extension V[K] of V by a poset of cardinality
+smaller than κ such that z ∈V[K] and P is perfectly balanced in V[K]. Work
+in the model V[K]. Let p¯≤ p be a perfectly balanced virtual condition in P.

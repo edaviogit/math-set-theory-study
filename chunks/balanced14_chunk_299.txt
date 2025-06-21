@@ -1,0 +1,69 @@
+=== 块 299 ===
+
+e set a
+σ
+\(a∪[η]E
+0
+) is Cohen-generic over the model
+V[K][η]. By the general forcing theory, we may present the poset R as a two
+stepiterationS0∗S˙1,whereS0 istheCohenposet2<ω restrictedtosomefinite
+
+314 CHAPTER 12. THE SILVER DIVIDE
+binary string s, adding the Cohen-generic point η, and S˙1 is the S0-name for
+the remainder forcing.
+MovebacktothemodelW. ChooseafilterH0 ⊂S0 genericoverthemodel
+0
+V[K], and write x = η/H0 ∈ 2ω. Flip any value of x past dom(s) to obtain
+0 0 0
+anotherpointx ∈2ω. Thenx isE -relatedtox andalsoCohengenericover
+1 1 0 0
+the model V[K], containing the string s as an initial segment. Write H0 ⊂ S0
+1
+for the filter generic over V[K] obtained from x ; thus, V[K][H0]=V[K][H0].
+1 0 1
+Find filters H1 ⊂ S˙1/H0 and H1 ⊂ S˙/H0 mutually generic over the model
+0 0 1 1
+V[K][H0], and write p = σ/H0 ∗H1 and p = σ/H0 ∗H1. The conditions
+0 0 0 0 1 1 1
+p ,p are compatible in the poset P by a mutual genericity argument identical
+0 1
+toClaim??. Letq ∈P beanylowerboundfortheconditionsp ,p . Theinitial
+0 1
+choices of the names σ and η now imply that q (cid:13)xˇ ,xˇ ∈τ as desired.
+0 1
+Example 12.2.18. Let P be the balanced poset of Example 8.8.4. In the P-
+extensionoftheSolovaymodelthereisadominatingsubsetofωω suchthatthe
+set of all functions in in dominated by any fixed y ∈ωω is countable. Thus, the
+conclusion of the theorem fails in the P-extension with the P-ideal I on ω×ω
+consisting of sets with all vertical sections finite. The poset P is not Bernstein
+balanced.
+We conclude this section with an anti-preservation result and an example justi-
+fying the choice of the Berstein name for the class of posets in question. Recall
+that a Bernstein set is a subset of a Polish space such that neither it nor its
+complement contain a perfect set.
+Proposition 12.2.19. In nontrivial, cofinally Bernstein balanced extensions of
+the symmetric Solovay model, there is a Bernstein set.
+Proof. SupposethatκisaninaccessiblecardinalandP isaSuslinpartialorder
+whichisBernsteinbalancedcofinallybelowκ. LetW bethesymmetricSolovay
+model derived from κ and work in the model W. Let p ∈ P be a condition.
+Let V[K] be an intermediate extension obtained with a poset of size < κ such
+that p ∈ V[K] and P is Bernstein balanced in V[K]. Working in V[K], find a
+Bernstein balanced condition p¯≤p, and a poset Q of size <κ and a Q-name σ
+for a condition such that Q (cid:13) σ ≤ p¯. Since the poset P contains no atoms, it
+is also possible to find Q-names σ ,σ for incompatible elements of P stronger
+0 1
+than σ.
+Back in W, let {H : y ∈2ω} be a perfect collection of filters on Q pairwise
+y
+generic over the model V[K], obtained by an application of Proposition 1.7.10.
+Let τ be the P-name for the set {y ∈ 2ω: σ /H belongs to the generic fil-
+0 0 y
+ter on P} and let τ be the P-name for the set {y ∈ 2ω: σ /H belongs to
+1 1 y
+the generic filter on P}. These are clearly forced to be disjoint subsets of 2ω,
+and p¯ forces that complement of neither contains a perfect set: any condi-
+tion below p¯ is incompatible with only countably many conditions in the set
+{σ /H ,σ /H : y ∈ 2ω} by the Bernstein balance of the virtual condition p¯.
+0 y 1 y
+Thus, p¯forces both τ ,τ to be Bernstein sets.
+0 1

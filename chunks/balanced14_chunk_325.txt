@@ -1,0 +1,41 @@
+=== 块 325 ===
+
+ween Polish groups is continuous;
+2. itisconsistentrelativetoaninaccessiblecardinalthatZF+DCholds,there
+exists a 3-Hamel decomposition of X, and every homomorphism between
+Polish groups is continuous.
+
+Chapter 14
+Other combinatorics
+Thetechnologyofbalancedconditionscanbeappliedtoprovegeneraltheorems
+about lack of other combinatorial objects in the extensions under discourse. In
+this section, we include several theorems that are hopefully elegant axiomatiza-
+tions and generalizations of earlier results in [63].
+14.1 Maximal almost disjoint families
+OnerathersurprisinglimitationofbalancedextensionsofthesymmetricSolovay
+model is that they contain no maximal almost disjoint families of subsets of ω.
+The following theorem is stated using Convention 1.7.16.
+Theorem 14.1.1. In cofinally balanced extensions of the symmetric Solovay
+model there are no infinite maximal almost disjoint families of subsets of ω.
+Proof. Let κ be an inaccessible cardinal. Let P be a Suslin forcing such that P
+is balanced below κ. Let W be a symmetric Solovay model derived from κ and
+workinW. Supposetowardsacontradictionthatthereisaconditionp∈P and
+a name τ such that p forces τ to be an infinite maximal almost disjoint family.
+The condition p as well as the name τ must be definable from some parameter
+z ∈ 2ω and some parameters from the ground model. Use Fact 1.7.14 and the
+assumptionstofindanintermediategenericextensionV[K]suchthatz ∈V[K]
+and P is balanced in V[K]. Work in the model V[K].
+Let p¯≤p be a balanced condition. Let I be the set {a⊂ω: for some poset
+R of size <κ and some R -name σ for a condition in P stronger than p¯such
+a a a
+that R (cid:13)Coll(ω,<κ)(cid:13)σ (cid:13) aˇ∈τ}.
+a P
+Claim 14.1.2. ω cannot be covered by a finite set and finitely many elements
+of the set I.
+(cid:83)
+Proof. Suppose that J ⊂ I is a finite set such that J ⊂ ω is co-finite. Let
+H ⊂R for a∈J be filters mutually generic over V[K] and let p =σ /H ∈
+a a a a a
+P. By the balance of the condition p¯, it follows that the set {p : a ∈ J} ⊂ P
+a
+343

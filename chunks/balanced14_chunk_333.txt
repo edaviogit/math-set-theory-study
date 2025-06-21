@@ -1,0 +1,65 @@
+=== 块 333 ===
+
+egment of all points x , x (n) = m
+n m m
+holds for all m, and the tails x (cid:22)(n,ω) are the same for all m∈ω. [66] shows
+m
+that the graph Γ has uncountable Borel chromatic numbers and moreover, it
+
+14.4. DEFINABLY BALANCED FORCING 351
+can be continuously homomorphically mapped to any analytic hypergraph of
+uncountable Borel chromatic number. Thus, it is enough to prove the conclu-
+sion of the theorem for Γ.
+Supposethatκisaninaccessiblecardinal. SupposethatP isaSuslinforcing
+such that P is definably balanced below κ. Let W be the symmetric Solovay
+model derived from κ and work in W. Let p ∈ P be a condition and let τ be
+a P-name for a function from X to ω; we must find a Γ-edge (cid:104)x : m ∈ ω(cid:105), a
+m
+numberk ∈ωandsomestrengtheningoftheconditionpwhichforcesτ(xˇ )=kˇ
+m
+for all m ∈ ω. The condition p as well as the name τ are defined from some
+parameters in the ground model and perhaps an additional parameter z ∈ 2ω.
+Find an intermediate extension V[K] of the ground model using a poset of size
+<κ such that z ∈V[K], and work in the model V[K].
+Let Q be the product of uncountably many copies of Cohen forcing. By the
+definablebalanceassumption,theremustbeaQ-nameηforarealnumberanda
+conditionq ∈Qwhichidentifiesadefinitionofabalancedvirtualconditionp¯≤p
+which uses only η as a parameter. By Fact 14.4.6, passing to an intermediate
+extension if necessary we may assume that η is in fact a name for a specific
+element of the ground model. For the sake of brevity, we ignore η and q below.
+By a balance argument with p¯, Q (cid:13) ∀x ∈ X ∃kColl(ω,< κ) (cid:13) p¯(cid:13) τ(xˇ) = kˇ.
+P
+Let h˙ be the Q-name for the map x (cid:55)→ k; thus, h˙ is forced to be a definable
+Γ-coloring.
+Consider the Cohen poset P with its name x˙ for a generic point of the
+X gen
+space X. Find a condition O ∈ P and a number k ∈ ω such that O (cid:13) Q (cid:13)
+X
+h˙(x˙ )=kˇ. Now, letx∈O beapointP -genericoverV[K]. Useagenericity
+gen X
+argument to find a number m large enough that s is an initial segment of x
+m
+and [s ]∩X ⊂ O. For each number n ∈ ω let x ∈ X be the point obtained
+m n
+from x by overwriting its m-th entry with n. Thus, each point x is Q -generic
+n 0
+over V[K] and belongs to the set O. Now, let G ⊂ Q be a filter generic over
+the model V[K] such that x ∈ V[K][G], and consider the definable balanced
+conditionp¯≤pinV[K][G]. BytheforcingtheoremappliedinthemodelV[K],
+in the model W p¯(cid:13) τ(xˇ )=kˇ must hold for every number n. In view of the
+P n
+fact that the sequence (cid:104)x : n∈ω(cid:105) is a Γ-hyperedge, the proof is complete.
+n
+Corollary 14.4.8. 1. Let P be the poset for adding a nontrivial automor-
+phismofthealgebraP(ω)modulofiniteofSection8.3. IntheP-extension
+of the Solovay model, there is no discontinuous homomorphism between
+Polish groups.
+2. It is consistent relative to an inaccessible cardinal that ZF+DC holds,
+there is a nontrivial automorphism of P(ω) modulo finite, and there is
+no discontinuous homomorphism between Polish groups.
+Proof. The poset P is definably balanced by Example 14.4.4. It is clearly σ-
+closed, so in the P-extension of the Solovay model, ZF+DC holds. By Theo-
+rem14.4.7,intheP-extensionthechromaticnumberoftheHamminggraphH
+2
+is uncountable.. By a ZF+DC result of [76], this abstractly implies that there
+are no discontinuous homomorphisms between Polish groups.

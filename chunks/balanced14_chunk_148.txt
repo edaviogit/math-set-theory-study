@@ -1,0 +1,66 @@
+=== 块 148 ===
+
+nonemptycount-
+1 α
+(cid:83)
+able set such that for some enumerations y of c and y of c it is the
+0 β∈α β 1 α
+case that (cid:104)y ,y ∈ B. It is clear that the sets c for α ∈ ω are nonempty and
+0 1 α 1
+
+6.6. QUOTIENT VARIATIONS 155
+pairwise disjoint and therefore distinct. Finally, note (Theorem 9.1.1) that in
+balanced extensions of the symmetric Solovay model there are no uncountable
+sequences of distinct equivalence classes of Borel equivalence relations such as
+F .
+2
+IfthelargerequivalencerelationF inDefinition6.6.5isnotpinned,thecircum-
+stances must be quite peculiar for the E,F-transversal poset to be balanced.
+One class of examples of this type is captured by the following theorem. For
+Borel equivalence relations E ⊂ F on a Polish space X write X∗∗, X∗∗ to be
+E F
+their respective virtual quotient spaces. A function f: X∗∗ → X∗∗ is a virtual
+F E
+E,F-selection function if for every virtual F-class c, the virtual E-class f(c)
+is forced to be a subset of c. For each E,F-selection function f let τ be the
+f
+Coll(ω,(cid:105) )-name for the set of all countable subsets a⊂X such that for each
+ω1
+virtual F-class c, a contains a realization of the virtual E-class f(c).
+Theorem 6.6.12. Let E ⊂F be Borel equivalence relations on a Polish space
+X such that each F-class consists of countably many E-classes. Let P be the
+E,F-transversal poset. Then
+1. foreveryvirtualE,F-selectionfunctionf: X∗∗ →X∗∗,thepair(cid:104)Coll(ω,(cid:105) ),τ (cid:105)
+F E ω1 f
+is balanced;
+2. for every balanced pair (cid:104)Q,τ(cid:105) there is a virtual selection function f such
+that the balanced pairs (cid:104)Q,τ(cid:105), (cid:104)Coll(ω,(cid:105) ),τ (cid:105) are equivalent;
+ω1 f
+3. distinct virtual selection functions yield nonequivalent balanced pairs.
+In particular, the poset P is balanced.
+Proof. The argument hinges on a simple claim of independent merit:
+Claim 6.6.13. Let V[H] be a generic extension of V, and in V[H] let c be an
+F-class which is a realization of a ground model virtual F-class. Then c is a
+union of realizations of ground model virtual E-classes.
+Proof. Supposetowardsacontradictionthatthisfails. TheninV therehastobe
+aposetP andaP-nameτ foranelementofthespaceX suchthatτ isF-pinned,
+but below no condition of P, τ is E-pinned. Let M be a countable elementary
+submodelofalargestructurecontainingE,F,P,τ anduseProposition1.7.10to
+find a perfect collection {g : y ∈2ω} of filters on P ∩M mutually generic over
+y
+M. Let x = τ/g ∈ X. For distinct binary sequences y,z ∈ 2ω, M[g ,g ] |=
+y y y z
+x F x and ¬x E x by the forcing theorem applied in M. By the Mostowski
+y z y z
+absoluteness for the model M[g ,g ], it follows that x F x and ¬x E x
+y z y z y z
+holds in V. However, this means that the unique F-class of the points x for
+y
+y ∈ 2ω contains perfectly many pairwise E-unrelated points, contradicting the
+initial assumptions on the equivalence relations E,F.
+Now, for (1) suppose that V[H ],V[H ] are mutually generic extensions con-
+0 1
+tainingrespectiveconditionsp ,p belowτ ; wemustshowthatp ,p arecom-
+0 1 f 0 1
+patible. This is to say, p ∪p is a K -set; in other words, if x ∈ p and
+0 1 E,F 0 0

@@ -1,0 +1,77 @@
+=== 块 199 ===
+
+xtension property Definition 9.2.1(2). It follows that
+the poset P is compactly balanced.
+A
+The conjunction of Examples 9.2.6 and 7.3.8 now yields the following:
+Corollary 9.2.7. Let k ∈ω be a number.
+
+208 CHAPTER 9. PRESERVING CARDINALITIES
+1. Let P be the poset P where A is a sequence enumerating all finite ordered
+A
+graphs with no clique of size k. In the P-extension of the symmetric
+Solovay model, |E |>|2ω|;
+0
+2. ItisconsistentrelativetoaninaccessiblecardinalthatZF+DCholds,there
+is an ultrafilter U on ω such that U → (U,k)2 and U (cid:54)→ (U,k+1)2, and
+yet |E |>|2ω|.
+0
+Example 9.2.8. Let P be the Fin×Fin poset of Definition 7.2.1. The poset P
+is compactly balanced.
+Proof. The balanced virtual conditions of P were classified in Theorem 7.2.2.
+Theycorrespondtoultrafiltersonω×ω∗ whichdonotcontainthesetn×ω∗ for
+any number n ∈ ω. Thus, the space of balanced virtual conditions is naturally
+organizedintoadefinablecompactHausdorffspace. Itisnecessarytoverifythe
+conditions (2, 3) of Definition 9.2.1. Let V[H ]⊂V[H ] be generic extensions.
+0 1
+We first evaluate the complexity of the order between the balanced virtual
+conditions in V[H
+0
+] and V[H
+1
+]. Consider the partial map f: (ω×ω∗)V[H1] →
+(ω×ω∗)V[H0] defined by f(n,U) = (cid:104)n,U ∩V[H
+0
+](cid:105); if U ∩V[H
+0
+] ∈/ V[H
+0
+], the
+functionalvalueis leftundefined. Unraveling thedefinitions, abalancedvirtual
+condition in V[H ] correspoding to an ultrafilter W on ω×ω∗ is weaker than
+0 0
+the balanced virtual condition in V[H ] corresponding to some ultrafilter W
+1 1
+on ω×ω∗ just in case for every set A ∈ W , the set f−1A belongs to W . In
+0 1
+view of the topology on the ultrafilter spaces, this is a closed relation.
+To see that every balanced virtual condition in V[H ] can be extended to a
+0
+balancedvirtualconditioninV[H ],supposethatW isanultrafilteronω×ω∗
+1 0
+inthemodelV[H ]. Consideringthefunctionf fromthepreviousparagraph,it
+0
+isobviousthatthecollection{f−1A: A∈W }ofsubsetsofω×ω∗ inthemodel
+0
+V[H ] has the finite intersection property, and therefore can be extended to an
+1
+ultrafilter W . The ultrafilter W corresponds to a balanced virtual condition
+1 1
+in the model V[H ] stronger than the one corresponding to W .
+1 0
+Corollary 9.2.9.
+1. Let P be the Fin×Fin poset of Definition 7.2.1. In the P-extension of the
+symmetric Solovay model, |E |>|2ω|;
+0
+2. ItisconsistentrelativetoaninaccessiblecardinalthatZF+DCholds,there
+is an ultrafilter U on ω such that ???, and yet |E |>|2ω|.
+0
+Question 9.2.10. Is there a Borel filter F on ω such that ZF+DC proves that
+existence of a nonprincipal ultrafilter extending F implies |E |≤|2ω|?
+0
+Example 9.2.11. Let F be a Fraiss´e class in a finite relational language with
+strongamalgamation. LetEbeaBorelequivalencerelationonaPolishspaceX.
+Let P(F,E) be the poset of Definition 8.6.3 for adding a F-structure to the E-
+quotient space. Then P(F,E) is compactly balanced: the balanced conditions
+are classified by F-structures on the virtual quotient space X∗∗, which form a
+compactsubspaceofP([X∗∗]n)wherencorrespondstothearityoftherelations

@@ -1,0 +1,61 @@
+=== 块 120 ===
+
+ee posets;
+3. posets of the form P(ω)/I where I is a countably separated Borel ideal on
+ω.
+
+5.2. BALANCED CONDITIONS 125
+q
+p p
+0 1
+V[H ]
+V[H ] 𝑝̅ 1
+0
+p
+V
+Figure 5.1: A balanced virtual condition p¯≤p.
+
+126 CHAPTER 5. BALANCED SUSLIN FORCING
+Here, a tree poset on a Polish space X is an analytic family of closed subsets of
+X closedundernonemptyintersectionswithclosuresofbasicopensets,ordered
+by inclusion.
+Proof. For (1), suppose towards a contradiction that (cid:104)P,≤(cid:105) is a Suslin c.c.c.
+poset and (cid:104)Q,τ(cid:105) is a balanced pair. For every maximal antichain A ⊂ P, its
+maximalityisacoanalyticstatementandthereforeabsolutetotheQ-extension.
+Thus, Q (cid:13) τ is compatible with some element of A. The balance of τ immedi-
+atelyshowsthattherecanbeonlyoneelementofAwithwhichτ iscompatible,
+and the largest condition in Q identifies this element. It follows that the set
+{p∈P: Q(cid:13)τ ≤pˇintheseparativequotientofP}isafilteronP whichmeets
+all maximal antichains, an impossibility in nonatomic posets.
+For (2), suppose towards a contradiction that (cid:104)P,≤(cid:105) is a tree poset on a
+Polish space X and (cid:104)Q,τ(cid:105) is a balanced pair. For every basic open set O ⊂X,
+the statement τ ∩O¯ (cid:54)= 0 must be decided by the largest condition in Q by the
+balanceofτ. Thisdecisioncannotbepositivefortwodisjointbasicopensubsets
+of X by the balance of τ again. Thus, τ would have to be forced by Q to be
+a singleton (even a specific singleton in the ground model), an impossibility in
+nonatomic tree posets.
+For (3), suppose towards a contradiction that I is a countably separated
+ideal on ω as witnessed by a countable separating set A⊂P(ω), meaning that
+for every b ∈ I and c ∈/ I there is a ∈ A such that b∩a = 0 and c∩a ∈/ I.
+Suppose that (cid:104)Q,τ(cid:105) is a balanced pair in the poset P(ω)/I; so τ is a name
+for an I-positive subset of ω. By the balance of τ, for every set a ∈ A it
+must be decided by the largest condition in Q whether τ ∩aˇ ∈ I or not. Let
+B ={a∈A: Q(cid:13)τ ∩aˇ∈/ I}. Use the balance of the name τ to argue that any
+intersection of finitely many elements of B is an infinite set. Let b ⊂ ω be an
+infinite set such that for every a∈B, b\a is finite. Use the density of the ideal
+I to argue that thinning out the set b if necessary, we may assume that b ∈ I.
+It is now immediate that no set a ∈ A can separate the I-small set b from the
+I-positive set τ in the Q-extension: if a∈A\B then τ ∩a∈I is forced, and if
+a∈B then b∩a(cid:54)=0. This is a contradiction.
+Most balanced Suslin posets used in this book are σ-closed. There are σ-closed
+posetswhicharenotbalanced,suchastheonewhichaddsamaximalalmostdis-
+joint family in P(ω) by countable approximations, cf. Theorem 14.1.1. There
+are some posets which are balanced and in ZFC even collapse ℵ , cf. The-
+1
+orem 8.7.2. Even such posets are valuable; remember that they prove their
+worth in the choiceless symmetric Solovay extension. The balanced status of
+certain posets is nonabsolute, see for example Theorem 8.1.19 or 8.5.5. Thus,
+even though typically the balanced conditions correspond to traditional objects
+of combinatorial set theory, the balanced status is a complicated matter. There
+isonlyonegeneralpreservationtheorem, whichisneverthelessextremelyuseful
+for obtaining consistency results:

@@ -1,0 +1,98 @@
+=== 块 309 ===
+
+mA . Tothisend,letτ ,τ berespective
+1 0 0 1
+P ,P -namesinL(R)suchthatA =τ /G andA =τ . Thenamesτ ,τ can
+0 1 0 0 0 1 1 0 1
+be viewed as sets of reals, and so each has a definition in L(R) from real and
+
+324 CHAPTER 12. THE SILVER DIVIDE
+ordinal parameters; below, we will evaluate them in other models using these
+definitions. We also evaluate P ,P using their definitions. Write (cid:13) for the
+0 1 0
+forcing relation of P and (cid:13) for the forcing relation of P .
+0 1 1
+Let H ⊂ Q be a generic filter. Let j: V → M be the associated generic
+κ
+ultrapower and work in the model M. Note that G ⊂j(G ) is a countable set
+1 1
+inthemodelM andbytheσ-closureassumptionontheposetP ,thefilterj(G )
+1 1
+must contain a lower bound of G . Consider the set B ={x∈X: ∃p∈P p is
+1 1
+alowerboundofthefilterG andp(cid:13) xˇ∈τ }. Clearly,thesetB ⊂X belongs
+1 1 1
+to L(R) and it contains the set j(A ). By the elementarity of the embedding j,
+1
+it will be enough to show that B is disjoint from the set j(A ).
+0
+To see this, we prove the following claim, which is also a statement of the
+model M. Call a Borel set C ⊂X positive if for every condition p ∈P which
+1 1
+is a lower bound of the filter G , p (cid:13) C ∩τ (cid:54)= 0. By the forcing theorem
+1 1 1 1
+applied to j(G ), C∩A (cid:54)=0 holds for every positive Borel set C. Clearly, the
+1 1
+collection of positive Borel sets is in L(R).
+Claim 12.4.13. Ifp ∈P isaconditionwhichisalowerboundofthefilterG
+0 0 0
+and x ∈ B is a point such that p (cid:13) xˇ ∈ τ , then there is a condition p(cid:48) ≤ p
+0 0 0 0 0
+and a positive Borel set C ⊂X such that p(cid:48) (cid:13) C ⊂τ .
+0 0 0
+The theorem immediately follows. By the claim and the genericity of the filter
+j(G )overL(R),theremustbeinj(G )eitheraconditionwhichforcesB∩τ =
+0 0 0
+0 or a condition which forces C ⊂ τ for some Borel positive set C ⊂ X.
+0
+However,thelatteralternativemeansthatj(A )∩j(A )(cid:54)=0,contradictingour
+0 1
+initial assumptions on A ,A . The former alternative confirms that the set B
+0 1
+separates j(A ) and j(A ) as required.
+0 1
+To prove the claim, fix p ∈P and x∈X as in the assumption. In view of
+0 0
+the fact that the reals of the model M are the reals of some symmetric Solovay
+model derived from κ (Fact 1.7.18(3)), in the ground model there must be a
+poset Q of size < κ and Q-names σ ,σ ,η for conditions in P ,P and a point
+0 1 0 1
+inX respectivelysuchthatQforcesthatσ isalowerboundofG ,σ isalower
+0 0 1
+bound of G and Coll(ω,<κ)(cid:13)σ (cid:13) η ∈τ and Coll(ω,<κ)(cid:13)σ (cid:13) η ∈τ .
+1 0 0 0 1 1 1
+Moreover, there has to be a filter K ⊂ Q generic over V such that p = σ /K
+0 0
+andx=η/K. Now,letH ⊂Coll(ω,P(Q)∩V)beafilterinM mutuallygeneric
+over V with the filter K.
+Work in the model V[H]. Use Proposition 1.7.10 to find a continuous func-
+tion y (cid:55)→ H which to each element y ∈ 2ω assigns a filter H ⊂ Q so that for
+y y
+everyfiniteseta⊂2ω, thefilters{H : y ∈a}aremutuallygenericoverV. For
+y
+every element y ∈2ω, write p =σ /K , p =σ /K , and x =η/K . Since
+0y 0 y 1y 1 y y y
+the conditions p ∈P are all stronger than the balanced virtual condition p¯
+0y 0 0
+and they are found in mutually generic models, each finite set of them has a
+lower bound as in Claim 12.1.4. By the perfectness assumption on the poset
+P , the model V[H] contains a perfect set D ⊂ 2ω and a condition r ∈ P
+0 0
+which is stronger than all p for all y ∈ D. Since both conditions p ,r ∈ P
+0y 0 0
+are stronger than the balanced virtual condition p¯ and are found in mutually
+0
+generic models, they are compatible with a lower bound p(cid:48).
+0
+
+12.4. EXISTENCE OF GENERIC FILTERS 325
+Now,considertheset{p : y ∈D}andtheperfectsetC ={x : y ∈D}. By
+1y y
+theBernsteinbalanceofthevirtualconditionp¯ ,everyconditionp ∈P which
+1 1 1
+is a lower bound of the filter G is compatible with p for all but countably
+1 1y
+many points y ∈ D. As a result, C ⊂ X is a positive Borel set. The initial
+choice of the name η also implies that p(cid:48) (cid:13) C ⊂ τ . The claim has just been
+0 0
+proved.

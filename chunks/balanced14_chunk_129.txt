@@ -1,0 +1,64 @@
+=== 块 129 ===
+
+h that
+the balanced pairs (cid:104)Q,τ(cid:105) and (cid:104)Coll(ω,X),Aˇ(cid:105) are equivalent;
+3. distinct maximal K-sets yield inequivalent balanced pairs.
+In particular, the poset P is balanced.
+
+136 CHAPTER 6. SIMPLICIAL COMPLEX FORCINGS
+Proof. For(1), supposethatV[H ],V[H ]aremutuallygenericextensionsofV
+0 1
+and p ∈ V[H ], p ∈ V[H ] are conditions extending A; we must show that
+0 0 1 1
+p ∪p is a K-set. Suppose towards a contradiction that a ⊂ p and a ⊂ p
+0 1 0 0 1 1
+are finite sets such that a ∪a ∈/ K. Choosing a ,a inclusion-minimal, we
+0 1 0 1
+conclude that {a ,a } ∈ Γ . Since the graph Γ is locally countable, by the
+0 1 K K
+Mostowski absoluteness between V[H ] and V[H ,H ] it must be the case that
+0 0 1
+as a ∈ V[H ], a ∈ V[H ] must hold as well. Thus, a ∈ V[H ]∩V[H ] = V.
+0 0 1 0 1 0 1
+Since A was a maximal K-set and A∪a ⊂p is a K-set, it follows that a ⊂A
+1 1 1
+and a ∪a ⊂p , contradicting the assumption that a ∪a ∈/ K.
+0 1 0 0 1
+For (2), let (cid:104)Q,τ(cid:105) be a balanced pair; strengthening τ if necessary we may
+assumethatitisaQ-nameforasingleK-set. ReplacingQwithQ×Coll(ω,X)
+and strengthening the condition τ if necessary, we may assume that Q (cid:13) ∀x ∈
+XV x ∈ τ or there is a ⊂ τ such that {x}∪a ∈/ K. For each point x ∈ X,
+either Q (cid:13) xˇ ∈ τ or Q (cid:13) ∃a ⊂ τ ∈ Γ and a ⊂ τ by a balance argument. Let
+K
+A ⊂ X be the set of all points x ∈ X for which the first option prevails. Then
+Q(cid:13)Aˇ=τ∩V,soAisaK-set;inviewof(1)andProposition5.2.4,itisenough
+toshowthatAisamaximalK-set. Letx∈X\A. ThenQ(cid:13)∃a⊂τ {x}∪a∈/ K;
+choosingainclusionminimal,weconcludethatQ(cid:13){{x},a}∈Γ . Bythelocal
+K
+countabilityofthegraphΓ andaMostowskiabsolutenessbetweentheground
+K
+model and its Q-extension, it must be that Q (cid:13) a ⊂ V and then a ⊂ Aˇ. It
+follows that A∪{x} is not a K-set as desired.
+Finally, (3) is obvious. For the last sentence, any condition p ∈ P can
+be extended to a maximal K-set, which then represents a balanced condition
+stronger than p by (1).
+Example 6.2.3. Let E be a countable Borel equivalence relation on a Polish
+space X. Let K be the set of all finite sets consisting of pairwise E-unrelated
+elements. Then Γ consists of all edges {{x },{x }} where x ,x ∈ X are
+K 0 1 0 1
+distinct E-related points, so K is locally countable. The balanced pairs are
+classified by maximal K-sets, which are precisely the E-transversals.
+For the following example, recall the notion of a perfect matching of a graph;
+this is just a set of edges such that each vertex gets exactly one edge in the set
+adjacent to it. For a locally finite bipartite graph Γ, the existence of a perfect
+matchingisequivalenttoHall’s marriage condition [38]: foreveryfinitesetaof
+vertices on one side of the bipartition, the set of neighbors of a has cardinality
+at least that of a.
+Example 6.2.4. Let Γ be a locally finite bipartite Borel graph on a Polish
+space X satisfying the Hall’s marriage condition; view Γ as a subset of [X]2.
+LetKbethesimplicialcomplexofallfinitesubsetsofΓwhichcanbecompleted
+to a perfect matching. Then K is a Borel locally countable simplicial complex:
+given a finite set a⊂Γ, the membership of a in K can be detected by checking
+all fragments of a in the components of Γ which are countable. The balanced
+pairsareclassifiedbymaximalK-setswhicharepreciselytheperfectmatchings
+of Γ.

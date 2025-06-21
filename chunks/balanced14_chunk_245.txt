@@ -1,0 +1,83 @@
+=== 块 245 ===
+
+ass greater than 1/2 and therefore intersect. It
+n n
+follows that there must be points x ∈ b and y ∈ π(cid:48)(cid:48)b with d (x,y) ≤ ε , and
+n n
+then x,π−1y are G -connected elements of the set b.
+n
+
+258 CHAPTER 11. LOCALLY COUNTABLE STRUCTURES
+Example 11.1.17. For every n ∈ ω, let H be the hypergraph on n of arity
+n
+3 consisting of all arithmetic progressions of length 3. Then the fractional
+chromatic numbers of H tend to infinity with n–just consider the normalized
+n
+counting measure on n and the density van der Waerden’s theorem [88].
+Definition11.1.18. LetGbeananalyticfinitaryhypergraphonaPolishspace
+X. WesaythatGhasBorel σ-bounded fractional chromatic number ifthereare
+(cid:83)
+Borel sets B ⊂ X such that X = B and for each n ∈ ω, the hypergraph
+n n n
+G has fractional chromatic number less than n+2 on every finite set a⊂B .
+n
+Clearly,Borelσ-boundedchromaticnumberimpliesBorelσ-boundedfractional
+chromatic number but the opposite implication fails. The most natural class of
+Borel graphs exemplifying the distinction is the following:
+Example 11.1.19. Let E be a Borel non-smooth equivalence relation on a
+Polish space X. Let Q be the poset of all pairs q = (cid:104)a ,b (cid:105) of finite subsets of
+q q
+X such that (a ×b )∩E = 0; the ordering is that of coordinatewise reverse
+q q
+inclusion. LetGbethegraphconnectingtwoconditionsinQiftheyareincom-
+patible. Then G does not have Borel σ-bounded chromatic number, yet it does
+have Borel σ-bounded fractional chromatic number.
+Proof. To show that G does not have Borel σ-bounded chromatic number, first
+use the Glimm–Effros dichotomy to find a Borel reduction h: 2ω →X of E to
+0
+E. For E -unrelated points y ,y ∈ 2ω let r(y ,y ) = (cid:104){h(y )},{h(y )}(cid:105) and
+0 0 1 0 1 0 1
+note that r(y ,y ) ∈ Q. By the Baire category theorem, it will be enough, for
+0 1
+any Borel nonmeager set B ⊂ 2ω ×2ω and every n ∈ ω, to produce a finite
+subset b ⊂ B such that the chromatic number of G on q(cid:48)(cid:48)b is greater than n.
+To this end, let t ,t ∈2<ω be two binary strings of the same length such that
+0 1
+B ⊂ [t ]×[t ] is comeager. Let k ∈ ω be a number such that k → (3)2. A
+0 1 n
+simple construction yields points y ∈ 2ω for i ∈ k such that for any i ∈ j ∈ k,
+i
+(cid:97) (cid:97)
+(cid:104)t y ,t y (cid:105) ∈ B holds. It will be enough to show that the graph G on the set
+0 i 1 j
+(cid:97) (cid:97)
+c={q(t y ,t y ): i∈j ∈k}haschromaticnumbergreaterthann. Toseethis,
+0 i 1 j
+(cid:83)
+suppose that c = d . By the choice of the number k, there exist m ∈ n
+m∈n m
+and numbers i ∈ i ∈ i such that any pair of them gives rise to a condition
+0 1 2
+(cid:97) (cid:97) (cid:97) (cid:97)
+in the set d . Now note that the conditions r(t y ,t y ) and r(t y ,t y )
+m 0 i0 1 i1 0 i1 1 i2
+are incompatible in Q and so form a G-edge.
+ToshowthatGhasBorelσ-boundedfractionalchromaticnumber,letB =
+n
+(cid:83)
+{q ∈ Q: |a ∪b | ≤ n}, observe that the set B is Borel and Q = B , and
+q q n n n
+arguethatforeveryfinitesetc⊂B ,thefractionalchromaticnumberonGonc
+n
+is≤2−n. Indeed,assumethatµisanyprobabilitymeasureonthesetc;wewill
+produceasetofµ-mass≥2−n consistingofpairwisecompatibleconditions, i.e.
+a G-anticlique. To do this, let e be the finite set of all E-classes with nonempty
+(cid:83)
+intersection with (a ∪b ) and let λ be the normalized counting measure
+q∈c q q
+(cid:83) (cid:83)
+on P(e). Let A = {(cid:104)q,u(cid:105) ∈ c×P(e): a ⊂ u∧b ∩ u = 0}. Since c ⊂ B ,
+q q n
+all vertical sections of the set A have λ-mass ≥ 2−n. By the Fubini theorem,
+there is a horizontal section of A of µ-mass ≥ 2−n. This horizontal section is
+the desired G-anticlique of µ-mass ≥2−n.

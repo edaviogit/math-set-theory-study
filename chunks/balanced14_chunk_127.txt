@@ -1,0 +1,68 @@
+=== 块 127 ===
+
+invariably satisfied), the posets Q and
+P are naturally forcing equivalent. However, this point of view rarely brings
+K
+any new insight. In this chapter, we deal with simplicial complexes that are
+133
+
+134 CHAPTER 6. SIMPLICIAL COMPLEX FORCINGS
+in some way algebraically natural, and their algebraic structure leads to the
+classificationofthebalancedconditions. Wediscoveredanumberofpossibilities.
+Manyofthemarecategorizedbythepropertiesofthefollowingcentralconcepts
+associated with any simplicial complex whatsoever.
+Definition 6.1.2. Let K be a Borel simplicial complex on a Polish space X.
+Γ istheBorelgraphonKconsistingofallpairs(cid:104)a,b(cid:105)wherea,b∈K,a∪b∈/ K,
+K
+and a,b are inclusion minimal such: if a(cid:48) ⊆ a and b(cid:48) ⊆ b then a(cid:48) ∪b(cid:48) ∈/ K iff
+a(cid:48) =a and b(cid:48) =b.
+Inparticular, if(cid:104)a,b(cid:105)∈Γ thenanyotherdisjointpartitionoftheseta∪binto
+K
+nonempty pieces c∪d must have c,d∈K and (cid:104)c,d(cid:105)∈Γ .
+K
+Definition 6.1.3. Let K be a Borel simplicial complex on a Polish space X.
+1. A K-walk is a finite sequence (cid:104)a : i ∈ j(cid:105) of elements of K such that for
+i
+(cid:83)
+every k ∈j\{0} there is a set b⊂ a such that (cid:104)a ,b(cid:105)∈Γ ;
+i∈k i k K
+2. A K-walk (cid:104)a : i ∈ j(cid:105) is said to start at a point x ∈ X if a = {x } and
+i 0 0 0
+reach a point x ∈X if for some i∈j x ∈a ;
+1 1 i
+3. E isthesetofallpairs(cid:104)x ,x (cid:105)suchthatthereisaK-walkstartingfrom
+K 0 1
+x and reaching x and a K-walk starting from x and reaching x .
+0 1 1 0
+Proposition 6.1.4. Let K be a Borel simplicial complex on a Polish space X.
+E is an analytic equivalence relation. It is the smallest equivalence relation E
+K
+on X such that for every finite set a⊂X, a∈K if and only if for every E-class
+c, a∩c∈K.
+Proof. Write Γ = Γ and E = E . It is immediate that the relation E is an
+K K
+equivalence. The complexity assertion is also immediate from the definitions.
+For the optimality assertion, for an equivalence relation F on X write φ(F)
+for the statement that for every finite set a ⊂ X, a ∈ K if and only if for
+every F-class c, a∩c ∈ K. We first need to verify that φ(E) holds. Suppose
+towardsacontradictionthatitdoesnot,andleta⊂X beaninclusion-minimal
+counterexample. NotethatforeveryE-classcsuchthata∩c(cid:54)=0itmustbethe
+casethat(cid:104)a∩c,a\c(cid:105)∈Γ. Nowletx∈abeanypointandletcbetheE-classof
+x. Produce a K-walk from x which reaches all the finitely many points in c∩a.
+The walk can be extended by the set a\c, reaching an arbitrary element of a.
+This means that all points of a belong to the same E-class, a contradiction.
+Now suppose that F be an equivalence relation on X for which φ(F) holds;
+we must argue that E ⊆ F. Suppose towards a contradiction that this fails
+and let x ,x ∈X be E-related points which are not F-related. Let (cid:104)a : i∈j(cid:105)
+0 1 i
+be a K-walk starting from x and reaching x . Let k ∈ j be the smallest
+0 1
+(cid:83)
+number such that a (cid:54)⊂ [x ] . There must be a set b ⊂ a such that
+k 0 F i∈k i
+(cid:104)b,a (cid:105)∈Γ. Applying φ(F) to the union a ∪b, we see that it must be the case
+k k
+that (a ∪b)∩[x ] ∈/ K. Thus, considering the proper subset a(cid:48) =a ∩[x ] ,
+k 0 F k k 0 F
+we get b∪a(cid:48) ∈/ K, contradicting the assumption that (cid:104)b,a (cid:105)∈Γ.
+k k

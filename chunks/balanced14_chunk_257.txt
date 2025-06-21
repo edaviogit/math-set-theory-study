@@ -1,0 +1,66 @@
+=== 块 257 ===
+
+countable ordinal. Then the finite support of P
+1
+of length α is a very Suslin c.c.c. Suslin σ-liminf centered forcing.
+Proof. Theargumentisaroutinevariationoftheproofsofpreviouspreservation
+theorems.
+
+270 CHAPTER 11. LOCALLY COUNTABLE STRUCTURES
+Claim 11.3.21. LetP,Q beverySuslinc.c.c.forcings, bothofwhichareSuslin
+σ-liminf-centered. The P ∗Q˙ is Suslin σ-liminf-centered.
+(cid:83) (cid:83)
+Proof. Find covers Q = B and P = A by analytic liminf-centered
+m m n n
+sets. Let C ⊂ P ∗ Q˙ be the set of all conditions (cid:104)p,q˙(cid:105) such that there
+nm
+exists a condition (cid:104)p(cid:48),q˙(cid:48)(cid:105) ≤ (cid:104)p,q˙(cid:105) such that p(cid:48) ∈ A and p(cid:48) (cid:13) q˙(cid:48) ∈ B˙ . It is
+n m
+not difficult to check that P ∗Q˙ = (cid:83) C and the sets C are analytic
+nm nm nm
+by Proposition 11.2.9. To check the liminf-centered property, suppose that
+{(cid:104)p ,q˙ (cid:105): i ∈ ω} are conditions in C . Strengthening if necessary, we may
+i i nm
+assume that p ∈ A and p (cid:13) q˙ ∈ B˙ . Use the liminf-centeredness of A to
+i n i i m n
+find a condition p forcing that for infinitely many i ∈ ω, p is in the generic
+i
+filter. Usingtheliminf-centerednessofthesetB ,findanameq˙foracondition
+m
+in Q such that p (cid:13) q˙ (cid:13) for infinitely many i ∈ ω such that p belongs to the
+i
+generic filter on P, q˙ belongs to the generic filter on Q. The condition (cid:104)p,q˙(cid:105) is
+i
+as required.
+Claim 11.3.22. Let (cid:104)P : n ∈ ω,π ,ξ : m ≤ n ∈ ω(cid:105) be a very Suslin
+n nm mn
+system consisting of Suslin σ-liminf-centered forcings. Then the limit is Suslin
+σ-liminf-centered.
+Proof. Let P be the limit of the system as described in Definition 11.2.12.
+ω
+(cid:83)
+Let P = A : n ∈ ω be a cover by analytic liminf-centered sets for each
+n m nm
+n ∈ ω. For each n,m ∈ ω let B ⊂ P be the set {(cid:104)p,n(cid:105) ∈ P : p ∈ A }.
+nm ω ω nm
+It is immediate that these are analytic liminf-centered analytic sets exhausting
+P .
+ω
+The theorem follows by a routine transfinite induction argument.
+The following question probably has a negative answer; still, products of the
+very Suslin σ-liminf-centered posets used later in the chapter are again Suslin
+σ-liminf-centered.
+Question 11.3.23. Is the class of Suslin σ-liminf-centered posets closed under
+product?
+11.4 Locally countable simplicial complexes
+Inthissection,weconcentrateontasksofaveryspecificformcommontomany
+concerns of modern descriptive set theory. These tasks start with a countable
+BorelequivalencerelationE onaPolishspaceX andattempttoassignastruc-
+ture of some type to each E-class; at the same time, distinct E-classes do not
+communicate with each other in any way. Reviewing the tasks of this type, it
+becomes obvious that often there is a locally countable simplicial complex K
+on X such that the associated equivalence relation E (as identified in Defini-
+K
+tion 6.1.3) is E, and we seek a maximal K-set. Sometimes, the domain of the
+simplicial complex K is instead the collection of finite subsets of X consisting
+of pairwise E-related points, and sometimes we actually seek a maximal K-set

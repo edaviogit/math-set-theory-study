@@ -1,0 +1,65 @@
+=== 块 175 ===
+
+e
+x 1
+proposition follows in this case as well.
+Proposition 8.5.1 shows that we cannot hope to produce a set mapping with
+finite values with no free triple, as such a mapping yields an uncountable se-
+
+184 CHAPTER 8. OTHER FORCINGS
+quence of F -classes. However, other options for set mappings are achievable in
+2
+balanced extensions.
+Definition 8.5.2. Let X be an uncountable Polish space. The fat set mapping
+forcing is the poset P of all functions p such that for some countable set d(p)⊂
+X, p: [d(p)]2 → P(d(p)) is a set mapping without free triples. The ordering is
+defined by q ≤p if d(p)⊂d(q) and p⊂q.
+It is clear that P is a σ-closed Suslin forcing. The union of the P-generic set if
+a set mapping with countable values and no free triples.
+Theorem 8.5.3. Let P be the fat set mapping forcing.
+1. Iff: [X]2 →P(X)isanysetmappingwithoutfreetriples,then(cid:104)Coll(ω,X),fˇ(cid:105)
+is a balanced pair;
+2. if (cid:104)Q,τ(cid:105) is any balanced pair, there is a set mapping f: [X]2 → P(X)
+without free triples such that the balanced pairs (cid:104)Q,τ(cid:105) and (cid:104)Coll(ω,X),fˇ(cid:105)
+are equivalent;
+3. distinct set mappings on X without free triples yield inequivalent balanced
+pairs.
+In particular, the poset P is balanced.
+Proof. For(1),itisclearthatColl(ω,X)(cid:13)fˇ∈P isacondition. LetV[G ],V[G ]
+0 1
+be mutually generic extensions of V, and let p ∈ V[G ],p ∈ V[G ] be condi-
+0 0 1 1
+tions containing f as a subset. To find a lower bound of p ,p in V[G ,G ],
+0 1 0 1
+let p be the function defined by d(p) = d(p ) ∪ d(p ), p ∪ p ⊂ p, and if
+0 1 0 1
+{x ,x } ⊂ d(p) is a pair such that x ∈ d(p )\V and x ∈ d(p )\V then
+0 1 0 0 1 1
+p(x ,x ) = d(p)\{x ,x }. We must show that p is a common lower bound of
+0 1 0 1
+p ,p .
+0 1
+Firstofall,p ∪p isindeedafunction,sinceanypairaindom(p )∩dom(p )
+0 1 0 1
+is already in the ground model V by the product forcing theorem, and then
+p (a) = p (a) = f(a). Second, we must verify that p has no free triple. Let
+0 1
+b ⊂ d(p) be a triple. If b ⊂ d(p ) or b ⊂ d(p ) holds, then b is not free because
+0 1
+p ,p containnofreetriples. Otherwise,bcanbelistedas{x ,x ,x }suchthat
+0 1 0 1 2
+x ∈d(p )\V andx ∈d(p )\V; thenx ∈p(x ,x )bythedefinitionofpand
+0 0 1 1 2 0 1
+b is not free either.
+For (2), let (cid:104)Q,τ(cid:105) be a balanced pair. Strengthening Q and τ if necessary,
+we may assume that Q(cid:13)V ∩X ⊂d(τ) holds. By a balance argument, for any
+pointsx ,x ,y ∈X inthegroundmodel,Q(cid:13)yˇ∈τ(xˇ ,xˇ )orQ(cid:13)yˇ∈/ τ(xˇ ,xˇ )
+0 1 0 1 0 1
+holds. Let f: [X]2 → P(X) be the function defined by y ∈ f(x ,x ) if the
+0 1
+former alternative in the previous sentence prevails. It is clear that f contains
+no free triple since τ is forced to contain none. Thus, it will be enough to show
+that Q(cid:13)fˇ⊂τ.
+Suppose towards a contradiction that this fails. Then there must be a con-
+dition q ∈ Q and points x ,x ∈ X such that q (cid:13) τ(xˇ ,xˇ ) (cid:54)= fˇ(xˇ ,xˇ ).
+0 1 0 1 0 1

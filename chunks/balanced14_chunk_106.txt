@@ -1,0 +1,81 @@
+=== 块 106 ===
+
+onsider the projection of Q to
+R
+P by setting π(p,r)=p and ξ(p)=(cid:104)p,1 (cid:105). An important effect of the demand
+R
+(3) is that the π-image of the generic filter on Q is a generic filter on P.
+
+4.2. COHERENT SEQUENCES OF MODELS 107
+Definition 4.2.7. Let (cid:104)M : n∈ω(cid:105) be a coherent sequence of models of ZFC.
+n
+A coherent sequence of posets is a sequence (cid:104)P ,π ,ξ : n ≤ m ∈ ω(cid:105) such
+n nm mn
+that
+1. For all numbers n ≤ m the maps π : P → P and ξ : P → P
+nm n m mn m n
+form a projection of P to P ;
+n m
+2. the functions π form a commutative system, the same for ξ , and for
+nm mn
+all n∈ω the functions π ,ξ are the identity on P ;
+nn nn n
+3. for every number k ∈ ω, the sequence (cid:104)P ,π ,ξ : k ≤ n ≤ m ∈ ω(cid:105)
+n nm mn
+belongs to the model M .
+k
+In particular, every commutative sequence of projections is coherent over the
+constant coherent sequence (cid:104)M =V : n∈ω(cid:105). As the simplest initial example,
+n
+let (cid:104)R : n ∈ ω(cid:105) be a sequence of posets with respective largest elements 1 ,
+n n
+let P be the finite (or countable) support product of R for m ≥ n, and
+n m
+let π (p) = p (cid:22) [m,ω) and ξ (p) = (cid:104)1 : k ∈ [n,m)(cid:105)(cid:97)p. The sequence
+nm nm k
+(cid:104)P ,π ,ξ : n≤m∈ω(cid:105) is coherent over (cid:104)M =V : n∈ω(cid:105).
+n nm mn n
+Theorem 4.2.8. Let (cid:104)M : n ∈ ω(cid:105) be a coherent sequence of models of ZFC
+n
+and (cid:104)P ,π : P → P ,ξ : P → P : n ≤ m ∈ ω(cid:105) be a coherent sequence
+n nm n m mn m n
+of posets. Let G ⊂ P be a filter generic over M , and for each n ∈ ω let
+0 0
+G = ξ−1G. The sequence (cid:104)M [G ]: n ∈ ω(cid:105) is a coherent sequence of models
+n n0 n n
+of ZFC again.
+Proof. Observe that for every number k ∈ ω, in the model M [G ], one can
+k k
+form the sequence (cid:104)G : n≥k(cid:105) as (cid:104)ξ−1G : n≥k(cid:105) by the commutativity of the
+n nk k
+ξ-maps. Thus,ifλisalimitordinallargerthantherankofalltheposetsonthe
+coherent sequence, one can form the relation {(cid:104)n,x(cid:105): n ≥ k,x ∈ M [G ] has
+n n
+rank<λ}inthemodelM [G ]astheset{(cid:104)n,τ/G (cid:105): n≥kandτ ∈M isaP -
+k k n n n
+name of rank <λ} by the coherence of the original sequence (cid:104)M : n∈ω(cid:105).
+n
+The critical object for understanding a coherent sequence of models is the in-
+(cid:84)
+tersection model M = M . In Example 4.2.2, the intersection model is a
+ω n n
+model of ZFC, and it has been discussed in [49, Theorem 9.3.4]; we will come
+back to it below–Theorem 4.3.5. In the context of general coherent sequences,
+the intersection model is a transitive model of ZF, and the Axiom of Choice
+may fail in it. This is the content of the following theorem and example.
+Theorem 4.2.9. If (cid:104)M : n ∈ ω(cid:105) is a coherent sequence of generic extensions
+n
+(cid:84)
+of V, then M = M is a class in all models M , and it is a model of ZF.
+ω n n n
+Proof. We will only show that M is a class in M ; it then follows by the same
+ω 0
+argumentthatM isaclassineachM forn∈ω. ToshowthatM isamodel
+ω n ω
+ofZF, by [45, Theorem 13. 9], itis enoughtoshowthat M is closedunderthe
+ω
+G¨odeloperationsanditisuniversal: foreveryseta⊂M thereisasetb∈M
+ω ω
+such that a ⊂ b. The closure under the G¨odel operations follows from the fact
+thattheseoperationsareevaluatedinthesamewayineachmodelM . Forthe
+n

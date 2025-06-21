@@ -1,0 +1,87 @@
+=== 块 165 ===
+
+air, then there is a Γ-coloring c: X →ω such that
+the balanced pairs (cid:104)Q,τ(cid:105) and (cid:104)Coll(ω,X),cˇ(cid:105) are equivalent;
+3. distinct Γ-colorings yield inequivalent balanced pairs.
+
+174 CHAPTER 8. OTHER FORCINGS
+In particular, P is balanced.
+Proof. For (1), let c: X → ω be a Γ-coloring. Let V[G ],V[G ] be mutually
+0 1
+generic extensions in which the set X ∩V is countable and let p ∈ V[G ],
+0 0
+p ∈ V[G ] be conditions below c; we must produce a lower bound q ≤ p ,p
+1 1 0 1
+in the poset P in the model V[G ,G ]. Write d =dom(p and d =dom(p ).
+0 1 0 0 1 1
+For every point x∈X\(d ∪d ), write e (x)={y ∈d : ∃y ∈d x is a linear
+0 1 0 0 0 1 1
+combination ofy ,y } and e (x)={y ∈d : ∃y ∈d x isa linearcombination
+0 1 1 1 1 0 0
+of y ,y }. The following claim is key.
+0 1
+Claim 8.1.13. Let x∈X\(d ∪d ) be any point. If the set e (x) is nonempty,
+0 1 0
+(cid:83)
+thenthereisaV-cosetf distinctfromV suchthate = φ·f,andsimilarly
+0 φ∈Φ
+for e (x).
+1
+Proof. Fix the point x and write e (x) = e and e (x) = e . We argue for e ,
+0 0 1 1 0
+the case of e is symmetric. First note that if y ∈e then y cannot belong to
+1 0 0 0
+V, as in such a case x would be a linear combination of elements of d and so
+1
+an element of d , contradicting the initial choice of x.
+1
+It is clear that the set e is closed under scalar multiplication and addition
+0
+ofvectorsinV. Toshowthate isobtainedfromasingleV-coset,supposethat
+0
+y ,z ∈e are distinct points; we must show that there is a linear combination
+0 0 0
+of y ,z which yields a point in V. Then there must be points y ,z ∈ e and
+0 0 1 1 1
+field elements φ ,phi ,ψ ,ψ such that x = φ y +φ y and x = ψ z +ψ z .
+0 1 0 1 0 0 1 1 0 0 1 1
+It follows that φ y −ψ z = ψ z −φ y . The left-hand side of the equation
+0 0 0 0 1 1 1 1
+belongs to V[G ], the right hand side belongs to V[G ], and by the product
+0 1
+forcing theorem, their common value v must belong to V. But then v =φ y −
+0 0
+ψ z is the desired linear combination.
+0 0
+Now, let d be any countable subspace of X containing both d ,d as subsets.
+0 1
+Write a = d \ (d ∪ d ). Let I be the set {p(cid:48)(cid:48)e (x): x ∈ a} united with
+0 1 0 0
+{p(cid:48)(cid:48)e (x): x ∈ a}. By the claim and the definition of the ordering on P, I
+1 1
+is a countable set of sets in the ideal J. By the initial assumptions on the ideal
+J, there is a set b ∈ J which cannot be covered by finitely many elements of I
+and a finite set. The set a can be easily decomposed into infinitely many sets
+with the same property, and so there are pairwise disjoint sets b(x) ⊂ ω for
+x∈asuchthatnoneofthemcanbecoveredbyfinitelymanyelementsofI and
+(cid:83)
+a finite set, and such that b(x)∈J. Let q: d→ω be any function such that
+x
+p ,p ⊂q, and for every point x∈a we have q(x)∈b(x)\(p(cid:48)(cid:48)e (x)∪p(cid:48)(cid:48)e (x)).
+0 1 0 0 1 1
+We claim that q ≤p ,p is the desired lower bound.
+0 1
+To see that q ∈P, we must show that q is a Γ-coloring. Suppose towards a
+contradictionthat{x ,x ,x }⊂disamonochromatictripleofnonzerolinearly
+0 1 2
+dependent pairwise distinct points. The triple cannot be a subset of d(p ) or
+0
+d(p ) since p ,p are Γ-colorings. The triple cannot use more than one point
+1 0 1
+in a since q (cid:22) a is an injection. We are left with only one case, where (after
+re-indexingifnecessary)x ∈aandx ∈d ,x ∈d . Insuchacase,x ∈e (x)
+2 0 0 1 1 0 0
+andx ∈d (x)holdsandbytheinitialchoiceofthefunctionq,q(x )isdistinct
+1 1 2
+from both q(x ) and q(x ).
+0 1

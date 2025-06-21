@@ -1,0 +1,43 @@
+=== 块 126 ===
+
+ition of this section.
+Definition 5.3.7. ASuslinposetP isweakly balanced ifbeloweverycondition
+p∈P there is a weakly balanced virtual condition stronger than p.
+
+132 CHAPTER 5. BALANCED SUSLIN FORCING
+
+Chapter 6
+Simplicial complex forcings
+6.1 Basic concepts
+Many examples of σ-closed Suslin partially ordered sets in this book are pre-
+sented in the same way:
+Definition 6.1.1. Let X be a set.
+1. A set K of finite subsets of X is a simplicial complex if it is closed under
+subset;
+2. a set A ⊂ X is a K-set if [A]<ℵ0 ⊂ K. It is maximal if it is not a proper
+subset of another K-set;
+3. the poset P ⊂Xω consists of countable K-sets ordered by reverse inclu-
+K
+sion;
+4. A˙ is the P -name for the union of all sets in the generic filter.
+gen K
+Unless specifically stated otherwise, we will tacitly assume that every singleton
+belongstoK. WhenthesimplicialcontextKisunderstoodfromthecontext,we
+putP =P inthissection. TheposetP isobviouslyσ-closed. Byanelementary
+K
+density argument, the set A˙ is forced to be a maximal K-set. The poset P
+gen
+canbenaturallypresentedasaSuslinforcingbyreplacingthecountableK-sets
+withtheirenumerationsbynaturalnumbers,andreplacingthereverseinclusion
+orderingbyreverseinclusionofrangesoftheenumerations. Wewillneglectthis
+innocuous step in this section as it merely complicates the notation.
+Nearly every poset considered in this book can be presented as a poset of
+the form P for a Borel simplicial complex K on a Polish space X. Namely,
+K
+for a poset Q let K be the simplicial complex of the finite subsets of Q which
+have a common lower bound. Under suitable assumptions on definability and
+existence of lower bounds (which are invariably satisfied), the posets Q and
+P are naturally forcing equivalent. However, this point of view rarely brings
+K
+any new insight. In this chapter, we deal with simplicial complexes that are
+133

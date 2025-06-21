@@ -1,0 +1,76 @@
+=== 块 276 ===
+
+ondefinedbythegenericfilterontheα-thiterand.
+Let M be the R-name for the model obtained from the first α many iterands.
+α
+Consider the R-name σ for a function from E-classes to 2ω such that if c is an
+
+11.6. COLLAPSES 289
+E-classindom(p)thenσ(c)=p(c),andifcisanE-classnotinσ andα∈ω is
+1
+the first ordinal such that c is represented in M , then f(c)=y for the unique
+α
+y ∈2ω suchthatforallpointsx∈c∩V ,f (x)=y. Itisnotdifficulttoseethat
+α α
+R forces σ to be an injection of the set of E-classes to 2ω. By Theorem 6.6.3,
+σ represents a balanced condition in the collapse poset P, and it is not hard to
+see that this balanced condition is below p.
+Finally,wearereadyforthemainbodyoftheproof. Letκbeaninaccessible
+cardinal, let W be a Solovay model derived from κ, and work in W. Suppose
+that p ∈ P is a condition and τ is a P-name such that p (cid:13) τ: Y → ω is a
+F
+function. We must find a condition p¯≤ p, a number n ∈ ω, and a hyperedge
+e ∈ G such that for all y ∈ e, p¯(cid:13) τ(yˇ) = mˇ. The condition p ∈ P and the
+E
+name τ are definable from parameters in the ground model and a parameter
+z ∈2ω. Let V[K] be an intermediate extension obtained by a poset of size <κ
+which contains the parameter z and work in the model V[K].
+ConsidertheiterationS∗R˙ where S istheCohenposetonthespace Y and
+R˙ isthefinitesupportiterationofthecontrolposetoflengthω . Lety˙ bean
+1 gen
+S-nameforthegenericpointinthespaceY,andintheS-extensionletσ bethe
+R-name for the balanced condition in P below p as isolated in the preliminary
+E
+part of this proof. Note that the name σ does not depend on y˙ per se, but
+gen
+onlyonthemodelgeneratedbyy˙ . Byastandardbalanceargument, S∗R˙ (cid:13)
+gen
+Coll(ω,< κ) (cid:13) ∃m ∈ ω σ (cid:13) y˙ ∈ B . Thus, let (cid:104)s,r˙(cid:105) ∈ S∗R˙ be a condition
+gen m
+and m∈ω be a number such that (cid:104)s,r˙(cid:105)(cid:13)Coll(ω,<κ)(cid:13)σ (cid:13)y˙ ∈B˙ . Now,
+gen m
+strengthening s if necessary, we may assume that
+• there is a specific countable ordinal α∈ω such that s(cid:13)r˙ is a condition
+1
+in the iteration R up to α;
+α
+• sincetheposetR isverySuslinandSuslinmeasuredbyTheorem11.3.15,
+α
+wemayfindanalyticsetsA ⊂R andpositiverationalsε >0forn∈ω
+n α n
+witnessingtheSuslinmeasuredpropertyofR . Wemayassumethatthere
+α
+is a specific n such that s(cid:13)r˙ ∈A .
+n
+• there is a number k ∈ω such that 1/k <ε and s=t .
+n k
+Now, let y ∈ Y be a point generic over V[K] such that s ⊂ y and work in
+V[K][y]. Foreachi∈a lety ∈Y bethepointobtainedfromybyrewritingthe
+k i
+k-thentryofy withi. InthemodelV[K][y], foreachi∈a letr =r˙/y ∈R .
+k i i α
+Since r ∈A holds for all i∈a , there is a set b⊂a of size at least |a |/k+2
+i n k k k
+suchthattheconditions{r : i∈b}havenonzerocommonlowerbound. Bythe
+i
+initial assumption on the hypergraph H , the set b is not an H -anticlique; let
+k k
+c ⊂ b be an H -hyperedge. Thus, we have {y : i ∈ c} ∈ G. Let H ⊂ R be a
+k i
+filtergenericoverV[K][y]containingalltheconditionsr fori∈candp¯=σ/H
+i
+its associated balanced condition. By the forcing theorem, in the model W
+p¯(cid:13)∀i∈c τ(y )=mˇ. This completes the proof.
+i
+Among the many preservation consequences of the theorem, we state the most
+striking one.

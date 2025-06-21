@@ -1,0 +1,72 @@
+=== 块 242 ===
+
+roposition will be useful at several points of this book:
+Proposition 11.1.6. (ZF+DC) If the chromatic number of G is greater than
+0
+two then
+1. there is no linear ordering of the E -quotient space;
+0
+
+11.1. CENTRAL OBJECTS AND NOTIONS 255
+2. |E |(cid:54)≤|2ω|;
+0
+3. there is no discontinuous homomorphism between Polish groups.
+Proof. For the first item, consider the equivalence relation E on 2ω connecting
+pointsx,y ∈2ω iftheydifferinfinite, evennumberofentries. ThenE ⊂E ; as
+0
+asubsetofahyperfiniteequivalencerelation,itisitselfhyperfiniteandtherefore
+Borel reducible to E [48, Theorem 8.1.1]. Now, suppose that the E -quotient
+0 0
+space is linearly orderable; then so is the E-quotient space, and one can define
+the function c: 2ω → 2 by setting c(x) = 0 if among the two E-classes which
+constitute the E -class of x, x belongs to the smaller one in the fixed linear
+0
+ordering of the E-quotient space. It is not difficult to show that c is a G -
+0
+coloring with two colors.
+Theseconditemfollowsfromthefirst,sincetheinequality|E |≤|2ω|yields
+0
+a linear ordering on the E -space by simply pulling back the usual lexicograph-
+0
+ical order on 2ω to the E -quotient space via the assumed injection from the
+0
+E -quotient space to 2ω. The third item is much harder. [76] constructs, in
+0
+ZF+DC, a coloring of the Hamming graph H (a superset of the G -graph)
+2 0
+with two colors from the assumption that there is a discontinuous homomor-
+phism between Polish groups.
+It is not difficult to extend the G -dichotomy to arbitrary finitary analytic hy-
+0
+pergraphs. In this generality, one has to allow for uncountably many basis
+hypergraphs, which are nevertheless easy to describe:
+Definition 11.1.7. Suppose that (cid:104)a ,H ,t : n ∈ ω(cid:105) is a sequence such that
+n n n
+each a is a a finite set of cardinality at least two, H is the hypergraph on it
+n n
+(cid:81)
+containing a as its only hyperedge, and t ∈ a is a string such that
+n n m∈n m
+(cid:83) (cid:81) (cid:81)
+the set {t : n ∈ ω} is dense in a . Then the hypergraph H ,t
+n n m∈n m n n n
+(cid:81)
+on a is called a principal skew product.
+n n
+ThefollowingcanbeprovedinthesamewayastheG -dichotomy. Wesuppress
+0
+the standard proof.
+Fact 11.1.8. (ZF+DC) Let G be a finitary analytic hypergraph on a Polish
+space X. Exactly one of the following occurs:
+1. the Borel chromatic number of G is countable;
+2. there exists a principal skew product and a continuous homomorphism of
+it to the hypergraph G.
+In this chapter, we will also use more involved variations of the uncountable
+Borel chromatic number.
+Definition 11.1.9. LetGbeananalyticfinitaryhypergraphonaPolishspace
+X. ThehypergraphGhasBorel σ-bounded chromatic number ifthereareBorel
+(cid:83)
+sets B ⊂ X for n ∈ ω such that X = B and for every n ∈ ω, every finite
+n n n
+subset of B has G-chromatic number less than n+2.
+n

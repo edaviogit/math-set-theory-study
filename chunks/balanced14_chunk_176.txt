@@ -1,0 +1,72 @@
+=== 块 176 ===
+
+show
+that Q(cid:13)fˇ⊂τ.
+Suppose towards a contradiction that this fails. Then there must be a con-
+dition q ∈ Q and points x ,x ∈ X such that q (cid:13) τ(xˇ ,xˇ ) (cid:54)= fˇ(xˇ ,xˇ ).
+0 1 0 1 0 1
+
+8.5. SET MAPPINGS 185
+Let G ,G ⊂ Q be mutually generic filters containing the condition q and
+0 1
+let p = τ/G ,p = τ/G . By the initial choice of the function f, there
+0 0 1 1
+must be points y ,y ∈ X \V such that y ∈ p (x ,x ) and y ∈ p (x ,x ).
+0 1 0 0 0 1 1 1 0 1
+By the product forcing theorem, y ∈/ V[G ] and y ∈/ V[G ] holds. Thus,
+0 1 1 0
+p (x ,x )(cid:54)=p (x ,x )andp ,p areincompatible,contradictingthebalanceof
+0 0 1 1 0 1 0 1
+the pair (cid:104)Q,τ(cid:105).
+(3) is obvious. For the last sentence, suppose that p ∈ P is a condition.
+Consider the set mapping f: [X]2 → P(X) defined by f(x ,x ) = p(x ,x ) if
+0 1 0 1
+both x ,x ∈ X belong to d(p), and f(x ,x ) = X \{x ,x } otherwise. It is
+0 1 0 1 0 1
+not difficult to check that f is a set mapping without free triples. By item (1),
+f represents a balanced virtual condition below p.
+Definition 8.5.4. Let X be an uncountable Polish space. A thin set mapping
+forcing isaposetP ofallfunctionspsuchthatforsomecountablesetd(p)⊂X,
+p: [d(p)]3 →[d(p)]<ℵ0 is a set mapping without a free quadruple. The ordering
+is defined by q ≤p if d(p)⊂d(q) and p⊂q.
+Theorem 8.5.5. Let P be the thin set mapping forcing.
+1. If f: [X]3 → [X]<ℵ0 is any set mapping without free quadruples, then
+(cid:104)Coll(ω,X),fˇ(cid:105) is a balanced pair;
+2. if (cid:104)Q,τ(cid:105) is any balanced pair, there is a set mapping f: [X]3 → [X]<ℵ0
+withoutfreequadruplessuchthatthebalancedpairs(cid:104)Q,τ(cid:105)and(cid:104)Coll(ω,X),fˇ(cid:105)
+are equivalent;
+3. distinct set mappings on X without free quadruples yield inequivalent bal-
+anced pairs.
+In particular, the poset P is balanced if and only if 2ℵ0 ≤ℵ
+2
+.
+Proof. For (1), it is clear that Coll(ω,X) (cid:13) fˇ ∈ p holds. For the balance,
+suppose that V[G ],V[G ] are mutually generic extensions and p ∈ V[G ],
+0 1 0 0
+p ∈ V[G ] are conditions extending f. To construct the lower bound p of
+1 1
+p ,p , in the model V[G ,G ] choose an enumeration {z : n ∈ ω} of d(p )∪
+0 1 0 1 n 0
+d(p ). Let p be the function on [d(p )∪d(p )]3 defined by p ,p ⊂ p and if
+1 0 1 0 1
+x ,x ,x ∈ d(p )∪d(p ) are pairwise distinct points such that x ∈ d(p )\V
+0 1 2 0 1 0 0
+and x ∈d(p )\V, then p(x ,x ,x ) is the set of those points of d(p )∪d(p )
+1 1 0 1 2 0 1
+which are enumerated before one of the points x ,x ,x . We must show that p
+0 1 2
+is a lower bound of p ,p .
+0 1
+Firstofall,p ∪p isindeedafunction,sinceanypairaindom(p )∩dom(p )
+0 1 0 1
+is already in the ground model V by the product forcing theorem, and then
+p (a) = p (a) = f(a). Second, we must verify that p has no free quadruple.
+0 1
+Let b ⊂ d(p) be a quadruple. If b ⊂ d(p ) or b ⊂ d(p ) holds, then b is not
+0 1
+free because p ,p contain no free qudruples. Otherwise, b can be listed as
+0 1
+{x ,x ,x ,x } such that x ∈ d(p )\V, x ∈ d(p )\V and x is enumerated
+0 1 2 3 0 0 1 1 2
+after x ; then x ∈p(x ,x ,x ) by the definition of p and b is not free either.
+3 3 0 1 2

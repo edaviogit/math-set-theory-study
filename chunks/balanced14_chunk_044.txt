@@ -1,0 +1,69 @@
+=== 块 44 ===
+
+et of E-pinned names then (cid:104)Q ,τ (cid:105) is an E+-pinned name;
+S S
+2. (cid:104)Q ,τ (cid:105) E¯+ (cid:104)Q ,τ (cid:105) iff the sets S,T represent the same set of virtual
+S S T T
+E-classes;
+
+2.3. CLASSIFICATION: GENERAL THEOREMS 43
+3. whenever(cid:104)P,τ(cid:105)isanE+-pinnedname,thereisasetS ofE-pinnednames
+such that (cid:104)P,τ(cid:105)E¯+ (cid:104)Q ,τ (cid:105).
+S S
+Proof. Items (1) and (2) are immediate. To prove (3), suppose that τ is an
+E+-pinned name on a poset P. For every virtual E-class y, the statement
+φ(y) =“rng(τ) contains a realization of the class y” must be decided in the
+same way by every condition in P. Let S be any set of E-pinned names which
+collects representatives from all virtual E-classes y such that ∀p∈P p(cid:13)φ(yˇ).
+We claim that the set S works.
+Indeed, suppose that G ,G ⊂ P are mutually generic filters. The sets
+0 1
+[rng(τ/G )] and[rng(τ/G )] areequal,andbyProposition2.1.7theycontain
+0 E 1 E
+only realizations of ground model virtual E-classes. By the choice of the set S,
+thesesetscontainexactlyrealizationsofvirtualE-classesrepresentedbynames
+in S. Since the generic ultrafilter G was arbitrary, (cid:104)P,τ(cid:105) E¯+ (cid:104)Q ,τ (cid:105) as
+0 S S
+desired.
+Example 2.3.5. The relation F is the Friedman–Stanley jump of the identity
+2
+on X = 2ω. The identity is pinned by Fact 2.3.2 so its virtual classes can be
+identified with elements of X. The F -classes then correspond to subsets of 2ω.
+2
+Countableproductsofequivalencerelationstranslatetothevirtualrealmwith-
+out change.
+Definition 2.3.6. For each n ∈ ω, let E be an analytic equivalence relation
+n
+on a Polish space X . The product Π E is the equivalence relation E on
+n n n
+(cid:81)
+Y = X defined by y E y if for every n∈ω, y (n)E y (n).
+n n 0 1 0 n 1
+For every function g such that dom(g) = ω and for all n ∈ ω g(n) is some
+(cid:81)
+E -pinned name (cid:104)Q ,τ (cid:105), let τ be the name on the poset Q = Q (the
+n n n g g n n
+support applied in the product is irrelevant for the equivalence class of the
+resulting Π E -pin) for the sequence (cid:104)τ : n ∈ ω(cid:105), which is forced to be an
+n n n
+element of Y. The following is nearly immediate.
+Theorem 2.3.7. For each n ∈ ω, let E be analytic equivalence relations on
+n
+(cid:81)
+respective Polish spaces X and let E = E .
+n n n
+(cid:81)
+1. If g is a sequence of E -pinned names, then (cid:104)Q ,τ (cid:105) is an E -pin;
+n g g n n
+2. (cid:104)Q ,τ (cid:105)E¯ (cid:104)Q ,τ (cid:105) iff for each n∈ω, g(n)E¯ h(n);
+g g h h n
+3. whenever (cid:104)P,τ(cid:105) is an E-pinned name, there is a function g such that
+(cid:104)P,τ(cid:105)E¯ (cid:104)Q ,τ (cid:105).
+g g
+Countable increasing unions of equivalence relations translate to the virtual
+realm without change as well.
+Theorem 2.3.8. Let {E : n∈ω} be an increasing sequence of analytic equiv-
+n
+(cid:83)
+alence relations on a Polish space X, and let E = E .
+n n

@@ -1,0 +1,52 @@
+=== 块 81 ===
+
+ed cardinal κ(E) obtained in Section 2.5: κ(E) < ∞
+by Theorem 2.5.6(1), κ(E ) = ∞ by Example 2.4.6, and the pinned cardinal
+ω1
+is monotone with respect to the reducibility ordering ≤ –Theorem 2.5.4.
+a
+
+Chapter 3
+Turbulence
+Inthischapter,weinvestigatepairsofgenericextensionsV[H ]andV[H ]such
+0 1
+that V[H ]∩V[H ]=V. In a particularly successful application, this allows us
+0 1
+to restate Hjorth’s concept of turbulence in geometric terms and produce many
+generalizations of the associated ergodicity theorem [52, Theorem 12.5].
+3.1 Independent functions
+The purpose of this section is to find a practical way of producing many exten-
+sions which satisfy the condition V[H ]∩V[H ] = V without being mutually
+0 1
+generic. We need a folkloric observation. Recall that for a Polish space X, the
+poset P consists of nonempty open subsets of X ordered by inclusion; x˙ is
+X gen
+its name for the unique element of X belonging to all open sets in the generic
+filter.
+Proposition 3.1.1. Let X,Y be Polish spaces and f: X →Y be a continuous
+open function. Then P forces f(x˙ ) to be a P -generic element of Y.
+X gen Y
+Proof. It is just necessary to show that for every open dense set D ⊂Y, P (cid:13)
+X
+f(x˙ )∈D holds. Tothisend,letO ∈P beacondition. Thesetf(cid:48)(cid:48)O ⊂Y is
+gen X
+open; therefore, it has nonempty intersection with D. Consider the nonempty
+open set O(cid:48) = (f−1(f(cid:48)(cid:48)O∩D))∩O ⊂ O. For every point x ∈ O(cid:48), f(x) ∈ D
+holds, so O(cid:48) (cid:13)f(x˙ )∈D as required.
+gen
+Now suppose that X,Y ,Y are Polish spaces and f : X →Y and f : X →Y
+0 1 0 0 1 1
+are continuous open maps. We want to find a criterion implying that P (cid:13)
+X
+V[f (x˙ )]∩V[f (x˙ )]=V. The following turbulence–like definition is cen-
+0 gen 1 gen
+tral.
+Definition 3.1.2. LetX,Y ,Y bePolishspacesandf : X →Y andf : X →
+0 1 0 0 1
+Y be continuous open maps. Let k ∈ ω be a number. A walk (of points) of
+1
+length k is a sequence (cid:104)x : i≤k(cid:105) of points in X such that for each i∈k, either
+i
+f (x )=f (x ) or f (x )=f (x ) holds.
+0 i 0 i+1 1 i 1 i+1
+81

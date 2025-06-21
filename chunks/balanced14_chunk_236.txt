@@ -1,0 +1,79 @@
+=== 块 236 ===
+
+.2,p ≤p¯andp ≤p¯,and
+0 1
+so p ,p must be compatible by the balance of p¯. This contradicts the initial
+0 1
+choice of p ,p .
+0 1
+The following two examples deal with quotient simplicial complex posets.
+
+248 CHAPTER 10. UNIFORMIZATION
+Example 10.5.6. Let E ⊂F be Borel equivalence relations on a Polish space
+X such that every F-class consists of countably many E-classes. The E,F-
+transversal poset P of Definition 6.6.5 is tethered.
+Proof. We will show that P is λ-tethered where λ=(cid:105) . Let V[H ],V[H ] be
+ω1 0 1
+mutually generic extensions of the ground model V, and let p ∈ V[H ] and
+0 0
+p ∈ V[H ] be incompatible conditions in P. There must be elements x ∈ p
+1 1 0 0
+andx ∈p whichareF-relatedbutnotE-related. InviewofProposition2.1.7,
+1 1
+the points x ,x must both be realizations of a virtual F-class in V and by
+0 1
+Claim6.6.13therearevirtualE-classesd (cid:54)=d inV suchthatx isarealization
+0 1 0
+of d and x is a realization of d .
+0 1 1
+In V, let p(cid:48) ={q ∈P: q contains some realization of the virtual E-class d }
+0 0
+and p(cid:48) ={q ∈P: q contains some realization of the virtual E-class d }. These
+1 1
+arevirtualconditionsontheposetswhichcarrythevirtualE-classesd ,d ,and
+0 1
+these are of size < λ by Theorem 2.5.6. In addition, p(cid:48),p(cid:48) are incompatible,
+0 1
+and p ≤p(cid:48) and p ≤p(cid:48) as required.
+0 0 1 1
+The following example covers all posets which associate a structure to each G-
+class where G is a countable Borel equivalence relation on a Polish space, as in
+Example 6.6.10.
+Example 10.5.7. LetX beaPolishspaceandletE ⊂F beBorelequivalence
+relations on X such that F is pinned and for each F-equivalence class C ⊂X,
+E (cid:22) C is smooth. Then the E,F-transversal poset P of Definition 6.6.5 is
+ℵ -tethered.
+0
+Proof. LetV[H ],V[H ]bemutuallygenericextensionsofthegroundmodelV,
+0 1
+andletp ∈V[H ]andp ∈V[H ]beincompatibleconditionsinP. Theremust
+0 0 1 1
+be elements x ∈ p and x ∈ p which are F-related but not E-related. Since
+0 0 1 1
+the equivalence relation F is pinned, there must be a point x ∈ X ∩V which
+is F-related to both x ,x . By the initial assumptions on E,F, in the ground
+0 1
+model there also must be a Borel map h: [x] →2ω reducing E to the identity.
+F
+Since h(x )(cid:54)=h(x ), there must be distinct binary strings s ,s ∈2n for some
+0 1 0 1
+n∈ω such that s ⊂h(x ) and s ⊂h(x ). Let A ={q ∈P: p∩h−1[s ](cid:54)=0}
+0 0 1 1 0 0
+and A ={q ∈P: p∩h−1[s ](cid:54)=0}. It is clear that A ,A are analytic subsets
+1 1 0 1
+of P coded in the ground model, ΣA is incompatible with ΣA in P, and
+0 1
+p ≤ΣA and p ≤ΣA as required.
+0 0 1 1
+Example 10.5.8. Let F be a Fraiss´e class in a finite relational language with
+strong amalgamation. Let E be a Borel equivalence relation on a Polish space
+X. Then the E,F-Fraiss´e poset P of Definition 8.6.3 is tethered. In addition,
+if E is pinned, then P is ℵ -tethered.
+0
+Proof. Start with the general case. Let λ = (cid:105) . We will show that the poset
+ω1
+P is λ-tethered. For brevity, assume that F has just one relational symbol of
+its language of some finite arity n ∈ ω. Thus, a condition p ∈ P is just a
+single n-ary relation on a countable set dom(p) which respects the equivalence
+E,andsuchthatitsE-quotientisaF-structure. LetV[H ],V[H ]bemutually
+0 1

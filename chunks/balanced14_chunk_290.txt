@@ -1,0 +1,61 @@
+=== 块 290 ===
+
+isinfinite. Inotherwords,theset
+(cid:84)
+g(y)hasallverticalsectionsbeyondminfinite,andsoisalowerboundfor
+y∈a
+g(cid:48)(cid:48)a. For the second assertion, suppose that p ∈ P is a condition, and assume
+
+12.2. BERNSTEIN BALANCED FORCING 305
+towards a contradiction that the set {y ∈ 2ω: p ≤ g(y)} is uncountable. By a
+countingargument,theremustbeanumbern∈ωsuchthattheset{y ∈2ω: p
+n
+isinfiniteandmodulofiniteasubsetofg(y) }isuncountable. Findtwodistinct
+n
+elements y ,y of the latter set such that y (cid:22) n = y (cid:22) n; denote the common
+0 1 0 1
+value by t. Then, the intersection f (y )∩f (y ) should be finite by the choice
+t 0 t 1
+of the function f , and at the same time it should modulo finite contain the
+t
+infinite set p . This is a contradiction.
+n
+NowitistimetoshowthatP isperfectlybalanced. Letp∈P beacondition.
+Let a ⊂ ω be an infinite set such that for each n ∈ a, the vertical section a
+n
+is infinite. Let U be a nonprincipal ultrafilter on ω containing a, and for each
+n∈ω let U be a nonprincipal ultrafilter on ω such that if n∈a then a ∈U .
+n n n
+Let p¯be the virtual condition on a collapse poset, standing for the analytic set
+A of all sets b⊂a such that the set c={n∈ω: b is infinite} diagonalizes U,
+n
+andforeachn∈c, thesetb diagonalizesU . Theconditionp¯≤pisbalanced;
+n n
+we will show that it is perfectly balanced.
+Let Q be a poset and let σ be a Q-name for a condition in the set A. Let
+V[G] be a generic extension such that P(Q)∩V is countable in V[G] and H is
+a perfect set of filters on Q in finite tuples mutually generic over V. We must
+find a condition r ∈P in the model V[G] such that the set {H ∈H: r ≤σ/H}
+is uncountable. ???
+12.2 Bernstein balanced forcing
+Thereisaclassofposetswhichisinaprecisesensedualtotheclassofperfectly
+balanced forcings.
+Definition 12.2.1. LetP beaSuslinposet. Avirtualconditionp¯isBernstein
+balanced if in every generic extension V[G], for every condition p ≤ p¯, every
+infiniteposetQ∈V suchthatP(Q)∩V iscountableinV[G],andeveryperfect
+family H ⊂ P(Q) such that each finite set a ⊂ H is a collection of filters
+mutually generic over V, there is a filter H ∈ H such that every condition in
+P ∩V[H] below p¯is compatible with p. The poset P is Bernstein balanced if
+there is a Bernstein balanced virtual condition below every condition in P.
+Asthesimplestinitialexample,considertheposetofcountablepartialfunctions
+from2ω to2orderedbyreverseinclusion. Thebalancedconditionsareclassified
+bytotalfunctionsfrom2ω to2. Eachsuchvirtualconditionp¯isinfactBernstein
+balanced. To see this, note that any condition p≤p¯in any extension V[G] has
+countable domain. On the other hand, if H ∈ V[G] is a perfect set of filters
+mutually generic over V, then by the product forcing theorem, for each point
+x ∈ dom(p)\V there is at most one filter H ∈ H such that x ∈ V[H]. By a
+countingargumentthen,thereisafilterH ∈Hsuchthatdom(p)∩V[H]\V =0
+and then p is compatible with every condition in V[H] which is stronger than
+p¯.
+BernsteinbalancedextensionsoftheSolovaymodelshareanumberofregu-
+larity properties. The main technical tool used in all the theorems below is the

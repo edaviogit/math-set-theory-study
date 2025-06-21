@@ -1,0 +1,52 @@
+=== 块 170 ===
+
+) and (cid:104)Coll(ω,X ×Y),hˇ(cid:105) are equivalent.
+Finally, (3) is obvious. For the last sentence, note that every condition
+p∈P canbeextendedtoahomomorphismfromΓto∆bytheworkofthefirst
+paragraph.
+
+8.3. AUTOMORPHISMS OF P(ω) MODULO FINITE 179
+Example 8.2.3. Suppose that Γ,∆ are abelian Polish groups, with Γ tor-
+sion free and uncountable and ∆ divisible–the case Γ = R and ∆ = R/Z is
+of particular interest. Then the poset P = P(Γ,∆) forces the generic homo-
+morphism to be discontinuous. To see this, let p ∈ P be a condition. Let
+(cid:104)γ : i ≤ ω(cid:105) be a sequence of elements of Γ which are linearly independent
+i
+over dom(p) and such that limγ = γ . Pick distinct elements δ,δ and let
+i ω ω
+q =p∪{(cid:104)γ ,δ(cid:105): i∈ω,(cid:104)γ ,δ (cid:105)}. It is immediate that q is a K(Γ,∆)-set, and it
+i ω ω
+forces γ to be a point of discontinuity of the generic homomorphism.
+ω
+8.3 Automorphisms of P(ω) modulo finite
+Automorphisms of the Boolean algebra P(ω) modulo finite have been investi-
+gated for decades. The simply definable ones are trivial [98] and the Proper
+Forcing Axiom implies that downright all automorphisms of the algebra are
+trivial [83]. It turns out that there is a natural balanced poset for adding a
+nontrivial automorphism of the Boolean algebra B =P(ω) modulo finite.
+Definition 8.3.1. The automorphism poset P consists of pairs p = (cid:104)B ,π (cid:105)
+p p
+where B ⊂ B is a countable subalgebra and π is its automorphism. The
+p p
+ordering is that of coordinatewise reverse inclusion.
+The automorphism poset is clearly σ-closed and Suslin. By a simple density
+argument, it adds a nontrivial automorphism of the algebra B. This is an
+immediate consequence of the following observation.
+Fact 8.3.2. [9, Theorem 2.3] Let C ⊂B be a countable algebra and π: C →C
+be an automorphism. Let χ: B → B be an automorphism. Then there is an
+automorphism η: B →B extending π and not equal to χ.
+The balanced virtual conditions in the poset P are naturally classified by au-
+tomorphisms of the algebra B. Let π: B → B be such an automorphism, and
+considertheColl(ω,B)-nameτ forthe(setofallconditionsstrongerthanthe)
+π
+condition (cid:104)BV,πˇ(cid:105) ∈ P. The following theorem provides the key classification
+information.
+Theorem 8.3.3. Let P be the automorphism poset.
+1. For every automorphism π of B, the pair (cid:104)Coll(ω,B),τ (cid:105) is balanced in
+π
+P;
+2. for every balanced pair (cid:104)Q,τ(cid:105) there is an automorphism π of B such that
+the balanced pairs (cid:104)Q,τ(cid:105) and (cid:104)Coll(ω,B),τ (cid:105) are equivalent;
+π
+3. distinct automorphisms yield inequivalent balanced conditions.
+In particular, the poset P is balanced.

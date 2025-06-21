@@ -1,0 +1,60 @@
+=== 块 202 ===
+
+sm in any larger forcing
+0
+extension V[H ] by the divisibility of ∆ and Baer’s criterion [3]. Note that the
+1
+group ∆ remains abelian and divisible in all generic extensions by Mostowski
+absoluteness.
+
+9.2. THE SMOOTH DIVIDE 211
+Corollary 9.2.21. Let Γ,∆ be Polish abelian groups, with Γ uncountable and
+torsion free, and ∆ divisible and compact.
+1. In the P(Γ,∆) extension of the symmetric Solovay model, |E |>|2ω|;
+0
+2. ItisconsistentrelativetoaninaccessiblecardinalthatZF+DCholds,there
+is a discontinuous homomorphism from Γ to ∆, and yet |E |>|2ω|.
+0
+Proof. RecalfromExample8.2.3thatthegenerichomomorphismaddedbythe
+poset P(Γ,∆) is discontinuous. Other than that, the corollary follows from
+Theorem 9.2.2.
+The assumption that ∆ be compact cannot be dropped entirely from the state-
+ment of the corollary by the following ZF observation:
+Proposition 9.2.22. (ZF+DC) Let Y be a separable Banach space. If there is
+a discontinuous homomorphism h: Y → Y then there is an E -transversal, in
+0
+particular |E |≤|2ω|.
+0
+Proof. The discontinuity of the homomorphism and the DC assumption yield
+a sequence (cid:104)y : n ∈ ω(cid:105) of elements of Y such that |y | > Σ |y | and
+n n m>n m
+|h(y ) > 2|h(y )|. Now, for every x ∈ 2ω let g(x) = Σ{y : x(n) = 1} ∈ Y.
+n+1 n n
+Let d ⊂ 2ω be any E -class. The homomorphism assumptions on h show that
+0
+thefunctiong (cid:22)disinjectiveandalso,thenormsofthepointsinh◦g(d)diverge
+toinfinity. Thus,dcontainsafinitesubsetofpointswhoseh◦g-imageshavethe
+smallestpossiblenorm, andonecanletx ∈dbethelexicographicallysmallest
+d
+point in d the norm of whose h◦g-image is as small as possible. The set {x : d
+d
+is an E -class} is an E -transversal.
+0 0
+Example9.2.23. TheKurepaposetP onaPolishspaceX ofDefinition8.4.2is
+compactlybalanced. Toseethis,equip2X,identifiedwithP(X),withtheusual
+product topology, refer to Theorem 8.4.3 to argue that the balanced conditions
+are classified by subsets of P(X) closed under intersections and containing X,
+and observe, that sets of this type form a closed and therefore compact subset
+of P(X). The properties (1-3) of Definition 9.2.1 are easily verified for this
+topology.
+Corollary 9.2.24. Let X be a Polish space.
+1. IntheKurepaposetextensionofthesymmetricSolovaymodel,|E |>|2ω|;
+0
+2. ItisconsistentrelativetoaninaccessiblecardinalthatZF+DCholds,there
+is a Kurepa family on X, and yet |E |>|2ω|.
+0
+As a final remark in this section, the consistency results obtained here can be
+combinedusingthecountablesupportproduct. Thebalancedvirtualconditions
+in a countable product of posets are simply sequences of balanced virtual con-
+ditions in each coordinate (Theorem 5.2.9). A product of Hausdorff compact
+spacesisHasudorffcompactagain;thus,aproductofcountablymanycompactly

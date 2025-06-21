@@ -1,0 +1,67 @@
+=== 块 186 ===
+
+ch the first
+option prevails; we will show that Q×S (cid:13) σ ≤ τ , showing that the balanced
+a
+pairs(cid:104)Q,σ(cid:105)and(cid:104)Coll(ω,2ω),τ (cid:105)areequivalentbyProposition5.2.4. Toseethe
+a
+
+8.9. WEAKLY BALANCED VARIATIONS 195
+inequality,itisonlynecessarytoshowthatthesecondclauseoftheseconditem
+above is impossible for any closed nowhere dense set s ⊂ (2ω)n in the ground
+model. Suppose towards a contradiction that the second clause occurs. This
+can only happen if there is a Q-name h˙ such that Q forces h˙: n → 2ω to be a
+partialmapsuchthatrng(h)consistsofpairwisenon-E -equivalent,non-ground
+0
+model elements of a such that either (if dom(h)=n) h∈s or (if dom(h)(cid:54)=n)
+σ
+the set s contains a nonempty open set. In either case, let G ,G ⊂ Q be
+h 0 1
+mutuallygenericfilters,andusethethirditemtofindaseta∈V[G ]suchthat
+0
+(cid:104)a,s(cid:105) ∈ b . Then by mutual genericity the set rng(h˙/G ) consists of points
+σ/G0 1
+whicharenotina. Thismeansthattheconditionsσ/G ,σ/G areincompatible
+0 1
+in P, contradicting the balance assumption on the pair (cid:104)Q,σ(cid:105).
+(3) is immediate. For the last sentence, if p ∈ P is a condition, it is not
+difficult to see that S forces pˇto be compatible with τ . The name for a lower
+ap
+bound is a balanced virtual condition below p.
+8.9 Weakly balanced variations
+There are a number of restrictions on the balanced extensions of the Solovay
+model–Corollaries 9.1.2, 9.1.5 or Theorems 14.1.1 or 14.2.1 are good examples.
+Transcending these restrictions requires reaching for a weakly balanced forcing.
+The weakly balanced arguments are invariably more complicated than the bal-
+anced ones, and we never obtain a classification of weakly balanced classes. We
+include two examples reminiscent of the side condition forcings of Section 8.8.
+The first poset adds an injection from the E-quotient space to the E -quotient
+0
+space, where E is any give Borel equivalence relation on a Polish space. For
+a pinned equivalence relation E this is possible to do with a balanced forcing,
+see Theorem 6.6.3; in the general case, this is impossible to do with balanced
+forcing by Theorem 9.1.1.
+Definition 8.9.1. Let E be a Borel equivalence relation on a Polish space X.
+The Lusin collapse forcing P is the poset of all triples p = (cid:104)a ,b ,f (cid:105) where
+E p p p
+(cid:104)a ,b (cid:105) is a condition in the Lusin forcing of Definition 8.8.5, and f is an
+p p p
+injection from the E-space to the set of E -classes represented in a . The order
+0 p
+is that of coordinatewise reverse inclusion.
+It is not difficult to see that P is a σ-closed Suslin partial order and if G⊂P is
+(cid:83)
+a generic filter then f = f is a total injection from the E-quotient space
+p∈G p
+totheE -quotientspace. ItisinstructivetoviewtheposetP asanaturaltwo-
+0 E
+step iteration. The first step is the (balanced) Lusin poset of Definition 8.8.5
+adding a subset A of the E -quotient space. In the second step, an injection of
+0
+the E-quotient space into A is added by straightforward countable approxima-
+tions. The projection from P into the Lusin poset is given by the projection
+E
+of conditions in p into the first two coordinates.
+Theorem 8.9.2. Let E be a Borel equivalence relation on a Polish space X.
+The Lusin collapse forcing of |E| to |E | is weakly balanced.
+0

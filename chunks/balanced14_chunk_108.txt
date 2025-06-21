@@ -1,0 +1,76 @@
+=== 块 108 ===
+
+patible with q. Find a condition
+α
+r ∈ P such that r ≤ q (cid:22) ω ×(ω\n) and r decides the value of τ(d˙ ) to be
+n 1 αn
+some specific bit b ∈ 2. Note that p and r are compatible in P, and the pair
+α
+
+4.3. CHOICE-COHERENT SEQUENCES OF MODELS 109
+(cid:104)α,n−1(cid:105)doesnotbelongtodom(p ∪r). Thus, itispossibletostrengthenthe
+α
+condition p ∪r to some s∈P such that {α}×n⊂dom(s), and cardinality of
+α
+the set {m ∈ n: s(α,m) = 1} is even if and only if b (cid:54)= b. This completes the
+α
+proof.
+4.3 Choice-coherent sequences of models
+Inmostofourexamples,wewillwanttolookatsequencesofmodelswhichhave
+a greater degree of coherence. Certain constructions arising from the axiom of
+choice will have to be performed in a coherent way. The following definition
+records the demands:
+Definition 4.3.1. Let (cid:104)M : n ∈ ω(cid:105) be an inclusion decreasing sequence of
+n
+transitive models of ZFC. We say that the sequence is choice-coherent if it is
+coherent and for every ordinal λ there is a well-ordering ≤ of V ∩M such
+λ λ 0
+that its intersection with each model M belongs to M .
+n n
+In the common case of generic coherent sequences, the choice-coherence can be
+detected from the theory of the intersection model as follows:
+Theorem 4.3.2. Suppsoe that (cid:104)M : n ∈ ω(cid:105) is a generic coherent sequence of
+n
+generic extensions of V. The following are equivalent:
+1. (cid:104)M : n∈ω(cid:105) is choice-coherent;
+n
+(cid:84)
+2. M = M is a model of ZFC.
+ω n n
+Proof. For the (1)→(2) direction, assume the choice coherence. Let λ be any
+ordinal. In view of Theorem 4.2.9, we only need to produce a well-ordering
+≤∗ of V ∩M such that ≤∈ M . Fix a wellordering ≤ witnessing the fact
+λ ω ω
+that (cid:104)M : n ∈ ω(cid:105) is a choice-coherent decreasing sequence, and note that
+n
+≤∗=≤ ∩M works as desired. The genericity assumption is not needed for
+ω
+this direction.
+Forthe(2)→(1)direction,thatM isamodelofZFC.Letλbeanyordinal.
+ω
+Letκ>λbeacardinalsuchthateachmodelM isagenericextensionofV by
+n
+a poset of cardinality smaller than λ. Let ≺ be a well-ordering of V in V. By
+κ
+recursion on n∈ω build a sequence (cid:104)P ,G ,τ : n∈ω(cid:105) such that P is ≺-least
+n n n n
+poset in V ∩V such that M is P -generic extension of V, G ⊂P is a filter
+κ n n n n
+generic over V such that M = V[G ], τ is the ≺-least P -name in V such
+n n n n
+that τ /G ⊂P is a filter generic over V such that M =V[τ /G ], and
+n n n+1 n+1 n n
+G =τ /G . It is not difficult to see that the tail (cid:104)P ,G ,τ : n≥m(cid:105) of the
+n+1 n n n n n
+sequence can be recovered from G , and therefore the sequence is coherent.
+m
+Now,let≤ bethefollowingwell-orderingofV ∩M : firstcometheelements
+λ λ 0
+of V ∩ M , then the elements of V ∩ M \ M , and then the elements of
+λ ω λ 0 1
+V ∩M \M in turn. The elements of V ∩M are ordered by some well-
+λ n n+1 λ ω
+ordering in M which is available as M is a model of ZFC. The elements of
+ω ω
+M \M are ordered by σ /G where σ is the ≺-least name in V ∩V such
+n n+1 n n n κ

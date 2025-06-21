@@ -1,0 +1,58 @@
+=== 块 33 ===
+
+c equivalence relations on respective
+Polish spaces X and Y.
+1. E is Borel reducible to F, in symbols E ≤ F, if there is a Borel function
+h: X →Y such that ∀x ,x ∈X x E x iff h(x )F h(x ).
+0 1 0 1 0 1
+
+1.7. NOTATION AND TERMINOLOGY 29
+2. E is almost Borel reducible to F, in symbols E ≤ F, if there exists a
+a
+Borel function h: X →Y and a set Z ⊂X consisting of countably many
+E-classes such that ∀x ,x ∈X\Z x E x iff h(x )F h(x ).
+0 1 0 1 0 1
+The most permissive comparison of equivalence relations is the one which com-
+pares just the cardinalities of the quotient spaces. The following abuse of nota-
+tion is used throughout:
+Definition 1.7.3. If E is an equivalence relation on a Polish space X then the
+E-quotient space is the set of all E-equivalence classes. Moreover, |E| denotes
+the cardinality of the E-quotient space.
+TheSilverdichotomyshowsthatforaBorelequivalencerelationE,|E|iseither
+countableor|2ω|≤|E|. Inthecontextoftheaxiomofchoice,thelatterdisjunct
+impliesthat|E|=|2ω|sincethequotientspaceX/E isasurjectiveimageof2ω.
+In choiceless context though, the dichotomies satisfying the latter disjunct may
+representmanydifferentcardinalities, andthisisthesubjectofstudyofseveral
+sections in this book. It is clear that E ≤ F implies that |E| ≤ |F|, and in
+the context of the axiom of dependent choices, E ≤ F and |F| is uncountable
+a
+implies that |E|≤|F|.
+Analytic hypergraphs. A hypergraph on a set X is an arbitrary subset Γ⊂
+P(X) consisting of nonempty sets. As a matter of convention, our hypergraphs
+do not contain any singleton sets. The elements of Γ will be called hyperedges
+whiletheelementsofX willbecalledvertices. Ahypergraphisfinitary ifallof
+its hyperedges are finite sets. It is a graph if all its hyperedges have cardinality
+two. AΓ-anticlique isasetA⊂X suchthatΓ∩P(A)=0. AΓ-coloring isany
+function with domain X which is not constant on any hyperedge; the elements
+of the range of a coloring are referred to as colors. The chromatic number χ(Γ)
+of the hypergraph Γ is the smallest cardinal number κ such that there is a Γ-
+coloring with at most κ-many colors. This definition makes sense only in the
+contextoftheAxiomofChoiceinwhichcardinalitiesarewell-ordered;therefore,
+χ(Γ) must exist. In a choiceless context, only a limited version is available: we
+discern between countable and uncountable chromatic number, and the various
+values of the countable chromatic numbers.
+We will be interested in analytic finitary hypergraphs. Say that Γ⊂[X]<ℵ0
+is an analytic hypergraph if X is Polish and the set {y ∈ Xω: rng(y) ∈ Γ} is
+analytic. TheBorelchromaticnumber ofΓiscountableifX canbedecomposed
+(cid:83)
+into countably many Borel sets X = X none of which contains all vertices
+n n
+of a Γ-edge.
+Forcing. A great part of this book is devoted to forcing. The words forcing,
+poset, or partially ordered set are treated as synonyms. A condition is any
+element of a partially ordered set. We use the Boolean notation: q ≤ p means
+that the condition q is stronger, more informative than p. Now, let P be a
+partially ordered set. For a set A⊂P and a condition p∈P, we write p≤ΣA
+ifforeveryconditionq ≤pthereisaconditionr ≤qwhichisstrongerthansome
+element of A. The formula P (cid:13) φ denotes the statement that every condition
+p ∈ P, p (cid:13) φ. Whenever P is a partial ordering, τ is a P-name, and G ⊂ P is

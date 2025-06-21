@@ -1,0 +1,62 @@
+=== 块 164 ===
+
+als, one
+possible choice is the summable ideal.
+Definition 8.1.9. Let X be a Borel abelian group. Let Φ be a countable field
+whose multiplicative group acts on X in a Borel way, making X into a vector
+
+8.1. CHROMATIC NUMBERS 173
+space. The 3-Hamel hypergraph is the set Γ ⊂ [X]3 consisting of triples of
+linearly dependent nonzero elements of X. A Γ-coloring c: X →ω is called an
+3-Hamel decomposition.
+Proposition 8.1.10. Let X be a Borel vector space over a countable field Φ.
+Then there is a 3-Hamel decomposition of X.
+Proof. Let A⊂X be a Hamel basis. Let B a countable basis of the topology of
+the ambient Polish space of which X is a Borel subset. We define a Γ-coloring
+whose range is the countable set C = (Φ×B)<ω. For each nonzero element
+x ∈X, let x =Σ φ y be the unique expression of x as a linear combination
+i∈n i i
+of basis vectors with nonzero coefficients, in which the basis vectors are listed
+in an increasing order with respect to some fixed Borel linear ordering of X.
+Let (cid:104)O : i ∈ n(cid:105) be the first sequence (in some fixed enumeration) of pairwise
+i
+disjoint basic open sets in the basis B such that y ∈ O holds for every i ∈ n.
+i i
+Define the coloring c: X → C by setting c(0) = 0 and c(x) = (cid:104)φ ,O : i ∈ n(cid:105)
+i i
+where φ ,O are as above.
+i i
+We must show that there is no monochromatic Γ-edge. Suppose towards a
+contradiction that x0,x1,x2 ∈ X are distinct nonzero elements of X, all with
+the same color (cid:104)φ ,O : i ∈ n(cid:105), such that some nontrivial linear combination of
+i i
+them yields zero. Let y0 ∈ O be the basis vectors yielding x0, similarly for y1
+i i i
+and y2. Since the three vectors are distinct, there must be i∈n and j ∈3 such
+i
+that yj is distinct from yk for all k ∈ 3 different from j. But then, the basis
+i i
+vector yj can be expressed as a linear combination of all the remaining basis
+i
+vectors used to obtain the points x0,x1,x2. Since the remaining vectors are all
+distinct from yj, this is a contradiction.
+i
+We now provide a balanced forcing which adds a 3-Hamel coloring to a given
+Borel vector space over a countable field.
+Definition8.1.11. LetX beaBorelvectorspaceoveracountablefieldΦ. The
+3-Hamel decomposition forcing P is the set of all functions p such that dom(p)
+isacountablesubspaceofX,rng(p)⊂ω,andpisaΓ-coloringondom(p)where
+Γ is the 3-Hamel hypergraph. The ordering is defined by q ≤p if p⊂q, and for
+every dom(p)-coset e ⊂ dom(q) distinct from dom(p), the image
+q(cid:48)(cid:48)(cid:83)
+φ·e
+φ∈Φ
+belongs to the ideal J.
+It is not difficult to see that P is a σ-closed Suslin poset. We now classify its
+balanced conditions.
+Theorem 8.1.12. Let X be a Borel vector space over a countable field Φ. Let
+Γ be the 3-Hamel hypergraph and let P be the 3-Hamel decomposition forcing.
+1. If c: X →ω is a Γ-coloring, the pair (cid:104)Coll(ω,X),cˇ(cid:105) is balanced;
+2. if (cid:104)Q,τ(cid:105) is a balanced pair, then there is a Γ-coloring c: X →ω such that
+the balanced pairs (cid:104)Q,τ(cid:105) and (cid:104)Coll(ω,X),cˇ(cid:105) are equivalent;
+3. distinct Γ-colorings yield inequivalent balanced pairs.

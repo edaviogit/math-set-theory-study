@@ -1,0 +1,86 @@
+=== 块 314 ===
+
+Let H ⊂ R for i ∈ n be filters mutually generic over the
+E i F i i
+model V[K][x¯]. Write p =σ /H and y =η /H for i∈n, and look at the set
+i i i i i i
+y =∆ y ⊂ω. There are two hopeless subcases.
+i∈n i
+
+13.2. PRESERVATION THEOREMS 331
+Case 1a. The equivalence class [y] is represented in the model V[K][x¯(n)].
+F
+Work in the model V[K][x¯(n)]. Use the initial case assumption to find a poset
+R , an R -name σ for a condition in P such that R (cid:13) Coll(ω,< κ) (cid:13)
+n n n n
+σ (cid:13) τ([x¯(n)] ) (cid:54)= [y] . Let H ⊂ R be a filter generic over the model
+n E F n n
+V[K][x¯][H : i ∈ n] and let p = σ /H . Note that for every j ∈ n+1, the
+i n n n
+models V[K][x¯(i)][H ] for i ∈ n+1\{j} are mutually generic over V[K]. It
+i
+follows from the n+1,n-balance assumption on the condition p¯that the con-
+ditions p for i∈n+1 have a common lower bound, say r ∈P. The condition
+i
+r forces τ([x¯(i)] ) = [y ] for all i ∈ n, and τ(x ) is not modulo J equiva-
+E i F n
+lent to y = ∆ y . This contradicts the assumption that τ is forced to be a
+i∈n i
+homomorphism, as x =∆ x .
+n i∈n i
+Case 1b. Case 1a fails. Work in the model V[K][x¯(n)]. Find a poset R , an
+n
+R -name σ for a condition in P and an R -name η for a subset of ω such
+n n n n
+that R (cid:13) Coll(ω,< κ) (cid:13) σ (cid:13) τ([x¯(n)] ) (cid:54)= [η ] . Let H ⊂ R be a filter
+n n E n F n n
+genericoverthemodelV[K][x¯][H : i∈n]andletp =σ /H andy =η /H .
+i n n n n n n
+Now, either the name η is F-pinned below some condition in the filter H , in
+n n
+which case the F-class [y ] is represented in V[K][x¯(n)] by the assumption
+n F
+that F is pinned, or the name η is not F-pinned below any condition in the
+n
+filter H , in which case the F-class [y ] is not represented even in the model
+n n F
+V[K][x¯(i): i ∈ n][H : i ∈ n] by the mutual genericity. In either case, y F y
+i n
+fails.
+The rest of Case 1b is identical to Case 1a. For every index j ∈ n+1,
+the models V[K][x¯(i)][H ] for i ∈ n+1\{j} are mutually generic over V[K].
+i
+It follows from the n + 1,n-balance assumption on the condition p¯ that the
+conditions p for i ∈ n + 1 have a common lower bound, say r ∈ P. The
+i
+condition r forces τ([x¯(i)] )=[y ] for all i∈n, and τ(x )=y is not modulo
+E i F n n
+J equivalent to y = ∆ y . This contradicts the assumption that τ is forced
+i∈n i
+to be a homomorphism, as x =∆ x .
+n i∈n i
+Case2. Case1fails. BytheBorelreadingofnamesfortheposetQ,wecanfind
+a Borel set B ⊂ X co-meager in some nonempty open set O ⊂ X and a Borel
+function f: B →X such that O (cid:13)Coll(ω,<κ)(cid:13)p¯(cid:13)τ([x˙ ] )=[f˙(x˙ )] .
+gen E gen F
+Now, in the model W let C ⊂ B be the set of all points which are Q-generic
+over V[K]. Note that the set C ⊂ B is comeager in O and Borel, and by the
+forcing theorem, p¯ (cid:13) ∀x ∈ C τ([x] ) = [f(x)] . Since the set C is Borel
+P E E
+and non-meager, for all infinite sets y ∈ X there are sets x ,x ∈ C such that
+0 1
+x ∆x = y modulo finite (Pettis theorem, [55, Theorem 9.9]). It is then clear
+0 1
+thatp¯forcesthehomomorphismτ tobeBorel: τ([y] )=[z] justincasethere
+E F
+exist x ,x ∈ C such that x ∆x = y modulo finite and z F f(x )∆f(x ),
+0 1 0 1 0 1
+and τ([y] ) = [z] just in case for all x ,x ∈ C such that x ∆x = y modulo
+E F 0 1 0 1
+finite, z F f(x )∆f(x ). These are in turn analytic and coanalytic descriptions
+0 1
+of τ.
+Thevariousdegreesofn+1,n-balancearenotdifficulttoseparate. Onepartic-
+ularly elegant way of doing so is to seek monochromatic solutions to equations
+inPolishgroups. Westateoneprominentcase,leavingtheotherstothepatient
+reader.

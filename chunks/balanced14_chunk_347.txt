@@ -1,0 +1,164 @@
+=== 块 347 ===
+
+hismrelationbetween
+compact metric spaces. Advances in Mathematics, 291:635–645, 2016.
+[106] Andy Zucker. Big Ramsey degrees and topological dynamics. Groups,
+Geometry, and Dynamics, 13:235–276, 2019.
+
+Index
+absoluteness virtually placid, 88
+Mostowski, 30 equivalence, specific
+Shoenfield, 30 E , 6, 28
+0
+E , 28, 217
+1
+below κ, 33 E , 28
+2
+E , 28, 46
+cardinal Γ
+E , 3, 28, 47, 76, 77
+λ(E), 50, 152 ω1
+F , 4, 28, 77
+Erd˝os, 52 2
+measurable, 76, 77
+forcing
+pinned, κ(E), 3, 50
+m,n-balanced, 16, 327
+coloring, 29
+m,n-centered, 327
+coloring number
+balanced, 124
+Borel, ℵ , 137, 214, 222
+1 Bernstein balanced, 305
+countable, 169, 247, 281
+compactly balanced, 15, 205, 219,
+complete countable section, 153
+292
+complex, 133
+definably balanced, 349
+algebraic, 246
+nested balanced, 15, 217
+locally countable, 135
+perfect, 299
+modular, 214, 246
+perfectly balanced, 16
+concentration of measure, 5, 97, 358
+placid, 15, 212, 310
+condition
+pod balanced, 230
+m,n-balanced, 327
+reasonable, 65
+balanced, 122
+Suslin, 119
+placid, 212
+Suslin σ-centered, 266
+virtual, 120
+Suslin σ-liminf-centered, 269
+weakly balanced, 128
+Suslin σ-linked, 265
+Suslin σ-Ramsey-centered, 266
+decomposition
+tethered, 15, 239, 353
+3-Hamel, 172, 226, 341
+very Suslin, 261
+acyclic, 204, 227
+weakly balanced, 131
+Hamel, 176
+forcing, specific
+end of graph, 209 3-Hamel, 341
+equivalence 3-Hamel decomposition, 173, 226
+orbit, 15, 112, 217 E-linearization, 13, 188, 208, 220,
+pinned, 42 313, 322, 340
+placid, 88 E,F-collapse, 151, 214, 250, 322
+369
+
+370 INDEX
+E,F-transversal,14,152,214,221, Rado graph, 103
+248 summable, 10, 101, 356
+E,F-Fraiss´e, 186, 215, 248, 312 Tsirelson, 103
+P , 4, 32, 81, 84 independent maps, 4, 82, 84, 86, 318
+X
+Γ-coloring, 169, 225, 247, 311
+Γ,∆-homomorphism,177,210,221, jump
+247 Friedman–Stanley, 42
+Γ,n-coloring, 210
+Kurepa family, 181, 211, 215, 221
+Coll(ω,<κ), 32
+Coll(ω,X), 32
+large fragment of ZFC, 28
+Q , 33, 321
+κ large structure, 27
+P(ω) mod fin, 12, 207, 220, 249,
+303, 322, 356
+matroid, 143
+acyclic, 145, 225, 322, 339
+algebraic, 146, 150
+acyclic decomposition, 204, 216
+gammoid, 147
+automorphism, 179
+graphic, 145
+finite-countable, 190
+linear, 144
+Hamel basis, 12, 144, 311, 322
+transversal, 145
+Hamel decomposition, 177
+modular
+Kurepa, 250
+complex, 20, 139
+Lusin, 193, 313, 322
+function, 139
+Lusin collapse, 195, 204
+pre-geometry, 143
+MAD, 199, 344
+matroid, 148, 246, 311, 312 number
+Borel σ-bounded chromatic, 255,
+generic ultrapower, 33, 141, 321 292, 294
+graph Borel σ-bounded clique, 260
+Γ K , 134 Borel σ-bounded density, 288
+G 0 , 254 Borel σ-bounded fractional chro-
+Hamming on ωω, 286, 287 matic, 258, 296
+Hamming, diagonal, 287 Borel σ-finite clique, 260
+Euclidean distance, 287 countableBorelchromatic,7,254,
+Hamming, 254, 328, 351 291
+Hamming, diagonal, 8, 254, 286, fractional chromatic, 256
+290
+Hamming, on ωω, 8, 254 OCA, 16, 307
+OCA+, 301
+hypergraph
+actionable, 292 perfect matching, 7, 145, 209, 278
+equilateral triangle, 10 pin
+E-pin, 37, 88
+ideal P-pin, 120
+ω-hitting, 85 pod, 229
+branch, 92 pre-geometry, 143
+countably separated, 92, 124 product
+P-ideal, 309 measured skew, 259
+
+INDEX 371
+skew, 254
+quotient space, 29
+sequence
+choice-coherent, 109, 216
+coherent, 5, 106
+set
+centered, 266
+liminf-centered, 269
+linked, 265
+maximal, 148
+Ramsey centered, 266
+strongly maximal, 140
+set mapping, 333
+tournament, 9, 188, 323
+transversal, 28
+turbulence, 4, 84, 212
+ultrafilter
+Ramsey, 303
+stable ordered union, 304
+uniformization
+pinned, 240
+Saint-Raymond, 244
+well-orderable, 242
+virtual
+equivalence class, 38
+structure, 40
+walk, 81, 84, 97

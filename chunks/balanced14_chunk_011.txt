@@ -1,0 +1,49 @@
+=== 块 11 ===
+
+it equivalence relation F of a continuous Polish group
+1
+action:
+1. (Corollary 9.4.8) There is a nonprincipal ultrafilter on ω;
+2. (Corollary 9.4.11) there is a discontinuous homomorphism of R to R/Z;
+
+1.3. INDEPENDENCE: BY TOPIC 7
+3. (Corollary 9.4.22) given a Borel graph Γ on a Polish space, Γ contains a
+maximal acyclic subgraph;
+4. (Corollary 9.4.10) given a Borel equivalence relation E on a Polish space,
+the E-quotient space can be linearly ordered;
+5. (Corollary 9.4.15) given a pinned orbit equivalence relation E of a contin-
+uous Polish group action, E has a transversal.
+Theorem1.3.4. ThefollowingstatementsareseparatelyconsistentwithZF+DC
+and |E| (cid:54)≤ |F| for any orbit equivalence relation E of a turbulent Polish group
+actionandananalyticequivalencerelationF classifiablebycountablestructures:
+1. (Corollary 9.3.6) Given a Polish vector space X over a countable field, X
+has a basis;
+2. (Corollary 9.3.7) given a Borel graph G on a Polish space, G contains a
+maximal acyclic subgraph;
+3. (Corollary 9.3.10) given a pinned equivalence relation G classifiable by
+countable structures, G has a transversal.
+There are many interesting open questions left in the area of quotient space
+cardinalities. Forone,wedonotknowwhetherthevariousindependenceresults
+we obtain can be in general combined in the spirit of Question 1.3.2. There are
+alsomorespecificquestions. CanthecardinalitiesofcountableBorelequivalence
+relations can be manipulated in the context of ZF+DC? For example, are there
+countableBorelequivalencerelationsE,F suchthatbothinequalities|E|<|F|
+and |F| < |E| are consistent with ZF+DC? In ZF+DC, does the existence
+of a nonprincipal ultrafilter on ω introduce new provable inequalities between
+quotient space cardinalities?
+Locally countable structures. One particularly popular subject of descrip-
+tivesettheoryinthelastquarter-centuryhasbeenthestudyofcountableBorel
+equivalence relations and the various structures on their equivalence classes.
+Using the methods of this book, one can identify many new fracture lines in
+this subject; various selection principles can be meaningfully stratified by the
+ZF+DC provability of implications between them. The following is a sampling
+of the results we obtain.
+Theorem 1.3.5. (Corollary 11.4.17) Let G be an analytic graph on a Polish
+space, with uncountable Borel chromatic number. Given a locally finite bipar-
+tite Borel graph H satisfying the Marks–Unger condition, it is consistent that
+ZF+DC holds, H has a perfect matching and the chromatic number of G is
+uncountable.
+Theorem 1.3.6. Let G be an analytic hypergraph with all hyperedges finite, on
+a Polish space X, with uncountable Borel chromatic number. The following are
+consistent with ZF+DC plus the statement that the chromatic number of the
+hypergraph G is uncountable:

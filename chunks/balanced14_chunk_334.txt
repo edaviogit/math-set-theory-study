@@ -1,0 +1,69 @@
+=== 块 334 ===
+
+em14.4.7,intheP-extensionthechromaticnumberoftheHamminggraphH
+2
+is uncountable.. By a ZF+DC result of [76], this abstractly implies that there
+are no discontinuous homomorphisms between Polish groups.
+
+352 CHAPTER 14. OTHER COMBINATORICS
+Theorem 14.4.9. In definably balanced extensions of the symmetric Solovay
+model, |E |(cid:54)≤|F| holds for every pinned Borel orbit equivalence relation F.
+1
+Proof. LetΓbeaPolishgroupcontinuouslyactingonaPolishspaceX,inducing
+an equivalence relation F. Suppose that F is pinned. Suppose that P is a
+Suslin forcing. Suppose further that κ is an inaccessible cardinal such that P
+is definably balanced below κ. Let W be the symmetric Solovay model derived
+from κ and work in W. Suppose that p ∈ P is a condition and τ is a P-name
+suchthatp(cid:13)τ isafunctionfromtheE -quotientspacetotheF-quotientspace.
+1
+WemustfindastrengtheningoftheconditionpandtwodistinctE -classessuch
+1
+that their τ-images are forced to be the same.
+Theconditionpaswellasthenameτ aredefinablefromaparameterz ∈2ω
+aswellassomeparametersfromthegroundmodel. LetV[K]beanintermediate
+extension obtained from a poset of size < κ such that z ∈ V[K]. Work in the
+model V[K]. Let Q be the finite support product of uncountably many copies
+of the Cohen forcing. Use the definable balance assumption to find a Q-name
+η for a real and a condition q ∈ Q which identifies a definition of a virtual
+balanced condition p¯≤ p with a parameter η. By Fact 14.4.6, passing into a
+larger intermediate extension, we may assume that η is in fact a name for a
+specificelementofV[K]. Forthebrevityofnotation, weneglectη andq below.
+Let H ⊂ Q be a filter generic over V[K] and work in the model V[K][H]
+for the moment. Note that the equivalence relation F is pinned there by The-
+orem 2.7.1. By a balance argument with p¯, for every E -class c in the model
+1
+V[K][H] there is an F-class d such that Coll(ω,<κ)(cid:13)p¯(cid:13) τ(c)=d. Go back
+P
+to V[K]. Fix a Q-name h˙ for the map c (cid:55)→ d. Note that h˙ is forced to be a
+definable injection from the E -quotient space to the F-quotient space.
+1
+Let y ∈(2ω)ω be a sequence of points in 2ω generic over V[K] for the finite
+support product of the usual Cohen forcing. Working in the model V[K][y], by
+Fact 14.4.6, there is a point x∈X such that Q(cid:13)h˙([y]E
+1
+)=[x]
+F
+. Let γ ∈Γ be
+apointgenericoverV[K][y]fortheposetP . AsintheproofofTheorem4.1.1,
+Γ
+V[K][γ·x]containsnoentriesofthesequencey,andthereforenorepresentatives
+oftheE
+1
+-classofy. Sincetheclass[y]E
+1
+isdefinablefromγ·xastheclasswhich
+is mapped by h to [γ·x] , this contradicts Fact 14.4.6(2).
+F
+Using Example 14.4.2, we now get
+Corollary 14.4.10. 1. LetP bethepartialorderingaddingacountablecom-
+plete section to E . In the P-extension of the symmetric Solovay model,
+1
+|E |(cid:54)≤|F| holds for every pinned orbit equivalence relation F.
+1
+2. It is consistent relative to an inaccessible cardinal that ZF+DC holds,
+|E | ≤ |F | and yet |E | (cid:54)≤ |F| for any pinned Borel orbit equivalence
+1 2 1
+relation F.
+14.5 F structurability
+2
+The following theorem is stated using Convention 1.7.16.

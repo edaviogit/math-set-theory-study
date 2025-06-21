@@ -1,0 +1,64 @@
+=== 块 92 ===
+
+n 2ω by repeated application of Friedman–Stanley
+1
+jump, at limit stages taking disjoint unions. It is well-known [48, Theorem
+12.5.2]thateveryBorelequivalencerelationclassifiablebycountablestructures
+
+92 CHAPTER 3. TURBULENCE
+is Borel reducible to F for some countable ordinal α. Theorem 3.4.1 iterated
+α
+transfinitely shows that each F is virtually placid. Thus, every Borel fragment
+α
+of E is virtually placid, and so is E.
+TherearemanyBorelplacidequivalencerelationswhichcannotbeobtained
+from the identity by repeated application of the operations indicated in The-
+orem 3.4.1. The following examples deal with equivalence relations associated
+with ideals on countable sets. If a is a countable set and J is an ideal on a,
+write = for the equivalence relation on the space X =(2ω)a connecting points
+J
+x ,x if the set {n∈a: x (n)(cid:54)=x (n)} belongs to J.
+0 1 0 1
+Example3.4.4. Leta=2<ω andletJ bethebranchideal: theidealgenerated
+by the subsets of a linearly ordered by inclusion. The equivalence relation =
+J
+is placid.
+Proof. Write X = (2ω)2<ω. For every node t ∈ ω<ω write [t] for the set of all
+nodesin2<ω extendingt. LetV[G ],V[G ]betwogenericextensionscontaining
+0 1
+respective = -related points x ,x ∈ X. Assume that V[G ]∩V[G ] = V and
+J 0 1 0 1
+work to find a ground model point x∈X which is = -related to both x ,x .
+J 0 1
+Let T = {t ∈ 2<ω: x (cid:22) [t] is not = -equivalent to any point in the ground
+0 J
+model}. This is a subtree of ω<ω. If 0∈/ T then the proof is complete; thus, it
+is only necessary to derive a contradiction from the assumption 0 ∈ T. First,
+observe that the tree T cannot have any terminal nodes: if t were a terminal
+node of T then one could combine the ground model witnesses for t(cid:97)0∈/ T and
+t(cid:97)1 ∈/ T to find a witness for t ∈/ T. Second, observe that the definition of the
+tree T depends only on the = -class of x , so T ∈ V[G ]∩V[G ] = V. Since
+J 0 0 1
+T is a nonempty ground model tree without endnodes, it must have an infinite
+branch y ∈ 2ω in the ground model. Since x = x , there is a number n ∈ ω
+0 J 1
+such that for every t ∈ 2<ω such that x (t) (cid:54)= x (t), either t is incompatible
+0 1
+with y (cid:22)n or else t is an initial segment of y. Let e=[y (cid:22)n]\{y (cid:22)m: m≥n}
+and observe that e ∈ V and x and x coincide on e, therefore x (cid:22) e ∈ V. If
+0 1 0
+z ∈V isanyfunctionin2[y(cid:22)n] extendingx (cid:22)e,thenz = x (cid:22)[t],contradicting
+0 J 0
+the assumption that y (cid:22)n∈T.
+A whole class of ideals with placid equivalence relations is isolated in the fol-
+lowing definition.
+Definition 3.4.5. AnidealI onω iscountably separated ifthereisacountable
+collection A of subsets of ω such that for every b ∈ I and c ∈/ I there is a ∈ A
+such that b∩a=0 and c∩a∈/ I.
+Countably separated ideals include for example the ideal of nowhere dense sub-
+sets of the rationals; a characterization theorem is proved in [62]. Note that if
+I is analytic then the instrumental property of the set A is coanalytic, and by
+Mostowski absoluteness it will hold in all forcing extensions.
+Theorem 3.4.6. The equivalence relation = is placid for every countably sep-
+I
+arated Borel ideal I on ω.

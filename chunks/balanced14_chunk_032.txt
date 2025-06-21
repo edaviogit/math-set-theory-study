@@ -1,0 +1,57 @@
+=== 块 32 ===
+
+named in the proof to that point, and also
+<κ
+their powersets. Similarly, the phrase “a large fragment of ZFC” occurs in
+several places in the book. It is never truly informative to analyze precisely
+
+28 CHAPTER 1. INTRODUCTION
+how large a fragment is needed. As a matter of convention, we mean the finite
+fragmentofZFCincludingallaxiomsexcepttheschemasofcomprehensionand
+replacement, and the schemas of comprehension of replacement for all formulas
+of set theory of 10100 many symbols or fewer.
+Analytic equivalence relations. A number of concepts and results in this
+book are stated in terms of Borel equivalence relations on Polish spaces. As a
+matter of basic terminology, if E is an equivalence relation on a set X, a E-
+transversal is a set T ⊂X such that T has a singleton intersection which each
+equivalence class. If x ∈ X is a point, then [x] denotes the equivalence class
+E
+containingx. IfA⊂X isanyset, then[A] denotestheE-saturation ofA, the
+E
+set{x∈X: ∃y ∈AxE y}. Thefollowingdefinitionrecordsseveralbenchmark
+relations which are used throughout the book.
+Definition 1.7.1.
+1. E is the Vitali equivalence on 2ω, connecting x,y ∈ 2ω if they differ at
+0
+only finite set of entries;
+2. E is the equivalence relation on (2ω)ω connecting x,y if they differ at
+1
+only finite number of entries;
+3. E is the relation on 2ω connecting x,y if the sum Σ{ 1 : x(n) (cid:54)= y(n)}
+2 n+1
+is finite;
+4. F is the equivalence relation on (2ω)ω connecting x,y if rng(x)=rng(y);
+2
+5. HC is the equivalence relation on P(ω ×ω) connecting relations x,y if
+either both are illfounded or fail the axiom of extensionality or fail to
+have a maximal element, or they are isomorphic;
+6. E is the equivalence relation on P(ω ×ω) connecting relations x,y if
+ω1
+eitherbothareillfoundedorarenotlinearorders, ortheyareisomorphic;
+7. if Γ is a coanalytic class of structures on ω invariant under isomorphism,
+E istheequivalencerelationoncountablestructuresonωconnectingtwo
+Γ
+suchstructuresiftheyarebothfailtobelongtoΓortheyareisomorphic;
+8. if I is an ideal on ω then = on 2ω is the equivalence relation connect-
+I
+ing x,y if {n ∈ ω: x(n) (cid:54)= y(n)} ∈ I. There is an identically defined
+equivalence relation on (2ω)ω.
+Borel equivalence relations are naturally ordered by Borel reducibility. In the
+case of analytic equivalence relations, the Borel reducibility relation exhibits
+certain pathologies, and it is best replaced by some of its strengthenings. This
+is the content of the following definition.
+Definition 1.7.2. Let E and F be analytic equivalence relations on respective
+Polish spaces X and Y.
+1. E is Borel reducible to F, in symbols E ≤ F, if there is a Borel function
+h: X →Y such that ∀x ,x ∈X x E x iff h(x )F h(x ).
+0 1 0 1 0 1

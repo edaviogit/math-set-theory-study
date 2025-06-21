@@ -1,0 +1,79 @@
+=== 块 237 ===
+
+ite arity n ∈ ω. Thus, a condition p ∈ P is just a
+single n-ary relation on a countable set dom(p) which respects the equivalence
+E,andsuchthatitsE-quotientisaF-structure. LetV[H ],V[H ]bemutually
+0 1
+
+10.5. EXAMPLES 249
+generic extensions of the ground model V and p ∈ V[H ] and p ∈ V[H ] be
+0 0 1 1
+incompatibleconditions. Inviewofthestrongamalgamationassumption,there
+must be n-tuples (cid:126)x and (cid:126)x in dom(p ) and dom(p ) respectively such that for
+0 1 0 1
+each i ∈ n, (cid:126)x (i) E (cid:126)x (i) holds, and (cid:126)x ∈ p and (cid:126)x ∈/ p (or vice versa).
+0 1 0 0 1 1
+By Proposition 2.1.7, there is an n-tuple d(cid:126)of virtual E-classes in V such that
+for each i ∈ n, (cid:126)x (i),(cid:126)x (i) are realizations of d(cid:126)(i). Let p(cid:48) = {q ∈ P: dom(q)
+0 1 0
+contains an n-tuple (cid:126)x which is a realization of d(cid:126) and (cid:126)x ∈ q} and p(cid:48) = {q ∈
+1
+P: dom(q) contains an n-tuple (cid:126)x which is a realization of d(cid:126)and (cid:126)x∈/ p}. These
+are virtual conditions on the posets which carry the virtual E-classes on the
+tuple d(cid:126), and these are of size < λ by Theorem 2.5.6. In addition, p(cid:48),p(cid:48) are
+0 1
+incompatible, and p ≤p(cid:48) and p ≤p(cid:48) as required.
+0 0 1 1
+ThecaseofapinnedequivalencerelationE proceedsinthesameway,noting
+thatinthiscasetheE-quotientspaceandthevirtualE-quotientspacecoincide.
+The ultrafilter posets typically do satisfy the tether demands.
+Example 10.5.9. The poset P of all infinite subsets of ω ordered by inclusion
+is ℵ -tethered.
+0
+Proof. LetV[H ],V[H ]bemutuallygenericextensionsofV,containingthere-
+0 1
+spective conditions p ,p ∈ P which are incompatible in P. Removing finitely
+0 1
+many numbers from each, we may assume that in fact p ∩p = 0. By Propo-
+0 1
+sition 1.7.8, there are disjoint sets p(cid:48),p(cid:48) ⊂ ω in the ground model such that
+0 1
+p ⊂p(cid:48) and p ⊂p(cid:48). These sets as conditions in P exemplify the tether of the
+0 0 1 1
+poset P.
+Example 10.5.10. LetAbeaRamseysequenceoffinitestructures. Theposet
+P =P of Definition 7.3.2 is ℵ -tethered.
+A 0
+Proof. We use the terminology of Section 7.3. In particular, the sequence A is
+written as (cid:104)A : n ∈ ω(cid:105) of structures on pairwise disjoint sets. Let n ∈ ω be a
+n
+natural number. Write D for the set of all copies of A which are a subset of
+n n
+some A for m≥n.
+m
+LetV[H ],V[H ]bemutuallygenericextensionsofthegroundmodelV,and
+0 1
+letp ∈V[H ]andp ∈V[H ]beincompatibleconditionsinP. Expandingthe
+0 0 1 1
+models and strengthening the conditions if necessary, by Claim 7.3.5 we may
+assume that for each n ∈ ω and each set b ⊂ D in the ground model, either
+n
+pAn ⊂ b or pAn ∩b = 0 modulo finite, and similarly for subscript 1. Let (F )
+0 0 n 0
+be the set of all ground model elements of P(D ) for which the first option
+n
+prevails, and similarly for subscript 1.
+Suppose first that there is a number n ∈ ω for which (F ) (cid:54)= (F ) . For
+n 0 n 1
+definiteness, suppose that there is some set b ∈ (F ) \(F ) . Then let p(cid:48) =
+n 0 n 1 0
+{p ∈ P: pAn ⊂ b modulo finite} and p(cid:48) = {p ∈ P: pAn ∩b = 0 modulo finite}.
+1
+The sets p(cid:48),p(cid:48) ⊂ P are analytic and coded in the ground model. Also, clearly
+0 1
+Σp(cid:48),Σp(cid:48) are incompatible in P, and p ≤Σp(cid:48) and p ≤Σp(cid:48) as desired.
+0 1 0 0 1 1
+Now suppose that the sets (F ) ,(F ) are equal for all n ∈ ω. Write F
+n 0 n 1 n
+for their common value. The product forcing theorem shows that F ∈ V and
+n

@@ -1,0 +1,98 @@
+=== 块 110 ===
+
+ere q(n) = π (p), and a
+0ω 0 ω 0ω 0n
+function ξ : P → P by ξ (q) = ξ (q(k)) where k ∈ ω is such that for all
+ω0 ω 0 ω0 k0
+n ≥ k, π (q(k)) = q(n). One can also similarly define maps π : P → P
+kn nω n ω
+
+4.3. CHOICE-COHERENT SEQUENCES OF MODELS 111
+and ξ : P → P . It is a matter of trivial diagram chasing to show that the
+ωn ω n
+maps form a commuting system of projections from P to P and moreover
+n ω
+π ,ξ ∈ M . Thus, letting G = ξ−1G , one can conclude that G ⊂ P
+nω ωn n ω ω0 0 ω ω
+(cid:84)
+is a filter generic over M and therefore over M . Also G ∈ M [G ]
+0 ω ω n n n
+since G can be reconstructed in M [G ] as G = ξ−1G . In conclusion,
+ω n n ω ωn n
+(cid:84)
+G ∈ M [G ].
+ω n n n
+(cid:84)
+Finally, we have to prove that every element of the intersection M [G ]
+n n n
+belongs to M [G ]. This is where the diagonal distributivity of the original
+ω ω
+poset sequence is used. Suppose that τ ∈M is a P -name for a set of ordinals
+0 0
+(cid:84)
+and p∈P is a condition forcing τ ∈ M [G ]; we must produce a condition
+0 n n n
+p(cid:48) ≤p and a P -name τ ∈M such that p(cid:48) (cid:13)τ =τ /G . Consider a strategy
+ω ω ω ω ω
+byPlayerIinthediagonalizationgameinwhichheplaysp sothatp ≤p,τ =
+n 0 0
+τ, and there is a P -name τ ∈ M such that p (cid:13) τ = τ /G .
+n+1 n+1 n+1 n Pn n n+1 n+1
+This is possible by the assumption on the name τ. By the diagonalization
+assumption, Player II has a counterplay with conditions q ≤ p such that
+n n
+there is a condition p(cid:48) ≤ p for which π (p) ≤ q for all n ∈ ω. Let τ be the
+0n n ω
+P (cid:22) π (p(cid:48))-name defined by q (cid:13) αˇ ∈ τ just in case ξ (q) (cid:13) αˇ ∈ τ. The
+ω 0ω ω ω0 P0
+name τ can be reconstructed in every model M by the definition q (cid:13)αˇ ∈τ
+ω n ω
+just in case ξ (q)(cid:13) αˇ ∈τ by the choice of the strategy for Player I in the
+ωn Pn n
+diagonalizationgame. Asaresult,τ ∈M . Itisimmediatefromthedefinition
+ω ω
+of τ that p(cid:48) (cid:13)τ =τ /G as desired.
+ω ω ω
+Now we are ready to construct the requisite well-orderings verifying the
+choice-coherence of the models (cid:104)M [G ]: n ∈ ω(cid:105). Let λ be an ordinal larger
+n n
+than the ranks of all the posets P for n ∈ ω. Let ≤ be a coherent well-
+n
+ordering of V ∩M . We will now describe a coherent well-ordering ≤(cid:48) of sets
+λ 0
+of rank < λ in the model M [G ]. In this well-ordering, the sets in M [G ]
+0 0 ω ω
+come first, ordered by some well-ordering in the model M [G ]. The sets in
+ω ω
+M [G ]\M [G ]comenext, well-orderedbytheir≤-firstP -nameinthemodel
+0 0 1 1 0
+M representing them. The sets in M [G ]\M [G ] come next with a similar
+0 1 1 2 2
+well-order, and so on. The coherence of the resulting well-ordering ≤(cid:48) is due to
+the fact that for each k ∈ ω, the sequence (cid:104)G : n ≥ k(cid:105) belongs to the model
+n
+M [G ].
+k k
+(2) is much easier. Suppose that τ ∈ M is a P -name for an ω-sequence
+0 0
+of ordinals in the model M [G ] and p ∈ P is a condition; we must find a
+ω ω 0
+condition r ≤ p and an ω-sequence z ∈ M such that r (cid:13) τ = zˇ. Consider a
+ω
+strategy for Player I in the diagonal game in which he plays conditions p ∈P
+n n
+and on the side produces P -names τ ∈ M so that p ≤ p, τ = τ and
+n n n 0 0
+p (cid:13) τ =τ evaluatedbytheπ -imageofthegenericfilteronP , and
+n Pn n n+1 nn+1 n
+also p decides the value τ (n) to be some ordinal z(n). The assumptions on
+n n
+the name τ shows that this is a valid strategy. The initial assumptions on the
+coherent sequence of posets show that this is not a winning strategy, so there
+must be a play against it such that in the end there is a condition r ≤ p with
+π (r) ≤ p for all n ∈ ω. Let τ ∈ M be the names produced during that
+0n n n n
+counterplay, and let z be the ω-sequence of ordinals obtained. The definitions
+showthatforalln∈ω,π (r)(cid:13) τ =zˇ. Itfollowsthatz ∈M foralln∈ω,
+0n Pn n n
+and therefore r,z are as required in (2).

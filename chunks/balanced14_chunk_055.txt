@@ -1,0 +1,58 @@
+=== 块 55 ===
+
+], there is a filter H ⊂ R generic over the model V[G∩P ]. Thus,
+a c
+it would have to be the case that in the model V[G∩P ], Q (cid:13) τ E σ/H,
+a a a
+contradicting the nontriviality of the name τ .
+a
+
+54 CHAPTER 2. THE VIRTUAL REALM
+Example2.5.12. AswiththeSilverdichotomy,theconclusionofTheorem2.5.11
+fails for analytic equivalence relations. Consider the case of the equivalence re-
+lation E and an inaccessible cardinal κ such that 2κ > κ+. In the Coll(ω,<
+ω1
+κ) extension, ℵ
+2
+< 2ℵ1 will hold; at the same time, E
+ω1
+-names realized on
+Coll(ω,ω ) are classified by ordinals of cardinality ℵ , so there are only ℵ -
+1 1 2
+many of them.
+2.5c Cardinal arithmetic examples
+Thecardinalinvariantsκ(E)andλ(E)provideabasisonwhichequivalencere-
+lationscanbecomparedwithuncountablecardinalsofallsorts. Inthissection,
+we will introduce several jump operations which have direct translations into
+cardinal arithmetic operations. Using this approach, one can formally encode
+statementssuchasthefailureofthesingularcardinalhypothesisintoreducibil-
+ity results between Borel or analytic equivalence relations. For brevity, given
+a coanalytic class Γ of structures on ω invariant under isomorphism, we write
+κ(Γ) for κ(E ) in this section.
+Γ
+The constructions in this section depend on certain types of jump operators
+on structures and equivalence relation. They are all provisionally denoted by
+the+sign,nottobeconfusedwiththeFriedman–Stanleyjump. Thefirstjump
+operation on equivalence relations we will consider translates into the powerset
+operation using the pinned cardinal:
+Definition 2.5.13. Let Γ be a coanalytic class of structures on ω, invariant
+under isomorphism. Γ+ is the class of structures on ω of the following descrip-
+tion: there is a partition ω =a∪b into two infinite sets, there is a Γ-structure
+on a, and there is an extra relation R on b×a such that the vertical sections
+R for m∈b are pairwise distinct subsets of a.
+m
+Proposition 2.5.14. Let Γ be a coanalytic class of structures on ω, invariant
+under isomorphism.
+1. Γ+ is coanalytic, and if Γ is Borel then so is Γ+;
+2. if Γ consists of rigid structures, then so does Γ+;
+3. if Γ consists of rigid structures and κ(Γ)=λ+ then κ(Γ+)=(2λ)+.
+Proof. The first two items are obvious. For (3), suppose that κ(Γ)=λ+. Then
+there must be a Γ∗∗ structure M of size λ and no Γ∗∗ structures of larger
+size. By Theorem 2.4.5 and (2), every virtual E -class is associated with a Γ∗∗
+Γ
+structure. Every(Γ+)∗∗-structureconsistsofaΓ∗∗-structureandsomefamilyof
+its pairwise distict subsets; the largest such structure then is of size 2λ exactly.
+This completes the proof.
+Corollary 2.5.15. For every countable ordinal α there is a Borel class Γ of
+rigid structures such that κ(E )=(cid:105)+.
+Γ α

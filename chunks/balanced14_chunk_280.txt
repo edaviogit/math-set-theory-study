@@ -1,0 +1,69 @@
+=== 块 280 ===
+
+h that
+s (cid:13) cˇ⊂ τ or cˇ∩τ = 0. Strengthening the condition r if necessary, a standard
+(cid:81)
+fusion argument will yield a continuous function f: r(n)→P(ω) such that
+n
+r (cid:13)τ =f˙(y˙ ).
+gen
+
+11.7. COMPACTLY BALANCED POSETS 293
+(cid:81)
+Now, let B ⊂ r(n)×ω be the Borel set given by (cid:104)y,n(cid:105) ∈ B if n ∈ f(y)
+n
+holds. Apartitionresult[84,Theorem1.4]appliedwithaninfinitesubsequence
+of the sets r(n) and the chromatic numbers of the hypergraphs H as submea-
+n
+sures on the sets r(n) shows that there is a condition s ≤ r and an infinite set
+(cid:81) (cid:81)
+c⊂ω such that either s(n)×c⊂B or ( s(n)×c)∩B =0. In the former
+n n
+case, s (cid:13) cˇ ⊂ τ; in the latter case, s (cid:13) cˇ∩τ = 0. The claim has just been
+proved.
+Letκbeaninaccessiblecardinal. LetP beaSuslinposetwhichiscompactly
+balanced below κ. Let W be the Solovay model derived from κ and work in the
+modelW. Letp∈P beaconditionandτ beaP-namesuchthatp(cid:13)τ: X →ω
+is a function. We will find a number m ∈ ω, finite sets a ⊂ X for n ∈ ω, and
+n
+a condition p¯ ≤ p such that for all n, a cannot be covered by n-many G-
+n
+anticliques, and p¯(cid:13)∀x∈ (cid:83) a τ(x)=m.
+n n
+The condition p ∈ P as well as the name τ are definable in the model W
+from parameters in the ground model and a parameter z ∈2ω. Let V[K] be an
+intermediate forcing extension obtained by a poset of size < κ, containing the
+point z. Work in V[K] and consider the poset Q×R where Q is the poset of
+infinite subsets of ω ordered by inclusion. Let U ⊂ Q and y ∈ Y be mutually
+genericfilterobjectsfortheproduct;soU isinfactanonprincipalultrafilteron
+ω in the model V[K][U]. The poset Q is σ-closed, and therefore R computed in
+the model V[K][U] is the same as R computed in the model V[K] and y is in
+factR-genericoverthemodelV[K][U]. Bythecontinuousreadingofnamesfor
+the poset R, the sets P(ω)∩V[K][U][y] and P(ω)∩V[K][y] are the same. By
+a mutual genericity argument and the fact that R adds no independent reals,
+U generates an ultrafilter on ω in the model V[K][U][y]. Work in the model
+V[K][U].
+Claim 11.7.5. There is an R-name σ for a balanced condition in P such that
+C (cid:13)∀y ∈Y y =y˙ up to finitely many entries→σ/y˙ =σ/γ·y˙ .
+gen gen gen
+To parse the claim correctly, note that any point of the space Y which is up to
+finitelymanyentriesequaltoy˙ isinfactR-genericagainandyieldsthesame
+gen
+forcing extension. The claim therefore says that the evaluation of the name
+σ does not depend on the specific generic point, but only on its modulo finite
+equivalence class.
+Proof. Choose an arbitrary R-name χ for a balanced condition below the con-
+dition p. We now use the ultrafilter U and the compact balance of the poset
+P to integrate the name χ. Choose any point y ∈ Y. For each n ∈ ω, let y˙
+ω n
+be the R-name below C for the element of Y such that y˙ (cid:22) n = y (cid:22) n and
+n ω
+y˙ (cid:22) [n,ω) = y˙ (cid:22) [n,ω); note that y˙ is forced to be a point R-generic over
+n gen n
+themodelV[K][U],generatingthesamemodelasy˙ . Letχ bethenamefor
+gen n
+thebalancedconditionχ/y˙ . Letσ bethenamefortheU-limitofthesequence
+n
+(cid:104)χ˙ : n ∈ ω(cid:105) in the definable compact Hausdorff topology on the space of all
+n
+balance classes for P. It is immediate that the name σ works as desired.

@@ -1,0 +1,80 @@
+=== 块 99 ===
+
+ration
+B B n
+of measure assumption, the sets V ·(C ∩ (cid:83) Y(cid:48)) and V ·(C ∩ (cid:83) Y(cid:48)(cid:48)) are both
+of µ -mass greater than 1/2 and therefore intersect. It follows that V2·(C ∩
+B
+
+3.6. A VARIATION FOR MEASURE 99
+(cid:83) Y(cid:48))∩(C ∩ (cid:83) Y(cid:48)(cid:48)) (cid:54)= 0, contradicting the invariance of the sets Y(cid:48) and Y(cid:48)(cid:48)
+under V2-connections.
+Now, the V2-connected component Y found in the first paragraph must in
+2
+(cid:83)
+fact be such that µ (C∩ (Y \Y ))<ε , by an argument identical to the one
+B 1 2 n
+in the previous paragraph with Y(cid:48) =Y and Y(cid:48)(cid:48) =Y \Y . This completes the
+2 1 2
+proof of the claim.
+Letting Y(B) = Y completes the construction. The V2-connectedness is clear
+2
+from the choice of Y , the first item is clear from the choice of Y (B), and
+2 1
+(cid:83)
+the second item follows from some arithmetic: µ (C ∩ (Y \Y )) < 2ε =
+B 2 n
+2−n2n+1ε ≤2−nµ (C).
+n B
+(cid:84) (cid:83)
+Now, let D = B . The set D is closed as the d-balls in the sets B are
+n n n
+clopen. It is also a subset of C, because each of the balls in B has nonempty
+n
+intersection with C, and C is closed. The set D also has positive µ-mass; the
+mass distribution of D is governed by the following claim:
+Claim 3.6.7. For every n≥2 and every ball B ∈B , µ (D)>ε .
+n B n
+Proof. To get the set D∩B, we subtracted from C ∩B a set of size at most
+Σ 2−mµ (C) by the second item above, so µ (D)>1/2µ (C)>ε by the
+m>n B B B n
+first item above.
+Towards the connectedness of the set D, consider the following claim:
+Claim3.6.8. Letm≤nbenaturalnumbers,B ∈B aball,andx ,x ∈B∩D
+m 0 1
+be any points. Then there is a U,δ -walk from x to x using only points in
+n 0 1
+B∩D.
+Proof. This is proved by induction on n−m, which is the reason for the con-
+voluted statement of the claim. The case n − m = 0 is trivial since then
+d(x ,x ) < δ . Now suppose that the statement is known for m + 1 ≤ n
+0 1 n
+and proceed to show that it is also true for m ≤ n. Let B ,B ∈ B be
+0 1 m+1
+balls such that x ∈ B and x ∈ B . If B = B then the induction hypoth-
+0 0 1 1 0 1
+esis immediately applies. Otherwise, by the third item above, the set Y(B) is
+V2-connected, so there must be a sequence of balls in Y(B) starting at B and
+0
+ending at B such that successive balls are V2-connected. Suppose for simplic-
+1
+ity that this sequence has length 2–i.e. B and B are V2-connected. Fix an
+0 1
+element γ ∈V2 such that γ·B =B .
+0 1
+Since µ (D) and µ (D) are both greater than ε , the concentration
+B0 B1 m+1
+assumption yields that the numbers µ (V ·(D∩B ))=µ (V ·(D∩B )) are
+B0 0 B1 1
+both greater than 1/2. It follows that there is a point x∈(V ·(D∩B ))∩B
+0 0
+such that γ·x∈(V ·(D∩B )). Find points x(cid:48) ∈D∩B and x(cid:48) ∈D∩B and
+1 0 0 1 1
+group elements β ,β ∈ V such that β ·x(cid:48) = x and β ·(γ·x) = x(cid:48). Use the
+0 1 0 0 1 1
+induction hypothesis to find a U,δ -walk from x to x(cid:48). Follow it by acting by
+n 0 0
+β γβ ∈U to get to the point x(cid:48), and then use the induction hypothesis again
+0 1 1
+to extend the walk from x(cid:48) to x . The claim follows.
+1 1

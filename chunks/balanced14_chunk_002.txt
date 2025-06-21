@@ -1,0 +1,41 @@
+=== 块 2 ===
+
+set theory and Polish groups in 2018.
+Duringtheworkonthebook, thefirstauthorwassupportedbygrantsNSF
+DMS 1201494 and DMS-1764320. The second author was supported by NSF
+grant DMS 1161078.
+v
+
+vi PREFACE
+
+Contents
+Preface v
+1 Introduction 1
+1.1 Outline of the subject . . . . . . . . . . . . . . . . . . . . . . . . 1
+1.2 Equivalence relation results . . . . . . . . . . . . . . . . . . . . . 2
+1.3 Independence: by topic . . . . . . . . . . . . . . . . . . . . . . . 5
+1.4 Independence: by model . . . . . . . . . . . . . . . . . . . . . . . 11
+1.5 Independence: by preservation theorem . . . . . . . . . . . . . . 14
+1.6 Navigation. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+1.7 Notation and terminology . . . . . . . . . . . . . . . . . . . . . . 27
+I Equivalence relations 35
+2 The virtual realm 37
+2.1 Virtual equivalence classes . . . . . . . . . . . . . . . . . . . . . . 37
+2.2 Virtual structures. . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+2.3 Classification: general theorems . . . . . . . . . . . . . . . . . . . 42
+2.4 Classification: specific examples . . . . . . . . . . . . . . . . . . . 45
+2.5 Cardinal invariants . . . . . . . . . . . . . . . . . . . . . . . . . . 49
+2.5a Basic definitions . . . . . . . . . . . . . . . . . . . . . . . 50
+2.5b Estimates . . . . . . . . . . . . . . . . . . . . . . . . . . . 51
+2.5c Cardinal arithmetic examples . . . . . . . . . . . . . . . . 54
+2.5d Hypergraph examples . . . . . . . . . . . . . . . . . . . . 57
+2.6 Restrictions on partial orders . . . . . . . . . . . . . . . . . . . . 65
+2.7 Absoluteness . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68
+2.8 Dichotomies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 72
+2.8a Preliminaries . . . . . . . . . . . . . . . . . . . . . . . . . 72
+2.8b Results . . . . . . . . . . . . . . . . . . . . . . . . . . . . 76
+3 Turbulence 81
+3.1 Independent functions . . . . . . . . . . . . . . . . . . . . . . . . 81
+3.2 Examples . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84
+3.3 Placid equivalence relations . . . . . . . . . . . . . . . . . . . . . 88
+vii

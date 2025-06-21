@@ -1,0 +1,64 @@
+=== 块 146 ===
+
+ted in the ground model, p contains some point
+x∈X which is a realization of the virtual E-class f(c). It is not difficult to see
+that the pair (cid:104)Coll(ω,(cid:105) ),τ (cid:105) is a P-pin.
+ω1 f
+
+6.6. QUOTIENT VARIATIONS 153
+Theorem 6.6.6. Let E ⊂ F be Borel equivalence relations on a Polish space
+X and suppose that F is pinned. Let P be the E,F-transversal poset. Then
+1. for every virtual selection function f, the pair (cid:104)Coll(ω,(cid:105) ),τ (cid:105) is bal-
+ω1 f
+anced;
+2. for every balanced pair (cid:104)Q,τ(cid:105) there is a virtual selection function f such
+that the pairs (cid:104)Coll(ω,(cid:105) ),τ (cid:105) and (cid:104)Q,τ(cid:105) are equivalent;
+ω1 f
+3. distinct virtual selection functions yield nonequivalent balanced pairs.
+In particular, the poset P is balanced.
+Proof. To see (1), let V[H ] and V[H ] be mutually generic extensions of the
+0 1
+groundmodelandp ∈V[H ]andp ∈V[H ]beconditionsinthesetτ /H =
+0 0 1 1 f 0
+τ /H ; we have to show that p ,p ∈ P are compatible. To this end, suppose
+f 1 0 1
+thatx ∈p andx ∈p arepoints; wemustshowthatifx F x thenx E x
+0 0 1 1 0 1 0 1
+holds. A mutual genericity argument shows that x ,x are realizations of the
+0 1
+samevirtualF-classc. Bythedefinitionofthenameτ ,itmustbethecasethat
+f
+x ,x are both realizations of the virtual E-class f(c) and therefore E-related.
+0 1
+For (2), suppose that (cid:104)Q,τ(cid:105) is a balanced pair. To find the total function
+f, let c be an F-class. There must be a virtual E-class f(c) such that Q (cid:13)
+for some point x ∈ τ ∩c˙ x is a realization of f(c); otherwise, one could find
+conditions q ,q ∈Q and names for strengthenings τ ,τ of τ and names x˙ ,x˙
+0 1 0 1 0 1
+for elements of c˙ such that (cid:104)q ,q (cid:105) (cid:13) ¬(x˙ ) F (x˙ ) . This would
+0 1 Q×Q 0 left 1 right
+violate the balance of the pair (cid:104)Q,τ(cid:105) as (cid:104)q ,q (cid:105) (cid:13) τ ,τ ∈ P are incompatible
+0 1 0 1
+conditions. Let f: c(cid:55)→d be the resulting function.
+c
+To see that (cid:104)R,τ (cid:105) is a balanced pair equivalent to (cid:104)Q,τ(cid:105), strengthen τ if
+f
+necessary to ensure that τ is a name for an actual element of P, and observe
+that Q×Coll(ω,(cid:105) )(cid:13)τ ∈τ . The equivalence of the two balanced pairs then
+ω1 f
+follows from Proposition 5.2.4.
+Finally,(3)isobvious. ThebalanceoftheposetP isnowatrivialapplication
+of the Axiom of Choice: every condition p ∈ P can be extended to a maximal
+set A ⊂ X such that E (cid:22) A = F (cid:22) A. Let f be the function which to each
+F-class c assigns the E-class c∩A, and observe that the pair (cid:104)Coll(ω,(cid:105) ),τ (cid:105)
+ω1 f
+is balanced by (1) and is below p.
+Corollary 6.6.7. Let E ⊂ F be Borel equivalence relations on a Polish space
+X such that F is pinned. Let P be the E,F-uniformization poset. Then P is
+balanced.
+Example 6.6.8. A poset introducing a transversal to a pinned Borel equiva-
+lence relation F on a Polish space X. Just let E be the identity on the space
+X and consider the E,F-transversal poset. The generic set is an F-transversal.
+By Theorem 6.6.6, the balanced conditions are classified by F-transversals.
+Example 6.6.9. Aposetintroducingacompletecountablesectiontoapinned
+Borel equivalence relation G on a Polish space Y. Let X =Yω and let B ⊂X

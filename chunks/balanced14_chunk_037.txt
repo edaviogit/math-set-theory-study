@@ -1,0 +1,74 @@
+=== 块 37 ===
+
+distinct Borel sets of bounded Borel rank.
+DuringtheinvestigationofthesymmetricSolovaymodel,thefollowingtechnical
+fact and its corollary about the symmetric Solovay model will be used without
+mention.
+
+1.7. NOTATION AND TERMINOLOGY 33
+Fact 1.7.14. [45,Section26] Let κ be an inaccessible cardinal and let W be the
+symmetric Solovay extension of V associated with κ. Then
+1. every set in W is definable from parameters in V ∪2ω;
+2. in W, whenever M is a generic extension of V by a partial order of size
+<κ then W is a symmetric Solovay extension of M.
+Corollary 1.7.15. Suppose that κ is an inaccessible cardinal, X is a Polish
+space, φ(x,(cid:126)y) is a formula of set theory with all free variables displayed, and p(cid:126)
+is a sequence of sets of the same length as (cid:126)y. The following are equivalent:
+1. Coll(ω,<κ)(cid:13)∃x∈X φ(x,p(cid:126));
+2. there exist a poset R of size < κ and an R-name σ for an element of X
+such that R(cid:13)Coll(ω,<κ)(cid:13)φ(σ,p(cid:126)).
+Many models of set theory we investigate are extensions of the symmetric Solo-
+vay model by a suitably definable, typically Suslin, forcing. Since the instru-
+mentalpropertiesoftheSuslinforcinginquestionmaynotbeabsolutebetween
+forcingextensions,weusethefollowingkeyconventiontoshortenthestatements
+of the results we obtain.
+Convention 1.7.16. Let ψ be a property of partial orders, and let φ be a
+sentence in the language of set theory.
+1. For a Suslin partial order P and an inaccessible cardinal κ, the statement
+“P isψbelowκ”meansthatV |=ψ(P)holdsineveryforcingextension”.
+κ
+The statement “P is ψ cofinally below κ” means that V |=every forcing
+κ
+extension has a further extension in which ψ(P) holds”.
+2. The phrase “In ψ extensions of the Solovay model, φ holds” denotes the
+following long statement. Let P be a Suslin forcing and let κ be an
+inaccessible cardinal such that P is φ below κ. Let W be a symmetric
+Solovay model derived from κ. Let G ⊂ P be a filter generic over W.
+Then W[G]|=φ holds.
+3. The phrase “In cofinally ψ extensions of the Solovay model, φ holds”
+denotes the following statement. Let P be a Suslin forcing. Let κ be an
+inaccessible cardinal. Suppose that P is ψ cofinally below κ. Let W be a
+symmetric Solovay model derived from κ. Let G ⊂ P be a filter generic
+over W. Then W[G]|=φ holds.
+In several cases, we will need the basics of the stationary tower forcing.
+Definition 1.7.17. [64] Let κ be an inaccessible cardinal. The symbol Q
+κ
+denotes the (countably based) stationary tower up to κ. That is, Q consists of
+κ
+sets S such that S ⊂[dom(S)]ℵ0 is stationary and dom(S)∈V
+κ
+. The ordering
+is defined by T ≤ S if dom(S) ⊂ dom(T) and {x∩dom(S): x ∈ T} ⊂ S. If
+G ⊂ Q is a generic filter, j: V → M denotes the generic ultrapower derived
+κ
+from G.
+
+34 CHAPTER 1. INTRODUCTION
+Fact 1.7.18. [64] Let κ be an inaccessible cardinal, G⊂Q be a generic filter,
+κ
+and j: V →M be the generic embedding.
+1. If κ is a Woodin cardinal in the ground model, then κ=ωV[G] and Mω ⊂
+1
+M in V[G]. In particular, M is well-founded.
+2. If κ is a weakly compact Woodin cardinal in the ground model, then for
+every z ∈2ω in V[G] there is a Woodin cardinal λ<κ such that G∩Q is
+λ
+genericoverV andz ∈V[G∩Q ]. Inparticular,themodelW =V(RV[G])
+λ
+is a symmetric Solovay extension of V derived from κ.
+As a matter of notation, if the generic ultrapower model M is well-founded, it
+is always identified with its transitive collapse.
+
+Part I
+Equivalence relations
+35

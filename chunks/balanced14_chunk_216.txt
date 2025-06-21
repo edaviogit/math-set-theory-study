@@ -1,0 +1,71 @@
+=== 块 216 ===
+
+poset P by Theorem 8.1.2. The sequence (cid:104)p¯ : n ≤ ω(cid:105) is
+n Γ n
+as desired.
+Corollary 9.4.25. Let Γ be the graph on R2 connecting points x ,x if they
+0 1
+have a nonzero rational distance.
+
+226 CHAPTER 9. PRESERVING CARDINALITIES
+1. In the P -extension of the symmetric Solovay model, the orbit divide is
+Γ
+preserved;
+2. It is consistent relative to an inaccessible cardinal that ZF+DC holds, the
+chromatic number of Γ is countable, and the orbit divide is preserved.
+Example 9.4.26. Let X be a Borel vector space over a countable field Φ. Let
+P be the 3-Hamel decomposition forcing of Definition 8.1.11. The poset P is
+nested balanced.
+Proof. LetJ betheidealonωfromwhichtheposetP isconstructed. Letp∈P
+be any condition. Let (cid:104)M : n≤ω(cid:105) be a generic choice-coherent sequence such
+n
+that for every n∈ω, the set 2ω∩M \M is nonempty. Let ≺ be a coherent
+n n+1
+well-orderingofallfunctionsfromX toω. Let{a : n≤ω}∈V beacollection
+n
+(cid:83)
+of pairwise disjoint infinite sets such that a ∈J. Use Claim 8.1.14 in each
+n n
+model M to show that in M , there is a 3-Hamel decomposition extending p
+n n
+suchthatallpointsnotindom(p)getacolorintheseta ;letd bethe≺-least
+n n
+such a coloring. Now, working in M , let c : X → ω be the map defined by
+n n
+c (x)=d (x) if x∈M , and c (x)=d (x) if x∈M \M .
+n ω ω n m m m+1
+We claim that c is a 3-Hamel decomposition. To see this, suppose that
+n
+x ,x ,x are distinct nonzero points points in a nontrivial linear combination
+0 1 2
+resulting in 0. Let m ≤ ω be the largest index such that one of the points,
+say x , is in M . Either all three points are in M but not in M and
+0 m m m+1
+then the triple is not monochromatic as d is a Γ-coloring. Or, the other two
+m
+points are in M \M for some k <m. In such a case the triple is again not
+k k+1
+monochromatic: either x ∈ dom(p) and then the failure of monochromaticity
+0
+followsfromtheassumptionthatd isa3-Hameldecomposition,orx ∈/ dom(p)
+k 0
+and then c (x )∈a and c (x )∈a and the sets a ,a are disjoint.
+n 0 m n 1 k m k
+Now, it is not difficult to see that (cid:104)c : n ∈ ω(cid:105) is a coherent sequence of
+n
+3-Hamel decompositions. A 3-Hamel decomposition is a balanced condition for
+P by Theorem ??. Finally, p ≥ c ≥ ··· ≥ c ≥ c ≥ c holds in the poset P
+ω 2 1 0
+as the sets a for n≤ω all belong to the ideal J. Thus, (cid:104)M ,c : n≤ω(cid:105) is the
+n n n
+required nest below the condition p.
+Corollary 9.4.27. Let X be a Borel vector space over a countable field Φ. Let
+P be the 3-Hamel decomposition forcing of Definition 8.1.11.
+1. Let P be the 3-Hamel decomposition forcing. In the P-extension of the
+symmetric Solovay model, the orbit divide is preserved;
+2. itisconsistentrelativetoaninaccessiblecardinalthatZF+DCholds,there
+is 3-Hamel decomposition of X, and the orbit divide is preserved.
+In view of Example 8.1.15 it is consistent relative to an inaccessible cardinal
+that ZF+DC holds, the orbit divide is preserved, and there is a decomposition
+of R2 into countably many pieces neither of which contains the vertices of an
+equilateral triangle.

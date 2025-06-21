@@ -1,0 +1,75 @@
+=== 块 154 ===
+
+f the poset P.
+7.3 Ramsey sequences of structures
+There is a family of forcings present in several papers concerning the Rudin–
+KeislerorderonultrafilterswithstrongRamsey-typeproperties[23]. Thefamily
+
+7.3. RAMSEY SEQUENCES OF STRUCTURES 161
+isparametrizedbysequencesofstructurestiedbyapartitionpropertyasinthe
+following definition.
+Definition 7.3.1. A Ramsey sequence of finite structures is a sequence A =
+(cid:104)A : n ∈ ω(cid:105) of finite structures in the same language, with pairwise disjoint
+n
+domains, such that
+1. foreverynaturalnumbern∈ω,A containsanisomorphiccopyofA ;
+n+1 n
+2. for every k < n ∈ ω there is m > n such that the structural Ramsey
+property A →(A )Ak holds.
+m n 2
+For each Ramsey sequence A=(cid:104)A : n∈ω(cid:105) of finite structures, we will use the
+n
+(cid:83)
+following notation. dom(A) stands for dom(A ). Given a number n ∈ ω,
+n n
+the symbol D stands for the set of all finite sets d such that for some m ∈ ω,
+n
+d⊂dom(A ) and A (cid:22)d is isomorphic to A . For every set p⊂dom(A), the
+m m n
+symbol pAn stands for P(p)∩D
+n
+. Each Ramsey sequence of finite structures
+has a natural σ-closed poset associated to it.
+Definition 7.3.2. Let A=(cid:104)A : n∈ω(cid:105) be a Ramsey sequence of finite struc-
+n
+tures. LetP
+A
+denotetheposetofallsetsp⊂dom(A)suchthatpAn isnonempty
+for each n∈ω. The ordering is defined by q ≤p if q ⊆p modulo finite.
+It is not difficult to use the Ramsey property of the sequence A to see that
+a generic filter on P is in fact an ultrafilter on dom(A); the combinatorial
+A
+properties of this generic ultrafilter are the reason for the study of these posets
+in[8]. TheposetsoftheformP arebalanced. Thebalancedvirtualconditions
+A
+are parametrized by sequences of ultrafilters as opposed to single ultrafilters in
+the case of P(ω) modulo finite.
+Definition 7.3.3. Let A=(cid:104)A : n∈ω(cid:105) be a Ramsey sequence of finite struc-
+n
+tures. An A-sequence of filters is a sequence (cid:104)F : n∈ω(cid:105) such that
+n
+1. for every number n∈ω, F is a filter on the set D ;
+n n
+2. for all numbers n,m ∈ ω and every selection (cid:104)a : i ∈ n(cid:105) of sets in the
+i
+respective filters F
+i
+for i ∈ n, there is a set d ∈ D
+m
+such that dAi ⊂ a
+i
+holds for all i∈n.
+WheneverF =(cid:104)F : n∈ω(cid:105)isanA-sequenceofultrafilters,definetheColl(ω,2ω)-
+n
+name τ for the set of all conditions p∈P such that for every n∈ω and every
+F
+set a∈F
+n
+, pAn ⊂a modulo finite.
+Theorem 7.3.4. Let A = (cid:104)A : n ∈ ω(cid:105) be a Ramsey sequence of finite struc-
+n
+tures.
+1. ForeveryA-sequenceF ofultrafilters,thepair(cid:104)Coll(ω,2ω),τ (cid:105)isbalanced
+F
+in the poset P ;
+A

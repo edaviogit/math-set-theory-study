@@ -1,0 +1,58 @@
+=== 块 295 ===
+
+not in V[K], and a Q-name σ
+for a condition in P stronger than p¯such that Q(cid:13)Coll(ω,<κ)(cid:13)σ (cid:13) η ∈τ.
+P
+Let V[K][G] be some generic extension by a poset of cardinality less than κ in
+
+310 CHAPTER 12. THE SILVER DIVIDE
+which there is a perfect collection H ⊂ P(Q) which consists of filters mutually
+generic over V[K]. Work in the model V[K][G].
+Use the result of Solecki [85] to fix a lower-semicontinuous submeasure µ on
+ω such that I = {a ⊂ ω: lim µ(a\n) = 0}. Consider the poset R of triples
+n
+(cid:104)s,ε,a(cid:105)wheres⊂ω isfinite,ε>0isarealnumber,anda∈I isasetsuchthat
+µ(a\s) < ε . The ordering is defined by (cid:104)s ,ε ,a (cid:105) ≤ (cid:104)s ,ε ,a (cid:105) if s ⊂ s ,
+q 1 1 1 0 0 0 0 1
+ε ≤ ε , and a ⊂ s ∪a . It is not difficult to see that R is a σ-linked poset,
+1 0 0 1 0
+and the union of the first coordinates of conditions in the generic filter is forced
+to modulo finite contain every ground model element of I.
+Leta⊂ω beasetgenericoverthemodelV[K][G]fortheposetR,andwork
+in the model V[K][G][a]. For every filter H ∈ H∩V[K][G], η/H ⊂ a modulo
+finite holds, and the set H∩V[K][G] is uncountable as the poset R is c.c.c.
+Thus, the set {H ∈ H: η/H ⊂ a modulo finite} is analytic, uncountable, and
+therefore contains a nonempty perfect subset H(cid:48). Proposition 12.2.2 applied in
+V[K]showsthatinthemodelW theconditionp¯forcesthesetA={H ∈H(cid:48): σ
+y
+is in the generic filter} to be uncountable. The set b = {η/H: H ∈ A} is then
+forced to be an uncountable subset of τ and each element of it is modulo finite
+included in the set a.
+Now we move to a rich list of examples of Bernstein balanced forcings and
+related corollaries.
+Example12.2.8. EveryplacidSuslinforcingP isBernsteinbalancedandevery
+placid virtual condition in P is Bernstein balanced.
+Proof. Letp¯beavirtualplacidconditionintheposetP. LetV[G]beageneric
+extension and in V[G], let p ≤ p¯be a condition in P, let Q ∈ V be an infinite
+poset such that P(Q)∩V is countable in V[G], and suppose that H⊂P(Q) is
+aperfectfamilyoffiltersinfinitetuplesmutuallygenericoverV. Wemustfind
+afilterH ∈H suchthatallconditionsinP∩V[H]belowp¯arecompatiblewith
+P. By a Mostowski absoluteness argument, it is enough to find such a filter in
+some further generic extension of V[G]. Let R be any poset adding a new real,
+and let τ be an R-name for an element of H which is not in V[G].
+Claim 12.2.9. R(cid:13)V[τ]∩V[G]=V.
+Proof. Supposetowardsacontradictionthatthisisnotthecase. TheninV[G],
+there must be a condition r ∈R, a set a∈/ V of ordinals, and a Q-name η such
+that r (cid:13) aˇ = η/τ. Let K ,K ⊂ R be filters mutually generic over V[G], and
+0 1
+let H = τ/K , H = τ/K . Since in the model V[G], the perfect family H
+0 0 1 1
+consisted of filters on Q mutually generic over V, by a Mostowski absoluteness
+argument this is also true in V[G][K ][K ]; in particular, H ,H ⊂Q are filters
+0 1 0 1
+mutually generic over V. By the product forcing theorem applied in V then,
+V[H ] ∩ V[H ] = V. However, the set a ∈/ V belongs to both V[H ] and
+0 1 0
+V[H ] as a = η/H = η/H by the initial assumptions on the set a. This is a
+1 0 1
+contradiction.

@@ -1,0 +1,63 @@
+=== 块 249 ===
+
+.c. forcing. Then P does not
+add dominating reals.
+Proof. Let p ∈ P and τ be a P-name for an element of ωω. Consider the set
+A = {T ⊂ ω<ω: some q ≤ p forces Tˇ to have no infinite branch modulo finite
+
+262 CHAPTER 11. LOCALLY COUNTABLE STRUCTURES
+dominated by τ}. By the evaluation of the complexity of the forcing relation
+in Proposition 11.2.9 below, A is an analytic set of trees. At the same time, if
+p forces τ ∈ ωω to be a dominating real, then A is the set of all well-founded
+trees, which is coanalytic and not analytic. Since the conclusion is impossible,
+the assumption must be false as well. The proposition follows.
+ThemainfeatureoftheclassofverySuslinc.c.c.posetsisthatitisinasuitable
+precise sense closed under finite support iterations of countable length.
+Theorem 11.2.7. Let α∈ω be a countable ordinal and P a very Suslin c.c.c.
+1
+forcing. The finite support iteration of P of length α is naturally isomorphic to
+a very Suslin c.c.c. forcing.
+WeemphasisethatnosuchiterationresultispossibleforgeneralSuslinforcings.
+The complexity of the forcing relation on e.g. the Hechler forcing causes the
+complexity of the iterated posets to explode in ways that are unmanageable
+without large cardinal assumptions. In order to prove the iteration theorem for
+very Suslin c.c.c. posets succintly, we need several preliminary definitions and
+facts.
+Definition 11.2.8. Suppose that P is a very Suslin c.c.c. poset and X is a
+Polish space.
+1. Alayered P-name foranelementofX isatupleτ =(cid:104)A ,f : n∈ω(cid:105)such
+n n
+that A ⊂ P is a maximal antichain, f is a map from A to basic open
+n n n
+subsets of X of radius < 2−n, and if m < n then A refines A and if
+m n
+p ∈A and p ∈A are such that p ≤p , then the closure of f (p )
+n n m m m n m m
+is a subset of f (p ).
+n n
+2. XP is the set of all layered P-names for elements of X.
+Note that the set XP is analytic in a suitable ambient space. The definition of
+XP appears to depend on the choice of the metric for X, a dependence that we
+happily suppress. It is clear that for every name for an element of the space X
+there is a layered name which is forced to be equal to the original name. Now
+we are ready to show that the forcing relation of very Suslin c.c.c. forcings is
+Σ1 on Σ1 in a precise sense.
+1 1
+Proposition11.2.9. SupposethatP isaverySuslinc.c.c.poset, X isaPolish
+space, and A⊂X is an analytic set. The set {(cid:104)p,τ(cid:105)∈P ×XP: p(cid:13)τ ∈A˙} is
+an analytic subset of P ×XP.
+Proof. Letτ =(cid:104)A ,f : n∈ω(cid:105). Leth: ωω →Abeacontinuoussurjection. The
+n n
+statement p(cid:13)τ ∈A˙ is equivalent to the existence of a system (cid:104)B ,g : n∈ω(cid:105)
+n n
+where for each n ∈ ω, B is a maximal antichain of P of conditions which are
+n
+either below p or incompatible with p, g : B → ω<ω, B refines B and
+n n n+1 n
+A , whenever r ≤ q are conditions in B and B respectively then g (r)
+n n+1 n n+1
+properly extends g (q), and if r ≤ q is an element of B below p and an
+n n+1
+element of A respectively then [g (r)] ⊂ h−1f (q). This is an analytic
+n n+1 n
+statement.

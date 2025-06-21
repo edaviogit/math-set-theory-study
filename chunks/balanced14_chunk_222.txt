@@ -1,0 +1,104 @@
+=== 块 222 ===
+
+fine a uniformiza-
+m n
+tion y of the set A such that y(n) is equal to both x and x(cid:48) beyond k. This
+n n
+is impossible though as the two sequences x ,x(cid:48) do differ at some point past
+n n
+k.
+
+232 CHAPTER 9. PRESERVING CARDINALITIES
+Now, towards the proof of the theorem. Write E = Eω and F = E . Let
+0 Kσ
+κ be an inaccessible cardinal. Let P be a Suslin forcing which is compactly
+balanced and pod balanced below κ. Let W be a symmetric Solovay model
+derived from κ and work in the model W. Let p∈P be a condition and τ be a
+P-name such that p forces τ to be a function from the E-quotient space to the
+F-quotient space. We must find a condition q ≤p and distinct E-classes which
+are forced by q to have the same τ-image.
+The condition p and the name τ must be definable from a parameter z ∈2ω
+andadditionalparametersfromthegroundmodel. LetV[K]beanintermediate
+forcingextensionobtainedbyaposetofsize<κsuchthatz ∈V[K]. Workingin
+themodelV[K],letQ betheposetP(ω)modulofinite,andletQ betheprod-
+0 1
+uctofcountablymanycopiesoftheVitaliforcingasdiscussedinthepreambleof
+thepresentproof. Let(cid:104)U,x : n∈ω(cid:105)beobjectsgenericoverV[K]fortheposet
+n
+Q ×Q ; in particular, U is an ultrafilter on ω, and (cid:104)x : n ∈ ω(cid:105) is a sequence
+0 1 n
+of points in 2ω. Since the poset Q is σ-closed, the models V[K] and V[K][U]
+0
+compute the poset Q in the same way, in particular V[K][U][x : n ∈ ω] is a
+1 n
+Q -extension of V[K][U] and 2ω∩V[K][U][x : n∈ω]=2ω∩V[K][x : n∈ω].
+1 n n
+Since (Fact 9.5.5) the poset Q adds no independent reals, a density argument
+1
+shows that U generates an ultrafilter in the model V[K][U][x : n∈ω].
+n
+Let A ⊂ ω×2ω be the relation consisting of all pairs (cid:104)n,x(cid:105) such that x is
+E -related to x . In the model V[K][U][x : n ∈ ω] form the models V of all
+0 n n n
+sets hereditarily definable from parameters x for m ∈ n, A, and parameters
+m
+in the model V[K][U], and let M be the model of all sets hereditarily definable
+from the set A and its elements and some other parameters in V[K][U]. Note
+that by Vopˇenka’s theorem [45, page 249], the sequence (cid:104)x : n ∈ ω(cid:105) is generic
+n
+over the model M and the forcing adding it restores the axiom of choice in its
+generic extension of M.
+Thefollowingclaimmakesacriticaluseofthecompactbalanceassumption.
+Claim 9.5.7. In the model M:
+1. thereisasequence (cid:104)p¯ : n∈ω(cid:105) suchthat p¯ isabalancedvirtualcondition
+n n
+for V , and p≥p¯ ≥p¯ ≥p¯ ≥...;
+n 0 1 2
+2. any sequence as in (1) must have a lower bound.
+Proof. Start with item (1). Working in V[K][U], fix R -names χ so that R
+n n n
+is the product of the first n-many copies of the Vitali forcing in the product
+Q and χ is a name for a virtual balanced condition stronger than p and
+1 n
+than all χ for m ∈ n. This is possible by Definition 9.2.1(2). Now, in the
+m
+model V[K][U][x : n∈ω] for each n∈ω let p¯ be the U-limit of the sequence
+n n
+(cid:104)χ /(cid:104)xi : m ∈ n(cid:105): i ∈ ω(cid:105) in the compact space of virtual balanced conditions
+n m
+in the model V , where xi ∈ 2ω is the binary sequence obtained from x by
+n m m
+replacing its first i many entries with 0. The limit exists since U generates an
+ultrafilter in all models V . The balanced virtual conditions p¯ for n∈ω form
+n n
+a decreasing sequence by Definition 9.2.1(3). Also, the definition of the limit
+
+9.5. THE E DIVIDE 233
+Kσ
+𝑞
+𝑝
+0
+𝑝
+1
+V[H ]
+0
+V[H ]
+1
+𝑝
+3
+̅
+V
+3
+𝑝̅
+2
+V
+2
+𝑝̅
+1
+V
+1
+V
+0
+𝑝̅
+0
+Figure 9.2: A pod at work.

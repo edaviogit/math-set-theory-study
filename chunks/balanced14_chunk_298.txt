@@ -1,0 +1,56 @@
+=== 块 298 ===
+
+ual genericity, the only E-classes that occur
+in more than one model V[H] for H ∈H are the classes which are realizations
+of virtual E-classes in V. By a counting argument, there is a filter H ∈H such
+
+12.2. BERNSTEIN BALANCED FORCING 313
+that in the model V[H] there are no E-classes represented in the domain of p
+other than the classes which are realizations of virtual E-classes in V. Then p
+is compatible with every condition in V[H] which is stronger than p¯.
+Corollary 12.2.15. Let E be a Borel equivalence relation on a Polish space X.
+1. Let P be the poset of linear orders on countable subsets of the E-quotient
+space, with the reverse inclusion ordering. In the P-extension of the sym-
+metric Solovay model, there is no nonprincipal ultrafilter on ω and OCA
+holds.
+2. It is consistent relative to an inaccessible cardinal that ZF+DC holds, the
+E-quotient space is linearly ordered, there is no nonprincipal ultrafilter on
+ω and OCA holds.
+There are many posets which are neither Bernstein balanced nor perfectly bal-
+anced. The examples below are built to violate specific preservation properties
+of Bernstein balanced posets.
+Example 12.2.16. Consider the clopen graph Γ on 2ω connecting points x (cid:54)=
+0
+x ifthesmallestn∈ω suchthatx (n)(cid:54)=x (n)iseven. LetP bethebalanced
+1 0 1
+poset of Example 8.8.3. In the P-extension of the Solovay model, there is an
+uncountablesubsetof2ω suchthateveryΓ-cliqueandeveryΓ-anticliqueinitis
+countable. Thus, in the P-extension of the Solovay model, OCA fails. In view
+of Theorem 12.2.5, P is not Bernstein balanced.
+Example 12.2.17. Let P be the Lusin poset of Definition 8.8.5. In the P-
+extension of the symmetric Solovay model in which the conclusion of Theo-
+rem 12.2.6 fails. In particular, the Lusin poset is not Bernstein balanced.
+Proof. Let κ be an inaccessible cardinal, let W be a symmetric Solovay model
+derived from κ, and move to the model W. Let p = (cid:104)a,b(cid:105) ∈ P be a condition
+andletτ beaP-nameforanuncountablesubsetofA˙. Wemustfindacondition
+q ≤ p and two distinct E -related points x ,x ∈ 2ω such that q (cid:13) xˇ ,xˇ ∈ τ.
+0 0 1 0 1
+To this end, find a parameter z ∈ 2ω such that both p,τ are definable from
+some parameters in the ground model and the parameter z. Let V[K] be an
+intermediategenericextensioncontainingtheparameterz,obtainedasaforcing
+extensionofthegroundmodelbyaposetofsizelessthanκ. Workinthemodel
+V[K].
+Let p¯ ≤ p be a balanced virtual condition in P as in Theorem 8.8.6, so
+a =a. Since τ is forced to be an uncountable set, there must be a poset R, an
+p¯
+R-name σ for a condition in P stronger than p¯, and an R-name η for a point in
+a \a such that R (cid:13) Coll(ω,< κ) (cid:13) σ (cid:13) η ∈ τ. Note that η is forced to be a
+σ P
+point Cohen-generic over the model V[K], and it is also forced that any tuple
+x ∈ (2ω)n of points in the set a
+σ
+\(a∪[η]E
+0
+) is Cohen-generic over the model
+V[K][η]. By the general forcing theory, we may present the poset R as a two
+stepiterationS0∗S˙1,whereS0 istheCohenposet2<ω restrictedtosomefinite

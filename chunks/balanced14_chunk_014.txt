@@ -1,0 +1,52 @@
+=== 块 14 ===
+
+lhavecountable
+chromatic number. We can prove the following:
+Theorem 1.3.13. It is consistent with ZF+DC that the chromatic number of
+G is countable while the chromatic number of G is uncountable.
+1 2
+
+10 CHAPTER 1. INTRODUCTION
+Infact,itturnsoutthattheexistenceofaHamelbasisforRimpliesinZF+DC
+thatG hascountablechromaticnumber,whileitisconsistentwithZF+DCplus
+1
+the statement that G has uncountable chromatic number (Theorem 12.3.5).
+2
+TheanalysisofthegraphsG becomesmoredifficultasthenumbernincreases,
+n
+and the following attractive question is left open for all n>1:
+Question 1.3.14. Let n > 1 be a number. Is it consistent with ZF+DC that
+the chromatic number of G is countable while the chromatic number of G
+n n+1
+is uncountable?
+Hypergraphs of arity higher than 2 present enormous challenges. To illustrate
+the possibilities, call a coloring c: R2 → ω an equilateral triangle-free decom-
+position if there is no equilateral triangle whose vertices are painted the same
+color. Ceder [17] showed that in ZF, the existence of a Hamel basis implies the
+existence of an equilateral tringle-free decomposition. The opposite implication
+does not go through:
+Theorem 1.3.15. ItisconsistentwithZF+DCthattheequilateraltriangle-free
+decomposition exists and yet there is no discontinuous homomorphism between
+Polish groups.
+Ultrafilters. Themethodsofthebookcanseparatevarioustypesofultrafilters
+on ω and other combinatorial objects in the context of ZF+DC.
+Theorem 1.3.16. (Corollary 9.2.5, Proposition 9.2.22 and Corollary ??) In
+ZF+DC, there are no provable implications between the existence of a Hamel
+basis and existence of a nonprincipal ultrafilter on natural numbers.
+Improving [37], we have
+Theorem 1.3.17. (Corollary 14.6.7) In ZF+DC, the existence of a nonprinci-
+pal ultrafilter on natural numbers does not imply the existence of one which is
+disjoint from the summable ideal.
+WeisolateseveralwaysofaddinganultrafiltertothesymmetricSolovaymodel
+inacontrolledway,providingultrafilterswithvariousinterestingpartitionprop-
+erties: Ramsey ultrafilters and stable ordered union ultrafilters are just two
+examples. However, the comparison of the various models obtained as well as
+a classification of ultrafilters appearing in each model seems to be beyond our
+skill. Many other combinations of implications remain unresolved. For exam-
+ple, we do not know how to construct a model of ZF+DC in which there is a
+nonprincipal ultrafilter on ω, |E |≤|E | and yet |E |(cid:54)≤|2ω|.
+1 0 0
+Uniformization. Uniformization problems belong to the guiding lights of de-
+scriptive set theory. One of the most notorious versions of it is countable to
+oneuniformization,thestatementthateverysubsetoftheplanewithnonempty
+countableverticalsectionscontainsthegraphofatotalfunction. InChapter10,

@@ -1,0 +1,62 @@
+=== 块 294 ===
+
+Proposition12.2.2
+applied in V[K] shows that in W, p¯ forces the set a = {y ∈ 2ω: p is in the
+y
+generic filter} to be uncountable. The set {η/H : y ∈ a} is then forced to be
+y
+an uncountable Γ-clique.
+
+12.2. BERNSTEIN BALANCED FORCING 309
+Theorem 12.2.6. Let E be a Borel equivalence relation on a Polish space
+X. In cofinally Bernstein balanced extensions of the symmetric Solovay model,
+every subset of X is either covered by countably many E-classes or contains an
+uncountable subset consisting of pairwise E-unrelated elements.
+Proof. Let κ be an inaccessible cardinal. Let P be a Suslin forcing which is
+Bernstein balanced cofinally below κ. Let W be the symmetric Solovay model
+derived from κ, let p ∈ P be a condition and let τ be a P-name such that
+p (cid:13) τ ⊂ X is a set which is not covered by countably many E-classes. We
+will find a perfect set A⊂X consisting of pairwise E-unrelated elements and a
+condition q ≤p, q (cid:13)τ ∩Aˇ is uncountable. This will prove the theorem.
+The condition p and the name τ are definable from a parameter z ∈ 2ω
+and some parameters in the ground model. Let V[K] be some intermediate
+extension of the ground model by a poset of size < κ containing z and such
+that P is Bernstein balanced in V[K]; work in V[K]. Let p¯≤p be a Bernstein
+balanced condition in the poset P. Since the equivalence relation E is Borel,
+therearefewerthan(cid:105) manyvirtualE-classesinV[K]. Sincethecardinal(cid:105)
+ω1 ω1
+is countable in W, there must be in V[K] a poset R of size < κ and R-names
+σ for a condition in P stronger than p¯and η for an element of X which is not
+a realization of any virtual E-class in V[K] such that R(cid:13)Coll(ω,<κ)(cid:13)σ (cid:13)
+P
+η ∈τ.
+InthemodelW,useProposition1.7.10tofindaperfectset{H : y ∈2ω}of
+y
+filters on R which are mutually generic over the model V[K]. Write p =σ/H
+y y
+and x = η/H . By the assumption on the name η and the mutual genericity,
+y y
+the set A={η/H : y ∈2ω} consists of pairwise E-unrelated elements. Propo-
+y
+sition 12.2.2 applied in V[K] shows that in W the condition p¯ forces that for
+uncountably many y ∈ 2ω, p belongs to the generic filter. Then p¯(cid:13) τ ∩Aˇ is
+y
+uncountable as required.
+Theorem 12.2.7. Let I be an analytic P-ideal on ω. In cofinally Bernstein
+balanced extensions of the symmetric Solovay model, if A⊂I is an uncountable
+set, then there is a set b∈I such that the set {a∈A: a⊂b} is uncountable.
+Proof. Suppose that κ is an inaccessible cardinal and P is a Suslin poset which
+is Bernstein balanced cofinally below κ. Let W be a symmetric Solovay model
+derivedfromκandinthemodelW,letp∈P beaconditionandτ beaP-name
+such that p (cid:13) τ ⊂ I is an uncountable set. We need to produce a condition
+p¯ ≤ p and a set b ∈ I such that q (cid:13) {a ∈ τ: a ⊂ ˇb} is uncountable. The
+condition p and the name τ must be definable from parameters in the ground
+model and some real parameter z ∈ 2ω. Let V[K] be an intermediate forcing
+extensionbyaposetofsize<κsuchthatz ∈V[K]andP isBernsteinbalanced
+in V[K], and work in the model V[K].
+By the assumptions on the poset P, there must be a Bernstein balanced
+virtual condition p¯ ≤ p in the model V[K]. There must be a poset Q of size
+< κ, a Q-name η for an element of I which is not in V[K], and a Q-name σ
+for a condition in P stronger than p¯such that Q(cid:13)Coll(ω,<κ)(cid:13)σ (cid:13) η ∈τ.
+P
+Let V[K][G] be some generic extension by a poset of cardinality less than κ in

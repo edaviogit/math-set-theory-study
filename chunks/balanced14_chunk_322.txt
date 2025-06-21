@@ -1,0 +1,53 @@
+=== 块 322 ===
+
+e a pinned Borel equivalence relation on a Polish
+space X. Let P be the transversal poset of Example 6.6.8. The poset P is
+3,2-centered by its definition and it is balanced by Theorem 6.6.6. Letting Γ
+
+13.3. EXAMPLES 339
+be the graph on X connecting any two distinct E-related points, note that P
+adds a maximal acyclic subgraph to Γ–it is the graph consisting of all edges
+{x ,x }∈Γsuchthatoneoftheverticesx ,x belongstotheE-selectoradded
+0 1 0 1
+by P.
+Corollary 13.3.10. Let E be a pinned Borel equivalence relation on a Polish
+space X.
+1. Let P be the transversal poset of Example 6.6.8. In the P-extension of the
+symmetric Solovay model, there are no discontinuous homomorphisms of
+Polish groups.
+2. It is consistent relative to an inaccessible cardinal that ZF+DC holds,
+E has a transversal, and yet there is no discontinuous homomorphism
+between Polish groups.
+The next batch of examples deals with partial orders which are m,n-balanced
+but not 3,2-centered, and violate the conclusions of various preservation theo-
+rems for 3,2-centered posets from Section 13.2.
+Example 13.3.11. Let Γ be a Borel graph on a Polish space X. Let P be
+the poset of all countable acyclic subsets of Γ ordered by reverse inclusion.
+Whenever n ∈ ω is a natural number, the poset P is n,2-balanced and every
+balanced virtual condition is n,2-balanced.
+The poset P adds a maximal acyclic subset of Γ, violating the conclusion of
+Theorem 13.2.5 for many graphs Γ. Therefore, in such cases the poset P is not
+3,2-centered and even does not contain a dense analytic 3,2-centered subset.
+Proof. It follows from Example 6.4.10 that balanced virtual conditions for P
+are classified by maximal acyclic subgraphs of Γ. Let p¯be any maximal acyclic
+subgraph of Γ. We will check that p¯ is n,2-balanced, completing the proof.
+To this end, let {V[H ]: i ∈ n} be pairwise mutually generic extensions of V,
+i
+respectively containing some conditions p ≤p¯for each i∈n.
+i
+Claim 13.3.12. For each i∈n and vertices x ,x ∈X∩V, the following three
+0 1
+formulas are equivalent:
+1. x ,x are connected by a path in Γ∩V;
+0 1
+2. x ,x are connected by a path in p¯;
+0 1
+3. x ,x are connected by a path in p .
+0 1 i
+Proof. (1)→(2) is implied by the maximality of p¯. (2)→ (3) follows from the
+fact that p¯⊂p , and the negation of (1) implies by the Mostowski absoluteness
+i
+thatx ,x arenotconnectedbyanypathinthegraphΓ∩V[H ],whichislarger
+0 1 i
+than p and therefore (3) has to fail.
+i

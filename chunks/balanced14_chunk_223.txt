@@ -1,0 +1,111 @@
+=== 块 223 ===
+
+n n
+a decreasing sequence by Definition 9.2.1(3). Also, the definition of the limit
+
+9.5. THE E DIVIDE 233
+Kσ
+𝑞
+𝑝
+0
+𝑝
+1
+V[H ]
+0
+V[H ]
+1
+𝑝
+3
+̅
+V
+3
+𝑝̅
+2
+V
+2
+𝑝̅
+1
+V
+1
+V
+0
+𝑝̅
+0
+Figure 9.2: A pod at work.
+
+234 CHAPTER 9. PRESERVING CARDINALITIES
+does not really depend on the sequence (cid:104)x : n∈ω(cid:105) but only on the set A, and
+n
+therefore (cid:104)p¯ : n∈ω(cid:105)∈M as desired.
+n
+Item (2) is somewhat trickier. Let N be some generic extension of M which
+restores the axiom of choice. In the model N, let B be the compact Hausdorff
+space of balanced conditions for P. For each number n ∈ ω, consider the
+set C = {p¯ ∈ B: p¯ ≤ p¯ }. This is a nonempty and closed subset of B by
+n n
+Definition9.2.1(2)and(3). SincetheclosedsetsC forn∈ω formadecreasing
+n
+(cid:84)
+sequence, a compactness argument shows that there must be some p¯∈ C .
+n n
+This is the required lower bound of the sequence (cid:104)p¯ : n∈ω(cid:105).
+n
+Work in the model M. By the forcing theorem, there must be a poset R of
+rank<κrestoringtheaxiomofchoice,anR-nameσforaconditionintheposet
+P strongerthanallthebalancedvirtualconditionsp¯ forn∈ω andanR-name
+n
+η for an element of ωω such that R (cid:13) Coll(ω,< κ) (cid:13) σ (cid:13) τ([y] ) = [η] for
+P E F
+all functions y uniformizing the relation A. The following claim uses the pod
+balance assumption.
+Claim 9.5.8. There is a condition r ∈ R and a point u ∈ ωω ∩M such that
+r (cid:13)η F uˇ.
+Proof. Supposetowardsacontradictionthatthisfails. LetH ,H ⊂Rbefilters
+0 1
+mutually generic over the model M. Observe that the models M[H ],M[H ]
+0 1
+are generic extensions of V mutually generic over the pod M: if a ∈ M[H ]
+0 0
+anda ∈M[H ]aredisjointsetsofordinals,theymustbeseparatedbydisjoint
+1 1
+sets b ,b of ordinals in the model M by the mutual genericity over M and
+0 1
+Proposition 1.7.8. Now, let p =σ/H , u =η/H , p =σ/H and u =η/H .
+0 0 0 0 1 1 1 1
+Note that for every condition pˆ∈P ∩M, either both p ,p are below pˆor both
+0 1
+p ,p are incompatible with pˆ. This occurs because by Claim 9.5.6, there is a
+0 1
+number n ∈ ω such that pˆ∈ V , the virtual condition p¯ is either below pˆ or
+n n
+incompatible with it by its balance, and p ,p ≤ p¯ . By the pod balance of
+0 1 n
+the poset P, the conditions p ,p have a lower bound in the poset P. By the
+0 1
+forcing theorem in M and the initial contradictory assumption, u ,u are not
+0 1
+F-related to any element of M. By Proposition 9.5.2, u cannot be F-related
+0
+to u . Thus, the lower bound of p ,p would have to force the unique E-class
+1 0 1
+of all uniformizations of the set A to be mapped by τ simultaneously to [u ]
+0 F
+and to [u ] , which is impossible.
+1 F
+Now, the claim together with the forcing theorem means that there is a natural
+number n ∈ ω, a point u ∈ V in ωω and in the model V a poset S of size
+n n
+< κ and an S-name χ for a condition in the poset P stronger than p¯ and an
+S-name ξ for an element of (2ω)ω which is not E-related to any point in V
+n
+such that S (cid:13) Coll(ω,< κ) (cid:13) χ (cid:13) τ([ξ] ) = [uˇ] . Namely, the poset S
+P E F
+is a remainder of the iteration of Q and R after the first n-many Q-generic
+reals are added. Let H ,H ⊂ S be filters mutually generic over the model
+0 1
+V = V[K][U][x : m ∈ n] and write p = χ/H , y = ξ/H , p = χ/H , and
+n m 0 0 0 0 1 1
+y =ξ/H . Bythebalanceofthevirtualconditionp¯ ,theconditionsp ,p have
+1 1 n 0 1
+a lower bound. Since the equivalence relation E is pinned, the points y ,y are
+0 1

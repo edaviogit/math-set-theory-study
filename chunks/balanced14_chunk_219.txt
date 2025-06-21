@@ -1,0 +1,82 @@
+=== 块 219 ===
+
+tibility well-ordering of M which is
+i ni ni
+within d-distance 2−i of the zero element of Y and does not belong to M .
+ni+1
+Such a point must exist since the 2−i-neighborhood of the zero element is an
+
+9.5. THE E DIVIDE 229
+Kσ
+uncountable open subset of the Polish space Y, and M does not contain all
+ni+1
+reals of M . The point y is expressed as a unique linear combination φ of
+ni i i
+elements of B∩M . Finally, let n ∈ ω be the first number n greater than
+ni i+1
+n such the linear combination φ uses no elements of the set M \M .
+i i n ω
+Note that for each i ∈ ω the sequence (cid:104)y ,n : j ≥ i(cid:105) belongs to the model
+j j
+M . Let z = Σ y = lim Σ y . The limit exists as the metric d is
+ni i j≥i j k k≥j≥i k
+invariant and complete and the points y converge to zero fast. It is also clear
+i
+that z ∈ M , and z −z = y . Since z ∈ M and y ∈/ M both
+i ni i i+1 i i+1 ni+1 i ni+1
+hold, we conclude that z ∈/ M holds.
+i ni+1
+Now,thepointz ∈Y canbeexpressedasalinearcombinationψofelements
+0
+of B ∩M . Let i ∈ ω be a number so large that the combination ψ uses no
+0
+elementsofM \M . Observethatz =z −Σ y andthelinearcombinations
+ni ω i 0 j<i j
+φ yielding the points y for j ∈i use no elements of M \M . In other words,
+j j ni ω
+thepointz ∈M canbeexpressedasalinearcombinationofelementsofB\M
+k k 0
+which uses no elements of M \M . This combination (after cancellations) is
+ni ω
+uniqueasB isabasis,anditusesonlyelementsofM sinceB∩M isabasis
+ni ni
+inM . Thus,itusesonlyelementsofM ,soz ∈M . Thisontradictsthelast
+ni ω i ω
+sentence of the previous paragraph.
+Note that the Polish assumption on the vector space Y is necessary in Corol-
+lary 9.4.30. One can consider the (non-Polishable) group Y of finite subsets of
+2ω equipped with the symmetric difference operation as a vector space over the
+binaryfield. ThisvectorspacehasabasisinZF,namelythesetofallsingletons.
+Thus, the existence of the basis for this particular vector space does not imply
+in ZF the existence of a complete countable section for E .
+1
+9.5 The E divide
+K
+σ
+Recall that E is the equivalence relation on the space of all functions in
+Kσ
+ωω pointwise dominated by the identity function, connecting functions x ,x
+0 1
+if the function x −x is bounded. The central position of this equivalence
+0 1
+relationisdocumentedbythefactthatitisK , andthateveryK -equivalence
+σ σ
+relation is Borel reducible to it by a result of Rosendal [74]. It is well-known
+that the equivalence relation Eω is not Borel reducible to E [48, Lemma
+0 Kσ
+6.1.1], and among the equivalence relations classifiable by countable structures,
+it even has a central place in this regard. In this section, we show that in
+certain extensions of the symmetric Solovay model, this non-reducibility result
+is translated to a cardinality preservation result. The reader should note that
+in ZF, the inequality |E | ≤ |2ω| implies |Eω| ≤ |(2ω)ω| = |2ω|, and therefore
+0 0
+preserving the E -divide is strictly more difficult than preserving the smooth
+Kσ
+divide.
+The preservation of the relation |Eω|(cid:54)≤|E | uses the following generaliza-
+0 Kσ
+tion of the mutual genericity motivated by Proposition 1.7.8.
+Definition 9.5.1. Let V[H ],V[H ] be generic extensions in some ambient
+0 1
+extension of V. We say that V[H ],V[H ] are mutually generic over a pod if
+0 1

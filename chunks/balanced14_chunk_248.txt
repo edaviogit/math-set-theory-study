@@ -1,0 +1,50 @@
+=== 块 248 ===
+
+set of
+X2. To ease the notational clutter, in this section we only require that ≤ is
+a transitive relation on P containing the diagonal. In addition, the poset P is
+required to have a largest element.
+
+11.2. VERY SUSLIN FORCINGS 261
+A given Suslin poset (cid:104)P,≤(cid:105) can be reinterpreted in every forcing extension.
+Note that the demands on the analytic definitions of ≤ and ⊥ are Π1 and so
+2
+the reinterpretation is again a Suslin poset. Importantly, the c.c.c. property of
+Suslin forcings persists to forcing extensions.
+Fact 11.2.2. [44] Let (cid:104)P,≤(cid:105) be a Suslin c.c.c. poset. The reinterpretation of P
+in any forcing extension is c.c.c.
+Onehastoenterthemuchmorerestrictiveclassofvery Suslin forcings toguar-
+antee that the finite support iterations, separative quotients, and completions
+have desirable descriptive properties.
+Definition11.2.3. SupposethatP isaSuslinc.c.c.posetonanambientPolish
+space X. The poset is very Suslin if the set {a∈Pω: rng(a) is predense in P}
+is an analytic subset of Xω.
+Note that being a very Suslin partial order is a Π1 statement in the code for
+2
+the analytic set of maximal antichains and therefore absolute among all forcing
+extensions. Note that if the poset P and the ordering ≤ are Borel, which is
+the case for all applications in this book and elsewhere as well, then both the
+incompatibility relation and the set of maximal antichains are coanalytic and
+therefore Borel by the Suslin theorem.
+Example 11.2.4. The Cohen forcing, random forcing, and the eventually dif-
+ferent real forcing are very Suslin.
+Proof. TheSuslinityofthedefinitionoftheposetsiselementaryandleftforthe
+reader to check; we only verify the very Suslin property. The Cohen forcing is
+the poset P of finite binary strings ordered by reverse inclusion. A set a⊂P is
+predense if every condition in P is compatible with some element of a, which in
+view of the fact that P is countable is a Borel condition. If the random forcing
+P is realized as the collection of compact µ-positive mass subsets of X ordered
+by inclusion, where µ is some Borel probability measure on a Polish space X,
+(cid:83)
+thenacountableseta⊂P ispre-densejustincaseµ( a)=1,whichisaBorel
+condition. The case of the eventually different real forcing is somewhat more
+involved, and addressed in [101, Proposition 3.8.12].
+Example 11.2.5. The Hechler forcing is Suslin c.c.c. but not very Suslin.
+The Suslinness and c.c.c. of Hechler forcing are well-known and easily checked.
+The failure of the the very Suslin property follows from the basic distinction
+between Suslin and very Suslin c.c.c. posets: the latter cannot add dominating
+reals.
+Proposition 11.2.6. Let P be a very Suslin c.c.c. forcing. Then P does not
+add dominating reals.
+Proof. Let p ∈ P and τ be a P-name for an element of ωω. Consider the set
+A = {T ⊂ ω<ω: some q ≤ p forces Tˇ to have no infinite branch modulo finite

@@ -1,0 +1,64 @@
+=== 块 91 ===
+
+ss
+argument, Q(cid:13)∃x∈X\Z h(x)E σ; letτ beaQ-nameforsuchapointx∈X.
+It is not difficult to see that (cid:104)Q,τ(cid:105) is an E-pin and x ,x realize the virtual
+0 1
+class of (cid:104)Q,σ(cid:105).
+
+3.4. EXAMPLES AND OPERATIONS 91
+For the Friedman–Stanley jump, suppose that E is a virtually placid equiv-
+alence relation on a Polish space X, V[H ] and V[H ] are separately generic
+0 1
+extensions of V such that V[H ]∩V[H ] = V and y ,y ∈ Xω are elements
+0 1 0 1
+in the respective models such that [rng(y )] = [rng(y )] . Since E is virtu-
+0 E 1 E
+ally placid, every element of rng(y ) is a realization of a virtual E-class from
+0
+V. Let B be the set of all virtual E-classes in V which have realizations in
+rng(y ). Since B is also the set of all virtual E-classes in V which have real-
+0
+izations in rng(y ), it is clear that B ∈ V[H ]∩V[H ] = V. Thus, the points
+1 0 1
+y ,y ∈ Xω are realizations of the virtual E+-class represented by the set B.
+0 1
+By Proposition 3.3.3, we conclude that E+ is virtually placid.
+Theorem 3.4.2. Suppose that Γ is a Polish group continuously acting on a
+Polish space X and E is the resulting orbit equivalence relation. The following
+are equivalent:
+1. E is virtually placid;
+2. for every Borel set B ⊂ X such that E (cid:22) B is Borel, E (cid:22) B is virtually
+placid.
+Proof. (1)immediatelyimplies(2)sinceE (cid:22)B isreducibletoE bytheidentity
+map on B. Now suppose that (1) fails, and let P be a poset and τ be a name
+for an element of X such that P × P (cid:13) τ E τ fails, and let Q be a
+left right
+poset with names H˙ , H˙ for filters generic over the ground model such that
+0 1
+Q(cid:13)V[H˙ ]∩V[H˙ ]=V and τ/H˙ =τ/H˙ .
+0 1 0 1
+Let M be a countable elementary submodel of a large structure containing
+all objects mentioned so far. Let M¯ be the transitive collapse of M, and P¯,Q¯
+etc. be the images of P,Q etc. under the transitive collapse map. By Proposi-
+tion 3.5.5, Q¯ (cid:13) V[H¯ ]∩V[H¯ ] = V holds even in V (as opposed to M¯). Let
+0 1
+B = {x ∈ X: ∃H ⊂ P¯ generic over M¯ such that x = τ¯/H}. We have just
+provedthatE (cid:22)B isnotvirtuallyplacid. Theproofiscompletedbyareference
+to Corollary 2.8.8–the set B ⊂X is Borel and the equivalence relation E (cid:22)B is
+Borel as well.
+The theorem allows the transfer of the virtual placid property from Borel
+fragmentsofagivenorbitequivalencerelationtothewholeequivalencerelation.
+Consider the following attractive corollary:
+Corollary 3.4.3. Every equivalence relation classifiable by countable structures
+is virtually placid.
+Proof. InviewofTheorem3.4.1(1),itisonlynecessarytoshowthateveryorbit
+equivalence relation E obtained from an action of S is virtually placid. By
+∞
+Theorem 3.4.2, it is only necessary to show that all Borel fragments of E are
+virtually placid. To this end, consider the transfinite sequence (cid:104)F : α ∈ ω (cid:105)
+α 1
+obtained from F =identity on 2ω by repeated application of Friedman–Stanley
+1
+jump, at limit stages taking disjoint unions. It is well-known [48, Theorem
+12.5.2]thateveryBorelequivalencerelationclassifiablebycountablestructures

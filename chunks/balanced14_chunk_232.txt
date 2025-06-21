@@ -1,0 +1,66 @@
+=== 块 232 ===
+
+(cid:13)τ =[rng(u)] . SinceW isasymmetricSolovayextensionofthemodel
+E
+M [H ], the forcing theorem applied in that model says that q (cid:13) xˇ ∈ τ. Since
+y 1
+x∈/ [rng(u)] , this is a contradiction.
+E
+
+244 CHAPTER 10. UNIFORMIZATION
+10.4 Saint Raymond uniformization
+Inthissection,wewillprovethatastrongversionofSaintRaymonduniformiza-
+tionholdsingenericextensionsoftheSolovaymodelbytetheredbalancedforc-
+ing.
+Definition 10.4.1. Let I be a downward closed collection of closed subsets of
+a Polish space X. I-Saint Raymond uniformization is the following statement:
+for every set B ⊂2ω×X, the following are equivalent:
+1. for every y ∈2ω, B is a union of a well-ordered collection of sets in I;
+y
+2. B = (cid:83) B where for each ordinal α and each y ∈2ω, the vertical section
+α α
+(B ) ⊂X is closed and belongs to I.
+α y
+Asintheprevioussection,onlythe(1)→(2)implicationhascontent. Inthecase
+of I =the collection of singletons (plus the empty set), we can again derive the
+familiar countable-to-one uniformization as a very special case. The following
+theorem is stated using Convention 1.7.16.
+Theorem 10.4.2. Let I be an analytic collection of closed subsets of a Polsh
+space X. In tethered, cofinally balanced extensions of the symmetric Solovay
+model, the I-Saint-Raymond uniformization holds.
+Proof. Let κ be an inaccessible cardinal. Let P be a Suslin forcing which is
+balanced cofinally below κ and tethered below κ. Let W be the symmetric
+Solovay model derived from κ and work in W. Let p∈P be a condition and τ
+aP-nameforasubsetof2ω×X whoseverticalsectionsarewell-orderedunions
+of sets in I. Let z ∈ 2ω be a parameter such that p,τ are both definable from
+z and some additional ground model parameters. Let G⊂P be a generic filter
+meeting the condition p and let B =τ/G.
+Work in W[G]. Fix a point y ∈ 2ω and consider the model M of sets
+y
+hereditarily definable from parameters G,z,y and parameters in the ground
+model. Note that M is a model of choice and therefore belongs to W already;
+y
+in fact, it is an extension of the ground model by a poset of size <κ. We claim
+that every nonempty vertical section B is a union of sets in I which are coded
+y
+in the model M . Once this is proved, one can decompose the set B into the
+y
+(cid:83)
+unionB = B bysetting(cid:104)y,x(cid:105)∈B if(cid:104)y,x(cid:105)∈B andxbelongstotheα-th
+α α α
+set in I in the model M in the canonical well-ordering of the model M , and
+y y
+this α-th set is a subset of B.
+To prove this, first use Claim 10.2.3 to find a balanced virtual condition p¯
+in M whose realization belongs to the generic filter G. Work in the model M
+y y
+andarguethatColl(ω,<κ)(cid:13)p¯(cid:13) τ isaunionofacollectionofgroundmodel
+P y
+coded elements of I. By the forcing theorem applied in the model M , this will
+y
+complete the proof.
+Toprovetheforcingstatementinthepreviousparagraph,workinM . Sup-
+y
+pose towards a contradiction that it fails. By the assumptions on the name τ,
+there must be a poset R of size < κ and R -name η for a countable sequence
+0 0

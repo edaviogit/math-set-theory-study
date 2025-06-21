@@ -1,0 +1,67 @@
+=== 块 49 ===
+
+. Suppose x is a set, f: x2 →ω+1 is a function such that
+f(s,t)>0↔f(t,s)>0, and g: x2 →ω+1 is a function such that f(s,t)>0
+implies g(s)=g(t). Then there is, up to an isomorphism unique, acyclic graph
+
+48 CHAPTER 2. THE VIRTUAL REALM
+H(x,f,g) together with an onto map h: y →x, where y is the set of vertices of
+H(x,f,g), such that
+• for every s,t ∈ x and every vertex v ∈ y, if h(v) = s then the set of all
+neighbors of v mapped to t has size f(s,t);
+• for every s ∈ x there are g(s) many connected components of the graph
+H containing a vertex v with h(v)=s.
+TheconstructionofthegraphH(x,f,g)isstraightforward. Notethatwhen-
+ever u,v ∈ y are two vertices such that h(u) = h(v) then there is an automor-
+phism of the graph H(x,f,g) sending u to v.
+Now, suppose that σ is an E-pinned name on a poset P and let G ×G ⊂
+0 1
+P×P bemutuallygenericfiltersoverV. InthemodelV[G ,G ],letH =σ/G
+0 1 0 0
+andH =σ/G . TodefinethegraphH ∈V,letx ={s: sistheScottsentence
+1 1 0
+of the model (cid:104)H ,v(cid:105) for some vertex v of H } ∈ V[G ] and x = {s: s is the
+0 0 0 1
+Scott sentence of the model (cid:104)H ,v(cid:105) for some vertex v in H } ∈ V[G ]. Since
+1 1 1
+H is isomorphic to H , it follows from Karp’s theorem [32, Lemma 12.1.6]
+0 1
+that x = x , so x = x = x ∈ V[G ]∩V[G ] ∈ V. Let f: x2 → ω +1
+0 1 0 1 0 1
+be the function defined by f(s,t) = i if every vertex of H of type s has i-
+0
+many neighbors of type t when i ∈ ω, and f(s,t) = ω if every vertex of H
+0
+of type s has infinitely many neighbors of type t. Let g: x → ω +1 be the
+function defined by f(s) = i if there are i-many connected components of H
+0
+containing a node of type s when i ∈ ω, and g(s) = ω if there are infinitely
+manyconnectedcomponentsofH containinganodeoftypes. Notethatthese
+0
+functions are well-defined and the graph H is isomorphic to H(x,f,g) in the
+0
+modelV[G ]. SimilardefinitionsusingthegrapH yieldthesamefunctions, so
+0 1
+f,g ∈ V[G ]∩V[G ] = V. Working in V, consider the graph H = H(x,f,g).
+0 1
+This graph is isomorphic to H in V[G ], so τ E¯ σ.
+0 0 H
+Intherecentyears,modeltheoristsprovedseveralothertheoremsregardingthe
+classificationofvirtualisomorphismclassesbypossiblyuncountablestructures.
+[96] provides further examples of grounded sentences beyond those obtained by
+Theorems 2.4.5 and 2.4.8. The first item of the following theorem is related to
+classical arguments going at least as far back as the unpublished work of Leo
+Harrington in the 1980’s. Similar results also appear in [6] and [65].
+Fact 2.4.9. [50, Section 4] Let E be the equivalence relation of isomorphism of
+structures on ω.
+1. If P is a poset forcing |ℵV| > ℵ then every E-pin (cid:104)P,σ(cid:105) is E¯-equivalent
+2 0
+to (cid:104)Coll(ω,M),τ (cid:105) for some structure M of size ≤ℵ ;
+M 1
+2. if P forces |ℵV| = ℵ , then there is an E-pin (cid:104)P,σ(cid:105) which is not E¯-
+2 0
+equivalent to (cid:104)Coll(ω,M),τ (cid:105) for any structure M.
+M
+Virtual spaces for equivalence relations which are not classifiable by countable
+structures are often quite difficult to understand. To conclude this section, we
+state another classification theorem and a couple of open questions.

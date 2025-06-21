@@ -1,0 +1,79 @@
+=== 块 272 ===
+
+partition of ω into infinite sets. Now, define the
+k
+Q∗R˙-nameσ foratotalΓ-coloringbythefollowingrecursiveformula. σ (cid:22)M is
+0
+definedforapointy ∈M sothatify ∈dom(p)thenσ(y)=p(y);ify ∈/ dom(p)
+0
+
+11.5. LARGER GRAPHS 285
+then σ(y) is the smallest element of b which is distinct from all colors p(x)
+η0(y)
+for points x∈dom(p) which are Γ-connected with y. If α>0 then let σ(y) be
+the smallest element of b which is distinct from all colors p(x) for points
+(cid:83)
+ηα(y)
+x ∈ X ∩ M which are Γ-connected with y. Note that the definition is
+β∈α β
+correct as the number of colors in the set b we must avoid is at most n by
+ηα(y)
+the claim and the initial assumption on p.
+Now, observe that σ is really a name for a Γ-coloring. To see this, suppose
+that y ,y ∈ X are Γ-connected points which appear in the models M and
+0 1 α0
+M respectively. For definiteness assume that α ≤ α holds. If α = α ,
+α1 0 1 0 1
+then σ(y ) (cid:54)= σ(y ) must hold as η(y ) (cid:54)= η(y ) holds. If α < α then σ(y )
+0 1 0 1 0 1 1
+is distinct from all colors of points assigned to the points Γ-connected to y
+1
+and belonging to the models with smaller index, in particular σ(y ) (cid:54)= σ(y ).
+1 0
+Observealsothatthenameσ doesnotdependontheQ-genericpoint,butonly
+on the model this point generates over V[K].
+Total Γ colorings are balanced virtual conditions in P by Theorem 8.1.2.
+Thus, writing χ for the Q-name for the generic element of ωω added by the
+poset Q, a balance argument shows that Q∗R˙ (cid:13) Coll(ω,< κ) (cid:13) σ decides in
+P the value of τ(χ). Let (cid:104)q,r˙(cid:105) be a condition in the iteration Q∗R˙ and let
+m∈ω beanumbersuchthat(cid:104)q,r˙(cid:105)(cid:13)Coll(ω,<κ)(cid:13)σ (cid:13)τ(χ)=mˇ. Byachain
+condition argument, there is a countable ordinal α such that q (cid:13) r˙ ∈ R˙ , the
+α
+intial segment of the iteration R of length α.
+The poset K is very Suslin and Suslin σ-liminf-centered by Theorems 11.5.3
+and11.5.4. ItfollowsbyTheorem11.3.20thatR isSuslinσ-liminf-centered;let
+α
+(cid:83)
+R = A be its cover by analytic liminf-centered pieces. Strengthening q if
+α k k
+necessary,wemayassumethatthereisk ∈ω suchthatq (cid:13)r˙ ∈A ; inaddition,
+k
+q is one of the finite sequences used in the definition in the skew product ∆.
+Let y ∈ ωω be a point Cohen generic over V[K] such that q ⊂ y, and for each
+number l∈ω let y ∈ωω be the point resulting from rewriting the first entry of
+l
+y past q with l. Thus, the points y form a ∆-clique, they are all Cohen-generic
+l
+overV[K],andtheyallgeneratethemodelV[K][y]. Bytheliminf-centeredness
+of the set A , there is a condition s ∈ R which forces the set {l ∈ ω: r˙/y
+k α l
+belongs to the generic filter} to be infinite. Let H ⊂ R be a filter generic over
+V[K][y]meetingtheconditions. InV[K][y][H],letp¯=σ/H; thisisabalanced
+condition for the poset P. Let y ,y ∈ωω be two distict points such that the
+l0 l1
+conditionsr˙/y ,r˙/y bothbelongtothefilter H. Theforcingtheoremapplied
+l0 l1
+in the model V[K] shows that in the model W, p¯(cid:13) τ(yˇ ) = τ(yˇ ) = mˇ as
+P l0 l1
+desired.
+Theorem 11.5.8. Let Γ be a Borel hypergraph on a Polish space X containing
+no injective homomorphic image of K for some n ∈ ω. Let ∆ be a Borel
+n,n
+graph which does not have Borel σ-bounded clique number. In the P -extension
+Γ
+of the symmetric Solovay model, the chromatic number of ∆ is uncountable.
+Proof. In view of Fact 11.1.24, it is enough to prove the theorem for a specific
+(cid:81)
+graph ∆. Let Y be the product (n+1) and let ∆ be the graph on Y which
+n
+is the skew product of cliques on the sets n+1 for n ∈ ω. The proof now

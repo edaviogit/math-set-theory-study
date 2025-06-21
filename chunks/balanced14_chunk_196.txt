@@ -1,0 +1,65 @@
+=== 块 196 ===
+
+ℵ1 ≤2ℵ0, in contradiction with the Continuum Hypothesis.
+Now, we are ready to show that 2ω ⊂ M. Suppose that x ∈ 2ω is a point.
+Since M contains uncountably many elements of 2ω, there must be distinct
+
+9.2. THE SMOOTH DIVIDE 205
+pointsy ,y ∈2ω∩M suchthatc(x,y )=c(x,y )=nforsomenumbern∈ω.
+0 1 0 1
+There cannot be any other point x(cid:48) ∈ 2ω such that c(x(cid:48),y ) = c(x(cid:48),y ) = n,
+0 1
+because the sequence x,y ,x(cid:48),y would form a monochromatic cycle. Thus, x
+0 1
+is defined by the demand c(x,y ) = c(x,y ) = n and so it is an element of M
+0 1
+as desired.
+9.2 The smooth divide
+A basic result in the theory of analytic equivalence relations says that there is
+noBorelreductionfromE totheidentityon2ω. Abasicconcernofourtheory
+0
+then is when |E | > |2ω| holds in the balanced extensions of the symmetric
+0
+Solovay model. The take home lesson of this section is that if P is a balanced
+Suslin poset whose balanced conditions are naturally organized into a compact
+Hausdorffspace,thenintheP-extensionofthesymmetricSolovaymodel,|E |>
+0
+|2ω| indeed holds. There are other ways to preserve the inequality |E | > |2ω|
+0
+discussed in Chapter 11, but the compactness arguments are the most elegant
+and cover a lot of ground.
+Definition 9.2.1. ASuslinposetP iscompactly balanced ifthereisadefinable
+compactHausdorfftopologyT onthesetB ofallequivalenceclassesofbalanced
+virtual conditions such that
+1. for every p∈P the set {p¯∈B: p¯≤p}⊂B is nonempty and T-closed.
+Moreover, if V[H ]⊂V[H ] are generic extensions of V then
+0 1
+2. foreverybalancedvirtualconditionp¯ ∈V[H ]thereisabalancedvirtual
+0 0
+condition p¯ ∈V[H ] such that p¯ ≤p¯ holds;
+1 1 1 0
+3. the relation {(cid:104)p¯
+0
+,p¯
+1
+(cid:105) ∈ BV[H0] ×BV[H1]: p¯
+1
+≤ p¯
+0
+} is closed in TV[H0] ×
+TV[H1].
+The definition seems to be obscure at the first reading, but it is fully justified
+by the natural compact Hausdorff topologies present in the examples. One
+rather (intentionally) unclear feature is the definability of the topology T. It
+is central in that otherwise the definition would have no content and the key
+item (3) could not be stated without it. The definition is allowed to have real
+parameters. However, the nature of the definition of T is left undetermined.
+In the examples, the topology T is typically nonseparable, and the compact
+Hausdorff space (cid:104)B,T(cid:105) can be in principle very complicated. The following
+theoremisthemainresultofthissection. ItsstatementusesConvention1.7.16.
+Theorem 9.2.2. In compactly balanced extensions of the symmetric Solovay
+model, |E |>|2ω| holds.
+0
+The proof uses a technical tool which has been studied in its own right: the
+Vitali forcing, also called E -forcing in [48, Section 10.9] or in [101, Section
+0

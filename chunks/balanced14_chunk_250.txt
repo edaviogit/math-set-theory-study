@@ -1,0 +1,58 @@
+=== 块 250 ===
+
+spectively then g (r)
+n n+1 n n+1
+properly extends g (q), and if r ≤ q is an element of B below p and an
+n n+1
+element of A respectively then [g (r)] ⊂ h−1f (q). This is an analytic
+n n+1 n
+statement.
+
+11.2. VERY SUSLIN FORCINGS 263
+InordertoformulatethefinitesupportiterationsofverySuslinforcings,wemust
+state the usual two-step iteration and direct limit definitions in the definable
+context. These definitions are verbose but contain no surprises.
+Definition 11.2.10. Let P,Q be posets. A projection of Q to P is a pair of
+order-preserving functions π: Q→P and ξ: P →Q such that
+1. π◦ξ is the identity on P;
+2. whenever π(q)≤p then q ≤ξ(p);
+3. whenever p≤π(q) then there is q(cid:48) ≤q such that π(q(cid:48))≤p.
+The following definition will be used at the successor stage of the iterations.
+Definition 11.2.11. Let P be a very Suslin poset on a Polish space X and
+Q be a very Suslin poset on a Polish space Y. Define P ∗Q˙ to be the set of
+all ordered pairs (cid:104)p,q˙(cid:105) where p ∈ P and q is a nice P-name for an element
+of Y such that p (cid:13) q˙ ∈ Q˙. The ordering is defined by (cid:104)p ,q˙ (cid:105) ≤ (cid:104)p ,q˙ (cid:105) if
+1 1 0 0
+p ≤p and p (cid:13)q˙ ≤q˙ . The iteration P ∗Q˙ also includes the iteration maps
+1 0 1 1 0
+π: P ∗Q˙ →P defined by π(p,q˙)=p together with the function ξ: P →P ∗Q˙
+defined by ξ(p)=(cid:104)p,1 (cid:105).
+Q
+The limit stages will be defined in the following way.
+Definition11.2.12. AverySuslinsystemisatuple(cid:104)P : n∈ω,π ,ξ : m≤
+n nm mn
+n∈ω(cid:105) where
+1. each P is a very Suslin c.c.c. forcing;
+n
+2. for each m ≤ n ∈ ω, the functions π : P → P and ξ : P → P
+nm n m mn m n
+are analytic and form a projection of P to P , with π and ξ equal
+n m nn nn
+to the identity on P ;
+n
+3. the functions π commute, as do the functions ξ .
+nm mn
+The limit of the system is the poset P of all pairs (cid:104)p,n(cid:105) where p∈P , ordered
+ω n
+by (cid:104)q,n(cid:105) ≤ (cid:104)p,m(cid:105) if m ≤ n and π (q) ≤ p in P . The limit also includes the
+nm n
+limit maps π : P →P and ξ : P →P defined by ξ (p)=(cid:104)p,m(cid:105) and
+ωm ω m mω m ω mω
+π ((cid:104)p,n(cid:105))=π (p) if n>m and π ((cid:104)p,n(cid:105))=ξ (p) if n≤m.
+ωm nm ωm nm
+Finally, we are ready to approach the proof of Theorem 11.2.7.
+Proof of Theorem 11.2.7. The argument proceeds by a standard transfinite in-
+duction argument using the following claims:
+Claim 11.2.13. Let P,Q be very Suslin c.c.c. posets. Then
+1. P ∗Q˙ is a very Suslin c.c.c. poset;
+2. the iteration maps are analytic and form a projection from P ∗Q˙ to P.

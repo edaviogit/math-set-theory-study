@@ -1,0 +1,77 @@
+=== 块 292 ===
+
+ω(cid:105) be an enumeration of all open dense
+m
+subsets of all finite powers of Q×R that appear in the model V[K], with infi-
+nite repetitions. By recursion on m∈ω build numbers n ∈ω and conditions
+m
+
+12.2. BERNSTEIN BALANCED FORCING 307
+(cid:104)q ,r (cid:105) ≤ (cid:104)q,r(cid:105) for i ∈ 3 and t ∈ 2m so that dom(q ) = n for all i ∈ 3 and
+it it it m
+t∈2m, and:
+• if i∈3 and t⊂s are binary strings, then (cid:104)q ,r (cid:105)≤(cid:104)q ,r (cid:105);
+is is it it
+• if O is an open dense set in the k-fold product of Q×R and k is smaller
+m
+than m, then for every i ∈ 3 and every k-tuple (cid:104)t : l ∈ k of distinct
+l
+elements of 2m+1, the tuple (cid:104)(cid:104)q ,r (cid:105): l∈k(cid:105) belongs to O ;
+itl itl m
+• whenever i,j are distinct numbers in 3, s,t ∈ 2m and k ∈ n \dom(q),
+m
+then q (k) and q (k) are not both simultaneously equal to 1.
+is jt
+Toperformtherecursion,startwith(cid:104)q ,r (cid:105)=(cid:104)q,r(cid:105)foralli∈3. Now,suppose
+i0 i0
+that n ∈ ω and conditions (cid:104)q ,r (cid:105) ≤ (cid:104)q,r(cid:105) for i ∈ 3 and t ∈ 2m have been
+m it it
+found. First, work on subscript 0: for all t ∈ 2m+1 find conditions (cid:104)q0 ,r (cid:105) ∈
+0t 0t
+Q×R so that the first two items are satisfied and let n = max dom(q0 ).
+0m t 0t
+Then, work on subscript 1: for all t ∈ 2m+1 find conditions (cid:104)q0 ,r (cid:105) ∈ Q×R
+1t 1t
+so that the first two items are satisfied, for each t and each j ∈ [n ,n )
+m 0m
+q0 (j) = 0 holds, and let n = max dom(q0 ). Finally, work on subscript
+1t 1m t 1t
+2: for all t ∈ 2m+1 find conditions (cid:104)q0 ,r (cid:105) ∈ Q × R so that the first two
+2t 2t
+items are satisfied, for each t and each j ∈ [n ,n ) q0 (j) = 0 holds, and let
+m 1m 2t
+n =max dom(q0 ). To conclude the work, extend the binary strings q0 ,q0 ,
+2m t 2t 0t 1t
+andq0 withzeroesonlysothattheresultingbinarystringsq ,q ,q havethe
+2t 0t 1t 2t
+same domain n .
+m+1
+In the end, for each i ∈ 3 and each y ∈ 2ω let H ⊂ Q×R be the filter
+iy
+generatedbytheconditions(cid:104)q iy(cid:22)m ,r iy(cid:22)m (cid:105)form∈ω. Thefirstandseconditems
+above show that the family H = {H : y ∈ 2ω} consists of filters on Q×R in
+i iy
+finitetuplesmutuallygenericoverthemodelV[K]. Thethirditemaboveshows
+thatfordistincti,j ∈3andpointsy ,y ∈2ω,theintersectionx˙/H ∩x˙/H
+0 1 iy0 jy1
+is finite.
+Now, a twice repeated use of the Bernstein balance of the virtual condition
+p¯in V[K] with the families H ,H , H yields points y ,y ,y ∈ 2ω such that
+0 1 2 0 1 2
+the conditions p = σ/H , p = σ/H , and p = σ/H have a common
+0 0y0 1 1y1 2 2y2
+lower bound. Write x = x˙/H , x = x˙/H , and x = H . By the
+0 0y0 1 1y1 2 2y2
+previous paragraph, the sets x ,x ,x ⊂ω are pairwise almost disjoint. At the
+0 1 2
+same time, by the forcing theorem in V[K], the common lower bound of the
+conditions p ,p ,p forces the numbers τ(xˇ ), τ(xˇ ), and τ(xˇ ) to be at least
+0 1 2 0 1 2
+1/2 each. This contradicts the assumption that τ was forced to be a diffuse
+finitely additive measure.
+Thenextpreservationtheoremdealswiththewell-knownOpenColoringAxiom,
+OCA [91].
+Definition 12.2.4. OCA is the following statement. Whenever X is a Polish
+space, A ⊂ X is a set, and Γ is a graph on A which is open in the topology
+on A×A inherited from X ×X, then either A is a union of countably many
+Γ-anticliques, or A contains an uncountable Γ-clique.

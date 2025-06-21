@@ -1,0 +1,81 @@
+=== 块 233 ===
+
+mentinthepreviousparagraph,workinM . Sup-
+y
+pose towards a contradiction that it fails. By the assumptions on the name τ,
+there must be a poset R of size < κ and R -name η for a countable sequence
+0 0
+
+10.5. EXAMPLES 245
+of elements of I and an R -name σ for a condition in P stronger than p¯such
+0 0
+that R (cid:13)Coll(ω,<κ)(cid:13)σ (cid:13) (cid:104)yˇ,x(cid:105)∈η ↔∃i x∈η(i). By the contradictory
+0 0 p
+assumption, there also must be a poset R of size < κ and R -name χ for an
+1 1
+elementofX andanR -nameσ foraconditioninP strongerthanp¯suchthat
+1 1
+R (cid:13)Coll(ω,<κ)(cid:13)σ (cid:13)(cid:104)yˇ,χ(cid:105)∈τ and χ does not belong to any element of I
+1 1
+which belongs to M and is a subset of τ .
+y yˇ
+Move to the model W. Let H ,H ⊂R ,R be filters mutually generic over
+0 1 0 1
+M , and let p = σ /H and p = σ /H . By the balance of the condition
+y 0 0 0 1 1 1
+p¯, p ,p ∈ P are compatible conditions with a lower bound q ∈ P. Let x =
+0 1
+χ/H ∈X. The contradiction is now reached by a split into cases.
+1
+Case 1. There exist a condition r ∈ H and a closed set C ∈ rng(η/H ) such
+1 0
+(cid:83)
+that the ground model closed set D = X \ {O: O ⊂ X is a basic open set
+such that r (cid:13)χ∈/ O} is a subset of C. By the closure of the collection I under
+subsets,D ∈I holds;bythedefinitionofthesetD,x∈Dholds. Now,W isthe
+symmetric Solovay extension of both models M [H ] and M [H ]. The forcing
+y 0 y 1
+theorem applied in M [H ] shows that W |= q (cid:13) D ⊂ C ⊂ τ. The forcing
+y 0
+theorem applied in M [H ] shows that W |= q (cid:13) xˇ ∈ D and xˇ belongs to no
+y 1
+ground model closed set in I which is a subset of τ . Thus, the same condition
+y
+q forces two contradictory statements.
+Case 2. Case 1 fails. Then, by the mutual genericity of the filters H ,H it
+0 1
+(cid:83)
+must be the case that x ∈/ rng(η/H ). Now, W is the symmetric Solovay
+0
+extension of both models M [H ] and M [H ]. The forcing theorem applied in
+y 0 y 1
+M [H ] shows that W |= q (cid:13) τ = (cid:83) rng(η/H ). The forcing theorem applied
+y 0 y 0
+in M [H ] shows that W |= q (cid:13) xˇ ∈ τ \ (cid:83) rng(η/H ). So again, the same
+y 1 y 0
+condition q forces two contradictory statements. The proof is complete.
+10.5 Examples
+In this section we present several examples of tethered and untethered partial
+orders. In all affirmative examples below, the conclusion is that in view of
+Theorems 10.2.2, 10.3.2, and 10.4.2, the extensions of the symmetric Solovay
+model by the posets in question satisfy the pinned uniformization, the well-
+orderable uniformization, and the Saint Raymond uniformization.
+WestartwithsimplicialcomplexposetswhichnaturallyliveonPolishspaces
+asopposedtoquotientspaces. Theseposetsareℵ -tetheredinallcasesthatwe
+0
+can check.
+Example 10.5.1. Let K be a Borel simplicial complex on a Polish space X of
+Borel coloring number ℵ . Then the poset P =P is ℵ -tethered.
+1 K 0
+Proof. Let (cid:126)Γ be a Borel orientation of the graph Γ = Γ of Definition 6.1.2
+K
+in which every node gets countable outflow. Suppose that V[H ],V[H ] are
+0 1
+mutually generic extensions of V and p ∈V[H ], p ∈V[H ] are incompatible
+0 0 1 1
+conditions. Theremustbefinitesetsa ⊂p anda ∈p suchthata ∪a ∈/ K;
+0 0 1 1 0 1
+choose a ,a to be inclusion-minimal. Then they are connected in the graph Γ;
+0 1
+assume for definiteness that a is in the (cid:126)Γ-outflow of a .
+1 0

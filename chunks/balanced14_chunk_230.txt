@@ -1,0 +1,63 @@
+=== 块 230 ===
+
+of its kind, as the following
+observation shows.
+Theorem 10.2.4. Let E be an unpinned Borel equivalence relation on a Polish
+space X. Then E-uniformization fails in balanced extensions of the Solovay
+
+242 CHAPTER 10. UNIFORMIZATION
+model.
+Proof. Let W[G] be a balanced extension of the Solovay model. For each pa-
+rameter z ∈ 2ω the model M = HOD is well-ordered and therefore by
+z V,z,G
+Theorem 9.1.1, it is a well-ordered subclass of W and so an extension of V by
+a poset < κ. The Borel equivalence relation E is unpinned in M by Theo-
+z
+rem 2.7.1. By Theorem 2.6.3, M |=there is a nontrivial E-pinned name on the
+z
+poset Coll(ω,ω
+1
+). Note that (P(ω
+1
+))Mz is a countable set in W. Thus, one
+can successfully define the set B ⊂ 2ω ×X by setting (cid:104)z,x(cid:105) ∈ B if there is a
+filter g ⊂ Coll(ω,ωMz) generic over M such that τ /g E x, where τ is the
+1 z z z
+first E-unpinned name in the canonical well-ordering of the model M . Every
+z
+vertical section of the set B then consists of precisely one E-equivalence class.
+Tosee thatthe set B cannotbe uniformized, note thateveryP-name inthe
+model W is definable from a real parameter and some additional parameters
+in the ground model, and therefore every element of W[G] is definable from
+a real parameter, the generic filter G, and some additional parameters in the
+ground model. Thus, if f: 2ω → X is a putative uniformization of the set B,
+onecanfindarealparameterz ∈2ω suchthatf isdefinablefromz,Gandsome
+elements of the ground model. Then f(z) should be an element of the model
+M by the definition of the model M . At the same time, the vertical sections
+z z
+B contains no elements of M by the definition of the set B.
+z z
+10.3 Well-orderable uniformization
+In this section, we will prove that a strong version of the countable-to-one uni-
+formization statement holds in the extensions of the Solovay model by tethered
+forcings.
+Definition 10.3.1. Let E be an equivalence relation on a Polish space X.
+E-well-orderable uniformization is the statement: if E is a Borel equivalence
+relation on a Polish space X and B ⊂ 2ω ×X is a set, then the following are
+equivalent:
+1. for every y ∈2ω, B is a union of a well-orderable collection of E-classes;
+y
+2. B = (cid:83) B where for each ordinal α, B ⊂ 2ω ×X is a set whose verti-
+α α α
+cal sections are either empty or E-classes and the variable α ranges over
+ordinals.
+Clearly, only the implication (1)→(2) has nontrivial content. As a very special
+case,onecanconsiderasetB ⊂2ω×X withallverticalsectionscountableand
+E the identity on X. Then (2) yields in particular a function uniformizing the
+setB: foreachy withB nonemptyfindtheleastα=α forwhichthevertical
+y y
+section (B ) is nonempty and then let f(y) = x for the unique x ∈ X such
+α y
+that (cid:104)y,x(cid:105)∈B . This is the familiar countable-to-one uniformization.
+αy
+ThecentraltheoremofthissectioncannowbestatedusingConvention1.7.16.

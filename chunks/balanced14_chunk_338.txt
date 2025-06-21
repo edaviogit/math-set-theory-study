@@ -1,0 +1,67 @@
+=== 块 338 ===
+
+, each with linearly orderable quotient space. Use
+the DC assumption to pick linear orders ≤ for each of them. Let U be a
+n
+nonprincipal ultrafilter on ω. If x,y ∈ X are E-unrelated elements, then let
+
+356 CHAPTER 14. OTHER COMBINATORICS
+[x] ≤[y] iftheseta(x,y)={n∈ω: [x] ≤ [y] }belongstotheultrafilter
+E E En n En
+U. If x(cid:48) E x and y(cid:48) E y are different representatives of the E-classes of x,y,
+then there is a number m ∈ ω such that x E x(cid:48) and y E y(cid:48); therefore, the
+m m
+symmetric difference a(x,y)∆a(x(cid:48),y(cid:48)) is a subset of m, and the definition of ≤
+doesnotdependonthechoiceoftheequivalenceclassrepresentatives. Itiseasy
+to check that ≤ is a linear ordering on the E-classes.
+As a basic negative result, the F -quotient space is not linearly ordered in
+2
+W[U]; it even carries no tournament by ???. Another negative result, Theo-
+rem 14.6.5 below, shows that the E -quotient space cannot be linearly ordered.
+2
+As a basic open instance, choose any non-hyperfinite countable Borel equiva-
+lence relation E.
+Question 14.6.3. Let X be an uncountable Polish space. Classify the Borel
+sets A ⊂ [X]ℵ0 such that in W[U], there is a function f assigning to each set
+a∈A an ultrafilter on a.
+Asabasicaffirmativeresultinthisdirection,ifEisahyperfinitecountableBorel
+equivalencerelationonX,thenthereisanassignmentofultrafilterstoE-classes
+inW[U]: LetE forn∈ωbeequivalencerelationswithallclassesfiniteforming
+n
+(cid:83)
+aninclusion-increasingsequencesuchthatE = E . Forthefirstitem, let≤
+n n
+beanylinearorderingofX. Foreachpointx∈X letx(n)bethe≤-leastelement
+of X which is E -related to X. Let U = {a ⊂ [x] : {n ∈ ω: x(n) ∈ a} ∈ U}.
+n x E
+Thus, U is an ultrafilter on [x] and x E y implies that U = U since U
+x E x y
+is nonprincipal and for some m ∈ ω x E y holds, and then for all n > m
+m
+x(n)=y(n) holds.
+As a basic negative result in this direction, there is no assignment of ultra-
+filters to all countable subsets of X; this follows from ???. As a basic open
+instance, letΓ bethe freegroup ontwogenerators actingon 2Γ by shiftand let
+X ⊂Γ be the G set of points on which Γ acts freely. Let E be the orbit equiv-
+δ
+alence relation on X. Is there an assignment of ultrafilters to E-classes? This
+seemingly arbitrary question relates to the quotient cardinal question 14.6.1. It
+iswell-knownthatE isnotBorelreducibletoE ???. However. theassignment
+0
+of ultrafilters to Γ-orbits yields in ZF the cardinal inequality |E| ≤ |E |. To
+0
+see this, let ∆ be the acyclic locally finite Cayley graph on X and let ∆(cid:126) be the
+orientation of the Cayley graph defined by (cid:104)x,y(cid:105)∈∆(cid:126) if the set of {z ∈X: the
+unique injective Cayley path from x to z includes y} belongs to the ultrafilter
+assigned to [x] . Clearly, every vertex gets outflow one in the orientation ∆(cid:126).
+E
+Now,applytheargumentafterExample9.2.15toconcludethat|E|≤|E |must
+0
+hold.
+Question 14.6.4. Classify ultrafilters on ω in W[U]. In particular, for which
+Borel ideals I on ω is there an ultrafilter F in W[U] such that I∩F =0?
+As the only nontrivial result in this section, we now prove that there is no
+ultrafilter in W[U] which is disjoint from the summable ideal.
+Theorem 14.6.5. Let P be the poset of infinite subsets of ω ordered by inclu-
+sion. IntheP-extensionofthesymmetricSolovaymodel, thecomplementgraph
+associated with the summable ideal on ω cannot be oriented.

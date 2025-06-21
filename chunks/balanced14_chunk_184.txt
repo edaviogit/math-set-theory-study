@@ -1,0 +1,73 @@
+=== 块 184 ===
+
+at b is forced to contain all
+σ
+ground model coded elements of I. By a balance argument, for every point
+x ∈ X it is the case that either Q (cid:13) xˇ ∈ a or Q (cid:13) xˇ ∈/ a . Let a ⊂ X be the
+σ σ
+
+8.8. SIDE CONDITION FORCINGS 193
+set of all those elements of X for which the former alternative prevails. We will
+show that Q×Coll(ω,X) (cid:13) σ ≤ τ , which implies the equivalence of σ and τ
+a a
+by Proposition 5.2.4.
+To prove the inequality σ ≤ τ , it is enough to show that Q (cid:13) (a \V)∩
+a σ
+(cid:83)
+( (I ∩V))=0. Suppose towards a contradiction that this fails, and let q ∈Q
+beacondition,ηbeaQ-nameforanelementofa \V andF ∈I∩V beaclosed
+σ
+set such that q (cid:13)η ∈F˙. Let G ,G ⊂Q be mutually generic filters containing
+0 1
+the condition q. By a mutual genericity argument, the point η/G does not
+0
+belong to a , while it does belong to F and F ∈ b . This means the
+σ/G1 σ/G1
+conditionsσ/G ,σ/G areincompatibleinP, violatingthebalanceassumption
+0 1
+on (cid:104)Q,σ(cid:105).
+(cid:83)
+Finally, (3) is immediate from the assumption that X = I.
+Example 8.8.3. Let X =2ω, let Γ be the graph connecting points x,y ∈X if
+theleastnumbersuchthatx(n)(cid:54)=y(n)iseven. LetI bethecollectionofclosed
+Γ-cliquesandclosedΓ-anticliques. TheposetP addsagenericuncountableset
+I
+such that every Γ-clique or anticlique is countable. This exhibits a balanced
+extension in which OCA fails, cf. Example 12.2.16.
+Example 8.8.4. Let X = ωω and let I be the collection {x ≤ y: x ∈ X} for
+all functions y ∈ ωω, where ≤ is the everywhere domination ordering on ωω.
+The poset P adds a dominating subset of ωω which has only countably many
+I
+elements below any given function y ∈ωω. A set like this must fail to have the
+Baire property. In a rather different language, Shelah [81] showed that in the
+P -extension of the Solovay model every set is Lebesgue measurable, showing
+I
+that ZF+DC plus the statement “every set of reals is Lebesgue measurable”
+does not imply that every set has the Baire property.
+In the case when I is the collection of closed nowhere dense subsets of X,
+there is a more sophisticated variation of the poset P . For a natural number
+I
+n ∈ ω, a set s ⊂ (2ω)n, and a partial function h: n → 2ω write s = {g ∈
+h
+(2ω)n\dom(h): h∪g ∈s}.
+Definition8.8.5. TheLusinposet P isthepartialorderofallpairsp=(cid:104)a ,b (cid:105)
+p p
+where a ⊂2ω is a countable E -invariant set and b is a countable set of pairs
+p 0 p
+(cid:104)s,a(cid:105)wheres⊂(2ω)n isaclosednowheredensesubsetof(2ω)n forsomen∈ω,
+a⊂a is an E -invariant set, and for each partial function h: n→a \a whose
+p 0 p
+range consists of pairwise non-E -related elements, if dom(h) = n then h ∈/ s,
+0
+and if dom(h) (cid:54)= n then the set s is nowhere dense in the space (2ω)n\dom(h).
+h
+The order is that of coordinatewise reverse inclusion.
+It is not difficult to check that P is a σ-closed Suslin partial ordering. The
+poset adds an E -invariant Lusin subset of 2ω–an uncountable set which inter-
+0
+sects every nowhere dense set in a countable set. The generic set has a similar
+property in all finite powers though, and in Example 12.2.17 it serves an even
+more refined purpose. The balance of P is an immediate consequence of the
+following classification theorem. For any E -invariant set a ⊂ 2ω, let τ be the
+0 a
+Coll(ω,2ω)-nameforthecondition(cid:104)aˇ,b(cid:105)∈P wherebisthesetofallpairs(cid:104)s,a(cid:105)

@@ -1,0 +1,50 @@
+=== 块 168 ===
+
+)with
+result in dom(p), and for every dom(p)-coset e⊂dom(q) distinct from dom(p),
+theset{n∈ω: thereexistsalinearcombinationofaq-monochromaticsetwith
+(cid:83)
+result in φ·e} belongs to the ideal J.
+φ∈Φ
+
+8.2. DISCONTINUOUS HOMOMORPHISMS 177
+It is not difficult to see that P is a σ-closed Suslin poset. We now classify its
+balanced conditions.
+Theorem 8.1.19. Let X be a Borel vector space over a countable field Φ. Let
+Γ be the Hamel hypergraph and let P be the Hamel decomposition forcing.
+1. If c: X →ω is a Γ-coloring, the pair (cid:104)Coll(ω,X),cˇ(cid:105) is balanced;
+2. if (cid:104)Q,τ(cid:105) is a balanced pair, then there is a Γ-coloring c: X →ω such that
+the balanced pairs (cid:104)Q,τ(cid:105) and (cid:104)Coll(ω,X),cˇ(cid:105) are equivalent;
+3. distinct Γ-colorings yield inequivalent balanced pairs.
+In particular, the Continuum Hypothesis is equivalent to the statement that P
+is balanced.
+As the proof of Theorem 8.1.19 is nearly literally the same as the one for The-
+orem 8.1.12, we dare to leave it to the patient reader.
+Example 8.1.20. Let X be the (non-Polishable) group of finite subsets of an
+uncountable Polish space X with the symmetric difference operation. View X
+asavectorspaceoverthebinaryfield. Letc: X →ω beaHameldecomposition
+of X. The restriction c(cid:22)[Y]2 →ω is a decomposition of the clique graph on Y
+into countably many sets with no monochromatic cycle.
+8.2 Discontinuous homomorphisms
+Another task which can be handled by balanced posets derived from simplicial
+complexes is the adding of discontinuous homomorphisms between topological
+structures. In this section, we treat the case of Polish groups. The problem
+of the existence of discontinuous homomorphisms from one Polish group to an-
+other has been studied for decades. In ZFC, some groups such as the unitary
+group [95] or the group of homeomorphisms of the unit circle [77] cannot be
+homomorphically mapped to another Polish group in a discontinuous way. In
+a ZF+DC context, existence of discontinuous homomorphisms has interesting
+consequences: ingeneral,itimpliesthatthechromaticnumberoftheHamming
+graphH is2[76],forsomespecificgroupsitimpliestheexistenceofanonprin-
+2
+cipal ultrafilter [90, Theorem 4.1]. For an exposition, see [75]. In this section,
+we provide a balanced forcing adding a discontinuous homomorphism of Polish
+groups in a certain common special case.
+Definition 8.2.1. Let Γ and ∆ be Polish groups. The simplicial complex
+K(Γ,∆) on X × Y consists of all finite sets a ⊂ X × Y which are subsets
+of a homomorphism from X to Y. We will write P(Γ,∆) for the associated
+Γ,∆-homomorphism poset of countable K(Γ,∆)-sets ordered by inclusion.
+As it was the case in Section 8.1, it seems to be difficult to evaluate the com-
+plexity of the complex K(Γ,∆) without having additional information on the
+nature of the two groups. In this section, we will deal with a very special case
+which nevertheless resolves some interesting problems.

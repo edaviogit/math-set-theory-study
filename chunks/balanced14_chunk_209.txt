@@ -1,0 +1,145 @@
+=== 块 209 ===
+
+ointsx ∈X forn∈ω arepairwiseE -equivalent;
+n n n 1
+
+218 CHAPTER 9. PRESERVING CARDINALITIES
+𝑝̅
+0
+V
+0
+𝑝̅
+1
+V
+1
+𝑝̅
+2
+V
+2
+𝑝̅
+3
+V
+3
+𝑝̅̅̅𝜔̅
+V
+ω
+Figure 9.1: A nest of models and balanced virtual conditions.
+
+9.4. THE ORBIT DIVIDE 219
+at the same time, they have no E -equivalent in the model M = (cid:84) M , since
+1 ω n n
+none of the points z belong to M .
+n ω
+Bytheforcingtheorem,foreachnumbern∈ω,inthemodelM theremust
+n
+beaposetR ofsize<κ,anR -nameσ foraconditioninP strongerthanp¯
+n n n n
+and an R -name η for an element of Y such that R (cid:13)Coll(ω,<κ)(cid:13)σ (cid:13)
+n n n n P
+τ([xˇ
+n
+]E
+1
+)=[η
+n
+]
+E
+.
+Claim 9.4.5. For n∈ω, the pair (cid:104)R ,η (cid:105) is an E-pin.
+n n
+Proof. If this failed for some number n ∈ ω, then in the model W there would
+be filters H ,H ⊂ R mutually generic over the model M such that the
+0 1 n n
+points y = σ /H ,y = σ /H ∈ Y are E-unrelated. Let p = σ /H and
+0 n 0 1 n 1 0 n 0
+p = σ /H be conditions in the poset P; they are compatible by the balance
+1 n 1
+of p¯ . By the forcing theorem applied in the models M [H ] and M [H ], their
+n n 0 n 1
+lower bound forces in P that τ([xˇ
+n
+]E
+1
+) is equal simultaneously to [yˇ
+0
+]
+E
+and
+[yˇ ] . This is impossible.
+1 E
+Claim 9.4.6. Forn∈m∈ω, theE-pins(cid:104)R ,η (cid:105)and(cid:104)R ,η (cid:105)areequivalent.
+n n m m
+Proof. If this failed for some numbers n ∈ m ∈ ω, then in the model W there
+would be filters H ⊂ R ,H ⊂ R mutually generic over the model M such
+0 n 1 m n
+thatthepointsy =σ /H ,y =σ /H ∈Y areE-unrelated. Letp =σ /H
+0 n 0 1 m 1 0 n 0
+and p = σ /H be conditions in the poset P; they are compatible by the
+1 m 1
+balance of p¯ since p ≤ p¯ ≤ p¯ by demand (2) of Definition 9.4.1. By the
+m 0 n m
+forcing theorem applied in the models M [H ] and M [H ], their lower bound
+n 0 m 1
+forces in P that τ([xˇ
+n
+]E
+1
+) = [yˇ
+0
+]
+E
+and τ([xˇ
+m
+]E
+1
+) = [yˇ
+1
+]
+E
+. This is impossible
+since x E x holds.
+n 1 m
+By Theorem 4.3.6, there is an E-pin (cid:104)R,η(cid:105)∈M which is equivalent to all
+ω
+the pins (cid:104)R ,η (cid:105) for n ∈ ω. Still in M , find a poset Q generating the model
+n n ω
+M ,aQ-namex˙ forthesequencex ,andaQ-nameR˙ fortheposetR . Bythe
+0 0 0 0
+forcing theorem, there must be a condition q ∈Q which forces the following: x˙
+has no E -equivalent in M , R˙ (cid:13)σ ≤p and Rˇ×R˙ (cid:13)η E η . Note that the
+1 ω 0 0 ω 0 0
+last statement means that the name η is E-pinned on the iteration Q(cid:22)q∗R˙ .
+0 0
+In the model W, let H ,H ⊂ Q (cid:22) q∗R˙ be filters mutually generic over the
+0 1 0
+model M , and write p = σ /H , p = σ /H , x¯ = x˙/H , x¯ = x˙/H ,
+ω 0 0 0 1 0 1 0 0 1 1
+y = η /H and y = η /H . The balance of the condition p implies that
+0 0 0 1 0 1 ω
+p ,p ∈P are compatible conditions. Since E is a pinned equivalence relation,
+0 1 1
+the points x¯ ,x¯ ∈ X are E -unrelated. Since the name η was pinned on the
+0 1 1 0
+iterationQ(cid:22)q∗R˙ ,thepointsy ,y areE-related. Intotal,inthemodelW,the
+0 0 1
+lower bound of the conditions p
+0
+,p
+1
+forces that τ([x¯
+0
+]E
+1
+) = τ([x¯
+1
+]E
+1
+) = [y
+0
+]
+E
+,
+completing the proof.
+It turns out that one large class of nested balanced posets has already been
+isolated in Definition 9.2.1:
+Example 9.4.7. Every compactly balanced Suslin poset is nested balanced.

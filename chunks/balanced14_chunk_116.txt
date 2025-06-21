@@ -1,0 +1,62 @@
+=== 块 116 ===
+
+104)Q ,τ (cid:105).
+1 1 0 0
+Fortheotherdirection,if(cid:104)Q ,τ (cid:105)≤(cid:104)Q ,τ (cid:105)failsinV andV[H]isageneric
+1 1 0 0
+extensionofV,wemustshowthatthefailureofthe≤relationtransferstoV[H].
+
+5.1. VIRTUAL CONDITIONS 121
+Fix conditions q ∈ Q ,q ∈ Q such that in V, (cid:104)q ,q (cid:105) (cid:13) Στ (cid:54)≤ Στ .
+0 0 1 1 0 1 Q0×Q1 1 0
+This latter property of q ,q readily transfers to the model V[H] by the same
+0 1
+Shoenfieldabsolutenessargumentastheoneusedinthepreviousparagraph.
+Proposition5.1.4. ≡isanequivalencerelationonP-pinsand≤isanordering
+on ≡-equivalence classes.
+Proof. Wewillshowthat≤istransitive,theotherstatementsaresimilar. Sup-
+pose that (cid:104)Q ,τ (cid:105) ≤ (cid:104)Q ,τ (cid:105) ≤ (cid:104)Q ,τ (cid:105); we need to show that (cid:104)Q ,τ (cid:105) ≤
+2 2 1 1 0 0 2 2
+(cid:104)Q ,τ (cid:105) holds. Let G ⊂ Q ,G ⊂ Q are mutually generic filters and A =
+0 0 0 0 2 2 2
+τ /G and τ /G ; we must show that V[G ,G ] |= ΣA ≤ ΣA . Let G ⊂ Q
+2 2 0 0 0 2 2 0 1 1
+be a filter generic over V[G ,G ] and let A = τ /G . By the assumption,
+0 2 1 1 1
+V[G ,G ]|=ΣA ≤ΣA and V[G ,G ]|=ΣA ≤ΣA . By the Shoenfield ab-
+0 1 1 0 1 2 2 1
+soluteness, V[G ,G ,G ]|=ΣA ≤ΣA ≤ΣA , in particular ΣA ≤ΣA . By
+0 1 2 2 1 0 2 0
+another application of the Shoenfield absoluteness, the inequality ΣA ≤ ΣA
+2 0
+transfers from V[G ,G ,G ] to V[G ,G ].
+0 1 2 0 2
+It is now time to exhibit some virtual conditions for familiar partial orders.
+Example 5.1.5. Let P be the poset of infinite subsets of ω, ordered by in-
+clusion. Let F be a nonprincipal filter on ω. Let τ be a Coll(ω,F)-name for
+the set of all conditions p ∈ P which diagonalize the filter F, i.e. ∀a ∈ F p\a
+is finite. The name τ is P-pinned, since its valuation does not depend on the
+choice of the generic filter on Coll(ω,F). It is not difficult to see that distinct
+nonprincipal filters generate distinct virtual conditions.
+Example 5.1.6. Let P be the poset of all countable functions from 2ω to 2,
+ordered by reverse inclusion. Let f be any function from 2ω to 2, perhaps
+uncountable. Letτ beaColl(ω,f)-nameforthesetofallconditionsp∈P such
+that f ⊂p. Again, the name τ is P-pinned. It is clear that distinct functions f
+generate distinct virtual conditions in P.
+For many Suslin orders there exist virtual conditions which can be classified by
+natural combinatorial objects. In particular, this holds quite often for balanced
+virtual conditions, which are introduced in the following section and are the
+central topic of this book.
+Proposition 5.1.7. Suppose that (cid:104)P,≤(cid:105) is a σ-closed Suslin poset such that
+below any element p∈P there are two incompatible ones. Then the equivalence
+≡ has proper class many equivalence classes.
+Proof. Leth: 2<ω →P beafunctionsuchthatforeveryt∈ω<ω,theconditions
+h(t(cid:97)0)andh(t(cid:97)1)areincompatibleandstrongerthanh(t). Letg: ω →ω2 bea
+bijection. For every ordinal α, consider the Coll(ω,α) name τ for the set of all
+α
+conditionsp∈P suchthatforeveryn∈ω thereis(exactlyone)stringt(p,n)∈
+2n such that p ≤ h(t), and the binary relation g(cid:48)(cid:48){n ∈ ω: t(p,n+1)(n) = 1}
+is isomorphic to α. It is not difficult to see that the pair (cid:104)Coll(ω,α),τ (cid:105) is
+α
+a P-pin; in fact the evaluation of τ yields the same analytic set no matter
+α

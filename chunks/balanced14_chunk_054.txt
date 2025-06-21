@@ -1,0 +1,73 @@
+=== 块 54 ===
+
+ce a proper
+class of pairwise non-E¯-related E-pinned names.
+First note that the poset P and the name τ can be selected so that |P|=κ.
+SimplytakeanelementarysubmodelM ofsizeκoflargestructurewithV ⊂M
+κ
+
+2.5. CARDINAL INVARIANTS 53
+and consider Q = P ∩M and σ = τ ∩M; so |Q| = κ. As M is correct about
+pinned names and the equivalence E¯ by a Shoenfield absoluteness argument, σ
+is an E-pinned name on Q and it is not E¯-equivalent to any pinned names on
+posets of size <κ.
+Thus,assumethattheposetP hassizeκ. Letj: V →N beanyelementary
+embedding into a transitive model with critical point equal to κ. Note that
+H(κ)⊂N,sobothP,τ are(isomorphicto)elementsofN. Let(cid:104)N ,j : β ∈α(cid:105)
+α βα
+betheusualsystemofiterationoftheelementaryembeddingj alongtheordinal
+axis. LetP =j (P)andτ =j (τ). Itwillbeenoughtoshowthatthepairs
+α 0α α 0,α
+(cid:104)P ,τ (cid:105) for α∈Ord are pairwise E¯-unrelated. To see this, pick ordinals α∈β.
+α α
+Astheoriginalposethadsizeκ,itisthecasethatP ,τ ,P ,τ areinthemodel
+α α β β
+N . Bytheelementarityoftheembeddingj ,N |=¬(cid:104)P ,τ (cid:105)E¯ (cid:104)P ,τ (cid:105). The
+β 0β β α α β β
+wellfoundedmodelN iscorrectaboutE¯byaShoenfieldabsolutenessargument,
+β
+so (cid:104)P ,τ (cid:105)E¯ (cid:104)P ,τ (cid:105) fails also in V as required.
+α α β β
+Unliketheprevioustheoremsinthissection,wedonothaveacomplementary
+exampleshowingthatthemeasurablecardinalboundis,atleasttosomeextent,
+optimal.
+The last theorem in this section provides an estimate of the λ cardinal for
+unpinned equivalence relations. The well-known Silver dichotomy says that
+every Borel equivalence relation with uncountably many classes has in fact 2ℵ0
+many classes. We would like to show that every unpinned Borel equivalence
+relation has at least 2ℵ1 many virtual classes. However, in ZFC this is still
+open. The best we can do is the following.
+Theorem 2.5.11. Let E be an unpinned Borel equivalence relation. Let κ be
+an inaccessible cardinal. Then Coll(ω,<κ)(cid:13)λ(E,Coll(ω,ω
+1
+))=2ℵ1.
+Proof. Let A ⊂ P(κ) be a set of size 2κ such that all elements of A have
+cardinalityκandanytwodistinctelementsofAhaveintersectionofcardinality
+<κ. RecallthattheposetP =Coll(ω,<κ)isafinitesupportproductofposets
+Coll(ω,α) for α ∈ κ. For every set a ⊂ κ write P = Π Coll(ω,α) ⊂ P. Let
+a α∈a
+G⊂Coll(ω,<κ) be a generic filter. Use Theorem 2.7.1 to argue that for every
+a∈A, V[G∩P ]|=E is unpinned, and let (cid:104)Q ,τ (cid:105)∈V[G∩P ] be a nontrivial
+a a a a
+E-pinned name with its attendant poset. It will be enough to show that the
+pairs (cid:104)Q ,τ (cid:105) for a∈A represent pairwise distinct virtual classes.
+a a
+Suppose towards a contradiction that for some a (cid:54)= b in the set A the E-
+pinnednamesτ ,τ areequivalent. Letc=a∩bandworkinthemodelV[G∩P ].
+a b c
+The assumptions imply that the poset (P ∗Q˙ )×(P ∗Q˙ ) forces (at least
+a\c a b\c b
+below some condition) that τ E τ . It follows that the name τ on the poset
+a b a
+P ∗Q˙ is E-pinned. Since the equivalence relation E is Borel, it follows that
+a\c a
+that the virtual class of (cid:104)P ∗Q˙ ,τ (cid:105) is also represented by some pair (cid:104)R,σ(cid:105)
+a\c a a
+by some poset of size < (cid:105) < κ by Theorem 2.5.6. However, in the model
+ω1
+V[G∩P ], there is a filter H ⊂ R generic over the model V[G∩P ]. Thus,
+a c
+it would have to be the case that in the model V[G∩P ], Q (cid:13) τ E σ/H,
+a a a
+contradicting the nontriviality of the name τ .
+a

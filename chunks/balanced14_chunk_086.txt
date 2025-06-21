@@ -1,0 +1,74 @@
+=== 块 86 ===
+
+ideal on ω. The following are equivalent:
+1. I is ω-hitting;
+2. in some forcing extension, there are points y ,y ∈ 2ω separately Cohen-
+0 1
+generic over V such that y = y and V[y ]∩V[y ]=V.
+0 I 1 0 1
+
+86 CHAPTER 3. TURBULENCE
+Proof. For the direction (1)→(2), assume that the ideal I is ω-hitting. Let
+h: ωω → P(ω) be a continuous map such that I = rng(h). Let T = {t ∈
+ω<ω: h(cid:48)(cid:48)[t]isω-hitting}. ThesetT ⊂ω<ωisclearlyclosedunderinitialsegment.
+Claim 3.2.5. For all t ∈ T there is n ∈ ω such that for all m > n there is
+z ∈[T (cid:22)t] such that m∈h(z).
+Proof. Suppose towards a contradiction that the conclusion fails for some node
+t ∈ T. Let a = ω\ (cid:83) h(cid:48)(cid:48)[T (cid:22) t]; the set a ⊂ ω is infinite. For each s ∈ ω<ω \T
+let c be a countable collection of infinite subsets of ω such that for all z ∈[s],
+s
+(cid:83)
+h(z) has finite intersection with one element of c . Let c = c ∪{a}; it
+s s∈/T s
+is not difficult to see that for every z ∈ [t], h(z) has finite intersection with an
+element of c, contradicting the assumption that t∈T.
+Now, let X be the closed set of all triples (cid:104)y ,y ,z(cid:105) ⊂ 2ω ×2ω ×[T] such
+0 1
+that {n ∈ ω: y (n) (cid:54)= y (n)} ⊂ h(z). Let f ,f : X → 2ω be the projections
+0 1 0 1
+into the first and second coordinate. It is not difficult to see that both of these
+maps are continuous and open. In view of Theorem 3.1.4, the following claim
+concludes the proof of (2).
+Claim 3.2.6. The maps f ,f are independent.
+0 1
+Proof. Let O ⊂ X be an open set. Find u ,u ∈ 2<ω and t ∈ T such that
+0 1
+([u ]×[u ]×[t])∩X is a nonempty subset of O. Thinning out further, we may
+0 1
+assumethatthebinarystringsu ,u havethesamelengthandforallz ∈[T (cid:22)t]
+0 1
+and every l such that u (l)(cid:54)=u (l), n∈h(z) holds. Let n∈ω be such that for
+0 1
+all m > n there is z ∈ [T (cid:22) t] such that m ∈ h(z). Let v ∈ 2<ω be any binary
+string extending u of length > n and A = [v]. We claim that the open set A
+0
+witnesses the definition of independence for f ,f and O.
+0 1
+Indeed, suppose that w ,w are two binary strings of the same length ex-
+0 1
+tending v. To produce a walk from [w ] to [w ], list all entries on which the
+0 1
+strings w ,w differ by {m : j ∈i}. Let y ∈[w ] be any point, and let y ∈2ω
+0 1 j 0 j
+be the point obtained from y by flipping the outputs at all m for k ∈j. Thus,
+k
+y differs from y only at entry m and y ∈ [w ]. Let y(cid:48) ∈ 2ω be the point
+j j+1 j i 1 j
+obtained by replacing the initial segment u ⊂y with u . Also, let z ∈[T (cid:22)t]
+0 j 1 j
+be any point such that m ∈ h(z ). Now, define points x ,x ∈ X for
+j j 2j+1 2j+2
+j ∈i as follows:
+• x =(cid:104)y ,y(cid:48),z(cid:105) for any z ∈[T (cid:22)t];
+0 0 0
+• x =(cid:104)y ,y(cid:48) ,z (cid:105);
+2j+1 j j+1 j
+• x =(cid:104)y ,y(cid:48) ,z(cid:105) for any z ∈[T (cid:22)t].
+2j+2 j+1 j+1
+Clearly, the sequence (cid:104)x : k ≤2i(cid:105) is a walk from [w ] to [w ] as required.
+k 0 1
+Toprovethat(2)implies(1),assumethat(1)fails,aswitnessedbyacount-
+ablecollection{a : n∈ω}ofinfinitesubsetsofω. Supposethatinsomegeneric
+n
+extension, y ,y ∈2ω are = -related points which are separately Cohen-generic
+0 1 I

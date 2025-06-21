@@ -1,0 +1,72 @@
+=== 块 173 ===
+
+he balanced pairs
+(cid:104)Q,τ(cid:105) and (cid:104)Coll(ω,P(X)),Aˇ(cid:105) are equivalent;
+3. distinct sets as in (1) yield inequivalent balanced conditions.
+In particular, the poset P is balanced.
+
+182 CHAPTER 8. OTHER FORCINGS
+Proof. For (1), fix a set A ⊂ P(X) closed under finite intersections and con-
+taining the set X. Suppose that V[H ],V[H ] are mutually generic extensions
+0 1
+of the ground model V in which the set P(X)∩V is countable. Suppose that
+p ∈ V[H ] and p ∈ V[H ] are conditions stronger than A; we must show
+0 0 1 1
+that p ,p ∈ P are compatible, in other words that p ∪ p ∈ P. To this
+0 1 0 1
+end, let a ∈ p and a ∈ p be sets; we must show that a ∩a ∈ p ∩p .
+0 0 1 1 0 1 0 1
+To see this, first the product forcing theorem shows that a ∩ a ⊂ V ∩ X
+0 1
+holds. Second, both sets a ∩V ∩X and a ∩V ∩X must belong to A, since
+0 1
+V ∩X ∈ A and A ≤ p ,p . Since A is closed under finite intersections, we see
+0 1
+thata ∩a =(a ∩V)∩(a ∩V)∈A⊂p ∩p holds. Therefore,theconditions
+0 1 0 1 0 1
+p ,p are compatible as desired.
+0 1
+(2)ismorechallenging. Let(cid:104)Q,τ(cid:105)beabalancedpairintheposetP. With-
+outlossofgeneralitywemayassumethatQ(cid:13)|P(X)∩V|=ℵ . Strengthening
+0
+the condition τ repeatedly in the Q-extension if necessary, we may assume that
+for each set a ⊂ X in the ground model, either a ∈ τ or there is b ∈ τ such
+that a∩b ∈/ τ. A balance argument shows that for each set a ⊂ X in the
+ground model, the largest condition in Q decides which alternative prevails.
+Let A ⊂ P(X) be a set of all sets a ⊂ X for which the former alternative pre-
+vails. We will show that A is a set closed under finite intersections containing
+X, and Q (cid:13) Aˇ ≥ τ. The desired equivalence of (cid:104)Q,τ(cid:105) and (cid:104)Coll(ω,P(X)),Aˇ(cid:105)
+then follows from Proposition 5.2.4.
+The closure of the set A under finite intersections follows immediately from
+the fact that Q forces τ to be closed under finite intersections. To see that
+X ∈ A holds, suppose towards a contradiction that it fails; so there must be a
+Q-nameσ forasubsetofX suchthatQ(cid:13)σ ∈τ andσ∩V ∈/ τ. Strengthenthe
+name τ if necessary to contain a set which contains X ∩V as a subset, and let
+η be a Q-name for such a set in τ. Let H ,H ⊂Q be mutually generic filters,
+0 1
+let p =τ/H and p =τ/H , and let a =η/H and a =σ/H . By a mutual
+0 0 1 1 0 0 1 1
+genericity argument, a ∩a = (a ∩V)∩(a ∩V) = a ∩V. It follows that
+0 1 0 1 1
+a ∩a ∈/ p and so p ,p are incompatible conditions in P, contradicting the
+0 1 1 0 1
+balance assumption.
+Finally, to show that Q(cid:13)τ ≤Aˇ, suppose towards a contradiction that this
+fails. Passing to a condition in Q if necessary we may find a set b ∈ A and a
+Q-name σ such that Q (cid:13) σ ∈ τ and σ∩ˇb ∈/ Aˇ. Now proceed similarly to the
+previous paragraph. Strengthen the name τ if necessary to contain a set which
+contains X ∩V as a subset, and let η be a Q-name for such a set in τ. Let
+H ,H ⊂ Q be mutually generic filters, let p = τ/H and p = τ/H , and let
+0 1 0 0 1 1
+a = η/H and a = σ/H . By a mutual genericity argument, a ∩b∩a =
+0 0 1 1 0 1
+(a ∩b)∩(a ∩b) = a ∩b. Now, if a ∩b ∈ V, then a ∩b ∈ A, contradicting
+0 1 1 1 1
+the choice of the name σ. Thus, it must be the case that a ∩b∈/ V, and by a
+1
+mutualgenericityargumenta ∩b∈/ V[H ]. Itfollowsthata ∩b∩a ∈/ p andso
+1 0 0 1 0
+p ,p are incompatible conditions in P, contradicting the balance assumption.
+0 1
+Finally,(3)isobvious. ThebalanceoftheposetP followsfrom(1): ifp∈P
+is a condition then (cid:104)Coll(ω,X),p∪{X∩V}(cid:105) is a balanced pair below p.

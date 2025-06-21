@@ -1,0 +1,77 @@
+=== 块 284 ===
+
+eseta ⊂X isasubsetofasingleE -classandvisitsnmany
+xm 0
+distinctE -classes, eachinnmanyelements. Asimplecountingargumentthen
+1
+shows that every subset of a of size m+1 contains a G-hyperedge, and so
+xm
+
+11.7. COMPACTLY BALANCED POSETS 297
+the fractional chromatic number of G on the set a is not smaller than m as
+xm
+witnessed by the normalized counting measure on a .
+xm
+(cid:83)
+Now, suppose that X = B is a partition into Borel sets. By the Baire
+n n
+category theorem, there is a number n ∈ ω such that B is not meager. In
+n
+view of the first paragraph, to prove the claim it will be enough that for all but
+finitelymanym∈ωthereisapointx∈X suchthata ⊂B . Tothisend,let
+xm n
+t: Γ→2 be a finite partial function such that B is comeager in [t]. Let m∈ω
+n
+be larger than the length of any word in t; we will find a point x∈X such that
+(cid:83)
+a ⊂ B . Just let s = {t : i,j ∈ m} where t : Γ → 2 is a finite partial
+xm n ij ij
+functiongivenbythedemandt (β)=t(δimγjmβ). Bythechoiceofthenumber
+ij
+m, s: Γ → 2 is a finite function. The set C = (cid:84) {γ−jmδ−imB : i,j ∈ m} is
+n
+comeager in [s]; let x ∈ C be an arbitrary point. Reviewing the definitions, it
+is clear that a ⊂B as required.
+xm
+Now, considertheposetP addinganorientationofH inwhicheveryvertex
+in X gets an out-degree one. A condition p∈P is an orientation on countably
+many components of H in which every vertex in these components gets an out-
+degreeone. Theorderingisthatofreverseinclusion. TheposetP wasanalyzed
+in Example 9.2.15 It is not difficult to prove that the balanced conditions of
+P are classified by orientations of H in which every vertex gets an out-degree
+one, which naturally form a compact Hausdorff space. Thus, the poset P is
+compactly balanced, and it adds an H-coloring with countably many colors by
+Claim11.7.12whilethehypergraphH doesnothaveBorelσ-boundedchomatic
+or even fractional chromatic number by Claim 11.7.12.
+
+298 CHAPTER 11. LOCALLY COUNTABLE STRUCTURES
+
+Chapter 12
+The Silver divide
+12.1 Perfectly balanced forcing
+TheperfectsetpropertyinthemodelL(R)[U],whereU isaRamseyultrafilter,
+was one of the first results in the literature about models of the type studied
+in this book [21]. In this section, we provide a general machinery for proving
+the perfect set property type of results, with much less effort than the original
+argument quoted above. We start with two key definitions.
+Definition 12.1.1. Let P be a Suslin poset. A virtual condition p¯is perfectly
+balanced if in every generic extension V[G], whenever
+1. Q∈V is a poset such that P(Q)∩V is countable in V[G];
+2. σ ∈V is a Q-name for a condition in P stronger than p¯;
+3. H⊂PQ is a perfect set such that every finite set a⊂H is a set of filters
+over Q mutually generic over V,
+thenthereisaperfectsetC ⊂Hsuchthatthesetofconditions{σ/H: H ∈C}
+has a lower bound in the separative quotient. A poset is perfectly balanced if
+below every condition p∈P there is a virtual perfectly balanced condition.
+This forcing property is often guaranteed by a simple feature which does not
+speak about any balance issues at all.
+Definition 12.1.2. A Suslin forcing P is perfect if for every Borel function
+f: 2ω → P, either there is a finite set a ⊂ 2ω such that the set f(cid:48)(cid:48)a ⊂ P has
+no lower bound, or else there is a perfect set C ⊂2ω such that f(cid:48)(cid:48)C has a lower
+bound in the separative quotient.
+In general, the separative quotient of Suslin forcings is a Π1 ordering, making
+2
+perfectness a rather complicated projective property of the poset P. In all
+particular posets considered in this book, the status of perfectness is absolute
+throughout all forcing extensions.
+299

@@ -1,0 +1,56 @@
+=== 块 265 ===
+
+t product of the posets K for
+i
+(cid:81)
+i ∈ ω. Therefore, by Theorem 11.4.5, in the P -extension of the Solovay
+i KiLi
+model, theuncountablechromaticnumbersoffinitaryanalytichypergraphsare
+preserved.
+
+278 CHAPTER 11. LOCALLY COUNTABLE STRUCTURES
+11.4b Suslin σ-linked complexes
+Infairlycommonsituations,onewishestopreserveuncountablechromaticnum-
+bers of analytic graphs while a task of higher arity is performed. This can be
+handled by Suslin σ-linked complexes as explained in the following theorem.
+Theorem 11.4.13. Let (cid:104)K,L(cid:105) be a locally countable pair. Suppose that the
+simplicial complex K is Suslin σ-linked. Let G be an analytic graph with un-
+countable Borel chromatic number. In the P -extension of the Solovay model,
+KL
+the chromatic number of G is uncountable.
+The verification of the Suslin σ-linked property of Borel simplicial complexes is
+invariably achieved via the following result.
+Theorem 11.4.14. Let K be a locally countable Borel simplicial complex on
+a Polish space X and write E = E . Suppose that there is a Borel support
+K
+function supp: K→[X]<ℵ0 such that
+1. supp(a)⊂[a] ;
+E
+2. whenever a ,a are sets in K, subsets of the same E-class with disjoint
+0 1
+supports, then a ∪a ∈K.
+0 1
+Then K is Borel σ-linked.
+The proofs of Theorems 11.4.13 and 11.4.14 are nearly identical to the proofs
+of Theorem 11.4.5 and 11.4.6, and we omit them.
+Our first example is motivated by a result of Marks and Unger [68] which
+foundperfectmatchingswiththeBairepropertyinmanyBorelbipartitegraphs.
+In order to do this, they isolated the following strengthening of the well-known
+Hall’s condition of [38]:
+Definition 11.4.15. Let Γ be a locally finite bipartite Borel graph on a Polish
+space X. We say that Γ satisfies the Marks–Unger condition if there is a real
+numberε>0suchthatforeveryfiniteseta⊂X ononesideofthebipartition,
+the number of Γ-neighbors of a is at least (1+ε)|a|.
+Example 11.4.16. Let G be a locally finite bipartite Borel graph on a Polish
+spaceX satisfyingtheMarks–Ungercondition. LetKbethesimplicialcomplex
+ontheedgesofGconsistingofallsetsb⊂Gwhichcanbecompletedtoaperfect
+matching of G. Then K is Suslin σ-linked.
+Proof. Let ε>0 be a real number witnessing the Marks–Unger property of the
+graphG. LetE =E betheG-pathequivalencerelationonX. Leta∈K bea
+K
+set which is a subset of a single E-class; we must calculate the support supp(a)
+such that the assumptions of Theorem 11.4.14 are satisfied.
+Let supp(a) be the set of all G-edges which are within G-distance at most
+8|a|/ε from some edge in a. We must verify the amalgamation condition, i.e. if
+a,b∈KaredisjointfinitesetsinthesameE-classsuchthatsupp(a)∩supp(b)=
+0,thena∪b∈K. ByHall’smarriagetheorem[38],itisenoughtoverifythatthe

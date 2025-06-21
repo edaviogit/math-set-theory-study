@@ -1,0 +1,65 @@
+=== 块 306 ===
+
+d:105) is
+C
+a Bernstein balanced virtual condition.
+Note that a soft poset P must have the following centeredness property: if
+B ⊂ P is a countable centered set, then B has a lower bound. To see this,
+
+12.4. EXISTENCE OF GENERIC FILTERS 321
+just extend it into an Bernstein balanced centered set C ⊂P, note that in the
+Coll(ω,C)-extension, the set C has a lower bound by the definition, and by a
+Mostowski absoluteness argument the set B must have a lower bound already
+in the ground model.
+Theorem 12.4.2. Suppose that there is a weakly compact Woodin cardinal.
+Suppose that P is a soft Suslin forcing. Then there is a filter G ⊂ P which is
+generic over the model L(R).
+Proof. LetB ⊂P beacenteredsetofsize<c,andletD ⊂P beanopendense
+set in L(R). We will show that there is a condition p ∈ D such that {p}∪B
+is a centered set. The theorem then follows by a straightforward transfinite
+recursion construction, given the fact that there are only c-many subsets of P
+in the model of L(R) as soon as a measurable cardinal exists. So, let C ⊃B be
+an Bernstein balanced centered set witnessing the definitory properties of the
+softposetP. ThesetD isdefinablefromarealparameterinthemodelL(R#).
+Below, we identify the set D with its definition.
+LetκbeaweaklycompactWoodincardinal,letQ betheassociatedcount-
+κ
+ablybasedstationarytower,letK ⊂Q beagenericfilterandworkinthemodel
+κ
+V[K]. Note that κ = ℵ and every element of 2ω is generic over V by a poset
+1
+smallerthanκ. ConsidertheposetR=Coll(ω,C)anduseProposition1.7.10to
+find a perfect collection {H : y ∈2ω} of filters on R pairwise mutually generic
+y
+over the ground model V. Use Proposition ?? to see the following:
+Claim 12.4.3. For every finite set a⊂P such that a∪C is a centered set, the
+set Y ={y ∈2ω: ∃p∈V[H ] p≤C and the set {p}∪a has no common lower
+a y
+bound} is countable.
+Let j: V → M be the generic ultrapower associated with K; the model M
+is closed under ω-sequences. Work in the model M. The closure properties
+of the model M guarantee that the following objects belong to the model M:
+the collection {H : y ∈ 2ω}, the collection {P ∩V[H ]: y ∈ Y}, and the map
+y y
+a (cid:55)→ Y as a varies over finite subsets of P such that a∪C is a centered set.
+a
+Also,themodelM satisfiesthestatementthattherangeofthismapconsistsof
+countablesets. Lookingatthesetj(C)inthemodelM, weseethat|j(C)|<c,
+and for each finite set a⊂j(C) the set a∪C ⊂j(C) is centered, and therefore
+the set Y ⊂2ω is countable. By a cardinality argument, there must be a point
+a
+y ∈2ω\ (cid:83) {Y
+a
+: a∈[j(C)]<ℵ0}.
+WorkinthemodelV[H ]. NotethatthetheoryofL(R#)withrealparame-
+y
+tersisinvariantunderforcingandsothesetD ⊂P isstillopendenseinV[H ].
+y
+Thus, there must be a condition p ∈ D∩V[H ], p ≤ C. By the choice of the
+y
+point y ∈ Y, the set {p}∪j(C) is centered. Thus M |= there is a condition
+p∈D such that {p}∪j(C) is centered. By the elementarity of the embedding
+j, M |= there is a condition p∈D such that {p}∪C is centered; in particular,
+{p}∪B is centered as desired.
+The following examples all use the Woodin cardinal assumption which is not
+spelled out.

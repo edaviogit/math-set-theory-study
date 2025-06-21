@@ -1,0 +1,70 @@
+=== 块 105 ===
+
+el M [γγ ] and so does y. Thus, even the point y(n) = x ∈ 2ω
+n+1 n+1 n
+belongs to this model; however, it is a point of M Cohen generic over M .
+0 n+1
+This contradicts the product forcing theorem.
+105
+
+106 CHAPTER 4. NESTED SEQUENCES OF MODELS
+4.2 Coherent sequences of models
+It is clear from the proof of Theorem 4.1.1 that its generalizations will require
+codification of decreasing ω-sequences of generic extensions. In addition to the
+approachfromTheorem4.1.1, wepaycloseattentiontotheintersectionmodel.
+This is the content of the following definitions and theorems.
+Definition 4.2.1. Let (cid:104)M : n ∈ ω(cid:105) be an inclusion decreasing sequence of
+n
+transitive models of ZFC. We say that the sequence is coherent if for every
+ordinalλandeverynaturalnumbern, thesequence(cid:104)V ∩M : m≥n(cid:105)belongs
+λ m
+to M . Given a coherent sequence of models (cid:104)M : n∈ω(cid:105), a sequence (cid:104)v : n∈
+n n n
+ω(cid:105) is coherent if for every number m∈ω, (cid:104)v : n≥m(cid:105)∈M holds.
+n m
+Example 4.2.2. Let R for m ∈ ω be any partial orders and let (cid:104)G : m ∈
+m m
+ω(cid:105) be a sequence of generic filters on the respective posets R added by the
+m
+(cid:81)
+countable supportproduct R . Let M =V[G : m≥n]. Then (cid:104)M : n∈
+m m n m n
+ω(cid:105) is a coherent sequence of models.
+Example 4.2.3. Let x be a set. By recursion on n ∈ ω, define models M
+n
+by letting M be V and each M be the collection of all sets hereditarily
+0 n+1
+definable from ordinal parameters and the parameter x∩M in the model M .
+n n
+The sequence (cid:104)M : n∈ω(cid:105) is coherent.
+n
+Example 4.2.4. Let κ be a measurable cardinal, U a measure on it, and
+j: V → M the U-ultrapower, with iterands denoted by j for every ordinal α.
+α
+For each n∈ω let M =j (V). The sequence (cid:104)M : n∈ω(cid:105) is coherent.
+n n n
+Mostofourchoice-coherentsequencesaresequencesofgenericextensionsinthe
+following sense:
+Definition 4.2.5. A sequence (cid:104)M : n ∈ ω(cid:105) is generic over V if V is a model
+n
+of ZFC contained in all M for n∈ω and M is a generic extension of M.
+n 0
+The usual abstract forcing arguments (Fact 1.7.6) show that if the sequence of
+models is generic over V then all models M are generic extensions of V and if
+n
+n∈m are numbers then M is a generic extension of M . Coherent sequences
+n m
+of models are most often formed as generic extensions of the constant sequence
+(cid:104)M =V : n∈ω(cid:105) using the following definitions and theorem.
+n
+Definition 4.2.6. Let P,Q be posets. A projection of Q to P is a pair of
+order-preserving functions π: Q→P and ξ: P →Q such that
+1. π◦ξ is the identity on P;
+2. whenever π(q)≤p then q ≤ξ(p);
+3. whenever p≤π(q) then there is q(cid:48) ≤q such that π(q(cid:48))≤p.
+As the simplest initial example, let P,R be any posets, let R have a largest
+element 1 and let Q = P ×R. Then one can consider the projection of Q to
+R
+P by setting π(p,r)=p and ξ(p)=(cid:104)p,1 (cid:105). An important effect of the demand
+R
+(3) is that the π-image of the generic filter on Q is a generic filter on P.

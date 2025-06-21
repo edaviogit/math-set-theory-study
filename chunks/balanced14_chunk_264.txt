@@ -1,0 +1,65 @@
+=== 块 264 ===
+
+ey must
+0 1
+have disjoint domains. It follows that if a ∈ K are sets for i ∈ j which are
+i
+(cid:83)
+subsetsofthesameE-classandhavepairwisedisjointsupports, then a ∈K
+i i
+as required in Theorem 11.4.6.
+
+11.4. LOCALLY COUNTABLE SIMPLICIAL COMPLEXES 277
+WeplantousethesimplicialcomplexKtointroduceanorderingofordertype
+Z to each E-class. However, not every maximal K-set does that. Apparently, a
+cofinalsubsetL⊂K isneededsothateveryL-largemaximalK-setcomesclose
+the the purpose in mind. For one simple solution, let L ⊂ K be the collection
+of all sets a∈K which in each E-class have only one vertex of in-degree 0 and
+only one vertex of out-degree 0. Note that L⊂K is cofinal, and if c⊂X is an
+E-class and d⊂c2 is an L-regular maximal K-set, then d is a ray of ordertype
+Z or N or inverted N.
+Corollary 11.4.12. Let E be a countable Borel equivalence relation with all
+classes infinite as in Example 11.4.11. Let H be a finitary analytic hypergraph
+of uncountable Borel chromatic number.
+1. In the P -extension of the Solovay model, the chromatic number of H is
+KL
+uncountable;
+2. It is consistent relative to an inaccessible cardinal that ZF+DC holds and
+E is the orbit equivalence relation of a (discontinuous) Z-action and the
+chromatic number of H is uncountable.
+Proof. The first item is the consequence of the fact that K is Suslin σ-centered
+asprovedinExample11.4.11. Fortheseconditem,letW betheSolovaymodel
+derivedfromsomeinaccessiblecardinalandletG⊂P beagenericfilterover
+KL
+(cid:83)
+the model W. A genericity argument shows that G is an L-regular maximal
+(cid:83)
+K-set. For every E-class c, G on the class c indicates either an ordering of
+type Z or of type N or of type inverted N. It is a matter of minor surgery in
+ZF+DC to turn this into a relation which is an ordertype Z on every class.This
+immediatelyprovidesanactionofZonX whichyieldsE asanorbitequivalence
+relation. The chromatic number part of the second item follows from the first
+item.
+As a final observation, we show that the forcings of the type discussed in
+Theorem11.4.5canbeplacedincountablesupportproduct,andtheconclusion
+of Theorem 11.4.5 remains in place. Suppose that (cid:104)X : i ∈ ω(cid:105) are pairwise
+i
+disjointPolishspaces,and(cid:104)K ,L (cid:105)arelocallycountablepairsoneach. Suppose
+i i
+thateachsimplicialcomplexK isSuslinσ-centered. LetX bethePolishspace
+i
+which is the disjoint union of X for i ∈ n, let K be the simplicial complex of
+i
+those finite sets a ⊂ X such that a∩X ∈ K holds for every i ∈ ω, and let
+i i
+L = {a ∈ K: ∀i a∩X (cid:54)= 0 → a∩X ∈ L . Then P is a countable support
+i i i KL
+product of the posets P , and the simplicial complex K is Suslin σ-centered
+KiLi
+by Theorem 11.3.8, since it is the finite support product of the posets K for
+i
+(cid:81)
+i ∈ ω. Therefore, by Theorem 11.4.5, in the P -extension of the Solovay
+i KiLi
+model, theuncountablechromaticnumbersoffinitaryanalytichypergraphsare
+preserved.

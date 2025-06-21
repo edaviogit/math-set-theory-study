@@ -1,0 +1,55 @@
+=== 块 40 ===
+
+he assumption (1), we see that
+τ/G E σ/H(cid:48) E σ/H, so τ/G E σ/H by the transitivity of the equivalence
+relation E.
+Definition 2.1.6. Let E be an analytic equivalence relation on a Polish space
+X.
+
+2.2. VIRTUAL STRUCTURES 39
+1. The E¯-classes are referred to as the virtual E-classes;
+2. if z is a virtual E-class and in some generic extension V[G] y is an E-
+class, we say that y is a realization of z if for some (equivalently, all)
+representatives (cid:104)P,τ(cid:105)∈z and x∈y, V[G]|=P (cid:13)τ E xˇ holds.
+The following proposition is used throughout this book. It says that E-classes
+represented in mutually generic extensions must be realizations of a virtual E-
+class in the ground model.
+Proposition 2.1.7. Let E be an analytic equivalence relation on a Polish space
+X. Let P ,P be partial orders and G ⊂ P and G ⊂ P be mutually generic
+0 1 0 0 1 1
+filters. If x ∈V[G ] and x ∈V[G ] are E-equivalent points then [x ] is the
+0 0 1 1 0 E
+realization of some virtual E-class from the ground model.
+Proof. Supposethatp ∈P ,p ∈P ,τ isaP -nameandτ isaP -namesuch
+0 0 1 1 0 0 1 1
+that (cid:104)p ,p (cid:105) (cid:13) τ E τ . It immediately follows that τ must be an E-pinned
+0 1 0 1 0
+name on the poset P (cid:22) p so p forces [τ ] to be the realization of the virtual
+0 0 0 E
+E-class represented by the pair (cid:104)P (cid:22)p ,τ (cid:105).
+0 0
+The main question surrounding the virtual E-classes is whether they can be
+classified in some informative way. Is there a proper class of virtual E-classes
+or just a set? If there is just a set, what is its cardinality? Do virtual E-classes
+correspondtosomemoretangiblecombinatorialobjects? Thischaptercontains
+many good answers to similar questions, even though many problems remain
+unsolved.
+2.2 Virtual structures
+It is now possible to define virtual versions of quotient structures on Polish
+spaces.
+Definition 2.2.1. Ananalyticquotientstructure isatupleM=(cid:104)X,E,R : i∈
+i
+ω,f : j ∈ω(cid:105) where
+j
+1. X is a Polish space;
+2. E is an analytic equivalence relation on X;
+3. for every i∈ω, R
+i
+⊂Xni is an analytic relation which is invariant under
+E;
+4. for every j ∈ ω, f
+j
+⊂ Xmj+1 is an analytic relation which is invariant
+under E, and in the E-quotient space it is a graph of a function.
+The quotient structure M is Borel if all the relations above including E are
+Borel.

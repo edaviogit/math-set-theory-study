@@ -1,0 +1,53 @@
+=== 块 203 ===
+
+t of posets are simply sequences of balanced virtual con-
+ditions in each coordinate (Theorem 5.2.9). A product of Hausdorff compact
+spacesisHasudorffcompactagain;thus,aproductofcountablymanycompactly
+
+212 CHAPTER 9. PRESERVING CARDINALITIES
+balanced forcings with full support is compactly balanced again. However, the
+machineryofChapter11(whichcanalsobeusedtoshowthatthesmoothdivide
+ispreservedincertainextensions)seemstobeincompatiblewiththecompactly
+balanced approach.
+9.3 The turbulent divide
+We wish to transfer the ergodicity theorem 3.3.5 to cardinal inequalities in
+generic extensions of the Solovay model. The following variation of balance will
+be central in this effort.
+Definition 9.3.1. Let P be a Suslin forcing.
+1. A pair (cid:104)Q,τ(cid:105) is placid if Q (cid:13) τ ⊂ P is an analytic set and whenever
+R ,R are posets and in some ambient forcing extension, H ⊂ R ×Q
+0 1 0 0
+and H ⊂R ×Q are filters separately mutually generic over V such that
+1 1
+V[H ]∩V[H ]=V,thenanytwoconditionsp ≤Στ/H andp ≤Στ/H
+0 1 0 0 1 1
+in the respective models V[H ],V[H ] are compatible in P.
+0 1
+2. The poset P is placid if below every condition p ∈ P there is a virtual
+condition p¯≤p which is placid.
+As an initial example, consider the poset P of countable functions from 2ω to 2
+ordered by reverse inclusion. The balanced virtual conditions are classified by
+totalfunctionsfrom2ω to2. Itturnsoutthateverysuchavirtualconditionp¯is
+placid. IfV[H ]andV[H ]aregenericextensionssuchthatV[H ]∩V[H ]=V
+0 1 0 1
+and p ∈ V[H ] and p ∈ V[H ] are conditions stronger than p¯, then p ∪
+0 0 1 1 0
+p is a function since dom(p )\V and dom(p )\V are disjoint sets and the
+1 0 1
+functions p ,p agree on the entries from V. Therefore, the conditions p ,p
+0 1 0 1
+are compatible as desired.
+Placid posets share many preservation properties. The following theorems are
+statedusingthestandardConvention1.7.16. Thefirsttheoreminadditionuses
+a standard parlance.
+Definition 9.3.2. (ZF)Thephrase“theturbulentdivideispreserved”denotes
+the following statement: Let E be an analytic equivalence relation on a Polish
+spaceinducedasanorbitequivalencerelationofaturbulentPolishgroupaction.
+LetF beavirtuallyplacidanalyticequivalencerelationonaPolishspace. Then
+|E|(cid:54)≤|F|.
+Theorem9.3.3. IncofinallyplacidextensionsofthesymmetricSolovaymodel,
+the turbulent divide is preserved.
+Proof. Let Γ be a Polish group, turbulently acting on a Polish space X, result-
+ing in the equivalence relation E. Let F be a virtually placid orbit equivalence
+relation on a Polish space Y. Let P be a Suslin forcing and let κ be an inac-
+cessiblecardinalsuchthatP iscofinallyplacidbelowκ. LetW beasymmetric

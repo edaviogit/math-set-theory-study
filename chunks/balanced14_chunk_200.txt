@@ -1,0 +1,53 @@
+=== 块 200 ===
+
+P(F,E) is compactly balanced: the balanced conditions
+are classified by F-structures on the virtual quotient space X∗∗, which form a
+compactsubspaceofP([X∗∗]n)wherencorrespondstothearityoftherelations
+
+9.2. THE SMOOTH DIVIDE 209
+in the language for F. It is easy to verify that the demands of Definition 9.2.1
+are satisfied with the inherited topology.
+Corollary 9.2.12. Let E be a Borel equivalence relation on a Polish space X.
+1. LetP bethelinearizationposetforE ofExample8.6.5. IntheP-extension
+of the symmetric Solovay model, |E |>2ω;
+0
+2. it is consistent relative to an inaccessible cardinal that ZF+DC holds, the
+E-quotient space can be linearly ordered, and yet |E |>|2ω|.
+0
+Another class of examples stems from posets which select a single structure on
+each E-class from a compact class of structures, where E is a countable Borel
+equivalence relation.
+Example 9.2.13. LetX beaPolishspaceandletΓbealocallyfinitebipartite
+Borel graph on X satisfying the Hall’s marriage condition. Consider the poset
+P adding a perfect Γ-matching as in Example 6.2.4. The balanced virtual
+conditions are classified by perfect matchings. The set of perfect matchings is
+naturally viewed as a compact subset of P(Γ). It is not difficult to check that
+the inherited compact topology satisfies the demands of Definition 9.2.1.
+Corollary 9.2.14. Let X be a Polish space and let Γ be a locally finite bipartite
+Borel graph on X satisfying Hall’s marriage condition.
+1. Let P be the complete matching poset for Γ. In the P-extension of the
+symmetric Solovay model, |E |>|2ω|;
+0
+2. It is consistent relative to an inaccessible cardinal that ZF+DC holds, Γ
+has a perfect matching, and yet |E |>|2ω|.
+0
+Example 9.2.15. LetX beaPolishspaceandletΓbeaBorel,acyclic,locally
+finite graph on X in which every vertex has degree at least 2; view Γ as a
+symmetric subset of X2. Consider the poset P of Example 6.2.5, adding an
+orientation of Γ in which every vertex has exactly one point in its outflow, or
+in other words which selects an end to each connected component of Γ. The
+balancedconditionsareclassifiedbyallsuchorientations,whichformacompact
+subset of P(Γ). It is not difficult to check that the inherited compact topology
+satisfies the demands of Definition 9.2.1.
+This example is somewhat singular in that it is the only compactly balanced
+poset for which we are able to confirm that it introduces some new cardinal
+inequalities between quotient cardinals. Namely, writing E for the Γ-path-
+connectednessequivalencerelation,intheP-extensionofthesymmetricSolovay
+model |E| ≤ |E | must hold. To see this, consider the equivalence relation F
+0
+on the set D ⊂ Xω of all sequences consisting of pairwise E-equivalent points,
+makingtwosuchsequences(cid:126)x ,(cid:126)x F-equivalentifsometailof(cid:126)x isequaltosome
+0 1 0
+tail of(cid:126)x . It is not difficult to see that F is a hypersmooth equivalence relation
+1
+[48, Theorem 8.3.1] with all classes countable and so by a standard result [48,

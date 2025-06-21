@@ -1,0 +1,104 @@
+=== 块 198 ===
+
+p¯ does not depend on y per se, but only on the E -class of y. The treatment
+1 0
+dividesintotwocasesaccordingtothefateofthevalueτ([y]E
+0
+)asforcedbyp¯
+1
+,
+and a contradiction is reached in each case.
+
+9.2. THE SMOOTH DIVIDE 207
+Case 1. In the model V[K][U][y], there is no point u∈2ω such that Coll(ω,<
+κ) (cid:13) p¯
+1
+(cid:13)
+P
+τ([y]E
+0
+) = uˇ. In such a case, there have to be disjoint basic
+open subsets O ,O of 2ω, posets R ,R of size < κ, and respective R ,R -
+0 1 0 1 0 1
+names σ ,σ for conditions in P stronger than p¯ such that R (cid:13) Coll(ω,<
+0 1 0
+κ) (cid:13) σ (cid:13)
+P
+τ([y]E
+0
+) ∈ O
+0
+, and similarly for subscript 1. In the model W, let
+H ⊂ R and H ⊂ R be filters mutually generic over the model V[K][U][y]
+0 0 1 1
+andconsidertheconditionsσ /H ,σ /H ∈P. Bythebalanceofthecondition
+0 0 1 1
+p¯ ,theconditionsσ /H ,σ /H arecompatible. Theforcingtheoremappliedin
+1 0 0 1 1
+bothmodelsV[K][U][y][H ]andV[K][U][y][H ]nowsaysthatinW,theirlower
+0 1
+boundforcesτ([y]E
+0
+)tobelongsimultaneouslytoO
+0
+andtoO
+1
+,animpossibility.
+Case 2. There is a point u∈2ω in V[K][U][y] such that Coll(ω,<κ)(cid:13)p¯ (cid:13)
+1 P
+τ([y]E
+0
+) = uˇ. This point u is clearly unique, and since p¯
+1
+is definable from
+[y]E , so is u. By Fact 9.2.3(3), u ∈ V[K][U] holds. Working in V[K][U], let
+0
+q ∈Q
+1
+be a condition forcing Coll(ω,<κ)(cid:13)p¯
+1
+(cid:13)
+P
+τ([x
+gen
+]E
+0
+)=uˇ, where x
+gen
+istheQ -nameforitsgenericpoint. LetH ,H ⊂Qbefiltersmutuallygeneric
+1 0 1
+over V[K][U] containing the condition q. Let y0,y1 ∈ 2ω be the respective
+genericpoints;observethaty0,y1arenotE -relatedbymutualgenericity. Write
+0
+also p0 = p¯ /H and p1 = p¯ /H . These are two virtual conditions in P
+1 0 1 1
+strengthening p¯ . By the balance of p¯ , they are compatible in the poset P.
+0 0
+Then, in the model W, their lower bound forces that τ([yˇ0]E )=τ([yˇ1]E )=uˇ.
+0 0
+This contradicts the assumption that τ was forced to be an injection.
+Example 9.2.4. LetP betheposetofP(ω)modulofinite. ByTheorem7.1.2,
+the balanced virtual conditions are classified by nonprincipal ultrafilters on ω.
+Equip the set of balanced classes by the topology of the remainder βω. It is
+immediate that the topology witnesses the fact that P is compactly balanced.
+Corollary 9.2.5.
+1. LetP betheposetP(ω)modulofinite. IntheP-extensionofthesymmetric
+Solovay model, |E |>|2ω|;
+0
+2. ItisconsistentrelativetoaninaccessiblecardinalthatZF+DCholds,there
+is a Ramsey ultrafilter on ω, and yet |E |>|2ω|.
+0
+Example 9.2.6. Let A be a Ramsey sequence of finite structures and P the
+A
+associated σ-closed poset as in Definition 7.3.1. Theorem 7.3.4 provides a clas-
+sification of the balanced virtual conditions: they correspond to Ramsey se-
+quencesofultrafiltersontherespectivedomainsetsD forn∈ω. Sequencesof
+n
+ultrafiltersofthistypeformaclosedsubsetoftheproduct (cid:81) D∗ oftherespec-
+n n
+tive compact sequences of ultrafilters, and so form a compact Hausdorff space.
+Claim 7.3.6 confirms the extension property Definition 9.2.1(2). It follows that
+the poset P is compactly balanced.
+A
+The conjunction of Examples 9.2.6 and 7.3.8 now yields the following:
+Corollary 9.2.7. Let k ∈ω be a number.

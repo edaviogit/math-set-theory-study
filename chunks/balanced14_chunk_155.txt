@@ -1,0 +1,90 @@
+=== 块 155 ===
+
+em 7.3.4. Let A = (cid:104)A : n ∈ ω(cid:105) be a Ramsey sequence of finite struc-
+n
+tures.
+1. ForeveryA-sequenceF ofultrafilters,thepair(cid:104)Coll(ω,2ω),τ (cid:105)isbalanced
+F
+in the poset P ;
+A
+
+162 CHAPTER 7. ULTRAFILTER FORCINGS
+2. for every balanced pair (cid:104)Q,σ(cid:105) there is a A-sequence F of ultrafilters such
+that the balanced pairs (cid:104)Q,σ(cid:105) and (cid:104)Coll(ω,2ω),τ (cid:105) are equivalent;
+F
+3. distinct A-sequences of ultrafilters yield inequivalent balanced pairs.
+In particular, the poset P is balanced.
+A
+Proof. Write P = P . For the first item, it is necessary to argue that in
+A
+fact Coll(ω,τ ) (cid:13) τ (cid:54)= 0. To see this, work in the Coll(ω,2ω) extension,
+F F
+for each number n ∈ ω let D = dom(F ) and fix an enumeration (cid:104)ai : i ∈ ω(cid:105)
+n n n
+of all elements of F . By induction on n ∈ ω, repeatedly using item (2) of
+n
+Definition 7.3.3 build sets d n ∈ D n such that for every i ∈ n the set dA n i is
+a subset of (cid:84) aj. It is immediate that the condition p = (cid:83) d ∈ P is an
+j∈n i n n
+element of τ .
+F
+For the balance, suppose that R ,R are posets and σ ,σ are their respec-
+0 1 0 1
+tive names for conditions in P such that R forces that for every n ∈ ω and
+0
+every set a ∈ F , σAn ⊂ a modulo finite holds, and similarly for R ,σ . We
+n 0 1 1
+have to show that R ×R forces the conditions σ ,σ to be compatible in P,
+0 1 0 1
+which is the same as to say that R ×R forces the intersection σ ∩σ to
+0 1 0 1
+contain a copy of A for every number n ∈ ω. To this end, note that the sets
+n
+σAn and σAn are forced to diagonalize the ultrafilter F . By Proposition 7.0.2,
+0 1 n
+their intersection is forced to be infinite, in particular nonempty.
+For the second item, we use a simple claim.
+Claim 7.3.5. Let p∈P be a condition, n∈ω be a number, and let a⊂D be
+n
+a set. Then there is q ≤p such that either qAn ⊂a or qAn ∩a=0.
+Proof. For each k ∈ ω find a number m ∈ ω such that A → (A )An. Find
+k mk k 2
+pairwise disjoint finite sets d ⊂ p in D for each k ∈ ω. Use the partition
+k mk
+propertytofindsetsd(cid:48)
+k
+⊂d
+k
+suchthatd(cid:48)
+k
+∈D
+k
+and(d(cid:48)
+k
+)An iseitherasubsetof
+a or disjoint from a. One of the options prevails for infinitely many numbers k.
+For definiteness, assume that the set b = {k ∈ ω: (d(cid:48))An ⊂ a} is infinite. Let
+k
+q = (cid:83) d(cid:48) and observe that q ≤p works.
+k∈b k
+Now let (cid:104)Q,σ(cid:105) be a balanced pair. Replacing Q with Q × Coll(ω,2ω) and
+repeatedlystrengtheningpusingtheclaim,wemayassumethatforeveryn∈ω
+and every set a ⊂ D
+n
+, σAn is forced to be either a subset of a or disjoint
+from a modulo finite. By a balance argument, it must be the case that either
+Q (cid:13) σAn ⊂ aˇ modulo finite, or Q (cid:13) σAn ∩aˇ = 0 modulo finite. Let F
+n
+be the
+collection of all sets a ⊂ D for which the former option prevails. It is clear
+n
+that F is an ultrafilter and that F = (cid:104)F : n ∈ ω(cid:105) is an A-sequence. Since
+n n
+Q×Coll(ω,2ω)(cid:13)σ ∈τ , by the firstitem and Proposition5.2.4 it must be the
+F
+casethatthebalancedpairs(cid:104)Q,σ(cid:105)and(cid:104)Coll(ω,2ω),τ (cid:105)areequivalentbalanced
+F
+pairs.
+The third item is immediate. The last sentence of the theorem is not an
+entirely formal consequence of the previous work. It needs the following appli-
+cation of the axiom of choice.

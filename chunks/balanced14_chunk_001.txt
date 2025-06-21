@@ -1,0 +1,42 @@
+=== 块 1 ===
+
+Geometric set theory
+Paul Larson
+Jindˇrich Zapletal
+
+vii
+
+Preface
+We wish to present to the reader a fresh and exciting new area of mathematics:
+geometric set theory. The purpose of this research direction is to compare
+transitive models of set theory with respect to their extensional agreement and
+definability. It turns out that many fracture lines in descriptive set theory,
+analysis,andmodeltheorycanbeefficientlyisolatedandtreatedfromthispoint
+of view. A particular success is the comparison of various Σ2 consequences of
+1
+the Axiom of Choice in unparalleled detail and depth.
+Thesubjectmatterofthebookwasratherslowincoming. Theinitialwork,
+restating Hjorth’s turbulence in geometric terms and isolating the notion of a
+virtual quotient space of an analytic equivalence relation, existed in rudimen-
+taryversionssinceabout2013inunpublishedmanuscriptsofthesecondauthor.
+Thejointeffort[63]containedsomeindependenceresultsinchoicelesssettheory
+similar to those of the present book, but in decidedly suboptimal framework.
+It was not until the January 2018 discovery of balanced Suslin forcing that the
+flexibility and power of the geometric method fully asserted itself. The period
+after that discovery was filled with intense wonder–passing from one configura-
+tion of models of set theory to another and testing how they separate various
+well-known concepts in descriptive set theory, analysis, and model theory. At
+the time of writing, geometric set theory seems to be an area wide open for
+innumerable applications.
+Theauthorsbenefitedfromdiscussionwithanumberofmathematicians,in-
+cluding,butnotlimitedto,DavidChodounsky´,JamesFreitag,MichaelHruˇs´ak,
+Anush Tserunyan, Douglas Ulrich, and Lou van den Dries. The second author
+wishes to extend particular thanks to Bernoulli Center at EPFL Lausanne,
+where a significant part of the results was obtained during the special semester
+on descriptive set theory and Polish groups in 2018.
+Duringtheworkonthebook, thefirstauthorwassupportedbygrantsNSF
+DMS 1201494 and DMS-1764320. The second author was supported by NSF
+grant DMS 1161078.
+v
+
+vi PREFACE

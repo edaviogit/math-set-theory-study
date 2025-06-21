@@ -1,0 +1,79 @@
+=== 块 231 ===
+
+en let f(y) = x for the unique x ∈ X such
+α y
+that (cid:104)y,x(cid:105)∈B . This is the familiar countable-to-one uniformization.
+αy
+ThecentraltheoremofthissectioncannowbestatedusingConvention1.7.16.
+
+10.3. WELL-ORDERABLE UNIFORMIZATION 243
+Theorem 10.3.2. Let E be a Borel equivalence relation on a Polish space X.
+In tethered, cofinally balanced extensions of the symmetric Solovay model, E-
+well-orderable uniformization holds.
+Proof. Let κ be an inaccessible cardinal. Let P be a Suslin poset which is
+balancedcofinallybelowκandtetheredbelowκ. LetW thesymmetricSolovay
+model derived from κ. In the model W, let p ∈ P be a condition and τ be
+a P-name such that p (cid:13) τ ⊂ 2ω ×X is a set whose vertical sections are well-
+orderableunionsofE-classes. Letz ∈2ω beaparametersuchthatp,τ areboth
+definable from z and some additional ground model parameters. Let G⊂P be
+a generic filter meeting the condition p and let B = τ/G. Work in the model
+W[G].
+Fix a point y ∈2ω and consider the model M of all sets hereditarily defin-
+y
+able from parameters y,z,G and parameters in the ground model. Note that
+M isamodelofZFCandthereforefindsitselfalreadyinthemodelW byThe-
+y
+orem 9.1.1; in fact, it is a generic extension of the ground model by a poset of
+size<κ. WeclaimthattheverticalsectionB consistsofrealizationsofvirtual
+y
+E-classes of the model M . Once this is proved, one can decompose the set B
+y
+(cid:83)
+into the union B = B by setting (cid:104)y,x(cid:105) ∈ B if (cid:104)y,x(cid:105) ∈ B and x belongs
+α α α
+totherealizationofα-thvirtualE-classinM inthecanonicalwell-orderingof
+y
+the model M .
+y
+To this end, use Claim 10.2.3 to argue that there is a balanced virtual con-
+dition p¯in the model M such that its realization belongs to the generic filter
+y
+G. Necessarilyp¯≤pmusthold. Now, movetothemodelM andarguethatin
+y
+this model, Coll(ω,< κ) (cid:13) p¯(cid:13) τ consists of realizations of virtual E-classes
+P yˇ
+of the model M . The proof of the theorem is then concluded by an appeal to
+y
+the forcing theorem applied in M .
+y
+Suppose towards a contradiction that the forcing statement in the previous
+paragraph fails and work in M . In view of Corollary 9.1.3, there exist a poset
+y
+R of cardinality less than κ, an R -name η for an element of Xω and an R -
+0 0 0
+name σ for an element of P stronger than p¯ such that R (cid:13) Coll(ω,< κ) (cid:13)
+0 0
+σ (cid:13) ∀x ∈ X (cid:104)yˇ,x(cid:105) ∈ η ↔ ∃i x E η(i). Also there must be a poset R of
+0 P 1
+size < κ, an R -name χ for an element of X which is forced not to realize any
+1
+virtual E-class in M , and an R -name σ for a condition in P stronger than p¯
+y 1 1
+such that R (cid:13)Coll(ω,<κ)(cid:13)σ (cid:13)(cid:104)yˇ,χ(cid:105)∈τ.
+1 1
+Working in W, let H ⊂ R and H ⊂ R be filters mutually generic over
+0 0 1 1
+V, let u=η/H ∈Xω, x=χ/H ∈X, p =σ /H ∈P and p =σ /H ∈P.
+0 1 0 0 0 1 1 1
+The balance of the condition p¯implies that p ,p are compatible conditions in
+0 1
+theposetP withalowerboundq. Thechoiceofthenameχimpliesthatxisnot
+E-related to any element on the sequence u. Since W is a symmetric Solovay
+extension of the model M [H ], the forcing theorem applied in that model says
+y 0
+thatq (cid:13)τ =[rng(u)] . SinceW isasymmetricSolovayextensionofthemodel
+E
+M [H ], the forcing theorem applied in that model says that q (cid:13) xˇ ∈ τ. Since
+y 1
+x∈/ [rng(u)] , this is a contradiction.
+E

@@ -1,0 +1,66 @@
+=== 块 29 ===
+
+h with finite hyperedges, with uncountable Borel
+chromatic number. Given a countable Borel equivalence relation E, we prove
+the consistency of ZF+DC plus “E is an orbit equivalence of a Z-action” plus
+
+1.6. NAVIGATION 25
+“thechromaticnumberofGisuncountable”–Corollary11.4.10. Givenalocally
+finite acyclic Borel graph H, we prove the consistency of ZF+DC plus “the
+chromatic number of H is not greater than three” plus “the chromatic number
+of G is uncountable”–Corollary 11.4.12.
+Section 11.5 deals with the effects of coloring a larger, perhaps not locally
+countable, Borel graphs G on locally countable structures. If the graph G does
+not contain injective homomorphic copies of the bipartite graphs K→ and
+ω,ω
+K for some n ∈ ω, then the canonical forcing for adding a G-coloring with
+n,ω1
+countably many colors does not add an E -transversal (Theorem 11.5.6). If the
+0
+graph G contains no injective homomorphic copy of K , then the canonical
+n,n
+coloringposetdoesnotaddacoloringofthediagonalHamminggraphH with
+<ω
+countably many colors (Theorem 11.5.8). Great examples of such graphs come
+from the Euclidean distance graphs considered at length by Erd˝os, Hajnal, and
+Komj´ath among others. Let D be a Borel set of positive reals, and let G be the
+graph on R2 connecting points whose Euclidean distance belongs to the set D.
+The nature of the set D greatly influences the behavior of the graph. If D is a
+sequenceconvergingtozero,thenthegraphGfallsintothefirstcategoryabove,
+and so in ZF+DC the chromatic number of G can be equal to ℵ without the
+0
+existence of an E -transversal. If the set D is algebraically independent, then
+0
+the graph G falls into the second category and so its chromatic number can be
+equal to ℵ without providing even a coloring to H . On the other hand, if
+0 <ω
+the set D contains a dense subgroup of Q, then the existence of a G-coloring
+with countably many colors easily implies the existence of an E -transversal.
+0
+Section 11.6 studies the effects of collapses of various Borel cardinals to |2ω|
+ortoE onlocallyfinitestructures. Perhapssomewhatunexpectedly,collapsing
+0
+aBorelcardinalsuchasE to2ω doesnotyieldanE -transversal; similarly, for
+0 0
+manylocallycountablehypergraphsG,itdoesnotmakeGhavecountablechro-
+matic number. The notion of the fractional chromatic number of a hypergraph
+(Definition 11.1.18) makes a key apperance in the main result–Theorem 11.6.1.
+AcollapseofaBorelcardinaltoE hasnodiscernibleeffectonlocallycountable
+0
+structures, as Theorem 11.6.5 shows.
+Section 11.7 revisits the class of compactly balanced forcing. We show that
+for many locally countable hypergraphs G, compactly balanced forcings do not
+make G have countable chromatic number. such forcings do not add countable
+coloring to a number of locally countable hypergraphs. The notion of Borel
+σ-finitechromaticnumber(Definition11.1.9)iscriticalhere;thediagonalHam-
+ming graph H is the most prominent example. In particular, it is consistent
+<ω
+with ZF+DC that there be a nonprincipal ultrafilter on ω, yet the chromatic
+number of H is uncountable.
+<ω
+Chapter 12 presents important two classes of posets which are in a precise
+sense dual to each other. Both of them offer extensive control over uncountable
+subsets of Polish spaces, but they approach the task from exactly orthogonal
+directions.
+Section 12.1 isolates the classes of perfectly balanced and perfect forcings.
+Themaininhabitantoftheseclassesistheorderingofinfinitesubsetsofnatural

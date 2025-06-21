@@ -1,0 +1,67 @@
+=== 块 42 ===
+
+ple 2.4.6. However, if the equivalence relation E is Borel then the virtual
+version is a set of size < (cid:105) by Theorem 2.5.6. In any case, it is possible to
+ω1
+stratify M∗∗ into set sized pieces:
+
+2.2. VIRTUAL STRUCTURES 41
+Definition2.2.4. LetM=(cid:104)X,E,R : i∈ω,f : j ∈ω(cid:105)beananalyticquotient
+i j
+structure. M∗∗ is the substructure of M∗∗ consisting of the virtual E-classes
+κ
+represented by names on Coll(ω,κ).
+AproofidenticaltothatofProposition2.2.3showsthatM∗∗ isclosedunder
+κ
+allfunctionsof M∗∗ soitistrulyasubstructure ofM∗∗. Anelementaryname-
+counting argument shows that for each infinite κ, the structure M∗∗ has size
+κ
+at most 2κ. If κ ≤ λ are cardinals then Coll(ω,κ) is regularly embedded in
+Coll(ω,λ) so M∗∗ ⊆M∗∗. Every poset is regularly embedded in Coll(ω,κ) for
+κ λ
+some κ so M∗∗ decomposes into a monotone union (cid:83) M∗∗.
+κ κ
+For each analytic quotient structure M, there is a canonical embedding
+π: M∗ → M∗∗ which maps each class [x] to the virtual E-class of (cid:104)Q,xˇ(cid:105) for
+E
+a trivial poset Q. The most important fact about the virtual structures is that
+there is some degree of elementarity:
+Proposition2.2.5. Thecanonicalembeddingπ: M∗ →M∗∗ isΠ -elementary.
+1
+Proof. Let κ be a cardinal, and let G ⊂ Coll(ω,κ) be a generic filter. In the
+modelV[G],letχ: (M∗∗)V →(M∗)V[G]bethemapsendingavirtualE-classin
+κ
+(M∗∗)V toitsrealization. Thus,wehavemaps(M∗)V → π (M∗∗)V → χ (M∗)V[G].
+κ κ
+The composition χ◦π sends each equivalence class in V to its interpretation in
+V[G].
+Let φ be a Π formula in L logic with possible parameters such that
+1 ω1ω
+M∗ |= φ. The statement M∗ |= φ is a Π1 sentence about the structure M,
+2
+and by Shoenfield absoluteness it transfers from the ground model V to the
+generic extension V[G]. Thus, the map χ◦π is a Π elementary embedding
+1
+from (M∗)V to (M∗)V[G]. It follows that the map π: M∗ → M∗∗ in V must
+κ
+be a Π -elementary embedding. Since M∗∗ is an increasing union (cid:83) M∗∗, the
+1 κ κ
+proposition follows.
+In particular, if the original quotient structure was a group, a partial order,
+or an acyclic graph, its virtual version maintains these properties. However,
+it is important to understand that the embedding does not have to be Σ -
+2
+elementary, so virtual versions of connected graphs may become disconnected,
+virtual versions of divisible groups may not be divisible anymore, and virtual
+versions of nonatomic partial orders may have atoms.
+Example 2.2.6. Let R be the relation on X = (2ω)ω defined by x R x if
+0 1
+rng(x ) ⊆ rng(x ). Clearly, the tuple (cid:104)X,F ,R(cid:105) is an analytic quotient struc-
+0 1 2
+ture. The relation R∗ is a partial order on X∗ without largest element. At
+the same time, the relation R∗∗ on X∗∗ does have the largest element, namely
+the F -pin presented in Example ??: the pin corresponding to the name for a
+2
+generic enumeration of 2ω in ordertype ω. This follows immediately from the
+classification of F -pins in Example 2.3.5 below.
+2

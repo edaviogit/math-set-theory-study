@@ -1,0 +1,69 @@
+=== 块 304 ===
+
+f Theorem 12.3.6, let Γ be a Polish group acting on
+a Polish space X in a generically turbulent way, so that E is the resulting
+orbit equivalence relation. Consider the space Γ×X ×X, its closed subset
+
+12.3. PLACID FORCING 319
+C = {(cid:104)γ,x ,x (cid:105): γ ·x = x } and the projection maps f : C → X into the
+0 1 0 1 0
+x -coordinate and f : C →X into the x coordinate. The two maps are inde-
+0 1 1
+pendent by Theorem 3.2.2. Let g ,g be the product maps f ×f and f ×f .
+0 1 0 1 1 0
+Thus, g ,g : C ×C → X ×X are continuous open maps, and they form an
+0 1
+independent pair by the claim.
+LetκbeaninaccessiblecardinalandletP beaSuslinforcingwhichisplacid
+cofinally below κ. Let W be the Solovay model derived from κ and work in the
+model W. Let p ∈ P be a condition and τ be a P-name such that p (cid:13) τ is
+a directed graph on the E-quotient space and for each pair (cid:104)c,d(cid:105) of distinct
+E-equivalence classes, either (cid:104)c,d(cid:105) or (cid:104)d,c(cid:105) is in τ. We must find a condition
+q ≤p and distinct E-classes c,d such that q (cid:13)(cid:104)c,d(cid:105)∈τ and (cid:104)d,c(cid:105)∈τ.
+Both p,τ are definable in the model W from a parameter z ∈ 2ω and pa-
+rameters in the ground model. Let V[K] be an intermediate forcing extension
+obtained by a poset of size <κ containing z and such that P is placid in V[K];
+work in the model V[K]. By the initial assumption on the poset P, there must
+be a placid virtual condition p¯ ≤ p. Let Q be the Cohen forcing on X ×X,
+adding generic points x˙ ,x˙ . There must be an open set O ⊂ X ×X forcing
+0 1
+the existence of a poset S˙ adding a condition σ ∈ P such that S˙ (cid:13) σ ≤ p¯and
+Coll(ω,< κ) (cid:13) σ (cid:13) (cid:104)[x˙ ] ,[x˙ ] (cid:105) ∈ τ (or the whole statement repeated with
+P 0 E 1 E
+x˙ ,x˙ interchanged). Since Γ-orbits are dense, it is possible to find open sets
+0 1
+O ,O ⊂X andU ,U ⊂ΓsuchthatO ×O ⊂Oand(U ·O )×(U ·O )⊂O.
+0 1 0 1 0 1 0 1 1 0
+Now,considertheCohenposetRonthespaceC×C. Considerthecondition
+U ∈ Q consisting of all tuples (cid:104)γ,x ,x ,δ,x ,x (cid:105) ∈ C ×C such that γ ∈ U ,
+0 1 2 3 0
+x ∈ O , δ ∈ U and x ∈ O . Let (cid:104)γ,x ,x ,δ,x ,x (cid:105) be an R-generic tuple
+0 0 1 3 1 0 1 2 3
+over the model V[K]. Note the following:
+• (cid:104)x ,x (cid:105) is a pair Q-generic over V[K], meeting the condition O;
+0 3
+• similarly, (cid:104)x ,x (cid:105) is a pair Q-generic over V[K], meeting the condition O
+2 1
+by the choice of the neighborhoods U ,U ;
+0 1
+• x E x and x E x ;
+0 1 3 2
+• V[K][x ,x ]∩V[K][x ,x ]=V[K]bythefactthatg ,g areindependent
+0 3 2 1 0 1
+maps and Theorem 3.1.4.
+Let S = S˙/x ,x and S = S˙/x ,x . Let H ⊂ S and H ⊂ S be filters
+0 0 3 1 2 1 0 0 1 1
+mutually generic over the model V[K][x : i ∈ 4]. By the third item above and
+i
+amutualgenericityargument, V[K][x ,x ][H ]∩V[K][x ,x ][H ]=V[K]. Let
+0 3 0 2 1 1
+p = σ/H and p = σ/H . By the placidity of the virtual condition p¯, the
+0 0 1 1
+conditions p ,p have a lower bound q ∈P. The forcing theorem finally shows
+0 1
+thatinthemodelW,q (cid:13)both(cid:104)[x ] ,[x ] (cid:105)and(cid:104)[x ] ,[x ] (cid:105)belongtoτ.
+0 E 2 E 2 E 0 E
+Corollary 12.3.8. Let X be a Borel vector space over a countable field Φ. Let
+Y be an uncountable Polish field and let Ψ be a countable subfield.
+1. Let P be the basis poset of Example 6.4.9. In the P-extension of the
+symmetric Solovay model, Y does not have a transcendence basis.

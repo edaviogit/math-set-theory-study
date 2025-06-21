@@ -1,0 +1,76 @@
+=== 块 239 ===
+
+model, countable-to-one uniformization fails.
+Proof. For simplicity of notation, assume that X =2ω. Let W[F] be the sym-
+metric Solovay model derived from an inaccessible cardinal κ, with the generic
+
+10.5. EXAMPLES 251
+Kurepa family F attached. In W[F], let E be the equivalence relation on X
+connecting x,y if there is no set in F containing x but not y or vice versa. All
+classes of the equivalence relation E are countable as the family F consists of
+countable sets and is cofinal. We will show that in W[F] there is no total func-
+tionf: X →X suchthatforeveryx∈X, if[x] (cid:54)={x}thenf(x)∈[x] \{x}.
+E E
+This is clearly in violation of countable-to-one uniformization.
+Working in W, let p ∈ P be a condition and τ be a P-name such that
+p (cid:13) τ: X → X is a function. We must find x ∈ X and a stronger condition
+p¯≤p which forces that [x] (cid:54)={x} and τ(x)∈/ [x] \{x}. The condition p and
+E E
+the name τ are definable from some parameter z ∈2ω and some ground model
+parameters. Let V[K] be an intermediate model obtained by a forcing of size
+<κ which contains the parameter z. Work in the model V[K].
+Let Q be the Cohen forcing on X, adding the generic point x˙ . Let
+gen
+H ,H ⊂ Q be mutually generic filters, let x = x˙ /H and x = x˙ /H ,
+0 1 0 gen 0 1 gen 1
+and in the model V[K][H ][H ] consider the virtual condition p¯≤ p which in
+0 1
+(cid:83)
+addition to p contains the sets p∪{x
+0
+}∪[x
+1
+]E
+0
+and X ∩V[K][H
+0
+][H
+1
+]. By
+Theorem 8.4.3, p¯ is a balanced virtual condition. By a balance argument, it
+decides the value of τ(x ) to be some specific point y ∈ X. An inspection of
+0
+the condition p¯reveals that it forces [x
+0
+]
+E
+={x
+0
+}∪[x
+1
+]E
+0
+. We will be finished
+if we show that y is not E -related to x .
+0 1
+Towards contradiction, assume that it is. Then y is a Cohen generic point
+over V[K][H ], yielding the same extension as x . By the forcing theorem in
+0 1
+V[K][H ] and the definability of τ, there would have to be a condition q ∈ Q
+0
+such that V[K][H ] |= q (cid:13) Coll(ω,< κ) (cid:13) p¯ (cid:13) τ(xˇ ) = x˙ . By the forcing
+0 0 gen
+theorem again, in the model V[K][H ][H ], the virtual condition p¯would force
+0 1
+the value τ(xˇ
+0
+) to be each of the infinitely many elements of [x
+1
+]E
+0
+in the open
+set q simultaneously, an impossibility.
+Therearealsopartialorderswhereweareunabletodecidethestatusoftether,
+such as the Fin×Fin poset of Definition 7.2.1.
+
+252 CHAPTER 10. UNIFORMIZATION

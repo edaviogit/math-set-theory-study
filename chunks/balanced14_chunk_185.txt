@@ -1,0 +1,73 @@
+=== 块 185 ===
+
+sequence of the
+following classification theorem. For any E -invariant set a ⊂ 2ω, let τ be the
+0 a
+Coll(ω,2ω)-nameforthecondition(cid:104)aˇ,b(cid:105)∈P wherebisthesetofallpairs(cid:104)s,a(cid:105)
+
+194 CHAPTER 8. OTHER FORCINGS
+where s is a ground model coded closed nowhere dense subset of (2ω)n in the
+ground model for some n∈ω.
+Theorem 8.8.6. Let P be the Lusin poset.
+1. For every E -invariant set a⊂X, the pair (cid:104)Coll(ω,X),τ (cid:105) is balanced;
+0 a
+2. for every balanced pair (cid:104)Q,σ(cid:105) there is a set a ⊂ X such that the pairs
+(cid:104)Q,σ(cid:105) and (cid:104)Coll(ω,X),τ (cid:105) are equivalent;
+a
+3. distinct subsets of X yield nonequivalent balanced pairs.
+In particular, the poset P is balanced.
+Proof. WriteS =Coll(ω,2ω). For(1),letR ,R beposetsandσ ,σ beR ×S
+0 1 0 1 0
+andR ×S-namesrespectivelysuchthatR ×S (cid:13)σ ≤τ andR ×S (cid:13)σ ≤τ .
+1 0 0 a 1 1 a
+Let G ⊂ R ×S and G ⊂ R ×S be mutually generic filters; we must show
+0 0 1 1
+that the conditions p =σ /G ,p =σ /G ∈P are compatible.
+0 0 0 1 1 1
+To this end, write p = (cid:104)a ,b (cid:105) and p = (cid:104)a ,b (cid:105). Let n ∈ ω, let s ∈ (2ω)n
+0 0 0 1 1 1
+be a nowhere dense set, let (cid:104)a,s(cid:105)∈b ∪b be a pair, and let h: n→a ∪a be
+0 1 0 1
+a partial function whose range consists of pairwise non-E -related elements of
+0
+(a ∪a )\a. Wemustshowthateither(ifdom(h)=n)h∈/ s,or(ifdom(h)(cid:54)=n)
+0 1
+the set s is nowhere dense.
+h
+Fordefinitenessassumethat(cid:104)a,s(cid:105)∈b . Leth =h∩V[G ]andh =h\h .
+0 0 0 1 0
+Since p ∈ P holds, the set s is nowhere dense. By the Kuratowski–Ulam
+0 h0
+theorem, the set t = {k ∈ (2ω)dom(h1): s
+h0∪k
+is somewhere dense} is meager
+and inthe model V[G ]. Now, the function h is product-Cohen generic over V
+0 1
+by the definition of the name τ . By a mutual genericity argument, h is also
+a 1
+product-Cohen generic over V[G ] and therefore does not belong to the set t.
+0
+Thus the set s is nowhere dense as required.
+h0∪h1
+For (2), suppose that (cid:104)Q,σ(cid:105) is a balanced pair. Strengthening the poset Q
+or the condition σ repeatedly, we may assume that Q (cid:13) 2ω ∩V is countable,
+and
+• for each x∈2ω in V either x∈a or for no extension p≤σ it is the case
+σ
+that x∈a ;
+p
+• foreachn∈ω andeachclosednowheredensesets⊂(2ω)n intheground
+model, either (cid:104)(a ∩V),s(cid:105) ∈ b or for no extension p ≤ σ it is the case
+σ σ
+that (cid:104)(a ∩V),s(cid:105)∈b ;
+σ p
+• foreachn∈ω andeachclosednowheredensesets⊂(2ω)n intheground
+model there is a such that (cid:104)a,s(cid:105)∈b .
+σ
+Byabalanceargument,foreachx∈2ω inthegroundmodel,eitherQforcesthe
+first clause of the first item to prevail for xˇ, or Q forces the second clause of the
+first item to prevail for xˇ. Let a⊂2ω be the set of all points for which the first
+option prevails; we will show that Q×S (cid:13) σ ≤ τ , showing that the balanced
+a
+pairs(cid:104)Q,σ(cid:105)and(cid:104)Coll(ω,2ω),τ (cid:105)areequivalentbyProposition5.2.4. Toseethe
+a

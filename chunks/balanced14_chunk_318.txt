@@ -1,0 +1,73 @@
+=== 块 318 ===
+
+ymmetric if M is an intermediate generic extension
+of V by a poset of cardinality smaller than κ such that z ∈ M, p¯ ≤ p is a
+balanced virtual condition in the model M, Q ∈ M is a poset of cardinality
+
+13.2. PRESERVATION THEOREMS 335
+smaller than κ, η ∈M is a Q-name for an element of X which is not E-related
+to any element of M ∩X, σ ∈M is a Q-name for a balanced virtual condition
+in the Q-extension of M which is stronger than p¯, and
+(*) for any conditions q ,q ∈ Q, in some generic extension there are filters
+0 1
+H ,H ⊂Q separately generic over M such that q ∈H , q ∈H , η/H
+0 1 0 0 1 1 0
+is E-related to η/H , and σ/H is compatible with σ/H in the poset P.
+1 0 1
+The following claim is central.
+Claim 13.2.8. There is a symmetric tuple (cid:104)M,p¯,Q,η,σ(cid:105).
+Proof. LetG⊂P beafiltergenericoverthemodelW containingtheconditionp
+andworkinW[G]. ForeachE-classc,considerthemodelM ofsetshereditarily
+c
+definable from parameters in the ground model and the additional parameters
+z,c,G. There must be an E-class c such that c∩M =0; otherwise, one could
+c
+form an E-selector in W[G] as the set A = {x ∈ X: x is the least element of
+[x] inthecanonicalwell-orderofM }, contradictingtheinitialassumptions
+E [x]E
+on the condition p. Fix such an E-class c, an arbitrary element x ∈ c, and let
+M be the model of sets hereditarily definable from parameters in the ground
+x
+model and the additional parameters z,x,G. Note that M ⊂M holds.
+c x
+Bythebalanceassumption,themodelsM andM aregenericextensionsof
+c x
+thegroundmodelbyposetsofcardinalitysmallerthanκ; inparticular, M isa
+x
+generic extension of M by a poset of cardinality smaller than κ. By the tether
+c
+assumption, as in Proposition ???, there are virtual balanced conditions p¯ and
+c
+p¯ in the respective models M and M such that their realizations belong to
+x c x
+the generic filter G. Necessarily p¯ ≤ p¯ ≤ p holds. Working in M , let Q be
+x c c
+a poset of cardinality smaller than κ such that there is a filter H ⊂ Q generic
+over M such that M = M [H]. Let η ∈M be a Q-name such that x = η/H
+c x c c
+and let σ be a Q-name such that p¯ =σ/H. We claim that for some condition
+x
+q ∈Q, the tuple (cid:104)M,p¯ ,Q(cid:22)q,η,σ(cid:105) is symmetric.
+c
+To see this, in W[G] let D ⊂ Q be the set of all conditions r ∈ Q such
+that there is a filter H(cid:48) ⊂ Q which is generic over M and such that η/H(cid:48) ∈ c
+c
+and σ/H(cid:48) has a realization in the filter G. The set, having just been defined
+from c and G, belongs to the model M . It also contains the Q-generic filter
+c
+H ⊂ Q as a subset. By a density argument with the filter H, there must be a
+condition q ∈ H such that D contains all conditions r ∈ Q such that r ≤ q. It
+is immediate from the definition of the set D that the condition q ∈Q works as
+required.
+Now, fix the symmetric tuple (cid:104)M,p¯,Q,η,σ(cid:105). Let H ⊂Q and H ⊂Q be
+0 0 1 1
+filters mutually generic over M, and write x = η/H , x = η/H , p¯ = σ/H
+0 0 1 1 0 0
+and p¯ =σ/H .
+1 1
+Claim 13.2.9. In some generic extension N of M[H ,H ] by a poset of cardi-
+0 1
+nality smaller than κ there is a condition r ∈ P stronger than p¯ ,p¯ such that
+0 1
+N |=Coll(ω,<κ)(cid:13)r (cid:13) (cid:104)[x ] ,[x ] (cid:105)∈τ.
+P 0 E 1 E

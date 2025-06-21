@@ -1,0 +1,66 @@
+=== 块 134 ===
+
+Borel modular function. For (1), suppose that
+V[H ] and V[H ] are mutually generic extensions of the ground model, and
+0 1
+a ∈ V[H ] and a ∈ V[H ] are elements of K such that A∪a ,A∪a are
+0 0 1 1 0 1
+
+6.4. MODULAR COMPLEXES 141
+K-sets; we must show that a ∪a ∈ K. Suppose towards a contradiction that
+0 1
+this fails. Using the maximality of the set A, enlarge the sets a ,a so that
+0 1
+a ∩a =a ∩V =a ∩V. Themodularityofthefunctionf impliesthattheset
+0 1 0 1
+f(a )∩f(a )\f(a ∩a ) is nonempty, containing some element y ∈ Y. Since
+0 1 0 1
+y ∈V[H ]∩V[H ], the product forcing theorem implies that y ∈V.
+0 1
+Back in V, consider the set B ⊂ K, B = {b ∈ K: y ∈ f(b) and for no
+proper subset c ⊂ b, y ∈ f(c)}. Apply Definition 6.4.2 to A,B. The first
+option is impossible by the modularity of the function f. The second option
+gives a set b ∈ K such that b ⊂ A and y ∈ f(b). Increasing the set b if
+necessary, we may arrange that a ∩V ⊂ b. But then, y ∈ f(a )∩f(b) while
+0 0
+y ∈/ f(a ∩b)=f(a ∩V)=f(a ∩a ). Themodularityofthefunctionf shows
+0 0 0 1
+thatb∪a ∈/ KandsoA∪a isnotaK-set,contradictingtheinitialasumptions.
+0 0
+Inthethirdoptionofthetrichotomy,thereis(inV)acountablesetp⊂Asuch
+that no element of B can be added to it. Let b ⊂ a be an inclusion-minimal
+0
+subset of a such that y ∈f(b). Then b∈B and p∪b is a K-set, contradicting
+0
+the choice of p. (1) has been proved.
+For (2), assume that (cid:104)Q,τ(cid:105) is a balanced pair. Replacing Q with Q ×
+Coll(ω,X) and strengthening τ if necessary, we may assume that τ is in fact a
+name for an element of P , and Q (cid:13) ∀x ∈ X ∩V x ∈ τ or {x}∪τ is not a
+K
+K-set. By the balance, for each x ∈ X it has to be the case that Q (cid:13) xˇ ∈ τ or
+Q(cid:13){xˇ}∪τ is not a K-set; let A⊂X be the set of all points x∈X for which
+the former alternative occurs. We will show that A⊂X is a strongly maximal
+K-set. Then, (cid:104)Q,τ(cid:105) is equivalent to (cid:104)Coll(ω,X),A(cid:105). Since Q (cid:13) τ ≤ A holds,
+in view of (1) and Proposition 5.2.4 (cid:104)Q,τ(cid:105) is equivalent to (cid:104)Coll(ω,X),A(cid:105) as
+desired.
+Now, it is clear that A is a K-set, since it is forced to be a subset of the
+K-set τ. Suppose towards a contradiction that A⊂X is not strongly maximal,
+as witnessed by some Borel set B ⊂K.
+Claim 6.4.4. There is a poset R and an R-name b˙ such that R (cid:13) b˙ ∈ K and
+Aˇ∪b is a K-set.
+Proof. LetRbetheposetofallstationarysubsetsof[X]ℵ0 orderedbyinclusion.
+Now, if G⊂R is a generic filter and j: V →M is the associated generic ultra-
+power,thesetX∩V belongstoM anditiscountableinM,asitisrepresented
+by the identity function. Thus, A = j(A)∩(X ∩M) is a countable subset of
+j(A) in the model M, and by the failure of the third option in Definition 6.4.2
+in V and elementarity of j, M |=∃b b∈B and A∪b is a K-set. Since M is an
+ω-model of set theory, these two statements about b transfer without change to
+the generic extension V[G].
+The treatment now divides into two cases.
+Case1. Forsomeconditionq ≤QandaQ-nameb˙ foranelementofB˙,q (cid:13)τ∪b˙
+isaKset. Inthiscase,notethatsincethesecondoptioninDefinition6.4.2fails
+for A,B, it must be the case that b˙ is forced not to be a subset of the ground
+model. LetH ,H ⊂Qbemutuallygenericfiltersmeetingtheconditionq. The
+0 1
+sets b˙/H ,b˙/H ∈ B must be distinct by the product forcing theorem. Since
+0 1

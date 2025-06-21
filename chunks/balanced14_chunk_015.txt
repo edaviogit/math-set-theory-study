@@ -1,0 +1,49 @@
+=== 块 15 ===
+
+ry. One of the most notorious versions of it is countable to
+oneuniformization,thestatementthateverysubsetoftheplanewithnonempty
+countableverticalsectionscontainsthegraphofatotalfunction. InChapter10,
+
+1.4. INDEPENDENCE: BY MODEL 11
+greatlyimprovingthemethodsandresultsof[56],wedevelopasatisfactorycri-
+terionwhichguaranteesthatvariousstronguniformizationprinciples(including
+thecountable-to-oneuniformizationasthehumblestspecialcase)holdinnearly
+all models under study. Separating the various uniformization principles seems
+to be a difficult task beyond the techniques of the present book.
+Limitations of the method. The balanced forcing offers a very flexible and
+powerfulmethodforobtainingindependenceresultsinZF+DCsettheory. How-
+ever, certain desirable types of independence results are outside of its reach.
+Certain basic limitations are encapsulated in the following theorems.
+Theorem 1.3.18. (Corollary 9.1.2) In every balanced extension of the sym-
+metric Solovay model, there is no ω sequence of distinct Borel sets of bounded
+1
+Borel rank.
+Theorem 1.3.19. (Theorem 14.3.1) In every nontrivial balanced extension of
+the symmetric Solovay model, there is a set of reals without the Baire property.
+Theorem 1.3.20. (Theorem 14.1.1) In every balanced extension of the sym-
+metric Solovay model, there is no maximal almost disjoint family of subsets of
+ω.
+Theorem 1.3.21. (Theorem 14.2.1 simplified) In every balanced extension of
+the symmetric Solovay model, there is no linearly ordered, unbounded set of
+elements of ωω in the modulo finite domination ordering.
+Thus, thebalancedforcingcannotbeusedtoproveforexampletheconsistency
+with ZF+DC of the statement that ℵ ≤ |E | but ℵ (cid:54)≤ |E |. For consistency
+1 1 1 0
+results of this type, one has to reach to the weakly balanced forcing of Sec-
+tion 5.3. Another apparently difficult question which cannot be resolved using
+balanced forcing is the consistency of ZF+DC plus the statement that there is
+a non-Lebesgue measurable set of reals, every uncountable set of reals contains
+a perfect subset, and every set of reals has the Baire property [81]. A similar
+interesting question unresolvable by the balanced forcing technique was asked
+by Marks and Unger: is it consistent with ZF+DC that every set of reals has
+the Baire property and every countable Borel equivalence relation is an orbit
+equivalence relation of a (discontinuous) action of Z?
+1.4 Independence: by model
+One appealing way to present the work in this book is to consider several more
+orlesscanonicalgenericextensionsoftheSolovaymodelandlistthestatements
+that we know hold in them. There are also test problems that we do not
+know how to resolve. The reader needs to keep in mind that all the models
+are balanced extensions of the Solovay model W and as such obey the general
+limitationsdescribedattheendoftheprevioussection. Thelistbelowincludes
+only models that we find of immediate interest for an introduction; there are
+innumerable other options.

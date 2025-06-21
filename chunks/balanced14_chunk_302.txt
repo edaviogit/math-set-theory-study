@@ -1,0 +1,75 @@
+=== 块 302 ===
+
+∪(a \{y}). This proves
+0 1 2 3
+the claim.
+Thus, the lower bound of the conditions p for i ∈ 4 identifies a finite non-free
+i
+(cid:83)
+set a ⊂X forced to be a subset of τ. This is a contradiction.
+i i
+
+12.3. PLACID FORCING 317
+To state the following theorem in full generality, consider a definition.
+Definition 12.3.4. A curve graph is a Borel graph Γ on R if there is a Borel
+2
+set A ⊂ R2 consisting of graphs of some collection of smooth curves in R2
+whichareclosedassubsetsofR2 andcontainnostraightsegments,suchthatA
+accumulates around 0 and Γ={{y ,y }∈[R2]2: y −y ∈A or y −y ∈A}.
+0 1 0 1 1 0
+Onegoodexampleofacurvegraphisobtainedasfollows. LetB ⊂Rbeasetof
+positive reals accumulating around 0. Let A be the collection of circles around
+theoriginwithradiibelongingtoB. Thus, theresultingcurvegraphΓconsists
+of pairs of points whose Euclidean distance belongs to B. If B is countable,
+then Γ does not contain an injective homomorphic copy of K and therefore
+2,ω1
+has countable coloring number by [25]. This is in effect Example 8.1.8.
+AnotherexampleisobtainedbychoosingaclosedsmoothcurveC containing
+no straight segments and passing though the origin such that for some number
+n ∈ ω, n many distinct points in the plane belong to at most one translate of
+C–perhaps a circle through the origin with n = 3 comes to mind. Let A = C.
+The resulting curve graph Γ does not contain an injective homomorphic copy
+of K whenever m ∈ ω is a number large enough so that
+(cid:0)m(cid:1)
+→
+(cid:0)n(cid:1)
+holds;
+m,m m n 2
+therefore, it has countable coloring number by [25].
+Theorem 12.3.5. Let Γ be a curve graph on R2. In cofinally placid extensions
+of the Solovay model, the chromatic number of Γ is uncountable.
+Proof. Let A ⊂ R2 be the Borel set defining the curve graph Γ. Let κ be an
+inaccessible cardinal. Let P be a Suslin poset which is placid cofinally below
+κ. Let W be the symmetric Solovay model derived from κ, and work in W.
+Suppose towards contradiction that there is a condition p ∈ P and a P-name
+τ such that p forces τ to be a coloring from R2 to ω. We must find two Γ-
+connected points and a condition stronger than p which forces the two points
+to attain the same color in τ. The name τ and the condition p are definable
+from ground model parameters and an additional parameter z ∈2ω. Let V[K]
+be an intermediate model obtained by a forcing of cardinality smaller than κ
+such that z ∈V[K] and P is placid in V[K]. Work in V[K].
+Let p¯ ≤ p be a placid virtual condition. Consider the Cohen poset Q on
+R2 with its name y˙ for the generic point in R2. There must be a cardinal
+gen
+λ∈κ, a Q×Coll(ω,λ)-name σ for a condition in the poset P stronger than p¯,
+a nonempty open set O ⊂R2 and a number n∈ω such that O (cid:13) Coll(ω,λ)(cid:13)
+Q
+Coll(ω,< κ) (cid:13) σ (cid:13) τ(y˙ ) = nˇ. Let C be a smooth curve containing no
+P gen
+straight segments, which is a closed subset of R2, such that C ⊂ A and O
+contains some pair of points y ,y such that y −y ∈ C; this is possible as
+0 1 0 1
+0 is an accumulation point of A. Let X = {(cid:104)y ,y (cid:105) ∈ R2: y ,y ∈ O and
+0 1 0 1
+y − y ∈ C}. Let y ,y ∈ Y be a pair of points generic over the model
+0 1 0 1
+V[K] over the Cohen poset on the space X; so (cid:104)y ,y (cid:105) ∈ Γ. Theorems 3.2.8
+0 1
+and 3.1.4 show that the points y ,y ∈ O are separately Q-generic over V[K],
+0 1
+and V[K][y ]∩V[K][y ]=V[K].
+0 1
+LetH ,H ⊂Coll(ω,<λ)befiltersmutuallygenericoverthemodelV[K][y ,y ],
+0 1 0 1
+and write p = σ/y ,H and p = σ/y ,H . By the mutual genericity, the in-
+0 0 0 1 1 1

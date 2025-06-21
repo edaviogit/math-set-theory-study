@@ -1,0 +1,53 @@
+=== 块 10 ===
+
+C can be grouped into several large areas.
+Cardinalities of quotient spaces. Mirroring the traditional concerns of de-
+scriptive set theory, we work on cardinalities of quotient spaces of Borel equiv-
+
+6 CHAPTER 1. INTRODUCTION
+alencerelations. GivenPolishspacesX,Y andBorelequivalencerelationsE,F
+on each, descriptive set theorists study the question when there can be a Borel
+function h: X → Y which reduces E to F. This line of work has been very
+successful in the last two decades.
+In the ZF+DC context, the E- and F-quotient spaces can have distinct
+cardinalities,andtheexistenceofaBorelreductionimpliestheinequality|E|≤
+|F|, where we abuse the notation to write |E| for the cardinality of the E-
+quotient space. On the other hand, the nonexistence of a Borel reduction is
+often connected with the possibility that ZF+DC cannot prove the cardinal
+inequality |E| ≤ |F|. A number of our results deal with the question whether
+a given Σ2 statement is consistent with ZF+DC plus a statement of the type
+1
+|E| (cid:54)≤ |F| for some benchmark Borel equivalence relations E,F identified in
+Section 1.7.
+The most commonly considered quotient space cardinal inequality is |E |>
+0
+|2ω|andwespendagreatdealofenergyprovingthatvariousΣ2 statementsare
+1
+consistent with it.
+Theorem1.3.1. ThefollowingstatementsareseparatelyconsistentwithZF+DC
+and |E |>|2ω|:
+0
+1. ([21], Corollary 9.2.5) There is a nonprincipal ultrafilter on ω;
+2. (Corollary 9.2.21)there is a discontinuous homomorphism of R to R/Z;
+3. (Corollary 9.2.12) given a Borel equivalence relation E on a Polish space,
+the E-quotient space can be linearly ordered;
+4. given a pinned Borel equivalence relation E, |E|≤|E |;
+0
+5. (Corollary 11.4.12) given a countable Borel equivalence relation E, E is
+the orbit equivalence relation of a (discontinuous) action of Z.
+It is an interesting question whether some of the statements above can be com-
+bined; in general, we have
+Question 1.3.2. Are there Σ2-statements φ , φ such that each of them is
+1 0 1
+consistent with ZF+DC and |E | > |2ω|, while their conjunction implies in
+0
+ZF+DC that |E |≤|2ω| holds?
+0
+We give a similar treatment to certain other well-known quotient cardinal in-
+equalities. For example,
+Theorem1.3.3. ThefollowingstatementsareseparatelyconsistentwithZF+DC
+and |E |(cid:54)≤|F| for any orbit equivalence relation F of a continuous Polish group
+1
+action:
+1. (Corollary 9.4.8) There is a nonprincipal ultrafilter on ω;
+2. (Corollary 9.4.11) there is a discontinuous homomorphism of R to R/Z;

@@ -1,0 +1,49 @@
+=== 块 133 ===
+
+efinition 6.4.1. ABorelsimplicialcomplexKonaPolishspaceX ismodular
+if there is a Borel modular function f: K→[Y]ℵ0 for some Polish space Y such
+that
+1. (monotonicity) f(0)=0 and a⊂b implies f(a)⊂f(b);
+
+140 CHAPTER 6. SIMPLICIAL COMPLEX FORCINGS
+2. (modularity) foralla,b∈K,a∪b∈Kifandonlyiff(a)∩f(b)=f(a∩b).
+For a K set A⊂X we set f(A)= (cid:83) {f(a): a∈[A]<ℵ0}.
+Notethatthepropertiesofthefunctionf arecoanalytic, andthereforetransfer
+to any transitive model of set theory by the Mostowski absoluteness, in par-
+ticular to all generic extensions. It is not easy to see which Borel simplicial
+complexes are modular and which are not. As the simplest initial example, let
+X =R viewed as a vector space over the rationals, and let K be the simplicial
+complexonX consistingoffinitelinearlyindependentsets. Thesimplicialcom-
+plex is modular as witnessed by the modular function f which to each finite set
+of reals assigns its linear span.
+ThebalancedvirtualconditionsintheposetP =P formodularcomplexes
+K
+K are again classified by certain K-sets, as recorded in the following definition:
+Definition 6.4.2. LetK beasimplicialcomplexonaPolishspaceX. AK-set
+A ⊂ X is strongly maximal if for every Borel collection B ⊂ K at least one of
+the following occurs:
+1. there are a (cid:54)=a in B such that a ∪a ∈K;
+0 1 0 1
+2. there is b∈B such that b⊂A;
+3. there is a countable set p⊂A such that for no b∈B, p∪b is a K-set.
+Fittingly, a strongly maximal set A ⊂ X must be a maximal K-set. For this,
+given x ∈ X consider the set B = {{x}} and consult the three options of
+Definition 6.4.3. The first option is impossible, the second option yields x∈A,
+and the third option shows gives that A∪{x} is not a K-set. The maximality
+of the set A follows.
+Theorem 6.4.3. Suppose that K is a modular Borel simplicial complex on a
+Polish space X and write P =P .
+K
+1. Whenever A ⊂ X is a strongly maximal set then the pair (cid:104)Coll(ω,X),A(cid:105)
+is balanced in P;
+2. every balanced pair is equivalent to (cid:104)Coll(ω,X),A(cid:105) for some strongly max-
+imal set A⊂X;
+3. distinct strongly maximal sets give rise to inequivalent balanced pairs.
+In particular, under the Continuum Hypothesis the poset P is balanced.
+WedonotknowiftheposetP isbalancedinZFC,eventhoughthisdoesoccur
+in all specific cases under consideration in this book.
+Proof. Let f: K → [Y]ℵ0 be a Borel modular function. For (1), suppose that
+V[H ] and V[H ] are mutually generic extensions of the ground model, and
+0 1
+a ∈ V[H ] and a ∈ V[H ] are elements of K such that A∪a ,A∪a are
+0 0 1 1 0 1

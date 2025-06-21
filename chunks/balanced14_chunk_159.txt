@@ -1,0 +1,70 @@
+=== 块 159 ===
+
+p(m)·p(k) ∈ A. There must be also some k ∈ ω such that for
+0
+all k ≥ k , p(k) ∈ C . Then p(m )·p(k ) should belong simultaneously to
+0 p(m0) 0 0
+A and to the complement of A, which is a contradiction.
+
+166 CHAPTER 7. ULTRAFILTER FORCINGS
+Finally, the statement of the classification theorem for the balanced virtual
+conditions in the poset P is at hand.
+Γ
+Definition 7.4.6. Whenever (cid:104)Γ,·(cid:105) is a countable semigroup and U is an ultra-
+filter on Γ, let τ denote the Coll(ω,P(Γ))-name for the (nonempty analytic)
+U
+set of all conditions diagonalizing U.
+Theorem 7.4.7. Let (cid:104)Γ,·(cid:105) be a countable semigroup.
+1. Whenever U is an idempotent ultrafilter then (cid:104)Coll(ω,P(Γ)),τ (cid:105) is a bal-
+U
+anced virtual condition;
+2. every balanced pair is equivalent to (cid:104)Coll(ω,P(Γ)),τ (cid:105) for some idempo-
+U
+tent ultrafilter U;
+3. distinct idempotent ultrafilters give rise to inequivalent balanced virtual
+conditions.
+In particular, the poset P is balanced.
+Γ
+Proof. For (1), note that by Proposition 7.4.5, τ is a name for a nonempty set
+U
+jsut in case U is an idempotent ultrafilter. (1) then follows immediately from
+the following claim:
+Claim 7.4.8. Let U be an ultrafilter on Γ and (cid:104)Q ,τ (cid:105), (cid:104)Q ,τ (cid:105) are posets and
+0 0 1 1
+theirrespectivenamesforelementsofP diagonalizingU. ThenQ ×Q (cid:13)τ ,τ
+Γ 0 1 0 1
+are compatible in P .
+Γ
+Proof. Let q ∈Q and q ∈Q be conditions and n∈ω be a natural number.
+0 0 1 1
+We must find an element γ ∈ Γ and conditions q(cid:48) ≤ q and q(cid:48) ≤ q and finite
+0 0 1 1
+nonempty sets a ,a ⊂ ω with minimum larger than n such that q(cid:48) (cid:13) γˇ =
+0 1 0
+Π τ (m) and q(cid:48) (cid:13) γˇ = Π τ (m). The compatibility of τ ,τ is then
+m∈a0 0 1 m∈a1 1 0 1
+granted by a genericity argument.
+Let A ⊂ Γ be the set of all γ ∈ Γ such that there exists a finite nonempty
+0
+set a ⊂ ω with minimum greater than n and a condition q(cid:48) ≤ q in Q forcing
+0 0
+γˇ = Π τ (m). Since τ is forced to diagonalize U, it must be the case that
+m∈a 0 0
+A ∈ U. Similarly, let A ⊂ Γ be the set of all γ ∈ Γ such that there exists a
+0 1
+finitenonemptyseta⊂ω withminimumgreaterthannandaconditionq(cid:48) ≤q
+1
+in Q forcing γˇ = Π τ (m). Since τ is forced to diagonalize U, it must be
+1 m∈a 1 1
+the case that A ∈U. Choose γ ∈A ∩A and choose q(cid:48) ≤q , q(cid:48) ≤q and sets
+1 0 1 0 0 1 1
+a ,a witnessing the membership of γ in A ,A . This completes the proof.
+0 1 0 1
+For (2), suppose that (cid:104)Q,τ(cid:105) is a balanced pair. Without loss of generality
+we may assume that Q collapses the size of P(Γ)∩V to ℵ . Strengthening τ
+0
+in the Q-extension repeatedly by an application of Proposition 7.4.3, we may
+assume that τ sorts out P(Γ)∩V. Let σ be the Q-name for the collection of all
+sets in P(Γ)∩V which τ accepts.
+Claim 7.4.9. The membership of every set A⊂Γ in σ is decided by the largest
+condition in Q.

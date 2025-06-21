@@ -1,0 +1,91 @@
+=== 块 303 ===
+
+[K],
+0 1
+and V[K][y ]∩V[K][y ]=V[K].
+0 1
+LetH ,H ⊂Coll(ω,<λ)befiltersmutuallygenericoverthemodelV[K][y ,y ],
+0 1 0 1
+and write p = σ/y ,H and p = σ/y ,H . By the mutual genericity, the in-
+0 0 0 1 1 1
+
+318 CHAPTER 12. THE SILVER DIVIDE
+tersection V[K][y ][H ]∩V[K][y ][H ] equals to V[K]. By the placidity of the
+0 0 1 1
+condition p¯, the conditions p ,p are compatible. By the forcing theorem ap-
+0 1
+plied in the respective models V[K][y ][H ] and V[K][y ][H ], in the model W
+0 0 1 1
+any common lower bound of the conditions p ,p forces in the poset P that
+0 1
+τ(yˇ )=τ(yˇ )=nˇ. The proof is complete.
+0 1
+Theorem 12.3.6. Let E be an orbit equivalence on a Polish space resulting
+from a generically turbulent action of some Polish group. In the cofinally placid
+extensionsoftheSolovaymodel,thereisnotournamentontheE-quotientspace.
+Proof. The argument depends on a simple abstract property of pairs of inde-
+pendent continuous open maps on Polish spaces of Definition 3.1.3. Let m∈ω
+be a number. For each natural number n ∈ m, let X be a Polish space, Y
+n n
+be Polish spaces and f : X → Y be continuous open maps. We define the
+n n n
+(cid:81) (cid:81) (cid:81)
+product map f = f : X → Y by f(x)(n) = f (x(n)). It is not
+n n n n n n n
+difficult to check that the product map is continuous.
+Claim 12.3.7. The set of pairs of independent maps is closed under finite
+product.
+Proof. Let m ∈ ω be a number. For each number n ∈ m let X be a Polish
+n
+space, Y ,Y be Polish spaces, and let f : X → Y , f : X → Y be
+0n 1n 0n n 0n 1n n 1n
+continuous open maps such that for all but finitely many n ∈ ω their ranges
+are the whole spaces Y ,Y and such that each pair f ,f is independent.
+0n 1n 0n 1n
+(cid:81) (cid:81) (cid:81)
+Write X = X , Y = Y and Y = Y . We must prove that the
+n n 0 n 0n 1 n 1n
+product maps f : X →Y and f : X →Y are independent.
+0 0 1 1
+To this end, let O ⊂ X be a nonempty open set; thinning out the set O if
+(cid:81)
+necessary, we may find open sets O ⊂ X for n ∈ m such that O = O .
+n n n n
+Let A ⊂ Y be an open set witnessing the independence of the pair f ,f
+n 0n 0n 1n
+(cid:81)
+for the set O . We claim that the open set A = A ⊂ Y witnesses the
+n n n 0
+independence of the pair f ,f for O.
+0 1
+Toseethis,supposethatB ,B ⊂Aarenonemptyopensets;thinningthem
+0 1
+(cid:81)
+out if necessary, we may find open sets B ,B ⊂A such that B = B
+0n 1n n 0 n 0n
+(cid:81)
+and B = B . For each n∈m use the initial assumption on the set A to
+1 n 1n n
+find a walk w of points in O such that for the initial point x ∈w we have
+n n 0n n
+f (x )∈B and for the last point x ∈w we have f (x )∈B .
+0n 0n 0n 1n n 0n 1n 1n
+Now, each walk w is a finite string of points; shifting the indexation, we
+n
+may find successive intervals I of natural numbers for n ∈ m such that each
+n
+(cid:83)
+walk w is indexed by numbers in I . Let K = I and consider the string
+n n n n
+of points in the open set O indexed by k ∈K, defined in the following way: for
+eachk writen(k)forthatn∈mforwhichk ∈I ,andthendefinepointx ∈O
+n k
+by x (n)=x if n<n(k), x (n)=w (n) if n(k)=n, and finally x (n)=x
+k 1n k k k 0n
+if n(k)<n. It is easy to see that the sequence (cid:104)x : k ∈K(cid:105) is the desired walk
+k
+in the set O from B to B .
+0 1
+Now, towards the proof of Theorem 12.3.6, let Γ be a Polish group acting on
+a Polish space X in a generically turbulent way, so that E is the resulting
+orbit equivalence relation. Consider the space Γ×X ×X, its closed subset

@@ -1,0 +1,62 @@
+=== 块 27 ===
+
+are added by balanced forcing. In fact, no new
+well-ordered sequences of elements of W are added–Theorem 9.1.1. This re-
+sult is central for the rest of the book. Section 9.2 provides a very flexible
+
+1.6. NAVIGATION 23
+tool for verification of the inequality |E | > |2ω| in certain classes of balanced
+0
+extensions. Namely, it turns out that if the balanced classes of the forcing are
+naturallyorganizedintoacompactHausdorffspace,thentheinequalityholdsin
+the P-extension of the symmetric Solovay model–Theorem 9.2.2. The compact
+Hausdorff space in question may certainly be nonmetrizable; in the case of the
+posetP ofinfinitesubsetsofω orderedbyinclusion,itissimplytheCˇech–Stone
+remainder of ω. Among the applications, it is possible to add linear ordering
+to any Borel quotient space and preserve |E | > |2ω|–Corollary 9.2.12, or to
+0
+add a discontinuous homomorphism from R to R/Z and preserve |E | > |2ω|
+0
+as in Corollary 9.2.21. The inequality |E |>|2ω| can be verified in other ways
+0
+when the balanced classes do not form a compact Hausdorff space, for exam-
+ple using Theorem 11.4.13 to maintain the chromatic number of the G -graph
+0
+uncountable which automatically implies |E |>|2ω| by Proposition 11.1.6(2).
+0
+Section 9.3 shows that the nonreducibility results obtained by Hjorth’s tur-
+bulence method turn into cardinal inequalities in certain classes of balanced
+extensions. The main contribution here is Definition 9.3.1, isolating the rel-
+evant class of placid Suslin forcings. In placid extensions of the symmetric
+Solovaymodel,noinequalitiesofthetype|E|≤|F|appearwhereE istheorbit
+equivalence relation of a turbulent Polish group action, and F is an equivalence
+relation classifiable by countable structures. A weakening of placidity is used
+in Chapter ?? to rule out combinatorial objects from generic extensions which
+have nothing to do with any group actions, such as nonprincipal ultrafilters.
+Section 9.4 provides practical criteria for showing that the classical nonre-
+ducibility of E to any orbit equivalence relation translates into cardinal in-
+1
+equalities in certain classes of balanced extensions of the Solovay model. This
+turns out to require close study of nested sequences (cid:104)M : n ∈ ω(cid:105) of models of
+n
+ZFC as in Chapter 4. In particular, we must resolve the question whether, for
+a given Σ2 sentence φ which is a consequence of the axiom of choice, one can
+1
+produce a set A such that for each n∈ω, the set A∩M belongs to M and is
+n n
+a witness for the sentence φ there. The resulting tricky combinatorial work can
+be used to separate for example the existence of a Hamel basis from existence
+of maximal acyclic subgraphs in Borel graphs.
+Section 9.6 shows that the nonreducibility results between analytic equiva-
+lence relations obtained by the comparisons of their cardinal invariants κ and
+λ mostly turn into cardinal inequalities in the Solovay model W, and these
+inequalities survive unharmed into the balanced extension.
+Chapter10dealswiththequestionofwhethercountable-to-oneuniformiza-
+tion and similar uniformization principles hold in the balanced forcing exten-
+sions. Section10.1providestheapracticalcriteriononaSuslinforcingP which
+impliesthatmanystronguniformizationprinciplesholdintheforcingextension
+of the Solovay model by P. It turns out that the criterion is satisfied in a great
+number of interesting cases, and its verification mostly follows from the careful
+classificationofbalancedconditionsforP. AnumberofexamplesappearinSec-
+tion10.5. Sections10.2, 10.3,and 10.4studyvariousuniformizationprinciples
+in turn and show that they in fact hold in tethered extensions of the symmetric

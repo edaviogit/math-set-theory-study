@@ -1,0 +1,87 @@
+=== 块 109 ===
+
+V ∩M are ordered by some well-
+λ n n+1 λ ω
+ordering in M which is available as M is a model of ZFC. The elements of
+ω ω
+M \M are ordered by σ /G where σ is the ≺-least name in V ∩V such
+n n+1 n n n κ
+
+110 CHAPTER 4. NESTED SEQUENCES OF MODELS
+that σ /G is a well-ordering of V ∩M . It is not difficult to see that ≤ is a
+n n λ n λ
+well-ordering of V ∩M and ≤ ∩M ∈M holds for all n∈ω.
+λ 0 λ n n
+Most examples of choice-coherent sequences are generic and obtained from the
+trivial one (cid:104)M = V : n ∈ ω(cid:105) by a coherent forcing which satisfies a certain
+n
+degree of completeness.
+Definition 4.3.3. Let (cid:104)P ,π ,ξ : n≤m∈ω(cid:105) be a commutative system of
+n nm mn
+projections from posets P to P for n≤m.
+n m
+1. The diagonal game is the following infinite game between Players I and
+II, in round n Player I plays p ∈P and Player II responds by q ≤p .
+n n n n
+Additionally, p ≤ π (q ). In the end, Player II wins if there is a
+n+1 nn+1 n
+condition r ∈P such that π (r)≤q holds for all n∈ω.
+0 0n n
+2. Thesequenceisdiagonally distributive ifPlayerIhasnowinningstrategy
+in the diagonal game.
+Example 4.3.4. Suppose that (cid:104)Q : m ∈ ω(cid:105) are arbitrary posets, and let
+m
+(cid:81)
+P = Q be the countable support product with the natural projection
+n m≥n m
+maps from P to P for n≤m. Player II has a simple winning strategy in the
+n m
+diagonal game in this setup: set q =p .
+n n
+Theorem 4.3.5. Let (cid:104)M : n ∈ ω(cid:105) be a choice-coherent sequence of models of
+n
+ZFC. Let (cid:104)P ,π ,ξ : n ≤ m ∈ ω(cid:105) be a coherent sequence of posets which is
+n nm mn
+diagonally distributive in M . Let G ⊂ P be a filter generic over M , and let
+0 0 0
+G =ξ−1G. Then
+n n0
+1. the sequence (cid:104)M [G ]: n∈ω(cid:105) is choice-coherent;
+n n
+(cid:84) (cid:84)
+2. the models M and M [G ] contain the same ω-sequences of ordi-
+n n n n n
+nals.
+(cid:84)
+Proof. Write M = M . We start with (1). The main task is to find a
+ω n n
+(cid:84)
+poset P ∈M and a filter G ⊂P generic over M such that M [G ]=
+ω ω ω ω ω n n n
+M [G ].
+ω ω
+Using the choice coherence of the original sequence (cid:104)M : n ∈ ω(cid:105), we may
+n
+assume that there is a sequence (cid:104)α : n ∈ ω(cid:105) such that the underlying set
+n
+of each poset P is exactly α . For each condition p ∈ P , the ordinal ω-
+n n 0
+sequence (cid:104)π (p): n ∈ ω(cid:105) belongs to M , since for each number k ∈ ω, the
+0n ω
+tail (cid:104)π (p): n≥k(cid:105) is reconstructed as (cid:104)π (π (p)): n≥k(cid:105) in the model M .
+0n kn 0k k
+(cid:81)
+Similarly, the set P ={q ∈ P : ∃k ∈ω ∀n≥k q(n)=π (q(k))} belongs
+ω n n kn
+to the model M . For elements q ,q ∈ P let q ≤ q if for all but finitely
+ω 0 1 ω 1 0
+many numbers n ∈ ω, q (n) ≤ q (n) in the poset P , and conclude that the
+1 0 n
+poset (cid:104)P ,≤(cid:105) belongs to the model M .
+ω ω
+Define a function π : P → P by π (p) = q where q(n) = π (p), and a
+0ω 0 ω 0ω 0n
+function ξ : P → P by ξ (q) = ξ (q(k)) where k ∈ ω is such that for all
+ω0 ω 0 ω0 k0
+n ≥ k, π (q(k)) = q(n). One can also similarly define maps π : P → P
+kn nω n ω

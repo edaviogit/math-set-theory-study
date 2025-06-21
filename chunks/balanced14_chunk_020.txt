@@ -1,0 +1,60 @@
+=== 块 20 ===
+
+.1. Prominent examples include posets
+x
+adding ultrafilters, like the poset of infinite subsets of ω ordered by inclusion.
+The perfectly balanced extensions of the symmetric Solovay model satisfy such
+
+16 CHAPTER 1. INTRODUCTION
+features as the strong Silver dichotomy (Theorem 12.1.6) and a strong version
+of OCA (Theorem 12.1.8).
+TheBernsteinbalancedforcingsarethoseposetsforwhich,whenever{V[H ]: x∈
+x
+2ω}isaperfectcollectionofmutuallygenericextensionsofV andineachmodel
+V[H ] there is a condition p ∈ P stronger than a given balanced condition p¯,
+x x
+no condition in P below p¯ is incompatible with more than countably many
+conditions p for x ∈ 2ω–Definition 12.2.1. While this definition may look ob-
+x
+scure at first reading, many posets satisfy it and it has many consequences
+which are difficult to obtain otherwise. Bernstein balanced forcings add no
+finitely additive diffuse probability measures on ω, in particular non nonprinci-
+pal ultrafilters–Theorem 12.2.3. Among other effects, their generic extensions
+satisfy the Open Coloring Axiom–Theorem 12.2.5. For many of them, a fil-
+ter generic over the model L(R) exists in the theory ZFC plus a suitable large
+cardinal, independently of the status of the Continuum Hypothesis or similar
+issues–Theorem 12.4.2. The Bernstein balanced forcings should be viewed as
+dual to the perfectly balanced forcings, as generic filter for a perfectly balanced
+forcing and a generic filter for a Bernstein balanced forcing tend to be auto-
+matically mutually generic–Theorem 12.4.12. Prominent examples of Bernstein
+balanced forcings include all placid forcings and also the forcings adding tran-
+scendence bases to Polish fields.
+3,2-balanced forcings form a class useful for ruling out discontinuous ho-
+momorphisms between Polish groups. A poset P is 3,2-balanced if there are
+3,2-balancedvirtualconditionsp¯init;thesearevirtualconditionssuchthatfor
+anytripleV[H ],V[H ],V[H ]ofpairwisemutuallygenericextensionsofV and
+0 1 2
+conditions p ∈V[H ],p ∈V[H ], and p ∈V[H ] below p¯there is a common
+0 0 1 1 2 2
+lower bound of {p ,p ,p }–Definition 13.1.1. A prominent example is the forc-
+0 1 2
+ing adding a linear ordering of a given quotient space by countable approxima-
+tions. 3,2-balanced extensions of the symmetric Solovay model do not contain
+any discontinuous homomorphisms between Polish groups; in particular, they
+contain no nonprincipal ultrafilters on ω–Theorem 13.2.1. Among other effects,
+they do not contain non-Borel automorphisms between many quotient groups–
+Theorem 13.2.3. A much stronger form of this property is 3,2-centeredness, in
+whichanycollectionofthreepairwisecompatibleconditionshasalowerbound.
+Such posets for example do not add linear orderings of quotient spaces except
+for trivial reasons–Theorem 13.2.7.
+Thereareanumberofpreservationpropertiesconcernedwithlocallycount-
+able structures. They all consider posets of the form P (Definition 11.4.2)
+KL
+andstartwithahypothesisonthesimplicialcomplexK. Thus,Theorem11.4.5
+shows thatifK isSuslin σ-centered thenuncountableBorelchromaticnumbers
+of finitary hypergraphs are preserved by the poset P and Theorem 11.4.13
+KL
+proves the same for Suslin σ-linked complexes. There are a number of options,
+and many classes of posets concerned are closed under the countable support
+product. It seems difficult to get preservation theorems for locally countable
+structureswithoutthetechnologyofiteratedverySuslinforcingsofChapter11.

@@ -1,0 +1,72 @@
+=== 块 268 ===
+
+s Γ on
+Polishspaceswhilepreservingthemainfeaturesoflocallycountablestructures.
+The main tool is the control forcing of finite approximations to such colorings,
+as recorded in the following definition.
+
+11.5. LARGER GRAPHS 281
+Definition 11.5.1. Let Γ be a Borel graph on a Polish space X. K is the
+Γ
+simplicialcomplexonX×ω consistingoffinitesetsa⊂X×ω whicharepartial
+Γ-colorings. K is viewed as a poset ordered by reverse inclusion.
+Γ
+In order to extract desirable properties of the poset K , we deal with graphs
+Γ
+withforbiddensubgraphs. Thefollowingdefinitionrecordsthepatternswewish
+to prohibit later; all of them are bipartite graphs.
+Definition 11.5.2. Let n∈ω be a natural number.
+1. K is the bipartite graph on 2×n connecting any pair of vertices with
+n,n
+distinct first coordinates;
+2. K is the bipartite graph on the disjoint union of n and ω connecting
+n,ω1 1
+all elements of n to all elements of ω ;
+1
+3. K→ isthegraphon2×ω consistingofallpairs{(cid:104)0,m(cid:105),(cid:104)1,k(cid:105)}suchthat
+ω,ω
+m∈k.
+Thefirstthreetheoremsofthissectiondealwiththedefinabilityandregularity
+properties of the control forcing.
+Theorem 11.5.3. Let Γ be a Borel graph on a Polish space X which for some
+n∈ω does not contain an injective homomorphic image of K . Then K is
+n,ω1 Γ
+a very Suslin c.c.c. partial ordering.
+Note that in this case the graph Γ has countable coloring number by a result
+of [25]. Observe also that the hypothesis on the graph is absolute throughout
+all forcing extensions. It simply says that for all injective tuple (cid:126)x∈Xn, the set
+{y ∈ X: ∀i ∈ n (cid:126)x(i) Γ y} is countable. By the perfect set theorem for Borel
+sets, this is equivalent to the statement that for all injective tuples (cid:126)x∈Xn and
+allcontinuousmapsπ: 2ω →X,eithertherearedistinctpointsz ,z ∈2ω such
+0 1
+that π(z ) = π(z ) or there is a point z ∈ 2ω and a number i ∈ n such that
+0 1
+π(z) Γ (cid:126)x(i) fails. A closer reading of the formula reveals that it is ≯1 and so
+2
+the Shoenfield absoluteness applies to it.
+Proof. Write K = K . It is clear that K is a Suslin poset. For the c.c.c. part
+Γ
+of the theorem, let A={a : α∈ω } be an uncountable set; we must produce
+α 1
+two compatible elements in it. Let M be a countable elementary submodel of
+a large structure containing Γ and A. Let α ∈ ω \M be any ordinal, and let
+1
+b = a (cid:22) M. By the elementarity of the model M, there have to be infinitely
+α
+many ordinals β such that b⊂a .
+α
+For each y ∈dom(a )\b, the set u ={x∈M ∩X: xΓy} must have size
+α y
+less than n: otherwise, one can find distinct elements {x : i∈n}⊂y and place
+i
+y in the set {z ∈ X: ∀i ∈ n x Γ z}. The latter set is countable by the initial
+i
+assumption on Γ, it is an element of the model M and by elementarity of M it
+is a subset of M. This would contradict the choice of the point y.
+Now, by elementarity of the model M, there is an ordinal β ∈M ∩ω such
+1
+(cid:83)
+that b ⊂ dom(a ) and dom(a )∩ u = dom(b). It is not difficult to check
+β β y y
+that a ,a are compatible as desired.
+α β

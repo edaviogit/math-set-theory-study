@@ -1,0 +1,43 @@
+=== 块 172 ===
+
+n automorphism of the algebra C as desired.
+Foritem(2)ofthetheorem,extendτ ifnecessarysothatQ(cid:13)τ =(cid:104)C,χ(cid:105)for
+some algebra C containing BV and some automorphism χ of C. By a balance
+
+8.4. KUREPA FAMILIES 181
+argument, for each element b ∈ B there must be an element π(b) ∈ B such
+that Q (cid:13) χ(ˇb) = π(b). It is immediate that π is an automorphism of B and
+Q(cid:13)(cid:104)C,χ(cid:105)≤(cid:104)BV,πˇ(cid:105). Item (2) then follows from (1) and Proposition 5.2.4.
+Finally, item (3) is obvious. For the last sentence, apply (1) with Fact 8.3.2.
+8.4 Kurepa families
+The notion of a Kurepa family on a set is an old one [61]; it appears intermit-
+tently in modern set theory [94], [24, Section 7]. In this section, we show how
+to force a cofinal Kurepa family on a Polish space with a balanced poset.
+Definition 8.4.1. Let X be a set.
+1. A Kurepa family is a set A ⊂ [X]ℵ0 such that for every countable set
+b⊂X, the set {a∩b: a∈A} is countable;
+2. the family is cofinal if for every countable set b ⊂ X there is a set a ∈ A
+such that b⊂a.
+ThemaintaskofthissectionistoshowhowacofinalKurepafamilyforagiven
+Polish space can be added by balanced forcing.
+Definition 8.4.2. LetX beanuncountablePolishspace. TheKurepa poset P
+is a poset of all countable sets p⊂[X]ℵ0 closed under finite intersections. The
+ordering is defined by q ≤p if p⊂q and for every a∈q and b∈p, a∩b∈p.
+Clearly the poset P does not depend on the choice of the uncountable Polish
+space X up to isomorphism. Clearly, P is a σ-closed Suslin forcing. If G⊂P is
+(cid:83)
+a generic filter, then a simple genericity argument shows that G is a cofinal
+Kurepa family on X which is closed under finite intersections. For every set
+A ⊂ P(X) closed under finite intersections note that Aˇ is a Coll(ω,P(X))-
+name for an element of the Kurepa poset. It turns out that if X ∈ A then the
+pair(cid:104)Coll(ω,P(ω)),Aˇ)(cid:105)isbalanced,andallbalancedpairsareuptoequivalence
+of this form. This is the content of the following theorem.
+Theorem 8.4.3. LetX beanuncountablePolishspaceandletP betheKurepa
+poset on X.
+1. if A ⊂ P(X) is a set containing X and closed under finite intersections,
+then the pair (cid:104)Coll(ω,P(X)),Aˇ(cid:105) is balanced;
+2. if (cid:104)Q,τ(cid:105) is a balanced pair for P then there is a set A ⊂ P(X) closed
+under finite intersections and containing X such that the balanced pairs
+(cid:104)Q,τ(cid:105) and (cid:104)Coll(ω,P(X)),Aˇ(cid:105) are equivalent;
+3. distinct sets as in (1) yield inequivalent balanced conditions.
+In particular, the poset P is balanced.

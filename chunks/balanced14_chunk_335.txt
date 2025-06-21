@@ -1,0 +1,72 @@
+=== 块 335 ===
+
+inal that ZF+DC holds,
+|E | ≤ |F | and yet |E | (cid:54)≤ |F| for any pinned Borel orbit equivalence
+1 2 1
+relation F.
+14.5 F structurability
+2
+The following theorem is stated using Convention 1.7.16.
+
+14.5. F STRUCTURABILITY 353
+2
+Theorem 14.5.1. In σ-closed, balanced, ℵ -tethered extensions of a symmetric
+0
+Solovay model there are no tournaments on the F -quotient space.
+2
+Theσ-closuredemandcanberelaxedtoincludetheformallynotσ-closedposets
+of Section 8.1; we omit the details. The role of ℵ -tether is less clear. The lin-
+0
+earizationposetontheF -quotientspaceofExample8.6.5isσ-closed,balanced,
+2
+and adds a tournament, so clearly some additional assumption beyond the clo-
+sureandbalanceisnecessary. However, ℵ -tetherisnotpreservedundertaking
+0
+a regular subposet, while the conclusion of the theorem is. Thus, there is a
+room for improvement in the statement of the theorem.
+Proof. Let κ be an inaccessible cardinal. Let P be a Suslin poset which is σ-
+closed, and balanced and ℵ -tethered below κ. Let W be a symmetric Solovay
+0
+model derived from κ and work in W. Suppose towards a contradiction that
+p ∈ P is a condition and τ is a P-name such that p (cid:13) τ is a tournament on
+the F -quotient space. Both p,τ must be definable from some real parameter
+2
+z ∈2ω and some parameters in the ground model. Let V[K] is an intermediate
+extension by a poset of size <κ such that z ∈V[K].
+Work in the model V[K] for a moment. Let p¯ ≤ p be a balanced virtual
+condition in the poset P in V[K]. Let λ < κ be a cardinal such that p¯ is
+represented on a poset of size < λ, let Q be the finite support product of
+0
+copies of Coll(ω,λ) indexed by λ+ with finite product of copies of the Cohen
+forcing indexed by 2×λ+. for any ordinal α∈λ+ write Qα for the part of the
+0
+product indexed by ordinals below α. Let η and η be the Q -names for the
+0 1 0
+setsofCohengenericrealsindexedby{0}×λ+ and{1}×λ+ respectively. Inthe
+Q -extension of V[K] consider the poset Q which is the poset P of conditions
+0 1
+whicharestrongerthansomerealizationofp¯. LetQdenotetheiterationQ ∗Q˙ ,
+0 1
+andletχbeaQ-nameforthevirtualconditioninP consistingofallconditions
+in P stronger than all conditions in the generic filter on Q˙ .
+1
+Claim 14.5.2. Q forces χ to be a balanced condition in P below p¯.
+Proof. Let G ⊂ Q and H ⊂ Q be generic filters over V[K] and work in
+0 1
+V[K][G][H]. First, use the σ-closure assumption on P to conclude that in fact
+χ/G∗H is forced to be a nonzero virtual condition. In some further collapse
+extension, the filter H contains a cofinal countable sequence, which then has a
+lower bound and that lower bound will be a condition below χ/G∗H.
+Second, use the tether assumption to conclude that χ/G∗H is a balanced
+condition. Observe that by a genericity argument with the filter H, for every
+analytic subset A⊂P coded in the V[K][G ], H contains a condition which is
+0
+either below some element of A or incompatible with all elements of A. Since
+theposetP (andsoQ )isσ-closedinV[K][G],itdoesnotaddanynewanalytic
+1
+subsets of P. As a result, it is forced that χ/G∗H is either stronger than or
+incompatible with any given virtual condition in P in the model V[K][G][H]
+carried by a poset of size < ℵ (i.e. an analytic subset of P). The balance of
+0
+χ/G∗H immediately follows from the definition of ℵ -tether.
+0

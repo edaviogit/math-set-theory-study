@@ -1,0 +1,63 @@
+=== 块 50 ===
+
+relations which are not classifiable by countable
+structures are often quite difficult to understand. To conclude this section, we
+state another classification theorem and a couple of open questions.
+
+2.5. CARDINAL INVARIANTS 49
+Theorem2.4.10. LetE betheequivalencerelationonX =(P(ω))ω connecting
+x ,x ifrng(x )andrng(x )generatethesamefilteronω. ThevirtualE-classes
+0 1 0 1
+are classified by filters on ω.
+Proof. On one hand, if F is a filter on ω, one can consider the Coll(ω,F)-name
+τ for a generic enumeration of the filter F. It is immediate that the name τ
+F F
+is E-pinned, and distinct filters yield inequivalent names.
+For the more difficult part, suppose that P is a partial order and τ is an
+E-pinned name on P; we must find a filter F on ω such that τ is equivalent
+to τ . To do this, let F = {a ⊂ ω: ∃p p (cid:13) aˇ belongs to the filter generated
+F
+by rng(τ)}. By the pinned property of the name τ, the existential quantifier in
+the definition of F can be replaced by universal without changing the resulting
+set F. It follows immediately that the set F is a filter; we must show that τ is
+equivalent to τ .
+F
+Supposetowardsacontradictionthatthisfails;thenitmustbethecasethat
+for some condition p ∈ P and some number n ∈ ω, p forces τ(nˇ) to have no
+subsetinthefilterF. Sincethenameτ isE-pinned,theremustexistconditions
+p ,p ≤p and a finite set a⊂ω such that (cid:104)p ,p
+(cid:105)(cid:13)(cid:84)
+τ (m)⊂τ (nˇ).
+0 1 0 1 m∈aˇ right left
+Let b = {k ∈ ω: ∃r ≤ p r (cid:13) kˇ ∈ (cid:84) τ(m)} and let c = {k ∈ ω: p (cid:13)
+1 m∈a 0
+kˇ ∈ τ(nˇ)}. Observe that b ∈ F (since p (cid:13) (cid:84) τ(m) ⊂ ˇb) and c ∈/ F (since
+1 m∈a
+p (cid:13) cˇ⊂ τ). Thus, there has to be a number k ∈ b\c, and for this number k
+0
+there are conditions r ≤ p and r ≤ p such that r (cid:13) kˇ ∈ (cid:84) τ(m) and
+0 0 1 1 1 m∈a
+r (cid:13)kˇ ∈/ τ(nˇ). This,however,contradictsthechoiceoftheconditionsp ,p .
+0 0 1
+Consider the equivalence relation E of homeomorphism of compact metrizable
+spaces. Thisisknowntobethelargestequivalencerelationreducibletoanorbit
+equivalenceinthesenseofBorelreducibility[105]. Inanattempttodescribeits
+virtualspace, consideranycompactHausdorffspaceX withatopologybasisof
+size κ, and consider the Coll(ω,κ)-name τ for the interpretation of the space
+X
+X in the extension in the sense of [102]. The interpretation of X will have a
+countable basis, so the interpretation will be a compact metrizable space. The
+basictheoryofinterpretationsshowsthat(cid:104)Coll(ω,κ),τ (cid:105)isanE-pin. Themost
+X
+natural question is open:
+Question 2.4.11. IseveryvirtualE-classrepresentedbyacompactHausdorff
+space?
+ThemeasureequivalenceE isoneofthehardestequivalencerelationstounder-
+stand. It connects two Borel probability measures µ,ν on the Cantor space if
+they share the same ideal of null sets. The relation F Borel reduces to E, so
+2
+E is not pinned.
+Question 2.4.12. Classify the virtual space for the measure equivalence.
+2.5 Cardinal invariants
+There are several cardinal invariants of equivalence relations which are associ-
+ated with the concept of virtual equivalence classes. They respect the Borel

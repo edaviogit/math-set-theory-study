@@ -1,0 +1,61 @@
+=== 块 132 ===
+
+e must show that p ∪p is a K-set. Suppose
+1 0 1
+towardsacontradictionthatthisfails,andleta ⊂p anda ⊂p befinitesets
+0 0 1 1
+such that a ∪a ∈/ K. Passing to an inclusion-minimal example of this form
+0 1
+
+6.4. MODULAR COMPLEXES 139
+if necessary, we may assume that {a ,a }∈Γ. Let (cid:126)Γ be a Borel orientation of
+0 1
+Γ with countable outflows, and assume for definiteness that (cid:104)a ,a (cid:105) ∈ (cid:126)Γ. By
+0 1
+a Mostowski absoluteness argument between V[H ] and V[H ,H ], it must be
+0 0 1
+the case that a , as much as all other points of the countable (cid:126)Γ-outflow of a ,
+1 0
+belongs to V[H ], so a ∈V[H ]∩V[H ]=V. It follows that a ⊂A⊂p , and
+0 1 1 0 1 0
+this contradicts the assumption that a ∪a ∈/ K.
+0 1
+For (2), let (cid:104)Q,τ(cid:105) be a balanced pair; strengthening τ if necessary we may
+assumethatitisaQ-nameforasingleK-set. ReplacingQwithQ×Coll(ω,X)
+and strengthening the condition τ if necessary, we may assume that Q (cid:13) ∀x ∈
+XV x ∈ τ or there is a ⊂ τ such that {x}∪a ∈/ K. For each point x ∈ X,
+either Q (cid:13) xˇ ∈ τ or Q (cid:13) ∃a ⊂ τ ∈ Γ and a ⊂ τ by a balance argument. Let
+K
+A ⊂ X be the set of all points x ∈ X for which the first option prevails. Then
+Q(cid:13)Aˇ=τ∩V and therefore A is a K-set; in view of (1) and Proposition 5.2.4,
+it is enough to show that A is a weakly maximal K-set. Let x ∈ X \A and
+b⊂X be countable. Observe that Q(cid:13)∃c⊂τ {x}∪c∈/ K; note that for such
+set c, (A∩b)∪c is still a K-set. Use the Mostowski absoluteness argument to
+find a set c with these properties in the ground model; this confirms that A is
+a weakly maximal K-set.
+Finally, (3) is obvious. For the last sentence, any condition p ∈ P can
+be extended to a maximal K-set, which then represents a balanced condition
+stronger than p by (1).
+Example 6.3.4. Let g: 2ω → (2ω)ℵ0 be any Borel function. Let K be the
+simplicial complex of g-free sets on X = 2ω. It is immediate that K has Borel
+coloring number ℵ : the graph Γ consists of all pairs {x ,x } such that either
+1 K 0 1
+x ∈f(x ) or x ∈f(x ). The Borel orientation of Γ with countable outflows
+0 1 1 0 K
+can be defined by considering which of the two cases occurs. To consider a case
+inwhichtheclassificationofbalancedconditionsisparticularlysimple,suppose
+that every point in (2ω)ℵ0 has uncountable preimage. Then, any g-independent
+set A ⊂ X is weakly maximal: for every countable set b ⊂ X and every point
+x ∈ X \A there is an uncountable set of points y ∈ X such that x ∈ g(y)
+and g(y)∩(A∩b)=0, and uncountably many such points y can be found also
+(cid:83)
+outside of the countable set {g(z): z ∈ A∩b}, making the set (A∩b)∪{y}
+free, while (A∩b)∪{y}∪{x} is not.
+6.4 Modular complexes
+Another class of simplicial complexes in this section is not as closely tied to the
+graph Γ . The definition is motivated by concerns of geometric model theory.
+K
+Definition 6.4.1. ABorelsimplicialcomplexKonaPolishspaceX ismodular
+if there is a Borel modular function f: K→[Y]ℵ0 for some Polish space Y such
+that
+1. (monotonicity) f(0)=0 and a⊂b implies f(a)⊂f(b);

@@ -1,0 +1,75 @@
+=== 块 153 ===
+
+Qand
+n n
+strengthening σ again, we may assume that either Q forces that for all n ∈ ω
+such that σ is infinite U˙ ∈/ V holds, or Q forces that for all n ∈ ω such that
+n n
+σ is infinite U˙ ∈V holds.
+n n
+
+160 CHAPTER 7. ULTRAFILTER FORCINGS
+Now, the former alternative is impossible as it contradicts the balance of
+the pair (cid:104)Q,τ(cid:105). To see this, let H ,H ⊂ Q be mutually generic filters and
+0 1
+let p = σ/H and p = σ/H . To reach the contradiction, we will show that
+0 0 1 1
+all vertical sections of p ∩p are finite. Suppose not, and let n ∈ ω be such
+0 1
+that (p ) ∩(p ) is infinite. Then U˙ /H = U˙ /H , which by the product
+0 n 1 n n 0 n 1
+forcing theorem implies that U˙ /H ∈ V and violates the former alternative
+n 0
+assumption.
+Thus,thelatteralternativeprevails,andthesetη ={(cid:104)n,U˙ (cid:105): σ isinfinite}
+n n
+is forced to be a subset of (ω×ω∗)V. Strengthening σ again, we may assume
+that Q forces that for every set b⊂ω×ω∗ in the ground model, either η ⊂b or
+η∩b=0 modulo finite.
+Claim 7.2.3. For every set b ⊂ ω ×ω∗, either Q (cid:13) η ⊂ ˇb modulo finite, or
+Q(cid:13)η∩ˇb is finite.
+Proof. Suppose towards a contradiction that the conclusion fails for some set
+b ⊂ ω × ω∗. Then, there must be conditions q ,q ∈ Q forcing the former
+0 1
+and latter alternative respectively. Let H ,H ⊂ Q be mutually generic filters
+0 1
+containingtheconditionsq ,q respectively. Writep =σ/H andp =σ /H ;
+0 1 0 0 1 1 1
+we will reach a contradiction by showing that all but finitely many vertical
+sections of the set p ∩p are finite, violating the balance assumption on σ.
+0 1
+Write c = η/H and c = η/H . By the contradictory assumption, the
+0 0 1 1
+intersection c ∩c is finite. Let n∈ω be a natural number which is not in the
+0 1
+finite projection of the set c ∩c to ω; we will show that (p ∩p ) is finite.
+0 1 0 1 n
+Either (p ) or (p ) are finite sets, in which case we are done, or both (p )
+0 n 1 n 0 n
+and(p ) areinfinite. Inthelattercase,thereareultrafiltersU ,U onω inthe
+1 n 0 1
+groundmodelsuchthat(cid:104)n,U (cid:105)∈c and(cid:104)n,U (cid:105)∈c . Sincethenumbernisnot
+0 0 1 1
+in the projection of c ∩c to ω, the ultrafilters U ,U must be distinct. Since
+0 1 0 1
+(p ) diagonalizes U and (p ) diagonalizes U , the intersection (p ) ∩(p )
+0 n 0 1 n 1 0 n 1 n
+must be finite in this case as well.
+Let W be the set of all subsets of b ⊂ ω×ω∗ for which Q (cid:13) η ⊂ˇb modulo
+finite; by the claim, this is an ultrafilter on ω×ω∗. The definitions show that
+Coll(ω,P(ω × ω∗)) × Q (cid:13) σ ∈ τ . Then, Proposition 5.2.4 shows that the
+F
+balanced pairs (cid:104)Q,σ(cid:105) and (cid:104)Coll(ω,P(ω×ω∗)) are equivalent as desired.
+Item (3) is immediate. For the last sentence, suppose that p ∈ P is a
+condition. Let a={n∈ω: p is infinite}; the set a is infinite. For each n∈ω
+n
+letU beanonprincipalultrafilteronω containingp asanelement. LetW be
+n n
+a nonprincipal ultrafilter on the set ω×ω∗ containing the set {(cid:104)n,U (cid:105): n∈a}.
+n
+Itisnotdifficulttoseethatthebalancedpair(cid:104)Coll(ω,P(ω×ω∗)),τ (cid:105)isbelow
+W
+the condition p, proving the balance of the poset P.
+7.3 Ramsey sequences of structures
+There is a family of forcings present in several papers concerning the Rudin–
+KeislerorderonultrafilterswithstrongRamsey-typeproperties[23]. Thefamily

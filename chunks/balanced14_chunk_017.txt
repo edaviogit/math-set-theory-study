@@ -1,0 +1,53 @@
+=== 块 17 ===
+
+the model W[B] fairly well:
+Theorem 1.4.2. In the model W[B], the following statements hold:
+1. (Proposition 9.2.22) E has a transversal;
+0
+2. (Corollary 9.4.30) E has a complete countable section;
+1
+
+1.4. INDEPENDENCE: BY MODEL 13
+3. (Corollary 12.3.8) whenever X is an uncountable Polish field and Φ is a
+countable subfield, there is no transcendence basis for X over Φ;
+4. (Corollary 12.2.10) there is no diffuse probability measure on ω;
+5. (Example 10.5.2) countable-to-one uniformization.
+One can consider a different Polish vector space in place of R and add a basis
+toit;anaturalexampleisP(ω)viewedwiththesymmetricdifferenceoperation
+as a vector space over the binary field. The conclusions of the above theorem
+remain in force. We do not know how to discern between the resulting models
+in general.
+If suitable large cardinals exist, one can find a Hamel basis generic over
+the model L(R), independently of the size or structure of the continuum–
+Example 12.4.4. The model L(R)[B] inherits all features quoted in Theo-
+rem 1.4.2.
+Models with a linear ordering. Let E be a Borel equivalence relation on a
+Polish space X. Consider the poset P of linear orderings of countable subsets
+of the E-quotient space, ordered by reverse extension. The generic filter yields
+a linear ordering ≤ on the E-quotient space. The resulting model is a very
+humble extension of the symmetric Solovay model.
+Theorem 1.4.3. In the model W[≤], the following statements hold:
+1. (Corollary 9.2.12) |E |>|2ω|;
+0
+2. (Corollary 9.4.10) |E |(cid:54)≤|F| for any orbit equivalence relation F;
+1
+3. (Corollary 13.3.15) there are no discontinuous homomorphism between
+Polish groups;
+4. (Corollary 12.2.15) OCA holds;
+5. (Example 10.5.8) countable-to-one uniformization.
+Other features may depend on the nature of the equivalence relation E. For
+example, if E is pinned, then in the model W[≤] one cannot find a linear
+ordering or even a tournament on the F -quotient space–Corollary 14.5.5. If
+2
+E is classifiable by countable structures, then in the model W[≤] cannot find a
+linear ordering on quotient spaces of turbulent group action orbit equivalence
+relations–Corollary12.3.9. Manyquestionsremainopen. Inparticular,itisnot
+clearwhetherinthemodelW[≤]thereisacardinalinequalitybetweenquotient
+spaceswhichdoesnotappearalreadyinW. Ifsuitablelargecardinalsexistand
+E is pinned, one can find a linear ordering of the E-quotient space generic
+over the model L(R), independently of the size or structure of the continuum–
+Example 12.4.6.
+Onecanaddotherstructurestoquotientspaces. Inparticular,onecanadda
+tournamentinsteadofalinearordering. Intheresultingmodel,theE -quotient
+0
+space cannot be linearly ordered–Corollary 13.3.2.

@@ -1,0 +1,55 @@
+=== 块 320 ===
+
+20
+shows that in the model W, q forces the sequence (cid:104)[x ] ,[x ] ,[x ] ,[x ] (cid:105) to
+0 E 1 E 2 E 0 E
+form an oriented 3-cycle which is a subset of τ. The proof of the theorem is
+complete.
+
+13.3. EXAMPLES 337
+13.3 Examples
+The first batch of examples deals with the implications and limitations of The-
+orem 13.2.7. We use Theorem 13.2.1 to add the nonexistence of discontinuous
+homomorphisms of Polish groups to the conclusions for reference purposes.
+Example 13.3.1. Let E be a Borel equivalence relation on a Polish space X.
+LetP betheposetforaddingatournamentontheE-quotientspaceasinExam-
+ple 8.6.6. Then P is 3,2-centered by its definition, balanced by Theorem 8.6.4,
+and tethered by Example 10.5.8. It is compactly balanced, so does not add a
+E -transversal by Example 9.2.11. Thus, Theorem 13.2.7 applies to it, as do all
+0
+other theorems of Section 13.2.
+Corollary 13.3.2. Let E be a Borel equivalence relation on a Polish space X.
+1. Let P be the tournament poset associated with E as in Example 8.6.6. In
+the P-extension of a symmetric Solovay model, there are no discontinuous
+homomorphisms of Polish groups, an there is no linear ordering on the
+E -quotient space.
+0
+2. ItisconsistentrelativetoaninaccessiblecardinalthatZF+DCholds,there
+is a tournament on the E-quotient space while there are no discontinuous
+homomorphisms of Polish groups and there is no linear ordering on the
+E -quotient space.
+0
+Example 13.3.3. Let E be a countable Borel equivalence relation on a Polish
+space X. Let P be the poset adding an action of Z on X inducing E as in
+Example 6.6.10. The poset P is 3,2-centered by its definition, balanced by Ex-
+ample6.6.10,tetheredbyExample10.5.7,anditdoesnotaddanE -transversal
+0
+by Corollary 11.4.12. Thus, Theorem 13.2.7 applies to it, as do all other theo-
+rems of Section 13.2.
+Corollary 13.3.4. Let E be a countable Borel equivalence relation on a Polish
+space X.
+1. Let P be the poset adding an action of Z on X inducing E as in Exam-
+ple 6.6.10. In the P-extension of the symmetric Solovay model, there are
+no discontinuous homomorphisms of Polish groups, and there is no linear
+ordering on the E -quotient space.
+0
+2. It is consistent relative to an inaccessible cardinal that ZF+DC holds, E
+is an orbit equivalence relation of a (discontinuous) Z-action, there are
+no discontinuous homomorphisms of Polish groups, and there is no linear
+ordering on the E -quotient space.
+0
+Example 13.3.5. Let Γ be a Borel graph on a Polish space X Suppose that
+Γ does not contain an injective homomorphic copy of K→ and K for some
+ω,ω n,ω1
+number n ∈ ω. Let P be the coloring poset of Definition 8.1.1. The poset P
+is 3,2-centered by its definition, it is balanced by Theorem 8.1.2 and tethered

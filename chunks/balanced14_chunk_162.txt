@@ -1,0 +1,71 @@
+=== 块 162 ===
+
+te that two conditions p ,p ∈P are
+0 1
+compatible just in case they are compatible as functions: then p ∪p will be
+0 1
+their lower bound. To argue for the ℵ -distributivity, let p ∈ P be a condition
+0
+
+8.1. CHROMATIC NUMBERS 171
+andlet{D : i∈ω}beacountablecollectionofopendensesubsetsofP. Tofind
+i
+(cid:84)
+a condition q ≤ p in the intersection D , let M be a countable elementary
+i i
+submodel of a large structure containing p,Γ,≺ and {D : i ∈ ω} and use the
+i
+elementarity of M to build a sequence p for i∈ω by recursion so that
+i
+• p=p ≥p ≥p ≥... are all conditions in M;
+0 1 1
+• p ∈D anddom(p )containsthei-thelementofM∩X insomefixed
+i+1 i i+1
+enumeration.
+(cid:83)
+Intheend,letq = p anduseClaim8.1.3toarguethatq ∈P asdesired.
+i i
+Claim 8.1.5. P is a dense subset of P .
+Γ
+Proof. It is first necessary to show that P is a subset of P . To this end, let
+Γ
+p ∈ P. Let {b : k ∈ ω} be a collection of pairwise disjoint infinite subsets of
+k
+ω and c: X → ω be a total Γ-coloring. Let d: X → ω be the function defined
+as follows: d(x) = p(x) if x ∈ dom(p), and otherwise let d(x) be the smallest
+number in b which is different from the finitely many numbers {p(y): y ∈
+c(x)
+dom(p) and {x,y}∈Γ}. It is not difficult to verify that d is a total Γ-coloring
+extending p, and so p∈P (Γ).
+ω
+For the density, suppose that p ∈ P is a condition. Let c: X → ω be a
+Γ
+total Γ-coloring extending p. Let M be a countable elementary submodel of a
+large structure containing p,c, and ≺. By Claim 8.1.3, the set {y ∈X: ∃∞x∈
+M {x,y}∈Γ} is a subset of M. Thus, the function q =c(cid:22)M is a condition in
+P extending p as desired.
+For the classification of the balanced virtual conditions, we need a claim:
+Claim 8.1.6. Let R ,R be posets and η ,η be respective R - and R -names
+0 1 0 1 0 1
+for elements of X\V. Then
+1. R forces η to be Γ-connected with at most finitely many elements of the
+0 0
+ground model;
+2. R ×R (cid:13){η ,η }∈/ Γ.
+0 1 0 1
+Proof. For the first item, suppose towards a contradiction that this fails as
+forced by some condition r ∈R. Let M be a countable elementary submodel of
+a large structure containing all relevant information, let g ⊂R ∩M be a filter
+0
+genericoverthemodelM, andlety =η /g ∈X. Bytheforcingtheorem, M[g]
+0
+satisfies that y is Γ-connected with infinitely many elements of X∩M. By the
+MostowskiabsolutenessforthemodelM[g],yisindeedconnectedwithinfinitely
+many elements of M, and this contradicts the conclusion of Claim 8.1.3.
+Fortheseconditem,supposetowardsacontradictionthatthisfailsasforced
+by some condition (cid:104)r ,r (cid:105) in the product. Let M ∈N be countable elementary
+0 1
+submodelsofalargestructurecontainingallrelevantinformation. Inthemodel
+N, there are filters {g : i∈ω} on the poset R ∩M which are mutually generic
+i 0
+over the model M. By a mutual genericity argument applied in M, the points

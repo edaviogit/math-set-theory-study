@@ -1,0 +1,60 @@
+=== 块 64 ===
+
+then implies that κ(E ) ≥ κ+ =
+n Gn
+ℵ .
+n+1
+Much more complicated effects can be realized if the hypergraph G is allowed
+to have infinite edges. We conclude this section with an example of this type.
+
+2.5. CARDINAL INVARIANTS 63
+Definition 2.5.39. LetX beaPolishspace. ABorelequivalencerelationRon
+X2 withcountablymanyclassesiscombinatorially universal ifforeveryordinal
+κandeveryequivalencerelationT onκ2 withcountablymanyclasses,thereisa
+c.c.c.posetP addinganinjectivefunctionπ: κ→X whichisahomomorphism
+of ¬T to ¬R.
+Theorem 2.5.40. There is a combinatorially universal Borel equivalence rela-
+tion with countably many classes on X2 for every Polish space X.
+(cid:83)
+Proof. Without loss of generality, assume X = P(ω). Let ω = a
+n,m∈ω n,m
+be a partition of ω into infinite sets. For almost disjoint sets b,c ⊂ ω such
+that b is lexicographically less than c define f(b,c) = n and f(c,b) = m if
+max(b∩c) ∈ a , in other cases define f(b,c) = 0. Let R be the equivalence
+n,m
+relation induced by the function f. We will show that R is combinatorially
+universal.
+Fix a cardinal κ and a function g: κ2 → ω which induces an equivalence
+relation T with countably many classes. Define the poset P as the collection of
+all functions p such that
+• dom(p)⊂κ is a finite set;
+• rng(p)consistsoffinitesubsetsofω suchthatneitherofthemisaninitial
+segment of another;
+• for every α(cid:54)=β such that p(α) is lexicographically smaller than p(β), the
+set p(α)∩p(β) is nonempty, and its maximum belongs to the set a
+m,n
+where g(α,β)=m and g(β,α)=n.
+TheorderingonP isdefinedbyq ≤pifdom(p)⊂dom(q),foreveryα∈dom(p)
+thesetp(α)isaninitialsegmentofq(α),andthesets{q(α)\p(α): α∈dom(p)}
+are pairwise disjoint. The following routine claims complete the proof of the
+theorem.
+Claim 2.5.41. The poset P is c.c.c.
+Proof. By the usual ∆-system arguments it is only necessary to show that any
+twoconditionsp,q ∈P suchthatp(cid:22)dom(p)∩dom(q)=q (cid:22)dom(p)∩dom(q)are
+compatibleintheposetP. Strengtheningtheconditionsp,qondom(p)\dom(q)
+and dom(p)\dom(q) respectively if necessary, we may assume that no set in
+rng(p)∪rng(q)isaninitialsegmentofanother. Enumerate(dom(p)\dom(q))×
+(dom(q)\dom(p))asu fori∈j andfindpairwisedistinctnumbersm fori∈j
+i i
+such that
+• if u = (cid:104)α,β(cid:105) and p(α) is lexicographically smaller than q(β) then m ∈
+i i
+a where g(α,β)=m and g(β,α)=n;
+m,n
+• if u = (cid:104)α,β(cid:105) and p(α) is lexicographically greater than q(β) then m ∈
+i i
+a where g(α,β)=n and g(β,α)=m;
+m,n
+(cid:83) (cid:83)
+• all numbers m are greater than max( rng(p)∪ rng(q)).
+i

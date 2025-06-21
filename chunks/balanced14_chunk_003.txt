@@ -1,0 +1,49 @@
+=== 块 3 ===
+
+. . . . . . . . . . . . . . . . . . . 81
+3.2 Examples . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84
+3.3 Placid equivalence relations . . . . . . . . . . . . . . . . . . . . . 88
+vii
+
+viii CONTENTS
+3.4 Examples and operations . . . . . . . . . . . . . . . . . . . . . . 90
+3.5 Absoluteness . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94
+3.6 A variation for measure . . . . . . . . . . . . . . . . . . . . . . . 97
+4 Nested sequences of models 105
+4.1 Prologue . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 105
+4.2 Coherent sequences of models . . . . . . . . . . . . . . . . . . . . 106
+4.3 Choice-coherent sequences of models . . . . . . . . . . . . . . . . 109
+II Balanced extensions of the Solovay model 117
+5 Balanced Suslin forcing 119
+5.1 Virtual conditions . . . . . . . . . . . . . . . . . . . . . . . . . . 119
+5.2 Balanced conditions . . . . . . . . . . . . . . . . . . . . . . . . . 122
+5.3 Weakly balanced Suslin forcing . . . . . . . . . . . . . . . . . . . 128
+6 Simplicial complex forcings 133
+6.1 Basic concepts . . . . . . . . . . . . . . . . . . . . . . . . . . . . 133
+6.2 Locally countable complexes . . . . . . . . . . . . . . . . . . . . . 135
+6.3 Complexes of Borel coloring number ℵ . . . . . . . . . . . . . . 137
+1
+6.4 Modular complexes . . . . . . . . . . . . . . . . . . . . . . . . . . 139
+6.5 G matroids . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 148
+δ
+6.6 Quotient variations . . . . . . . . . . . . . . . . . . . . . . . . . . 150
+7 Ultrafilter forcings 157
+7.1 A Ramsey ultrafilter . . . . . . . . . . . . . . . . . . . . . . . . . 157
+7.2 Fubini powers of the Fr´echet ideal . . . . . . . . . . . . . . . . . 158
+7.3 Ramsey sequences of structures . . . . . . . . . . . . . . . . . . . 160
+7.4 Semigroup ultrafilters . . . . . . . . . . . . . . . . . . . . . . . . 164
+8 Other forcings 169
+8.1 Chromatic numbers . . . . . . . . . . . . . . . . . . . . . . . . . 169
+8.2 Discontinuous homomorphisms . . . . . . . . . . . . . . . . . . . 177
+8.3 Automorphisms of P(ω) modulo finite . . . . . . . . . . . . . . . 179
+8.4 Kurepa families . . . . . . . . . . . . . . . . . . . . . . . . . . . . 181
+8.5 Set mappings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 183
+8.6 Saturated models on quotient spaces . . . . . . . . . . . . . . . . 186
+8.7 Non-DC variations . . . . . . . . . . . . . . . . . . . . . . . . . . 190
+8.8 Side condition forcings . . . . . . . . . . . . . . . . . . . . . . . . 191
+8.9 Weakly balanced variations . . . . . . . . . . . . . . . . . . . . . 195
+9 Preserving cardinalities 201
+9.1 The well-ordered divide . . . . . . . . . . . . . . . . . . . . . . . 201
+9.2 The smooth divide . . . . . . . . . . . . . . . . . . . . . . . . . . 205
+9.3 The turbulent divide . . . . . . . . . . . . . . . . . . . . . . . . . 212
+9.4 The orbit divide . . . . . . . . . . . . . . . . . . . . . . . . . . . 216

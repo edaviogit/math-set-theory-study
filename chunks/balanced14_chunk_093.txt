@@ -1,0 +1,76 @@
+=== 块 93 ===
+
+the set A is coanalytic, and by
+Mostowski absoluteness it will hold in all forcing extensions.
+Theorem 3.4.6. The equivalence relation = is placid for every countably sep-
+I
+arated Borel ideal I on ω.
+
+3.4. EXAMPLES AND OPERATIONS 93
+Proof. Let {a : n∈ω} be a countable collection of subsets of ω witnessing the
+n
+countable separation of the ideal I. Write X = (2ω)ω. Let V[G ],V[G ] be
+0 1
+generic extensions containing respective = -related points x ,x ∈X. Assume
+I 0 1
+V[G ]∩V[G ] = V and work to find a ground model point x ∈ X which is
+0 1
+= -related to both x ,x .
+I 0 1
+Consider the set b={n∈ω: x (cid:22)a is I-equivalent to some element of the
+0 n
+ground model}. The definition of the set b depends only on the = -equivalence
+I
+class of x , therefore the set b belongs to both V[G ] and V[G ], and by the
+0 0 1
+initial assumptions, to V. Let f be the map with domain b which to each n∈b
+identifies the = -class in V which contains x (cid:22) a . Again, the definition of
+I 0 n
+f depends only on the = -class of x , so f ∈ V[G ] and f ∈ V[G ], therefore
+I 0 0 1
+f ∈ V. By the Mostowski absoluteness between V and V[G ], there is a point
+0
+x∈X such that for all n∈b, x(cid:22)a ∈f(n). We will show that x= x holds.
+n I 0
+Suppose towards a contradiction that this fails. Consider the set c = {i ∈
+ω: x(i) (cid:54)= x (i)} ∈/ I and the set d = {i ∈ ω: x (i) (cid:54)= x (i)} ∈ I. By the
+0 0 1
+countable separation of the ideal I, there must be a number n ∈ ω such that
+c∩a ∈/ I and d∩a = 0. However, the latter equality shows that x (cid:22) a =
+n n 0 n
+x (cid:22) a , so x (cid:22) a ∈ V and n ∈ b. But then {i ∈ a : x(i) (cid:54)= x (i)} ∈ I by the
+1 n 0 n n 0
+choice of the point x. This contradicts the fact that c∩a ∈/ I. The proof of
+n
+the theorem is complete.
+Thereisanaturaloperationonanalyticidealswhichseeksacountablyseparated
+closure. Forthediscussionbelow,let{a : n∈ω}beafixedcountablecollection
+n
+of subsets of ω.
+Definition 3.4.7. Let I be an ideal on ω. I+ is the ideal on ω consisting of all
+sets b⊂ω such that there is c∈I such that ∀n∈ω b∩a ∈/ I →c∩a (cid:54)=0.
+n n
+We will start with some simple observations. It is clear that I+ is an ideal
+containingI asasubset. IfI isanalytic,thensoisI+. Moreover,I isseparated
+by the sequence {a : n ∈ ω} just in case I = I+. We will show that under
+n
+suitable additional assumption, the jump preserves placidity of the equivalence
+relation = .
+I
+Definition 3.4.8. LetI beanidealonω. I is skew ifforeveryset c⊂ω there
+is a subset c(cid:48) ⊂ c such that for every finite set d ⊂ ω, if c∩ (cid:84) a ∈/ I then
+n∈d n
+c(cid:48)∩ (cid:84) a ∈/ I and if c∩ (cid:84) a ∈I then c(cid:48)∩ (cid:84) a is finite.
+n∈d n n∈d n n∈d n
+It is not dificult to see that every F ideal is skew and every analytic P-ideal is
+σ
+skew.
+Theorem 3.4.9. If I is a skew analytic ideal on ω then I+ is a skew ana-
+lytic ideal as well. If in addition the equivalence relation = is placid then the
+I
+equivalence relation = is placid as well.
+I+
+Proof. Forthefirstsentence,ifc⊂ωisasetandc(cid:48) ⊂cwitnessestheskewprop-
+ertyforI andc,thenc(cid:48) alsowitnessestheskewpropertyforI+ andc. Theproof
+of the second sentence is more involved. Write X = (2ω)ω. Let V[G ],V[G ]
+0 1

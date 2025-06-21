@@ -1,0 +1,70 @@
+=== 块 180 ===
+
+in is
+TE
+a countable subset of the E-quotient space. The ordering is that of elementary
+substructure: q ≤ p if the domain of p is a subset of the domain of q, and p is
+an elementary substructure of q.
+
+8.6. SATURATED MODELS ON QUOTIENT SPACES 189
+It is immediate that the union of the structures in the generic filter is a count-
+ably saturated model of the theory T on the E-quotient space. To classify the
+balanced virtual conditions, we use the following definition.
+Definition 8.6.8. A balanced theory is a complete consistent theory S in the
+language of T plus a constant for each virtual E-class which contains T and
+asserts than no elements other than the virtual E-class constants are algebraic
+over those constants.
+Suppose that S is a balanced theory. Let τ be the Coll(ω,(cid:105) )-name for the
+S ω1
+set of all countable models p ∈ P such that dom(p) contains the set p of
+TE 0
+realizations of all ground model virtual E-classes and p |= S. It is not difficult
+toseethatτ isanameforananalytic,nonempty,andopensubsetoftheposet
+S
+P .
+TE
+Theorem 8.6.9. Let T be a complete first-order theory in countable language,
+with infinite models. Let E be a Borel equivalence relation on a Polish space X.
+1. ForeverybalancedtheoryS,thepair(cid:104)Coll(ω,(cid:105) ),τ (cid:105)isbalancedinP ;
+ω1 S TE
+2. for every balanced pair (cid:104)Q,τ(cid:105) there is a balanced theory S such that the
+balanced pairs (cid:104)Q,τ(cid:105) and (cid:104)Coll(ω,(cid:105) ),τ (cid:105) are equivalent;
+ω1 S
+3. distinct balanced theories yield inequivalent balanced pairs.
+In particular, the poset P is balanced.
+TE
+Proof. For (1), suppose that S is a balanced theory, V[H ],V[H ] are mutually
+0 1
+generic extensions of the ground model, and p ,p ∈P are conditions in the
+0 1 TE
+respective models in the set given by the name τ . We must show that there is
+S
+a model q ∈ P in which both models p ,p of T are elementary. Note that
+TE 0 1
+dom(p )∩dom(p ) is exactly the set of all realizations of ground model virtual
+0 1
+E-classes by the mutual genericity assumption. Use the algebraicity clause of
+Definition 8.6.8 and a textbook amalgamation theorem [41, Theorem 5.3.5] to
+conclude that in V[H ,H ] there is a countable model q of T and elementary
+0 1
+embeddings j : p →q and j : p →q such that j ,j coincide on the set r of
+0 0 1 1 0 1
+realizations of virtual E-classes from the ground model, and the sets j(cid:48)(cid:48)(p \r)
+0 0
+and j(cid:48)(cid:48)(p \r) are disjoint. It is easy to see that such a model q can be realized
+1 1
+insuchawaythatitsdomainisasetofE-classesandtheembeddingsj ,j are
+0 1
+both identity maps. Then q is the sought lower bound of the conditions p ,p .
+0 1
+For (2), let (cid:104)Q,σ(cid:105) be a balanced pair. Strengthening the name σ and the
+poset Q if necessary, we may assume that σ is in fact a name for a single
+element of P as opposed to an analytic subset of P and that σ is forced
+TE TE
+to contain the realization of every virtual E-class in the ground model. By a
+balance argument, for every formula φ((cid:126)x) and every tuple(cid:126)c of virtual E-classes
+of the same length as (cid:126)x, it must be the case that either Q (cid:13) σ |= φ((cid:126)c) or
+Q(cid:13)σ |=¬φ((cid:126)c). Let S be the set of all formulas and tuples of virtual E-classes
+φ((cid:126)c)forwhichtheformeroptionprevails. WeneedtoshowthatS isabalanced
+theory and the balanced pairs (cid:104)Q,τ(cid:105) and (cid:104)Coll(ω,(cid:105) ),τ (cid:105) are equivalent.
+ω1 S

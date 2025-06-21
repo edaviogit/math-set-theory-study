@@ -1,0 +1,78 @@
+=== 块 204 ===
+
+tion E. Let F be a virtually placid orbit equivalence
+relation on a Polish space Y. Let P be a Suslin forcing and let κ be an inac-
+cessiblecardinalsuchthatP iscofinallyplacidbelowκ. LetW beasymmetric
+
+9.3. THE TURBULENT DIVIDE 213
+Solovay model derived from κ and work in the model W. Suppose towards
+a contradiction that there is a condition p ∈ P and a P-name for a function
+which is an injection from the E-quotient space to the F-quotient space. The
+condition p as well as the name τ must be definable from some ground model
+parameters together with a parameter z ∈ 2ω. Use the assumptions to find an
+intermediate model V[K], which is obtained from V by a poset of cardinality
+smaller than κ, contains z and in which the poset P is placid.
+Work in the model V[K]. Let p¯ ≤ p be a virtual condition in P which is
+weakly placid. Let P be the poset for adding a Cohen point of the space X.
+X
+Thatis,P istheposetofallnonemptyopensubsetsofX orderedbyinclusion,
+X
+adding a point x˙ ∈X. There must be a poset R of size <κ and P ×R-names
+X
+σ for an element of the poset P stronger than p¯and η for an element of Y such
+that P ×R(cid:13)Coll(ω,<κ)(cid:13)σ (cid:13) τ([x˙] )=[η] . There are two cases.
+X P E F
+Case 1. There is a nonempty open set O ⊂ X and a condition r ∈ R such
+that the name η is F-pinned below (cid:104)O,r(cid:105). In this case, let x ,x ∈ X and
+0 1
+H ,H ⊂R be points in O and filters on R containing r mutually generic over
+0 1
+the model V[K]. Let p = σ/x ,H ∈ P ∩V[K][x ][H ] and p = σ/x ,H ∈
+0 0 0 0 0 1 1 1
+P ∩V[K][x ][H ] and let y =η/x ,H and y =η/x ,H .
+1 1 0 0 0 1 1 1
+Thepointsx ,x ∈X aremutuallyCohengeneric,andsincetheirrespective
+0 1
+E-classes are meager, it must be the case that they are unrelated. By the case
+assumption,thepointsy ,y ∈F areF-related. Bythebalanceofthecondition
+0 1
+p¯,theconditionsp ,p arecompatibleintheposetP. Now,theforcingtheorem
+0 1
+appliedinthemodelV[K]showsthatinthemodelW,thelowerboundofp ,p
+0 1
+forcesinP thatτ([x ] )andτ([x ] )arebothequalto[y ] ,contradictingthe
+0 E 1 E 0 F
+injectivity assumption on τ.
+Case 2. Case 1 fails. This is to say that η is forced not to be a realization of
+any F-pinned class of V[K]. Let P be the Cohen poset on the Polish group Γ
+Γ
+andletx ∈X andγ ∈ΓbepointsmutuallygenericforP ,P overthemodel
+0 X Γ
+V[K], and write x =γ·x .
+1 0
+Since the action of the group is a continuous open map from Γ × X to
+X, the point x is P -generic over the model V[K] by Proposition 3.1.1 ap-
+y X
+plied in V[K]. By Theorem 3.2.2 (this is the only place where we use the
+turbulence assumption), V[K][x ]∩V[K][x ] = V[K] holds. Let H ,H ⊂ R
+0 1 0 1
+be filters mutually generic over the model V[K][γ,x ]. By the mutual gener-
+0
+icity, V[K][x ][H ]∩V[K][x ][H ] = V[K] holds. Write p = σ/x ,H and
+0 0 1 1 0 0 0
+p =x ,H , and also y =η/x ,H and y =η/x ,H .
+1 1 1 0 0 0 1 1 1
+By their initial choice, the points x ,x ∈ X are E-related. By the virtual
+0 1
+placidity assumption on the equivalence relation F, the points y ,y ∈ Y are
+0 1
+not F-related: if they were, they would be realizations of some virtual F-class
+inV[K],contradictingthecaseassumption. Bytheplacidityassumptiononthe
+virtualconditionp¯,theconditionsp ,p haveacommonlowerbound. Now,the
+0 1
+forcing theorem applied in V[K] shows that in the model W, the lower bound
+of p ,p forces in P that τ([x ] ) must be equal simultaneously to [y ] and
+0 1 0 E 0 F
+[y ] . This is a contradiction, as τ is forced to be a function.
+1 F
+Other preservation properties are proved in Section 12.3, respectively in Sec-

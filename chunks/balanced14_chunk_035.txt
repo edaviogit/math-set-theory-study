@@ -1,0 +1,87 @@
+=== 块 35 ===
+
+Proposition 1.7.8. Let n ∈ ω be a number and {P : i ∈ n} be posets. Let
+i
+{G : i ∈ n} be filters separately generic over the ground model V over the
+i
+respective posets. The following are equivalent:
+
+1.7. NOTATION AND TERMINOLOGY 31
+(cid:81) (cid:81)
+1. G ⊂ P is a filter generic over V;
+i i i i
+2. whenever {a : i ∈ n} are subsets of the ground model in the respective
+i
+(cid:84)
+models V[G ] such that a = 0 then there are sets {b : i ∈ n} in the
+i i i i
+(cid:84)
+ground model V such that for all i∈n a ⊂b and b =0 holds.
+i i i i
+Proof. Supposefirstthat(1)holds. MovetothegroundmodelV. Supposethat
+(cid:81)
+{a˙ : i∈n}areP -namesforsubsetsofthegroundmodeland(cid:104)p : i∈n(cid:105)∈ P
+i i i i i
+is a condition forcing that (cid:84) a =0. Let b ={x∈V : ∃p(cid:48) ≤p p(cid:48) (cid:13) xˇ ∈a˙ }
+i i
+(cid:84)
+i i Pi i
+for each i ∈ n. It is immediate that b = 0 holds, and for all i ∈ n and
+i i
+p (cid:13) a˙ ⊂ˇb holds. (2) then follows by the forcing theorem.
+i Pi i i
+Suppose now that (2) holds. To confirm (1), suppose towards a contradic-
+(cid:81)
+tion that it fails. There must be an open dense set D ⊂ P in the ground
+i i
+(cid:81)
+model such that G ∩D = 0. For every number i ∈ n, in the model V[G ]
+i i i
+(cid:81)
+consider the set a = {(cid:104)p : j ∈ n(cid:105) ∈ D: p ∈ G } ⊂ P . The contradictory
+i j i i j j
+(cid:84) (cid:81)
+assumption gives that a = 0; the assumption (2) yields sets b ⊂ P in
+i i i i i
+(cid:84)
+the ground model such that ∀i∈n a ⊂b and b =0. In each model V[G ],
+i i i i j
+a genericity argument shows that there must be a condition r ∈ G such that
+j j
+every tuple (cid:104)p : i∈n(cid:105)∈D with p ≤r must in fact belong to the set b . Use
+i j j j
+the density of the set D to find a tuple (cid:104)p : i ∈ n(cid:105) ∈ D such that for all i ∈ n,
+i
+(cid:83)
+p ≤ r holds. Then (cid:104)p : i ∈ n(cid:105) ∈ b , contradicting the choice of the sets b
+i i i i i i
+for i∈n.
+Thefollowingcorollaryiseasytoprovewithouttheproposition, butitspresent
+proof is much more appealing:
+Corollary 1.7.9. Let n∈ω be a natural number. Suppose that {P : i∈n} are
+i
+(cid:81) (cid:81)
+posets, {Q : i ∈ n} are posets, G ⊂ P is a generic filter, and for each
+i i i i i
+(cid:81) (cid:81)
+i∈nH ∈V[G ]isafiltergenericoverV ontheposetQ . Then H ⊂ Q
+i i i i i i i
+is a filter generic over V.
+Proof. Thecriterion(2)ofProposition1.7.8ispreservedwhenpassingtosmaller
+models, in particular from V[G ] to V[H ].
+i i
+The final remark on the product forcing provides a perfect set of generics
+overanycountablemodel–astandardtrickwhichcomeshandyinseveralplaces
+in the book.
+Proposition 1.7.10. Let M be a countable transitive model of set theory and
+P ∈ M be a poset. Then there is a continuous map h: 2ω → P(P) such that
+for every finite set a ⊂ 2ω, the product (cid:81) h(x) is a filter on the poset P|a|
+x∈a
+generic over the model M.
+Proof. Let (cid:104)D : n∈ω(cid:105) be an enumeration of all open dense subsets of various
+n
+finite powers of P which appear in the model M. By induction on m∈ω build
+maps g : 2m →P satisfying the following demands:
+m
+• g : {0}→P is arbitrary;
+0

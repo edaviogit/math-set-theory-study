@@ -1,0 +1,61 @@
+=== 块 76 ===
+
+somefilterG. AsM(y)|=“Q(y)iscompletely
+yδ
+generatedbythenameσ(y)”,thefilterGcanberecoveredbytransfiniteinduc-
+tion using infinitary Boolean expressions in M applied to δ·z(y); therefore, it
+is unique.
+
+2.8. DICHOTOMIES 75
+Write C ⊂ Y ×Γ for the projection of D into the first two coordinates. Since
+one-to-one projections of Borel sets are Borel [55, Theorem 15.1], the set C is
+Borel.
+Claim 2.8.7. For each point y ∈Y, the section C either empty or else comea-
+y
+ger in Γ.
+Proof. To simplify the notation, fix y ∈ Y and omit the argument y from the
+expressions like M(y),σ(y).... Suppose that the Γ-section C is nonempty.
+y
+Thus, there is a filter G ⊂ P be a filter generic over M such that τ/G is
+E-related to z. Let A ⊂ Γ be the set of all elements of the group Γ which
+are P -generic over the model M[G]; this is a co-meager set. Let δ ∈ Γ be
+Γ
+an element of the group such that τ/G = δ ·z. Then the vertical section C
+y
+contains the set A·δ which is co-meager as the right multiplication by δ is a
+self-homeomorphism of the group Γ.
+AsthecategoryquantifieryieldsBorelsets[55, Theorem16.1], thesetB asthe
+projection of C into the first coordinate is Borel. Borel sets with nonmeager
+vertical sections allow Borel uniformizations [55, Theorem 18.6], so there is
+a Borel uniformization f: B → Γ of C. As the set D has singleton vertical
+sections, it is itself its uniformization g: C → P(ω). Let H: B → P(ω) be the
+function defined by H(y) = g(y,f(y)). Thus, for every y ∈ B, H(y) ⊂ Q(y) is
+a filter generic over M(y) such that σ(y)/H(y) is E-related to z(y).
+Now, let R: Y →ω be a Borel function such that for every y ∈2ω, M(y)|=
+R(y) is a name for the quotient poset P(y)×P /Q(y). Use Propositions 2.8.3
+Γ
+and 2.8.4 to find a Borel function K: B → P(ω) such that K(y) ⊂ R(y) is a
+filtergenericoverthemodelM(y)[H(y)]. LetG: B →P(ω)beaBorelfunction
+indicating a filter on P(y) which is the P(y)-coordinate the composition of
+H(y)∗K(y). The function G has the required properties.
+Corollary 2.8.8. Suppose that Γ is a Polish group continuously acting on a
+Polish space X, inducing an orbit equivalence relation E. Let M be a countable
+transitive model of set theory containing a code for the action, let P ∈ M be a
+poset and τ ∈M be a P-name for an element of the space X. Then
+1. the set B = {x ∈ X: ∃G ⊂ P generic over M such that τ/G = x} is
+Borel;
+2. the equivalence relation E (cid:22)B is Borel.
+Proof. (1) is immediate from the proposition. To see (2), consider the set C =
+{(cid:104)x,y(cid:105) ∈ X2: ∃G × H ⊂ P × P generic over M such that x = τ/G and
+Γ
+y = (γ˙ /H) · x}. The set C is Borel by the proposition again. Now, for
+gen
+x,z ∈B, xE z just in case the set A ={γ ∈Γ: (cid:104)x,γ·z(cid:105)∈C} is comeager in
+xz
+Γ. To see this, note that if x E z fails then the set A ⊂ Γ is actually empty,
+xz
+and if xE z holds with δ·x=z, then the A ⊃{γ ∈Γ: γ·δ−1 is P -generic
+xz Γ
+over M[x]} and the latter set is comeager since it is a shift of the comeager set
+of all points in Γ which are P -generic over the model M[x].
+Γ

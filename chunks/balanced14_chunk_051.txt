@@ -1,0 +1,54 @@
+=== 块 51 ===
+
+asure equivalence.
+2.5 Cardinal invariants
+There are several cardinal invariants of equivalence relations which are associ-
+ated with the concept of virtual equivalence classes. They respect the Borel
+
+50 CHAPTER 2. THE VIRTUAL REALM
+reducibility order; therefore, they are useful as tools for nonreducibility results.
+They also are conceptually useful in several places in this book.
+2.5a Basic definitions
+The following definition records the most natural cardinal invariants associated
+with the virtual spaces.
+Definition 2.5.1. Let E be an analytic equivalence relation on a Polish space
+X.
+1. κ(E), the pinned cardinal of E, is the smallest κ (if it exists) such that
+every virtual E-class has a representative on a poset of size < κ. If E is
+pinned, we let κ(E)=ℵ . If κ(E) does not exist, we write κ(E)=∞;
+1
+2. λ(E) is the cardinality of the set of all virtual E-classes. If the virtual
+E-classes form a proper class, we let λ(E)=∞;
+3. λ(E,P) is the cardinality of the set of all virtual E-classes represented on
+the poset P.
+Note that κ(E) = ∞ just in case λ(E) = ∞; at the same time, λ(E,P) < ∞
+holdsforallE,P. Therathermysteriousdemandthatκ(E)=ℵ forallpinned
+1
+equivalence relations E is explained by a reference to Theorem 2.6.2: there are
+no nontrivial pinned names on countable posets for any analytic equivalence
+relation. It turns out that the cardinals κ(E) and λ(E,P) can attain all kinds
+of exotic and informative values. We will start with the two archetypal and
+somewhat boring computations.
+Example 2.5.2. κ(F )=c+ and λ(F )=2c.
+2 2
+Proof. This follows immediately from the classification of pinned names for the
+Friedman–Stanley jump. Every virtual F class is represented by a subset of
+2
+2ω, and distinct subsets of 2ω give rise to distinct virtual F classes.
+2
+Example 2.5.3. κ(E ) = ∞. To see this, note that by Example 2.4.6, the
+ω1
+virtual E -classes are classified by ordinals, so there is a proper class of them.
+ω1
+Similarly,κ(HC)=∞,asbyExample2.4.7thevirtualHC-classesareclassified
+by transitive sets, so there is a proper class of them.
+Theorem 2.8.9 shows that in fact E is a minimal example of an equivalence
+ω1
+relation E with κ(E)=∞.
+The most appealing fact about the cardinal invariants κ(E) and λ(E,P)
+is that they respect the Borel reducibility order; therefore, they can be used
+to prove Borel nonreducibility results. In a good number of instances, the
+comparison of the cardinal invariants is the fastest and most intuitive way of
+provingnonreducibility. Oneofthemainfeaturesofthisstyleofargumentation
+is that it automatically survives the transfer to nonreducibility by functions
+more complicated than Borel.

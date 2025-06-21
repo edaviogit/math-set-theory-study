@@ -1,0 +1,64 @@
+=== 块 71 ===
+
+1
+has the requested properties by the L(cid:32) o´s theorem.
+In the end, let j: M → N be the direct limit of the system of elementary
+embeddingsproducedduringtherecursion;weclaimthatthisembeddingworks
+
+70 CHAPTER 2. THE VIRTUAL REALM
+as required. Suppose then that M |=b is a stationary system of countable sets
+on a = (cid:83) b. To show that ¯b is indeed stationary, let d be a closed unbounded
+set of countable subsets of a, and work to show that d∩¯b (cid:54)= 0 holds. Fix an
+ordinal β ∈ ω and a number n ∈ ω such that b = j (π (n)). Let K be a
+1 βω1 β
+countableelementarysubmodelofalargesubstructure,containinginparticular
+the set d, the ordinal β, and the system of elementary embeddings constructed
+above, and such that f(α)=(cid:104)β,n(cid:105) where α=K∩ω . Such a model exists by
+1
+the initial choice of the function f. Clearly K∩a∈d; we will be done once we
+show that K∩a∈b.
+To see this, let c = j(cid:48)(cid:48) j ( (cid:83) π (n)). By the elementarity of the em-
+αα+1 βα β
+bedding j and the last item above, it is the case that j (c) ∈ b.
+Also, j α+1 ( ω c 1 ) = j(cid:48)(cid:48) c = j(cid:48)(cid:48) j ( (cid:83) π (n)), By the elemen α+ ta 1 r ω i 1 ty of the
+α+1ω1 α+1ω1 αω1 βα β
+model K and the second item above, the latter expression is exactly equal to
+(cid:83)
+K∩j ( π (n))=K∩a. This completes the proof.
+βω1 β
+Now, back to the theorem. Suppose that (2) fails. Fix a ω-model M of ZFC
+containing the code for E such that M |=E is unpinned; taking an elementary
+submodelifnecessarywemayassumethatM iscountable. Letj: M →N bean
+elementary embedding from the claim. By elementarity, N |= E is unpinned,
+so there is a poset P and a P-name τ such that N |= τ is a nice nontrivial
+E-pinned name. We will show that in fact τ really is a nontrivial E-pinned
+name.
+First of all, τ indeed is E-pinned. If G ,G ⊂P are mutually generic filters
+0 1
+then N[G ,G ] |= τ/G E τ/G holds, and by the Borel absoluteness between
+0 1 0 1
+N[G ,G ] and V[G ,G ], τ/G E τ/G holds in V[G ,G ] as required. To
+0 1 0 1 0 1 0 1
+show that τ is a nontrivial E-pinned name, assume towards a contradiction
+that there is a point x ∈ X such that P (cid:13) τ E xˇ; the difficulty resides in the
+possibility that x∈/ N.
+Let κ be some large cardinal in the model N. Let K be a countable elemen-
+tary submodel of a large structure containing in particular N,P,τ, and κ, such
+that c = K ∩N ∩V belongs to the model N and is countable there. Such a
+κ
+model K exists since the model N is correct about the stationarity of the set
+it views as [V
+κ
+]ℵ0. Work in the model N. Since c is an elementary submodel
+of V , it follows that σ = τ ∩c is an E-pinned name on the poset Q = P ∩c.
+κ
+Since the poset Q is countable, by Theorem 2.6.2 below applied in the model
+N, there must be a point y ∈N such that Q(cid:13)σ E yˇ. Now, work in the model
+K and observe that Q(cid:13)σ E xˇ. It follows that xE y. Now, back in the model
+N it must be the case that P (cid:13) τ E yˇ, contradicting the assumption that τ is
+a nontrivial E-pinned name.
+Corollary 2.7.3. Let E be a Borel equivalence relation on a Polish space X.
+The statement “E is pinned” is absolute between all generic extensions.
+Proof. Thevalidityofitem(2)ofTheorem2.7.1doesnotchangeifoneonlycon-
+siderscountablemodels. ThisfollowsfromanimmediatedownwardL¨owenheim-
+Skolemargument. Thecountablemodelversionof(2)isacoanalyticstatement,

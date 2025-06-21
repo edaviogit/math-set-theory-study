@@ -1,0 +1,68 @@
+=== 块 308 ===
+
+of Martin’s Axiom and the
+negationofthecontinuumhypothesisimpliesthateverysetofsizeℵ ismeager
+1
+??? and so no Lusin set exists. In such circumstances, there cannot be a filter
+on P generic over L(R).
+
+12.4. EXISTENCE OF GENERIC FILTERS 323
+Example 12.4.10. Consider the clopen graph Γ on 2ω connecting points x (cid:54)=
+0
+x ifthesmallestn∈ω suchthatx (n)(cid:54)=x (n)iseven. LetP bethebalanced
+1 0 1
+posetofExample8.8.3. ItisnotBernsteinbalancedbyExample12.2.16above.
+In the P-extension of L(R), there is an uncountable set A⊂2ω such that every
+Γ-clique and every Γ-anticlique in it is countable. Now, since the graph Γ is
+clopen, closures of both Γ-cliques and Γ-anticliques are cliques and anticliques
+respectively. Thus, the stated property of A holds also in V. At the same
+time, it is consistent that OCA holds in V [91]. In such circumstances, every
+uncountable subset of Γ must contain either a Γ-clique or an uncountable Γ-
+anticlique and therefore a P-generic filter over V cannot exist.
+TheclassesofBernsteinbalancedandsoftSuslinforcingsdonotcoincide,which
+leads to the following question about the existence of generic filters for a par-
+ticularly simple Bernstein balanced Suslin poset which is not soft.
+Question 12.4.11. (In the context of ZFC+suitable large cardinal assump-
+tion.) Is there a tournament on the F -quotient space which is generic over
+2
+L(R) for the poset of Example 8.6.6?
+Weconcludethissectionwithamutual genericityresultfor Bernsteinbalanced
+and perfectly balanced forcings.
+Theorem 12.4.12. Let κ be a weakly compact Woodin cardinal. Let P ,P be
+0 1
+σ-closed Suslin forcings such that
+1. P ,P are ℵ -tethered;
+0 1 0
+2. P is perfect;
+0
+3. every balanced virtual condition in P is Bernstein balanced.
+1
+If G ⊂ P and G ⊂ P are filters (in V) separately generic over L(R), then
+0 0 1 1
+they are mutually generic over L(R).
+Proof. Westartwithapreliminaryobservation. Letp¯ bethevirtualcondition
+0
+in P consisting of a collapse name for the set of all lower bounds of the filter
+0
+G ; let p¯ be defined similarly. By the σ-closure assumption, both p¯ , p¯ are
+0 1 0 1
+nonzero conditions. Since the filter G is generic over L(R), for every analytic
+0
+set A ⊂ P there is a condition in G which is either incompatible with all
+0 0
+elements of A or is stronger than some element of A. By the ℵ -tether of the
+0
+poset P , it must then be the case that p¯ is a balanced virtual condition in P .
+0 0 0
+By the same reasoning, p¯ is a balanced virtual condition in P , and it is even
+1 1
+Bernstein balanced by the assumption (3).
+Now, let X be any uncountable Polish space. In view of Proposition 1.7.8
+applied in the model L(R), it is enough to show that for any two disjoint sets
+A ,A ⊂X in the respective models L(R)[G ], L(R)[G ], there is a set B ⊂X
+0 1 0 1
+inL(R)containingA anddisjointfromA . Tothisend,letτ ,τ berespective
+1 0 0 1
+P ,P -namesinL(R)suchthatA =τ /G andA =τ . Thenamesτ ,τ can
+0 1 0 0 0 1 1 0 1
+be viewed as sets of reals, and so each has a definition in L(R) from real and

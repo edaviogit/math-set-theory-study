@@ -1,0 +1,62 @@
+=== 块 47 ===
+
+s all relations and functions of N,M in the
+i i
+signature.
+Theorem 2.4.3. Let M,N be models with the same countable signature. The
+following are equivalent:
+1. M,N are Ehrenfeucht–Fraiss´e equivalent;
+
+46 CHAPTER 2. THE VIRTUAL REALM
+2. (cid:104)Coll(ω,M),τ (cid:105)E¯ (cid:104)Coll(ω,N),τ (cid:105).
+M N
+Proof. Forthe(1)→(2)direction,ifM isEhrenfeucht–Fraiss´eequivalenttoN as
+witnessedbyawinningstrategyσforPlayerIintheEF-game,thenColl(ω,M)×
+Coll(ω,N) (cid:13) τ E τ , since a generic run of the EF-game in which Player II
+M N
+follows the strategy σ will generate an isomorphism between M and N in the
+extension. For the (2)→(1) direction, suppose that Coll(ω,M)×Coll(ω,N) (cid:13)
+τ E τ and let π: Mˇ → Nˇ be a product name for the isomorphism. The
+M N
+winningstrategyforPlayerIIcanbedescribedasfollows: asthegamedevelops,
+PlayerIIalsomaintainsonthesideconditionsq ∈Coll(ω,M)×Coll(ω,N)such
+i
+that q ≥ q ≥ ... and q (cid:13) π(mˇ ) = nˇ . It is immediate that this is possible
+0 1 i i i
+and Player II must win in the end.
+In the language of [96], a sentence φ of L is grounded if every virtual equiv-
+ω1ω
+alence class is represented by a collapse name for a possibly uncountable model
+of φ. In general, there are virtual E-classes which are not represented by a
+straightforward collapse name as in Definition 2.4.1, as [50, Section 4] shows.
+However, a collapse name can be found for certain classes of structures.
+Definition 2.4.4. Let Γ be a coanalytic set of structures on ω, closed un-
+der isomorphism. A (possibly uncountable) structure M is a Γ∗∗-structure if
+Coll(ω,M)(cid:13)τ ∈Γ.
+M
+We proceed to show that for some interesting coanalytic classes Γ, every E¯ -
+Γ
+class is represented by a collapse name of a Γ∗∗-structure as in Definition 2.4.1.
+Intheclassificationresults,wealwaysignorethetrivialclassofstructureswhich
+do not belong to Γ. Results similar to the following theorem appear in [57] and
+[65].
+Theorem 2.4.5. Let Γ be a coanalytic class of countable structures on ω, in-
+variant under isomorphism, consisting of rigid structures only.
+1. For Γ∗∗-structures, Ehrenfeucht–Fraiss´e equivalence and isomorphism co-
+incide;
+2. for every E -pin (cid:104)P,σ(cid:105) there is a Γ∗∗-structure M such that (cid:104)P,σ(cid:105) E¯
+Γ
+(cid:104)Coll(ω,M),τ (cid:105).
+M
+Proof. Beforewebegintheargument,notethatthestatementthateverystruc-
+ture in the set A is rigid is Π1; therefore, it holds also in all generic extensions
+2
+by the Shoenfield absoluteness.
+For(1),itisclearthatisomorphicstructuresareEhrenfeucht–Fraiss´eequiva-
+lent. For the opposite implication, suppose that M,N are Γ∗∗ structures which
+are EF-equivalent. By Theorem 2.4.3, Coll(ω,M) × Coll(ω,N) (cid:13) τ E τ
+M N
+must hold. As Γ consists of rigid structures even in the collapse extension,
+Coll(ω,M)×Coll(ω,N) forces that there is a unique isomorphism π: M →N.
+Since Coll(ω,M) × Coll(ω,N) is a homogeneous notion of forcing, for each
+m ∈ M the value of π(mˇ) is decided by the largest condition to be some

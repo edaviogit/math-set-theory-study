@@ -1,0 +1,92 @@
+=== 块 208 ===
+
+.1. Let P be a Suslin forcing. A nest below a condition p ∈ P
+is a choice-coherent sequence (cid:104)M : n ∈ ω(cid:105) of generic extensions of V and a
+n
+sequence (cid:104)p¯ : n≤ω(cid:105) so that
+n
+
+9.4. THE ORBIT DIVIDE 217
+1. 2ω∩M (cid:54)=2ω∩M for all n∈ω;
+n n+1
+2. p¯ ≤ p¯ ≤ ··· ≤ p¯ ≤ p where p¯ for each n ∈ ω is a balanced virtual
+0 1 ω n
+condition in M and p¯ is a balanced virtual condition in the intersection
+n ω
+(cid:84)
+model M = M .
+ω n n
+Definition 9.4.2. Let P be a Suslin forcing. The poset P is nested balanced
+below κ if it has a nest below every condition.
+As a simple initial example, let P be the poset of all countable functions from
+2ω to 2, ordered by reverse inclusion. The balanced conditions are classified by
+total functions from 2ω to 2. Now, let (cid:104)M : n ∈ ω(cid:105) be a coherent sequence of
+n
+(cid:84)
+modelsandp∈M = M beaconditioninP. Thenthefunctionsp¯ ∈M
+ω n n n n
+for n ≤ ω obtained in the model M from p by extending it by zero values at
+n
+every possible point x ∈ 2ω correspond to balanced virtual conditions in every
+model M and p≥p¯ ≥···≥p¯ ≥p¯ .
+n ω 1 0
+To state the results of this section succintly, we establish a standard parlance.
+Definition 9.4.3. (ZF) The phrase “orbit divide is preserved” denotes the
+following statement. Let E be an orbit equivalence relation on a Polish space
+induced as an orbit equivalence relation of a Polish group action. Then |E | (cid:54)≤
+1
+|E|.
+The central theorem can now be stated easily using Convention 1.7.16.
+Theorem9.4.4. InnestedbalancedextensionsofthesymmetricSolovaymodel,
+the orbit divide is preserved.
+Proof. SupposethatY isaPolishspace,ΓisaPolishgroupandΓcontinuously
+acts on Y, inducing an orbit equivalence relation E. Suppose that κ is an
+inaccessible cardinal and P is a Suslin poset which is nested balanced below κ.
+Suppose also that W is a symmetric Solovay model derived from κ and in W,
+τ is a P-name and p ∈ P is a condition forcing τ to be a function from the
+E -quotient space to the E-quotient space. We must find a stronger condition
+1
+and two distinct E classes which are forced by the stronger condition to be
+1
+mapped to the same E-class.
+TheobjectsΓ, Y, pandτ arealldefinableinthemodelW fromparameters
+in the ground model plus a parameter z ∈ 2ω. Use the assumptions to find an
+intermediate forcing extension V[K] by a poset of size <κ such that z ∈V[K]
+and V[K] has a nest below p. Still working in W, find the nest. This is a
+sequence (cid:104)M : n ∈ ω(cid:105) of generic extensions of V[K] together with a sequence
+n
+(cid:104)p¯ : n ≤ ω(cid:105) of balanced virtual conditions below p satisfying the demands of
+n
+Definition 9.4.1.
+Use the coherence of the sequence (cid:104)M : n∈ω(cid:105) to find a well-ordering ≺ of
+n
+2ω in M such that for each n ∈ ω, ≺(cid:22) M ∈ M holds. Let z ∈ 2ω be the
+0 n n n
+≺-least element of M \M for every n ∈ ω and let x ∈ X = (2ω)ω be the
+n n+1 n
+point such that x (m) is the zero binary sequence if m<n and x (m)=z if
+n n m
+m≥n; thusx ∈M . Thepointsx ∈X forn∈ω arepairwiseE -equivalent;
+n n n 1
+
+218 CHAPTER 9. PRESERVING CARDINALITIES
+𝑝̅
+0
+V
+0
+𝑝̅
+1
+V
+1
+𝑝̅
+2
+V
+2
+𝑝̅
+3
+V
+3
+𝑝̅̅̅𝜔̅
+V
+ω
+Figure 9.1: A nest of models and balanced virtual conditions.

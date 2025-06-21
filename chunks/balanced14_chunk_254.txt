@@ -1,0 +1,75 @@
+=== 块 254 ===
+
+e persist
+2
+to all forcing extensions. The most important result of this section is that
+the Suslin Ramsey-centeredness is a property preserved under finite support
+iterations of very Suslin forcings.
+
+11.3. ITERATION THEOREMS 267
+Theorem11.3.10. LetP beaverySuslinc.c.c.forcingwhichisSuslinRamsey-
+centered. Let α ∈ ω be a countable ordinal. Then the finite support iteration
+1
+of P of length α is a Suslin Ramsey-centered forcing.
+Proof. The argument proceeds by a straightforward transfinite induction argu-
+ment given the following two claims.
+Claim 11.3.11. LetP,Q beverySuslinc.c.c.forcings, bothofwhichareSuslin
+Ramsey-centered. The P ∗Q˙ is Suslin Ramsey-centered.
+(cid:83)
+Proof. Find a cover Q= B by analytic Ramsey-centered sets and a cover
+m m
+P = (cid:83) A by analytic Ramsey-centered sets. Let C ⊂ P ∗Q˙ be the set of
+n n nm
+all conditions (cid:104)p,q˙(cid:105) such that there exists a condition (cid:104)p(cid:48),q˙(cid:48)(cid:105)≤(cid:104)p,q˙(cid:105) such that
+p(cid:48) ∈A and p(cid:48) (cid:13)q˙(cid:48) ∈B˙ . It is not difficult to check that P ∗Q˙ = (cid:83) C ,
+nm m nm nm
+thesetsC areRamsey-centered: givenr ∈ω thereisak ∈ω suchthatevery
+nm
+k-tuple in the set B contains an r-tuple with a common lower bound, and
+m
+there is an l ∈ ω such that every l-tuple in the set A contains a k-tuple with
+n
+a common lower bound. Then, every l-tuple of conditions in C contains an
+mn
+r-tuple with a common lower bound. Moreover, the sets C are analytic by
+nm
+Proposition 11.2.9.
+Claim 11.3.12. Let (cid:104)P : n∈ω,π ,ξ : m≤n∈ω(cid:105) be a very Suslin system
+n nm mn
+consisting of Suslin Ramsey-centered forcings. Then the limit is Suslin Ramsey-
+centered.
+Proof. Let P be the limit of the system as described in Definition 11.2.12. Let
+ω
+(cid:83)
+P = A : n ∈ ω be a cover by analytic Ramsey-centered sets for each
+n m nm
+n ∈ω. For each n,m∈ω let B ⊂ P be the set {(cid:104)p,n(cid:105)∈ P : p ∈A }. It
+nm ω ω nm
+is immediate that these are Ramsey-centered analytic sets covering P .
+ω
+The theorem follows.
+Theorem 11.3.13. The finite support product of countably many very Suslin,
+Suslin σ-Ramsey-centered posets, if very Suslin, is Suslin σ-Ramsey-centered.
+Proof. Let P for n ∈ ω be the very Suslin posets, with their Suslin Ramsey-
+n
+centered property witnessed by sets A ⊂ P for m ∈ ω. Consider the finite
+nm n
+(cid:81)
+supportproductQ= P andassumeitisverySuslin. Foreachfunctionh∈
+n n
+ω<ω let B = {q ∈ Q: dom(q) = dom(h)∧∀m ∈ dom(q) q(m) ∈ A . We
+h m,h(m)
+proceed to verify that the sets B witness the Suslin Ramsey-centered property
+h
+of the poset Q.
+Fix the function h and let r ∈ω be a number. By recursion on n∈dom(h)
+find numbers k ∈ω so that every k(0)-tuple of elements of A of size k(0)
+n 0,h(0)
+containsanr-tuplewithacommonlowerboundinP ,andeveryk(n+1)-tuple
+0
+ofelementsofA containsak(n)-tuplewithacommonlowerboundin
+n+1,h(n+1)
+P . Let n=max(dom(h)) and k =k(n). It is easy to see that every k-tuple
+n+1
+of elements of B contains an r-tuple with a lower bound in the poset Q.
+h

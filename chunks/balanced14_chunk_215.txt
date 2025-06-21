@@ -1,0 +1,73 @@
+=== 块 215 ===
+
+. The
+0 1 m,n−1 m+1,n m+1,n−1
+path d connects the nodes x ,x in the graph G (cid:22) X ; by the claim then,
+0 1 m,n−1
+they have to be connected by a path in the graph G (cid:22) X as well, and
+m+1,n−1
+
+9.4. THE ORBIT DIVIDE 225
+therefore by a path e in the set A . Then e∪d forms a cycle in the set
+m+1,n−1
+A , violating the induction hypothesis.
+m,n−1
+(cid:83)
+In the end, let A = A . It is clear from the coherence of the
+m n>m mn
+well-ordering ≺ that A ∈ M . The construction also guarantees that M |=
+m m m
+A ⊂ G is a maximal acyclic subset, and m < n implies A ⊂ A . The proof
+m n m
+is complete.
+Corollary 9.4.22. Let X be a Polish space and let G be a Borel graph on X.
+1. Let P be the poset of Example 6.4.10 for adding a maximal acyclic subset
+of G. In the P-extension of the symmetric Solovay model, the orbit divide
+is preserved;
+2. it is consistent relative to an inaccessible cardinal that ZF+DC holds, G
+has a maximal acyclic subset, and the orbit divide is preserved.
+Example 9.4.23. Let Γ be a Borel graph on a Polish space X of countable
+coloring number. The coloring poset P = P of Definition 8.1.1 is nested bal-
+Γ
+anced.
+Proof. We identify P with its dense Suslin subset identified in Theorem 8.1.2.
+Let p ∈ P be a condition, and let (cid:104)M : n ∈ ω(cid:105) be a nontrivial choice coherent
+n
+(cid:84)
+sequence of generic extensions of V, with M = M . We will produce a
+ω n n
+decreasing sequence (cid:104)p¯: n ≤ ω(cid:105) of balanced virtual conditions below p for the
+respective models M . Let (cid:104)a : n ≤ ω(cid:105) be a recursive sequence of pairwise
+n n
+disjoint infinite subsets of ω.
+Claim 9.4.24. Fix n≤ω. In the model M , there is a total Γ coloring d: X →
+n
+ω which extends p and at all points x∈X\dom(p), d(x)∈a .
+n
+(cid:83)
+Proof. Work in M . Fix a coloring e: X → ω. Let a = b be a partition
+n n i i
+of a into infinitely many sets of size m. Let d: X → ω be a function such
+n
+that p ⊂ d and for all x ∈/ X \dom(p), d(x) is a number in e(x) which is not
+one of the (fewer than m many) colors {p(y): (cid:104)x,y(cid:105) ∈ Γ}. This is the desired
+coloring.
+Let ≺ be a coherent wellordering of P(X ×ω), and for each n ≤ ω let d be
+n
+the≺-leastcoloringasintheclaiminthemodelM . Finally, inthemodelM ,
+n 0
+define a map c: X → ω as follows: c(x) = d (x) if x ∈/ dom(p) and n ≤ ω is
+n
+the largest number such that x∈M , and c(x)=p(x) if x∈dom(p). It is not
+n
+difficult to check that c is a Γ-coloring extending p. Moreover, the coherence of
+thewell-ordering≺guaranteesthatforeachn≤ω,c(cid:22)M ∈M holds. Ineach
+n n
+model M for n≤ω, the coloring c(cid:22)M is associated with a balanced virtual
+n n
+condition p¯ for the poset P by Theorem 8.1.2. The sequence (cid:104)p¯ : n ≤ ω(cid:105) is
+n Γ n
+as desired.
+Corollary 9.4.25. Let Γ be the graph on R2 connecting points x ,x if they
+0 1
+have a nonzero rational distance.

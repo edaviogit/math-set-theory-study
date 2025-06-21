@@ -1,0 +1,60 @@
+=== 块 279 ===
+
+finitaryhypergraphonaPolishspace, withuncountableBorelchromatic
+number. It is consistent relative to an inaccessible cardinal that ZF+DC holds,
+|E|≤|E | and the chromatic number of G is uncountable.
+0
+
+292 CHAPTER 11. LOCALLY COUNTABLE STRUCTURES
+11.7 Compactly balanced posets
+In this section we prove an additional preservation property of compactly bal-
+ancedposetsofDefinition9.2.1whichconcernsthelocallycountablestructures.
+Definition 11.7.1. LetGbeananalyticfinitaryhypergraphonaPolishspace
+X. The hypergraph is actionable if there is a countable group Γ acting on a
+Polish space X such that all hyperedges of G consist of pairwise orbit-related
+elements and for every γ ∈Γ, γ·G=G.
+The following theorem is stated using Convention 1.7.16.
+Theorem 11.7.2. Let G be an analytic, finitary, actionable hypergraph on a
+Polish space X which does not have Borel σ-bounded chromatic number. Then
+in compactly balanced extensions of the Solovay model, G has uncountable chro-
+matic number.
+The actionable assumption is necessary, see the example below. The main
+difference between the general and actionable hypergraphs we exploit is the
+following routine strengthening of Fact 11.1.13; instead of skew products we
+can deal with the usual product.
+Fact 11.7.3. Let G be a finitary analytic actionable hypergraph on a Polish
+space X. Exactly one of the following occurs:
+1. G has Borel σ-bounded chromatic number;
+2. there is a large product H on a Polish space Y and a continuous homo-
+morphism h: Y →X of H to G.
+Proof. InviewofFact11.7.3,itisenoughtoprovethetheoremforlargeproduct
+hypergraphs. Thus,let(cid:104)a ,H : n∈ω(cid:105)beasequencesuchthatforeveryn∈ω,
+n n
+H isahypergraphonthefiniteseta ,and|a |≥2andthechromaticnumber
+n n n
+(cid:81)
+ofH isatleastn,andassumethatGisinfacttheproducthypergraph H
+n n n
+(cid:81)
+on the space Y = a . With a large product of this form, we associate the
+n n
+posetRofallfunctionsr withdomainω suchthatforeveryn∈ω,r(n)⊂a is
+n
+a nonempty set and the chromatic numbers of H on r(n) are unbounded as n
+n
+tendstoinfinity. TheorderingonRisthatofcoordinatewiseinclusion. Clearly,
+the poset R adds a point y˙ ∈Y defined by y˙ (n) is the only element of the
+gen gen
+(cid:84)
+set {r(n): r belongs to the generic filter}. The following claim is key.
+Claim11.7.4. TheposetRisproper, bounding, andaddsnoindependentreals.
+Proof. The first two assertions of the following claim are standard and proved
+by the usual fusion arguments. The last assertion is the heart of the present
+proof. Suppose that r ∈ R is a condition and τ is an R-name for a subset
+of ω; we have to find a condition s ≤ r and an infinite set c ⊂ ω such that
+s (cid:13) cˇ⊂ τ or cˇ∩τ = 0. Strengthening the condition r if necessary, a standard
+(cid:81)
+fusion argument will yield a continuous function f: r(n)→P(ω) such that
+n
+r (cid:13)τ =f˙(y˙ ).
+gen

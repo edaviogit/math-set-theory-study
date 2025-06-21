@@ -1,0 +1,79 @@
+=== 块 271 ===
+
+rtition value cannot be of
+the form (cid:104)u,v,1(cid:105) since then the points c where i ranges over the first n many
+iu
+elements of a, and c where j ranges over the second n-many elements of a,
+jv
+
+284 CHAPTER 11. LOCALLY COUNTABLE STRUCTURES
+form an injective homomorphic copy of K in Γ, contradicting the initial
+n,n
+assumptionsonΓ. Thus,thehomogeneouscoloris∞,whichpreciselysaysthat
+(cid:83)
+c isafunctionwhichisaΓ-coloringandthereforeacommonlowerbound
+i∈a i
+of the conditions c for i∈a.
+i
+Finally, we are ready to prove some preservation results.
+Theorem 11.5.6. Let Γ be a Borel hypergraph on a Polish space X contain-
+ing no injective homomorphic image of K→ and K for some n ∈ ω. Let
+ω,ω n,ω1
+∆ be a Borel graph which does not have Borel σ-finite clique number. In the
+P -extension of the symmetric Solovay model, the chromatic number of ∆ is
+Γ
+uncountable.
+Proof. By Fact 11.1.26 it is enough to prove this for the graph ∆ on ωω which
+is the skew product of countably many cliques on ω. Write also P = P and
+Γ
+K = K . Let κ be an inaccessible cardinal, let W be the symmetric Solovay
+Γ
+model derived from κ, and work in W. Suppose that p ∈ P is a condition
+and τ is a P-name such that p (cid:13) τ: ωω → ω is a function. We must find a
+condition p¯ ≤ p, ∆-connected points y ,y ∈ ωω and a number m such that
+0 1
+p¯(cid:13)τ(y )=τ(y )=mˇ.
+0 1
+Strengthening the condition p if necessary, we may assume that whenever
+x for i ∈ n are distinct elements of dom(p) and y ∈ X is a point Γ-connected
+i
+to them all, then y ∈ dom(p) holds. The condition p and the name τ are all
+definable in the model W from ground model parameters and som additional
+parameter z ∈ 2ω. Let V[K] be an intermediate model obtained by forcing of
+size less than κ such that z ∈ V[K] and work in V[K]. Consider the iteration
+Q∗R˙ where Q is the Cohen forcing Q on ωω, and R˙ is (forced to be) the finite
+supportiterationoflengthω whoseiterandsaretheposetsKevaluatedintheir
+1
+respective models. Let M denote the model obtained after the initial segment
+α
+of the iteration R˙ of length α and let η be the union of the generic filter on K
+α
+at the α-th stage of the iteration. Thus, R forces η to be a Γ-coloring on the
+α
+domain X∩M .
+α
+Tosmoothoutthevariouscoloringsη toasingletotalΓ-coloringextending
+α
+p, we need a small claim:
+(cid:83)
+Claim 11.5.7. Let y ∈ X ∩M \ M be a point. Then the set {x ∈
+α β∈α β
+(cid:83)
+X∩ M : xΓy} has size less than n.
+β∈α β
+Proof. If this failed, then (regardless of whether α is limit or successor) there
+would be a fixed ordinal β ∈ α and pairwise distinct points x ∈ X ∩M for
+i β
+i∈nsuchthatx Γy holdsforalli∈n. Butthen,bytheinitialassumptionon
+i
+Γ the set of all points simultaneously connected to all x for i∈n is countable,
+i
+coded in M , and so a subset of M . This means that y ∈ M , contradicting
+β β β
+the initial assumptions on the point y.
+Let {b : k ∈ω} be a recursive partition of ω into infinite sets. Now, define the
+k
+Q∗R˙-nameσ foratotalΓ-coloringbythefollowingrecursiveformula. σ (cid:22)M is
+0
+definedforapointy ∈M sothatify ∈dom(p)thenσ(y)=p(y);ify ∈/ dom(p)
+0
